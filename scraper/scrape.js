@@ -1,0 +1,660 @@
+/**
+ * Supreme Values MM2 Scraper — ALL categories
+ */
+
+const puppeteer = require("puppeteer-core");
+const chromium = require("@sparticuz/chromium");
+const fs = require("fs");
+const path = require("path");
+
+// Все разделы с сайда (как в меню CATEGORIES)
+const CATEGORIES = [
+  { slug: "sets", name: "sets" },
+  { slug: "uniques", name: "uniques" },
+  { slug: "evos", name: "evos" },
+  { slug: "ancients", name: "ancients" },
+  { slug: "vintages", name: "vintages" },
+  { slug: "chromas", name: "chromas" },
+  { slug: "godlies", name: "godlies" },
+  { slug: "legendaries", name: "legendaries" },
+  { slug: "rares", name: "rares" },
+  { slug: "uncommons", name: "uncommons" },
+  { slug: "commons", name: "commons" },
+  { slug: "pets", name: "pets" },
+  { slug: "misc", name: "misc" },
+  // fallback aliases some sites use
+  { slug: "miscellaneous", name: "misc" },
+  { slug: "untradables", name: "untradables" },
+];
+
+const BASE_URL = "https://supremevalues.com/mm2/";
+const OUTPUT_DIR = path.join(__dirname, "..", "public");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "values.json");
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function formatDate(d = new Date()) {
+  const months = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+  ];
+  const day = d.getUTCDate();
+  const suffix =
+    day % 10 === 1 && day !== 11 ? "st" :
+    day % 10 === 2 && day !== 12 ? "nd" :
+    day % 10 === 3 && day !== 13 ? "rd" : "th";
+  let h = d.getUTCHours();
+  const m = String(d.getUTCMinutes()).padStart(2, "0");
+  const ampm = h >= 12 ? "PM" : "AM";
+  h = h % 12;
+  if (h === 0) h = 12;
+  return `${months[d.getUTCMonth()]} ${day}${suffix}, ${d.getUTCFullYear()} at ${h}:${m} ${ampm} UTC`;
+}
+
+function pick(obj, ...keys) {
+  for (const k of keys) {
+    if (obj[k] !== undefined && obj[k] !== null && obj[k] !== "") return obj[k];
+  }
+  return "N/A";
+}
+
+function normalizeEntry(name, info, category) {
+  const value = pick(info, "value", "Value", "val");
+  const range = pick(info, "range", "Range", "rangedValue", "ranged_value", "valueRange");
+  const demand = pick(info, "demand", "Demand");
+  const rarity = pick(info, "rarity", "Rarity");
+  const stability = pick(info, "stability", "Stability");
+  const change = pick(info, "change", "changeInValue", "Change", "lastChange", "valueChange");
+  const origin = pick(info, "origin", "Origin");
+  const aliases = pick(info, "aliases", "Aliases", "alias");
+  const flippability = pick(info, "flippability", "Flippability");
+  const chanceOfRising = pick(info, "chanceOfRising", "chance_of_rising", "risingChance");
+  const itemClass = pick(info, "class", "Class");
+  const expRequirement = pick(info, "expRequirement", "exp", "EXP");
+
+  let displayName = String(name).trim();
+  // Keep chroma prefix consistent
+  if (
+    category === "chromas" &&
+    !/^chroma\b/i.test(displayName)
+  ) {
+    displayName = "Chroma " + displayName;
+  }
+
+  return {
+    name: displayName,
+    value: value === "N/A" ? "N/A" : String(value).replace(/,/g, ""),
+    range: range === "N/A" ? "N/A" : String(range),
+    demand: demand === "N/A" ? "N/A" : String(demand),
+    rarity: rarity === "N/A" ? "N/A" : String(rarity),
+    stability: stability === "N/A" ? "N/A" : String(stability),
+    change: change === "N/A" ? "N/A" : String(change),
+    origin: origin === "N/A" ? "N/A" : String(origin),
+    aliases: aliases === "N/A" ? "N/A" : String(aliases),
+    flippability: flippability === "N/A" ? "N/A" : String(flippability),
+    chanceOfRising: chanceOfRising === "N/A" ? "N/A" : String(chanceOfRising),
+    class: itemClass === "N/A" ? "N/A" : String(itemClass),
+    expRequirement: expRequirement === "N/A" ? "N/A" : String(expRequirement),
+    category,
+  };
+}
+
+async function extractFromPage(page, categorySlug, categoryName) {
+  const url = `${BASE_URL}${categorySlug}`;
+  console.log(`Fetching: ${url}`);
+
+  try {
+    const resp = await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+    await sleep(3500);
+    await page.evaluate(async () => {
+      const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+      const h = Math.max(document.body.scrollHeight, 2000);
+      for (let y = 0; y < h; y += 600) {
+        window.scrollTo(0, y);
+        await sleep(150);
+      }
+      window.scrollTo(0, 0);
+    });
+    await sleep(categorySlug === "evos" ? 3000 : 1500);
+
+    // Soft check for challenge / empty
+    const title = await page.title().catch(() => "");
+    if (/just a moment|attention required|captcha|access denied/i.test(title)) {
+      console.log(`  ✗ Blocked/challenge on ${categorySlug}`);
+      return null;
+    }
+
+    const html = await page.content();
+    let data = null;
+
+    const match = html.match(/var\s+_svPopup\s*=\s*(\{[\s\S]*?\});?\s*<\/script>/i);
+    if (match) {
+      try {
+        let jsonStr = match[1].trim();
+        if (jsonStr.endsWith(";")) jsonStr = jsonStr.slice(0, -1);
+        data = JSON.parse(jsonStr);
+        console.log(`  ✓ _svPopup for ${categorySlug} (${Object.keys(data).length} items)`);
+      } catch (e) {
+        console.log(`  ✗ JSON parse fail ${categorySlug}: ${e.message}`);
+      }
+    }
+
+    if (!data) {
+      try {
+        data = await page.evaluate(() => {
+          if (typeof _svPopup !== "undefined" && _svPopup && typeof _svPopup === "object") {
+            return _svPopup;
+          }
+          return null;
+        });
+        if (data) {
+          console.log(`  ✓ page context for ${categorySlug} (${Object.keys(data).length} items)`);
+        }
+      } catch (_) {}
+    }
+
+    if (!data) {
+      console.log(`  ⚠ No _svPopup, trying DOM for ${categorySlug}...`);
+      data = await page.evaluate(() => {
+        const items = {};
+
+        const addItem = (name, fields) => {
+          if (!name) return;
+          name = String(name).replace(/\s+/g, " ").trim();
+          if (name.length < 2 || name.length > 80) return;
+          // Reject values / numbers mistaken for names (e.g. "25", "250", "3,450")
+          if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
+          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
+          if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
+
+          if (/evolutions?$/i.test(name)) return;
+          if (/^(value|demand|stability|range|categories|special tier|tier \d|search|filter|changelog)/i.test(name)) return;
+          // Skip pure UI chrome
+          if (/^(inv\.|controls|\+1|-1|~)$/i.test(name)) return;
+
+          const prev = items[name];
+          const next = {
+            value: fields.value ?? "N/A",
+            range: fields.range ?? "N/A",
+            demand: fields.demand ?? "N/A",
+            rarity: fields.rarity ?? "N/A",
+            stability: fields.stability ?? "N/A",
+            change: fields.change ?? "N/A",
+            origin: fields.origin ?? "N/A",
+            aliases: fields.aliases ?? "N/A",
+          };
+          // Prefer entries that have a real value
+          if (!prev || (prev.value === "N/A" && next.value !== "N/A")) {
+            items[name] = next;
+          }
+        };
+
+        const parseTextFields = (text) => {
+          const t = text || "";
+          const valueMatch = t.match(
+            /Value\s*[-–:]?\s*\**\s*(Priceless|[0-9,]+(?:\.\d+)?|N\/A|x[\d\w\s\.]+)/i
+          );
+          const rangeMatch = t.match(/Range\s*[-–:]?\s*(\[?[^\n\]]{0,40}\]?)/i);
+          const demandMatch = t.match(/Demand\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
+          const rarityMatch = t.match(/Rarity\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
+          const stabilityMatch = t.match(
+            /Stability\s*[-–:]?\s*\**\s*([A-Za-z][A-Za-z\s]{0,30})/i
+          );
+          const changeMatch = t.match(/Change\s+in\s+Value\s*[-–:]?\s*([^\n]{0,50})/i);
+          const originMatch = t.match(/Origin\s*[-–:]?\s*([^\n]{0,80})/i);
+          const aliasesMatch = t.match(/Aliases?\s*[-–:]?\s*([^\n]{0,60})/i);
+          return {
+            value: valueMatch ? valueMatch[1].replace(/,/g, "").replace(/\*/g, "").trim() : "N/A",
+            range: rangeMatch ? rangeMatch[1].trim() : "N/A",
+            demand: demandMatch ? demandMatch[1] : "N/A",
+            rarity: rarityMatch ? rarityMatch[1] : "N/A",
+            stability: stabilityMatch ? stabilityMatch[1].trim() : "N/A",
+            change: changeMatch ? changeMatch[1].trim() : "N/A",
+            origin: originMatch ? originMatch[1].trim() : "N/A",
+            aliases: aliasesMatch ? aliasesMatch[1].trim() : "N/A",
+          };
+        };
+
+        // 1) Cards / item blocks
+        const cards = document.querySelectorAll(
+          "[data-item], .item-card, .value-card, .item, article, [class*='Item'], [class*='card']"
+        );
+        cards.forEach((card) => {
+          const nameEl =
+            card.querySelector(
+              ".item-name, .name, h3, h4, [class*='name'], strong, b, a"
+            ) || card;
+          let name = (nameEl.textContent || "").trim().split("\n")[0].trim();
+          // Sometimes name is in alt/title of image
+          if (!name || name.length < 2) {
+            const img = card.querySelector("img[alt]");
+            if (img && img.alt) name = img.alt.trim();
+          }
+          addItem(name, parseTextFields(card.innerText || ""));
+        });
+
+        // 2) Table rows (Special Tier / list layout)
+        document.querySelectorAll("table tr, tr").forEach((row) => {
+          const cells = row.querySelectorAll("td, th");
+          if (!cells.length) return;
+          const rowText = row.innerText || "";
+          if (!/Value\s*[-–:]/i.test(rowText) && !/Priceless/i.test(rowText)) return;
+
+          // Name: first meaningful cell / link / bold / image alt
+          let name = "";
+          const link = row.querySelector("a");
+          const strong = row.querySelector("strong, b");
+          const img = row.querySelector("img[alt]");
+          if (link && link.textContent.trim().length > 1) name = link.textContent.trim();
+          else if (strong && strong.textContent.trim().length > 1) name = strong.textContent.trim();
+          else if (img && img.alt) name = img.alt.trim();
+          else {
+            // First line that isn't Value/Demand
+            for (const line of rowText.split("\n").map((l) => l.trim()).filter(Boolean)) {
+              if (!/^(value|demand|rarity|stability|range|origin|change)/i.test(line)) {
+                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
+                break;
+              }
+            }
+          }
+          // Clean "Name Value - ..." style single-cell rows
+          name = name.replace(/\s*Value\s*[-–:].*$/i, "").trim();
+          addItem(name, parseTextFields(rowText));
+        });
+
+        // 3) Generic text blocks
+        const bodyText = document.body.innerText || "";
+        if (Object.keys(items).length < 5) {
+          const blocks = bodyText.split(/\n{2,}/);
+          for (const block of blocks) {
+            if (!/Value\s*[-–:]/i.test(block) && !/Priceless/i.test(block)) continue;
+            const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+            if (lines.length < 1) continue;
+            let name = lines[0].replace(/\s*Value\s*[-–:].*$/i, "").trim();
+            if (/Value|Demand|Stability|Range|CATEGORIES|Special Tier|Tier /i.test(name) && lines.length > 1) {
+              name = lines[0];
+            }
+            addItem(name, parseTextFields(block));
+          }
+        }
+
+        // Evo stages: (Var. N) / (Variant N) / (V N) — any number
+        {
+          const body = document.body.innerText || "";
+          const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
+          let m;
+          const seen = new Set();
+          while ((m = re.exec(body)) !== null) {
+            const base = m[1].trim();
+            if (/evolutions?$/i.test(base)) continue;
+            const label = m[2].replace(/\s+/g, " ").trim();
+            const fullName = base + " (" + label + ")";
+            const key = fullName.toLowerCase();
+            if (seen.has(key)) continue;
+            seen.add(key);
+            const window = body.slice(m.index, m.index + 400);
+            addItem(fullName, parseTextFields(window));
+          }
+        }
+
+        return Object.keys(items).length > 0 ? items : null;
+      });
+      if (data) {
+        console.log(`  ✓ DOM for ${categorySlug} (${Object.keys(data).length} items)`);
+      } else {
+        console.log(`  ✗ Failed ${categorySlug}`);
+      }
+    }
+
+
+    
+
+    // Always merge DOM scan — catches Special Tier, Default Tier, Priceless, N/A values
+    // that may be missing from _svPopup
+    try {
+      const domItems = await page.evaluate(() => {
+        const items = {};
+        const add = (name, fields) => {
+          if (!name) return;
+          name = String(name).replace(/\s+/g, " ").trim();
+          if (name.length < 2 || name.length > 80) return;
+          // Reject values / numbers mistaken for names (e.g. "25", "250", "3,450")
+          if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
+          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
+          if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
+
+          if (/evolutions?$/i.test(name)) return; // section headers like "Synthwave Evolutions"
+          if (/^(value|demand|stability|range|categories|special tier|default tier|tier \d|search|filter|changelog|effects|radios|emotes|powers|controls|inv\.)$/i.test(name)) return;
+          if (/^(\+1|-1|~)$/i.test(name)) return;
+          const prev = items[name];
+          if (!prev || (String(prev.value) === "N/A" && fields.value && fields.value !== "N/A")) {
+            items[name] = fields;
+          }
+        };
+
+        const fieldsFrom = (t) => {
+          t = t || "";
+          const valueMatch = t.match(/Value\s*[-–:]?\s*\**\s*(Priceless|N\/A|[0-9,]+(?:\.\d+)?|x[\d\w\s\.]+)/i);
+          const rangeMatch = t.match(/Range\s*[-–:]?\s*(\[?[^\n\]]{0,40}\]?)/i);
+          const demandMatch = t.match(/Demand\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
+          const rarityMatch = t.match(/Rarity\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
+          const stabilityMatch = t.match(/Stability\s*[-–:]?\s*\**\s*([A-Za-z][A-Za-z\s]{0,30})/i);
+          const changeMatch = t.match(/Change\s+in\s+Value\s*[-–:]?\s*([^\n]{0,50})/i);
+          const originMatch = t.match(/Origin\s*[-–:]?\s*([^\n]{0,100})/i);
+          const aliasesMatch = t.match(/Aliases?\s*[-–:]?\s*([^\n]{0,60})/i);
+          const classMatch = t.match(/Class\s*[-–:]?\s*([A-Za-z][A-Za-z\s]{0,20})/i);
+          const expMatch = t.match(/EXP\s*Requirement\s*[-–:]?\s*([0-9,.KMkm]+|None)/i);
+          return {
+            value: valueMatch ? valueMatch[1].replace(/,/g, "").replace(/\*/g, "").trim() : "N/A",
+            range: rangeMatch ? rangeMatch[1].trim() : "N/A",
+            demand: demandMatch ? demandMatch[1] : "N/A",
+            rarity: rarityMatch ? rarityMatch[1] : "N/A",
+            stability: stabilityMatch ? stabilityMatch[1].trim() : "N/A",
+            change: changeMatch ? changeMatch[1].trim() : "N/A",
+            origin: originMatch ? originMatch[1].trim() : "N/A",
+            aliases: aliasesMatch ? aliasesMatch[1].trim() : "N/A",
+            class: classMatch ? classMatch[1].trim() : "N/A",
+            expRequirement: expMatch ? expMatch[1].trim() : "N/A",
+          };
+        };
+
+        // Cards / generic blocks
+        document.querySelectorAll(
+          "[data-item], .item-card, .value-card, article, [class*='Item'], [class*='card'], [class*='item']"
+        ).forEach((el) => {
+          const t = el.innerText || "";
+          // Must look like an item block
+          if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Origin\s*[-–:]|Priceless|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
+          let name = "";
+          const named = el.querySelector("a, h3, h4, strong, b, [class*='name']");
+          if (named) name = (named.textContent || "").trim().split("\n")[0].trim();
+          if (!name) {
+            const img = el.querySelector("img[alt]");
+            if (img) name = (img.alt || "").trim();
+          }
+          if (!name) {
+            for (const line of t.split("\n").map((l) => l.trim()).filter(Boolean)) {
+              if (!/^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(line)) {
+                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
+                break;
+              }
+            }
+          }
+          add(name, fieldsFrom(t));
+        });
+
+        // Table rows
+        document.querySelectorAll("tr").forEach((row) => {
+          const t = row.innerText || "";
+          if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
+          let name = "";
+          const a = row.querySelector("a, strong, b");
+          const img = row.querySelector("img[alt]");
+          if (a) name = a.textContent.trim();
+          else if (img) name = img.alt.trim();
+          else {
+            for (const line of t.split("\n").map((l) => l.trim()).filter(Boolean)) {
+              if (!/^(value|demand|rarity|stability|range|origin|change)/i.test(line)) {
+                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
+                break;
+              }
+            }
+          }
+          add(name, fieldsFrom(t));
+        });
+
+        // Full-page text scan: lines before Demand/Value/Origin
+        const body = document.body.innerText || "";
+        const lines = body.split("\n").map((l) => l.trim()).filter(Boolean);
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i];
+          // Window of next few lines
+          const window = lines.slice(i, i + 8).join("\n");
+          const hasMeta = /Demand\s*[-–:]|Value\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(window);
+          if (!hasMeta) continue;
+          // Candidate name: current line if not a meta line
+          if (/^(value|demand|rarity|stability|range|origin|change|aliases|special tier|default tier|tier \d)/i.test(line)) continue;
+          if (line.length < 2 || line.length > 60) continue;
+          if (/^[\d,]+(?:\.\d+)?$/.test(line)) continue; // not a name
+          if (/^[\[\]()\d\s,.-]+$/.test(line)) continue;
+          // Next line should be meta-ish
+          const next = lines[i + 1] || "";
+          if (!/^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(next) && !/Priceless/i.test(window)) {
+            // allow if window has Demand nearby
+            if (!/Demand\s*[-–:]/i.test(window)) continue;
+          }
+          add(line.replace(/\s*Value\s*[-–:].*$/i, "").trim(), fieldsFrom(window));
+        }
+
+        // Evo stages: (Var. N) / (Variant N) / (V N) — any number
+        {
+          const body = document.body.innerText || "";
+          const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
+          let m;
+          const seen = new Set();
+          while ((m = re.exec(body)) !== null) {
+            const base = m[1].trim();
+            if (/evolutions?$/i.test(base)) continue;
+            const label = m[2].replace(/\s+/g, " ").trim(); // "Variant 4" or "Var. 4"
+            const fullName = `${base} (${label})`;
+            const key = fullName.toLowerCase();
+            if (seen.has(key)) continue;
+            seen.add(key);
+            const window = body.slice(m.index, m.index + 400);
+            add(fullName, fieldsFrom(window));
+          }
+        }
+
+return Object.keys(items).length ? items : null;
+      });
+
+      if (domItems) {
+        data = data || {};
+        let added = 0;
+        for (const [name, info] of Object.entries(domItems)) {
+          if (!data[name]) {
+            data[name] = info;
+            added++;
+          }
+        }
+        if (added) console.log(`  + DOM merge added ${added} items for ${categorySlug}`);
+      }
+    } catch (e) {
+      console.log(`  DOM merge skip: ${e.message}`);
+    }
+
+    return data;
+  } catch (err) {
+    console.error(`  Error ${categorySlug}: ${err.message}`);
+    return null;
+  }
+}
+
+async function getLastUpdated(page) {
+  try {
+    await page.goto(BASE_URL, { waitUntil: "domcontentloaded", timeout: 45000 });
+    await sleep(3000);
+    const text = await page.evaluate(() => document.body.innerText || "");
+    // Capture date only — stop before "// Join our Discord..." etc.
+    const match = text.match(
+      /Values?\s+Last\s+Updated\s*[-–:]\s*([^\n/]+?)(?:\s*\/\/|\s*$)/i
+    );
+    if (match) return match[1].trim();
+    // Fallback: take line and strip everything after //
+    const fallback = text.match(/Values?\s+Last\s+Updated\s*[-–:]\s*([^\n]+)/i);
+    if (fallback) {
+      return fallback[1].split("//")[0].trim();
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+async function main() {
+  console.log("Supreme Values scraper — ALL categories\n");
+
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  }
+
+  let previous = null;
+  if (fs.existsSync(OUTPUT_FILE)) {
+    try {
+      previous = JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
+    } catch (_) {}
+  }
+
+  chromium.setHeadlessMode = true;
+  chromium.setGraphicsMode = false;
+
+  const browser = await puppeteer.launch({
+    args: chromium.args,
+    defaultViewport: { width: 1366, height: 768 },
+    executablePath: await chromium.executablePath(),
+    headless: chromium.headless,
+  });
+
+  const page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  );
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => false });
+  });
+
+  const allItems = {};
+  let total = 0;
+  const failed = [];
+  const seenSlugs = new Set();
+
+  for (const cat of CATEGORIES) {
+    if (seenSlugs.has(cat.slug)) continue;
+    seenSlugs.add(cat.slug);
+
+    const data = await extractFromPage(page, cat.slug, cat.name);
+    if (data && typeof data === "object") {
+      for (const [name, info] of Object.entries(data)) {
+        const entry = normalizeEntry(name, info || {}, cat.name);
+        const key = entry.name.toLowerCase().trim();
+        // Skip garbage names (pure numbers, meta labels)
+        if (/^[\d,]+(?:\.\d+)?$/.test(key)) continue;
+        if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
+        if (key.length < 2) continue;
+        // Don't overwrite a better-filled entry
+        if (!allItems[key] || (allItems[key].value === "N/A" && entry.value !== "N/A")) {
+          allItems[key] = entry;
+          total++;
+        }
+      }
+    } else {
+      failed.push(cat.slug);
+    }
+  }
+
+  const lastUpdated = await getLastUpdated(page);
+  await browser.close();
+
+  if (total < 10 && previous && previous.items && Object.keys(previous.items).length > 0) {
+    console.warn("Scrape returned too few items — keeping previous JSON");
+    process.exit(0);
+  }
+
+  const output = {
+    lastUpdated: lastUpdated || formatDate(),
+    scrapedAt: formatDate(),
+    itemCount: Object.keys(allItems).length,
+    categoriesScraped: [...seenSlugs].filter((s) => !failed.includes(s)),
+    failedCategories: failed,
+    madeBy: "Namedadude",
+    items: allItems,
+  };
+
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), "utf8");
+  console.log(`\n✓ Saved ${output.itemCount} items → ${OUTPUT_FILE}`);
+  if (lastUpdated) console.log(`  Site last updated: ${lastUpdated}`);
+  if (failed.length) console.log(`  Failed: ${failed.join(", ")}`);
+
+
+  const indexHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Supreme Values JSON</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px;
+      background: #0f0f12;
+      color: #e8e8ed;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 8px; color: #fff; }
+    p { margin: 10px 0; color: #b8b8c0; }
+    strong { color: #e8e8ed; }
+    a { color: #7eb8ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: #1c1c24;
+      color: #a8d4ff;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.95em;
+      border: 1px solid #2a2a35;
+    }
+    .card {
+      background: #18181f;
+      border: 1px solid #2a2a35;
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-top: 24px;
+    }
+    .muted { color: #888899; font-size: 0.9rem; }
+    .stat { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0; }
+    .stat span {
+      background: #1c1c24;
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 0.9rem;
+      color: #c8c8d0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Supreme Values MM2</h1>
+  <p class="muted">Auto-updated item values mirror</p>
+  <div class="card">
+    <div class="stat">
+      <span><strong>Items:</strong> ${output.itemCount}</span>
+      <span><strong>Site update:</strong> ${lastUpdated || "—"}</span>
+    </div>
+    <p><strong>Scraped at:</strong> ${output.scrapedAt}</p>
+    <p>JSON endpoint: <a href="/values.json"><code>/values.json</code></a></p>
+    <p class="muted">Made by <strong>Namedadude</strong></p>
+  </div>
+</body>
+</html>`;
+  fs.writeFileSync(path.join(OUTPUT_DIR, "index.html"), indexHtml, "utf8");
+}
+
+main().catch((err) => {
+  console.error(err);
+  if (fs.existsSync(OUTPUT_FILE)) {
+    console.warn("Scrape error but previous values.json exists — build continues");
+    process.exit(0);
+  }
+  process.exit(1);
+});

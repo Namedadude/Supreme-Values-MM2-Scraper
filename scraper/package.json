@@ -1,0 +1,12 @@
+{
+  "name": "supreme-values-scraper",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^131.0.0",
+    "puppeteer-core": "^23.0.0"
+  }
+}

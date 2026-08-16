@@ -602,11 +602,12 @@ async function main() {
         if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length < 2) continue;
         // exact key: "rainbow (gun)" != "rainbow gun"
-        if (!allItems[key]) {
-          allItems[key] = entry;
+        const uniqKey = `${key}_${entry.category}`;
+        if (!allItems[uniqKey]) {
+          allItems[uniqKey] = entry;
           total++;
-        } else if (allItems[key].value === "N/A" && entry.value !== "N/A") {
-          allItems[key] = entry;
+        } else if (allItems[uniqKey].value === "N/A" && entry.value !== "N/A") {
+          allItems[uniqKey] = entry;
         }
       }
     } else {

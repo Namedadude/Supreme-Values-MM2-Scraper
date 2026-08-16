@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "August 15th, 2026 at 6:00 PM",
-  "scrapedAt": "August 16th, 2026 at 1:12 PM UTC",
-  "itemCount": 1403,
+  "lastUpdated": "August 15th, 2026 at 9:00 PM",
+  "scrapedAt": "August 16th, 2026 at 2:18 PM UTC",
+  "itemCount": 1521,
   "categoriesScraped": [
     "sets",
     "uniques",
@@ -106,6 +106,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "bat (pet)": {
+      "name": "Bat (Pet)",
+      "value": "x2 T1 Uncommons",
+      "numericValue": 0.02,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Season 1 Pet Egg",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Legendary",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "bats set (set)": {
       "name": "Bats Set (Set)",
@@ -243,6 +260,23 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
+    "bats (untradable)": {
+      "name": "Bats (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "9",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "bauble set (set)": {
       "name": "Bauble Set (Set)",
       "value": "860",
@@ -345,6 +379,23 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
+    "blizzard (untradable)": {
+      "name": "Blizzard (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "9",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "bloom set (set)": {
       "name": "Bloom Set (Set)",
       "value": "810",
@@ -378,6 +429,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "bloom (untradable)": {
+      "name": "Bloom (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "borealis set (set)": {
       "name": "Borealis Set (Set)",
@@ -480,6 +548,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "candy (untradable)": {
+      "name": "Candy (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "7",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Halloween 2019 (Tier 13)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "candy swirl set (set)": {
       "name": "Candy Swirl Set (Set)",
@@ -616,6 +701,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "ancients"
+    },
+    "celestial (untradable)": {
+      "name": "Celestial (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "chroma alien set": {
       "name": "Chroma Alien Set",
@@ -1314,6 +1416,23 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
+    "flowerwood (untradable)": {
+      "name": "Flowerwood (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "frozen set (set)": {
       "name": "Frozen Set (Set)",
       "value": "4",
@@ -1364,6 +1483,74 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "frozen (gun) (uncommon)": {
+      "name": "Frozen (Gun) (Uncommon)",
+      "value": "3",
+      "numericValue": 3,
+      "range": "[N/A]",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2019 (Tier 16)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "frozen (knife) (uncommon)": {
+      "name": "Frozen (Knife) (Uncommon)",
+      "value": "1",
+      "numericValue": 1,
+      "range": "[N/A]",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2019 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "frozen (gun) (common)": {
+      "name": "Frozen (Gun) (Common)",
+      "value": "x2 T1 Commons",
+      "numericValue": 0.004,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2023 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "frozen (knife) (common)": {
+      "name": "Frozen (Knife) (Common)",
+      "value": "x3 T1 Commons",
+      "numericValue": 0.006,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2023 (Tier 2)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "full bringer set": {
       "name": "Full Bringer Set",
@@ -1568,6 +1755,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "ghost (untradable)": {
+      "name": "Ghost (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "ginger set (godly)": {
       "name": "Ginger Set (Godly)",
@@ -1807,6 +2011,57 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "gingerbread (knife) (uncommon)": {
+      "name": "Gingerbread (Knife) (Uncommon)",
+      "value": "85",
+      "numericValue": 85,
+      "range": "[N/A]",
+      "demand": "3",
+      "rarity": "4",
+      "stability": "Stable\nDemand",
+      "change": "(+5) +6.3%",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "gingerbread (gun) (uncommon)": {
+      "name": "Gingerbread (Gun) (Uncommon)",
+      "value": "3",
+      "numericValue": 3,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable\nDemand",
+      "change": "(+1) +50.0%",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "gingerbread (untradable)": {
+      "name": "Gingerbread (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "8",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "gingerbread effect (untradable)": {
       "name": "Gingerbread Effect (Untradable)",
       "value": "N/A",
@@ -2028,6 +2283,23 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
+    "ice (untradable)": {
+      "name": "Ice (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "8",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Christmas 2017 (15 Tokens)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "icedriller set (set)": {
       "name": "Icedriller Set (Set)",
       "value": "6",
@@ -2214,6 +2486,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "lights (gun) (common)": {
+      "name": "Lights (Gun) (Common)",
+      "value": "x2 T1 Commons",
+      "numericValue": 0.004,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2025 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "lights (knife) (common)": {
+      "name": "Lights (Knife) (Common)",
+      "value": "x2 T1 Commons",
+      "numericValue": 0.004,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2025 (Tier 8)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "lights (untradable)": {
       "name": "Lights (Untradable)",
@@ -2503,6 +2809,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "ocean (untradable)": {
+      "name": "Ocean (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "old glory set (set)": {
       "name": "Old Glory Set (Set)",
@@ -2860,6 +3183,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "rares"
+    },
+    "rainbow (untradable)": {
+      "name": "Rainbow (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "5",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "sakura set (set)": {
       "name": "Sakura Set (Set)",
@@ -3383,6 +3723,23 @@
       "origin": "Summer 2023 (Tier 9)",
       "aliases": "N/A",
       "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "sunset (rare)": {
+      "name": "Sunset (Rare)",
+      "value": "x3 T1 Rares",
+      "numericValue": 0.15,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Summer 2026 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
       "chanceOfRising": "N/A",
       "class": "N/A",
       "expRequirement": "N/A",
@@ -3966,6 +4323,40 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "zombie (knife common)": {
+      "name": "Zombie (Knife Common)",
+      "value": "10",
+      "numericValue": 10,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2017 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "zombie (untradable)": {
+      "name": "Zombie (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "10",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "zombified set (set)": {
       "name": "Zombified Set (Set)",
       "value": "135",
@@ -4255,8 +4646,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "inv. controls - +1 -1 ~": {
-      "name": "Inv. Controls - +1 -1 ~",
+    "inv. controls - +1 -1 ~ (set)": {
+      "name": "Inv. Controls - +1 -1 ~ (Set)",
       "value": "N/A",
       "numericValue": null,
       "range": "N/A",
@@ -4271,6 +4662,176 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "sets"
+    },
+    "inv. controls - +1 -1 ~ (unique)": {
+      "name": "Inv. Controls - +1 -1 ~ (Unique)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uniques"
+    },
+    "inv. controls - +1 -1 ~ (knife ancient)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Ancient)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "ancients"
+    },
+    "inv. controls - +1 -1 ~ (knife vintage)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Vintage)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "vintages"
+    },
+    "inv. controls - +1 -1 ~ (knife godly)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Godly)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "godlies"
+    },
+    "inv. controls - +1 -1 ~ (knife legendary)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Legendary)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "legendaries"
+    },
+    "inv. controls - +1 -1 ~ (knife rare)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Rare)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "inv. controls - +1 -1 ~ (knife uncommon)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Uncommon)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "inv. controls - +1 -1 ~ (knife common)": {
+      "name": "Inv. Controls - +1 -1 ~ (Knife Common)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "inv. controls - +1 -1 ~ (pet)": {
+      "name": "Inv. Controls - +1 -1 ~ (Pet)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "pets"
+    },
+    "inv. controls - +1 -1 ~ (misc)": {
+      "name": "Inv. Controls - +1 -1 ~ (Misc)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "misc"
     },
     "small tier": {
       "name": "Small Tier",
@@ -5496,8 +6057,8 @@
       "expRequirement": "N/A",
       "category": "uniques"
     },
-    "victim tier": {
-      "name": "Victim Tier",
+    "victim tier (unique)": {
+      "name": "Victim Tier (Unique)",
       "value": "N/A",
       "numericValue": null,
       "range": "N/A",
@@ -5512,6 +6073,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uniques"
+    },
+    "victim tier (knife common)": {
+      "name": "Victim Tier (Knife Common)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "N/A",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "slouse's clown (gun) (unique)": {
       "name": "slouse's Clown (Gun) (Unique)",
@@ -6822,8 +7400,25 @@
       "expRequirement": "864K",
       "category": "evos"
     },
-    "godly": {
-      "name": "Godly",
+    "godly (evo)": {
+      "name": "Godly (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Godly\nRarity",
+      "expRequirement": "216K",
+      "category": "evos"
+    },
+    "godly (pet)": {
+      "name": "Godly (Pet)",
       "value": "x3 T1 Legendaries\nStability",
       "numericValue": 0.6,
       "range": "N/A",
@@ -6839,8 +7434,25 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "legendary": {
-      "name": "Legendary",
+    "legendary (evo)": {
+      "name": "Legendary (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Legendary\nRarity",
+      "expRequirement": "36K",
+      "category": "evos"
+    },
+    "legendary (pet)": {
+      "name": "Legendary (Pet)",
       "value": "20",
       "numericValue": 20,
       "range": "[N/A]",
@@ -6856,8 +7468,25 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "rare": {
-      "name": "Rare",
+    "rare (evo)": {
+      "name": "Rare (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Rare\nRarity",
+      "expRequirement": "None",
+      "category": "evos"
+    },
+    "rare (pet)": {
+      "name": "Rare (Pet)",
       "value": "55",
       "numericValue": 55,
       "range": "[N/A]",
@@ -6890,8 +7519,25 @@
       "expRequirement": "864K",
       "category": "evos"
     },
-    "class - godly": {
-      "name": "Class - Godly",
+    "class - godly (evo)": {
+      "name": "Class - Godly (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Godly\nRarity",
+      "expRequirement": "216K",
+      "category": "evos"
+    },
+    "class - godly (pet)": {
+      "name": "Class - Godly (Pet)",
       "value": "x3 T1 Legendaries\nStability",
       "numericValue": 0.6,
       "range": "N/A",
@@ -6907,8 +7553,25 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "class - legendary": {
-      "name": "Class - Legendary",
+    "class - legendary (evo)": {
+      "name": "Class - Legendary (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Legendary\nRarity",
+      "expRequirement": "36K",
+      "category": "evos"
+    },
+    "class - legendary (pet)": {
+      "name": "Class - Legendary (Pet)",
       "value": "20",
       "numericValue": 20,
       "range": "[N/A]",
@@ -6924,8 +7587,25 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "class - rare": {
-      "name": "Class - Rare",
+    "class - rare (evo)": {
+      "name": "Class - Rare (Evo)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2025 (Evo Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Rare\nRarity",
+      "expRequirement": "None",
+      "category": "evos"
+    },
+    "class - rare (pet)": {
+      "name": "Class - Rare (Pet)",
       "value": "55",
       "numericValue": 55,
       "range": "[N/A]",
@@ -6941,8 +7621,8 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "batwing": {
-      "name": "Batwing",
+    "batwing (knife ancient)": {
+      "name": "Batwing (Knife Ancient)",
       "value": "42",
       "numericValue": 42,
       "range": "[N/A]",
@@ -6957,6 +7637,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "ancients"
+    },
+    "batwing (knife godly)": {
+      "name": "Batwing (Knife Godly)",
+      "value": "1000000",
+      "numericValue": 1000000,
+      "range": "[N/A]",
+      "demand": "10",
+      "rarity": "10",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Secret MM2 Item",
+      "aliases": "N/A",
+      "flippability": "Highly Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "godlies"
     },
     "elderwood scythe": {
       "name": "Elderwood Scythe",
@@ -7196,8 +7893,8 @@
       "expRequirement": "N/A",
       "category": "vintages"
     },
-    "golden": {
-      "name": "Golden",
+    "golden (knife vintage)": {
+      "name": "Golden (Knife Vintage)",
       "value": "4",
       "numericValue": 4,
       "range": "[N/A]",
@@ -7213,8 +7910,25 @@
       "expRequirement": "N/A",
       "category": "vintages"
     },
-    "laser": {
-      "name": "Laser",
+    "golden (untradable)": {
+      "name": "Golden (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "In-Game Shop (12,000 Coins)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "laser (knife vintage)": {
+      "name": "Laser (Knife Vintage)",
       "value": "8",
       "numericValue": 8,
       "range": "[N/A]",
@@ -7229,6 +7943,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "vintages"
+    },
+    "laser (knife godly)": {
+      "name": "Laser (Knife Godly)",
+      "value": "22",
+      "numericValue": 22,
+      "range": "[N/A]",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Gun Box #3",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "godlies"
     },
     "phaser": {
       "name": "Phaser",
@@ -8267,8 +8998,8 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
-    "blossom": {
-      "name": "Blossom",
+    "blossom (knife godly)": {
+      "name": "Blossom (Knife Godly)",
       "value": "1370",
       "numericValue": 1370,
       "range": "[N/A]",
@@ -8283,6 +9014,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "blossom (knife uncommon)": {
+      "name": "Blossom (Knife Uncommon)",
+      "value": "x2 T1 Uncommons",
+      "numericValue": 0.02,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Valentine's 2026 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "blossom (knife common)": {
+      "name": "Blossom (Knife Common)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Valentine's 2016 (75 Coins)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "blue seer": {
       "name": "Blue Seer",
@@ -8675,8 +9440,8 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
-    "frostbite": {
-      "name": "Frostbite",
+    "frostbite (knife godly)": {
+      "name": "Frostbite (Knife Godly)",
       "value": "7",
       "numericValue": 7,
       "range": "[N/A]",
@@ -8691,6 +9456,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "frostbite (untradable)": {
+      "name": "Frostbite (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "8",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "frostsaber": {
       "name": "Frostsaber",
@@ -9100,8 +9882,8 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "minty": {
-      "name": "Minty",
+    "minty (knife godly)": {
+      "name": "Minty (Knife Godly)",
       "value": "13",
       "numericValue": 13,
       "range": "[N/A]",
@@ -9116,6 +9898,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "minty (untradable)": {
+      "name": "Minty (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "mortal blade": {
       "name": "Mortal Blade",
@@ -9185,8 +9984,8 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
-    "ornament": {
-      "name": "Ornament",
+    "ornament (knife godly)": {
+      "name": "Ornament (Knife Godly)",
       "value": "35",
       "numericValue": 35,
       "range": "35 - 40",
@@ -9201,6 +10000,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "ornament (knife common)": {
+      "name": "Ornament (Knife Common)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2015 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "pearlshine": {
       "name": "Pearlshine",
@@ -9270,8 +10086,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "phantom": {
-      "name": "Phantom",
+    "phantom (knife godly)": {
+      "name": "Phantom (Knife Godly)",
       "value": "35",
       "numericValue": 35,
       "range": "[N/A]",
@@ -9286,6 +10102,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "phantom (knife common)": {
+      "name": "Phantom (Knife Common)",
+      "value": "10",
+      "numericValue": 10,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2017 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "phantom (untradable)": {
+      "name": "Phantom (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "5",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "pixel": {
       "name": "Pixel",
@@ -9559,6 +10409,23 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
+    "snowflake (knife rare)": {
+      "name": "Snowflake (Knife Rare)",
+      "value": "x2 T1 Rares",
+      "numericValue": 0.1,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2023 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
     "snowflake (gun) [xmas2018] (uncommon)": {
       "name": "Snowflake (Gun) [XMAS2018] (Uncommon)",
       "value": "x1 T1 Rare",
@@ -9661,8 +10528,25 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "snowstorm": {
-      "name": "Snowstorm",
+    "snowflake (untradable)": {
+      "name": "Snowflake (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "snowstorm (knife godly)": {
+      "name": "Snowstorm (Knife Godly)",
       "value": "260",
       "numericValue": 260,
       "range": "[N/A]",
@@ -9677,6 +10561,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "snowstorm (untradable)": {
+      "name": "Snowstorm (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "spider": {
       "name": "Spider",
@@ -9848,8 +10749,8 @@
       "expRequirement": "N/A",
       "category": "godlies"
     },
-    "waves": {
-      "name": "Waves",
+    "waves (knife godly)": {
+      "name": "Waves (Knife Godly)",
       "value": "280",
       "numericValue": 280,
       "range": "[N/A]",
@@ -9864,6 +10765,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "godlies"
+    },
+    "waves (knife rare)": {
+      "name": "Waves (Knife Rare)",
+      "value": "x2 T1 Rares",
+      "numericValue": 0.1,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Summer 2024 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
     },
     "winter's edge": {
       "name": "Winter's Edge",
@@ -10051,6 +10969,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "aurora (gun) (rare)": {
+      "name": "Aurora (Gun) (Rare)",
+      "value": "1",
+      "numericValue": 1,
+      "range": "[N/A]",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2019 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "aurora (knife) (rare)": {
+      "name": "Aurora (Knife) (Rare)",
+      "value": "7",
+      "numericValue": 7,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2019 (Tier 20)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
     },
     "aurora (untradable)": {
       "name": "Aurora (Untradable)",
@@ -10273,8 +11225,8 @@
       "expRequirement": "N/A",
       "category": "untradables"
     },
-    "elite": {
-      "name": "Elite",
+    "elite (knife legendary)": {
+      "name": "Elite (Knife Legendary)",
       "value": "x3 T1 Rares",
       "numericValue": 0.15,
       "range": "N/A",
@@ -10289,6 +11241,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "elite (untradable)": {
+      "name": "Elite (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Buying Elite Gamepass",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "emerald": {
       "name": "Emerald",
@@ -10341,8 +11310,8 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
-    "fade": {
-      "name": "Fade",
+    "fade (knife legendary)": {
+      "name": "Fade (Knife Legendary)",
       "value": "x4 T1 Rares",
       "numericValue": 0.2,
       "range": "N/A",
@@ -10357,6 +11326,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "fade (untradable)": {
+      "name": "Fade (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "In-Game Shop (400 Gems)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "frostfade (gun) (legendary)": {
       "name": "Frostfade (Gun) (Legendary)",
@@ -10443,6 +11429,40 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
+    "ginger (gun) (rare)": {
+      "name": "Ginger (Gun) (Rare)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2015 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "ginger (knife) (rare)": {
+      "name": "Ginger (Knife) (Rare)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2015 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
     "green elite": {
       "name": "Green Elite",
       "value": "3",
@@ -10528,8 +11548,8 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
-    "nightsky": {
-      "name": "Nightsky",
+    "nightsky (knife legendary)": {
+      "name": "Nightsky (Knife Legendary)",
       "value": "5",
       "numericValue": 5,
       "range": "[N/A]",
@@ -10544,6 +11564,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "nightsky (untradable)": {
+      "name": "Nightsky (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "nightstar": {
       "name": "Nightstar",
@@ -10851,8 +11888,8 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
-    "skulls": {
-      "name": "Skulls",
+    "skulls (knife legendary)": {
+      "name": "Skulls (Knife Legendary)",
       "value": "4",
       "numericValue": 4,
       "range": "[N/A]",
@@ -10867,6 +11904,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "legendaries"
+    },
+    "skulls (knife uncommon)": {
+      "name": "Skulls (Knife Uncommon)",
+      "value": "15",
+      "numericValue": 15,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "4",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2021 (Tier 14)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
     },
     "splash (gun) (legendary)": {
       "name": "Splash (Gun) (Legendary)",
@@ -10936,6 +11990,40 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
+    "tree (gun) (rare)": {
+      "name": "Tree (Gun) (Rare)",
+      "value": "x2 T1 Rares",
+      "numericValue": 0.1,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2022 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "tree (knife) (rare)": {
+      "name": "Tree (Knife) (Rare)",
+      "value": "x3 T1 Rares",
+      "numericValue": 0.15,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2022 (Tier 17)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
     "tree (untradable)": {
       "name": "Tree (Untradable)",
       "value": "N/A",
@@ -11004,6 +12092,40 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
+    "vampire (gun) (rare)": {
+      "name": "Vampire (Gun) (Rare)",
+      "value": "3",
+      "numericValue": 3,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2018 (Tier 22)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
+    "vampire (knife) (rare)": {
+      "name": "Vampire (Knife) (Rare)",
+      "value": "1",
+      "numericValue": 1,
+      "range": "[N/A]",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2018 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "rares"
+    },
     "vampire (knife uncommon)": {
       "name": "Vampire (Knife Uncommon)",
       "value": "1",
@@ -11020,6 +12142,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "vampire (untradable)": {
+      "name": "Vampire (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "7",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "viper": {
       "name": "Viper",
@@ -11208,6 +12347,40 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "bones (knife) (uncommon)": {
+      "name": "Bones (Knife) (Uncommon)",
+      "value": "x2 T1 Uncommons",
+      "numericValue": 0.02,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2024 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "bones (knife common)": {
+      "name": "Bones (Knife Common)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2016 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "butterflies": {
       "name": "Butterflies",
       "value": "x1 T1 Legendary",
@@ -11327,6 +12500,40 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
+    "cane (gun) (common)": {
+      "name": "Cane (Gun) (Common)",
+      "value": "x2 T1 Rares",
+      "numericValue": 0.1,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2021 (Tier 6)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "cane (knife) (common)": {
+      "name": "Cane (Knife) (Common)",
+      "value": "x3 T1 Commons",
+      "numericValue": 0.006,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2021 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "curse": {
       "name": "Curse",
       "value": "x3 T1 Rares",
@@ -11445,6 +12652,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "floral (untradable)": {
+      "name": "Floral (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "frostflame (gun) (rare)": {
       "name": "Frostflame (Gun) (Rare)",
@@ -11684,8 +12908,8 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "heart": {
-      "name": "Heart",
+    "heart (knife rare)": {
+      "name": "Heart (Knife Rare)",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "range": "N/A",
@@ -11700,6 +12924,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "rares"
+    },
+    "heart (untradable)": {
+      "name": "Heart (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "heartbreak": {
       "name": "Heartbreak",
@@ -12007,8 +13248,8 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "monster": {
-      "name": "Monster",
+    "monster (knife rare)": {
+      "name": "Monster (Knife Rare)",
       "value": "1",
       "numericValue": 1,
       "range": "[N/A]",
@@ -12024,8 +13265,25 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "musical": {
-      "name": "Musical",
+    "monster (knife uncommon)": {
+      "name": "Monster (Knife Uncommon)",
+      "value": "x3 T1 Uncommons",
+      "numericValue": 0.03,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2024 (Tier 10)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "musical (knife rare)": {
+      "name": "Musical (Knife Rare)",
       "value": "x4 T1 Uncommons",
       "numericValue": 0.04,
       "range": "N/A",
@@ -12040,6 +13298,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "rares"
+    },
+    "musical (untradable)": {
+      "name": "Musical (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "neon [summer2025] (knife rare)": {
       "name": "Neon [SUMMER2025] (Knife Rare)",
@@ -12091,6 +13366,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "rares"
+    },
+    "neon (knife common)": {
+      "name": "Neon (Knife Common)",
+      "value": "x3 T1 Legendaries",
+      "numericValue": 0.6,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Item Code (N30N)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "nether": {
       "name": "Nether",
@@ -12432,8 +13724,25 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "snowglobe": {
-      "name": "Snowglobe",
+    "snowflakes (untradable)": {
+      "name": "Snowflakes (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "10",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "snowglobe (knife rare)": {
+      "name": "Snowglobe (Knife Rare)",
       "value": "x2 T1 Rares",
       "numericValue": 0.1,
       "range": "N/A",
@@ -12449,8 +13758,25 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "snowy": {
-      "name": "Snowy",
+    "snowglobe (untradable)": {
+      "name": "Snowglobe (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "snowy (knife rare)": {
+      "name": "Snowy (Knife Rare)",
       "value": "x3 T1 Legendaries",
       "numericValue": 0.6,
       "range": "N/A",
@@ -12465,6 +13791,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "rares"
+    },
+    "snowy (knife uncommon)": {
+      "name": "Snowy (Knife Uncommon)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2015 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "uncommons"
+    },
+    "snowy (untradable)": {
+      "name": "Snowy (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "space": {
       "name": "Space",
@@ -12636,6 +13996,40 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "starry (knife common)": {
+      "name": "Starry (Knife Common)",
+      "value": "5",
+      "numericValue": 5,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2020 (Scary Mode)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "starry (untradable)": {
+      "name": "Starry (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "5",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
     "storm": {
       "name": "Storm",
       "value": "x1 T1 Legendary",
@@ -12772,6 +14166,40 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
+    "watcher (gun) (common)": {
+      "name": "Watcher (Gun) (Common)",
+      "value": "x3 T1 Commons",
+      "numericValue": 0.006,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2020 (Tier 5)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "watcher (knife) (common)": {
+      "name": "Watcher (Knife) (Common)",
+      "value": "x2 T1 Commons",
+      "numericValue": 0.004,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2020 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "wraith (gun) (rare)": {
       "name": "Wraith (Gun) (Rare)",
       "value": "x1 T1 Legendary",
@@ -12840,8 +14268,8 @@
       "expRequirement": "N/A",
       "category": "rares"
     },
-    "abduction": {
-      "name": "Abduction",
+    "abduction (knife uncommon)": {
+      "name": "Abduction (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
       "numericValue": 0.02,
       "range": "N/A",
@@ -12856,6 +14284,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "abduction (untradable)": {
+      "name": "Abduction (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "adurite (gun) (uncommon)": {
       "name": "Adurite (Gun) (Uncommon)",
@@ -12959,8 +14404,8 @@
       "expRequirement": "N/A",
       "category": "untradables"
     },
-    "brains": {
-      "name": "Brains",
+    "brains (knife uncommon)": {
+      "name": "Brains (Knife Uncommon)",
       "value": "135",
       "numericValue": 135,
       "range": "[N/A]",
@@ -12975,6 +14420,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "brains (knife common)": {
+      "name": "Brains (Knife Common)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2016 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "brains (2022)": {
       "name": "Brains (2022)",
@@ -13163,6 +14625,23 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "carrot (knife common)": {
+      "name": "Carrot (Knife Common)",
+      "value": "x4 T1 Legendaries",
+      "numericValue": 0.8,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Easter 2016 (50 Coins)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "caution": {
       "name": "Caution",
       "value": "x4 T1 Commons",
@@ -13265,6 +14744,23 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
+    "clown (gun) (common)": {
+      "name": "Clown (Gun) (Common)",
+      "value": "x1 T1 Common",
+      "numericValue": 0.002,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Mystery Box #2",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "clown (knife) (common)": {
       "name": "Clown (Knife) (Common)",
       "value": "x1 T1 Common",
@@ -13299,8 +14795,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "doge": {
-      "name": "Doge",
+    "doge (knife uncommon)": {
+      "name": "Doge (Knife Uncommon)",
       "value": "x4 T1 Commons",
       "numericValue": 0.008,
       "range": "N/A",
@@ -13315,6 +14811,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "doge (untradable)": {
+      "name": "Doge (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "9",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "donut": {
       "name": "Donut",
@@ -13469,8 +14982,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "ghostly": {
-      "name": "Ghostly",
+    "ghostly (knife uncommon)": {
+      "name": "Ghostly (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
       "numericValue": 0.02,
       "range": "N/A",
@@ -13485,6 +14998,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "ghostly (untradable)": {
+      "name": "Ghostly (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "6",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "gifted": {
       "name": "Gifted",
@@ -13520,8 +15050,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "glowy": {
-      "name": "Glowy",
+    "glowy (knife uncommon)": {
+      "name": "Glowy (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
       "numericValue": 0.03,
       "range": "N/A",
@@ -13536,6 +15066,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "glowy (untradable)": {
+      "name": "Glowy (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "gothic (gun) (uncommon)": {
       "name": "Gothic (Gun) (Uncommon)",
@@ -13707,8 +15254,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "jellyfish": {
-      "name": "Jellyfish",
+    "jellyfish (knife uncommon)": {
+      "name": "Jellyfish (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
       "numericValue": 0.02,
       "range": "N/A",
@@ -13723,6 +15270,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "jellyfish (untradable)": {
+      "name": "Jellyfish (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "jigsaw": {
       "name": "Jigsaw",
@@ -13843,8 +15407,42 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
+    "leaves (knife common)": {
+      "name": "Leaves (Knife Common)",
+      "value": "x2 T1 Commons\nStability",
+      "numericValue": 0.004,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable\nDemand",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "leaves effect (untradable)": {
       "name": "Leaves Effect (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": ", and Yellow Falling Leaf Particles",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "leaves (untradable)": {
+      "name": "Leaves (Untradable)",
       "value": "N/A",
       "numericValue": null,
       "range": ", and Yellow Falling Leaf Particles",
@@ -14455,8 +16053,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "retro": {
-      "name": "Retro",
+    "retro (knife uncommon)": {
+      "name": "Retro (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
       "numericValue": 0.02,
       "range": "N/A",
@@ -14471,6 +16069,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "retro (untradable)": {
+      "name": "Retro (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "rose": {
       "name": "Rose",
@@ -14710,6 +16325,40 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
+    "snowman (gun) (common)": {
+      "name": "Snowman (Gun) (Common)",
+      "value": "25",
+      "numericValue": 25,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "4",
+      "stability": "Stable\nDemand",
+      "change": "(+3) +13.6%",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "snowman (knife) (common)": {
+      "name": "Snowman (Knife) (Common)",
+      "value": "x3 T1 Commons\nStability",
+      "numericValue": 0.006,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable\nDemand",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
     "snowman (pet)": {
       "name": "Snowman (Pet)",
       "value": "N/A",
@@ -14726,6 +16375,23 @@
       "class": "Common",
       "expRequirement": "N/A",
       "category": "pets"
+    },
+    "snowman (untradable)": {
+      "name": "Snowman (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "soda (knife uncommon)": {
       "name": "Soda (Knife Uncommon)",
@@ -15186,8 +16852,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "void": {
-      "name": "Void",
+    "void (knife uncommon)": {
+      "name": "Void (Knife Uncommon)",
       "value": "12",
       "numericValue": 12,
       "range": "[N/A]",
@@ -15202,6 +16868,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "void (untradable)": {
+      "name": "Void (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "wanwood": {
       "name": "Wanwood",
@@ -15220,8 +16903,8 @@
       "expRequirement": "N/A",
       "category": "uncommons"
     },
-    "webs": {
-      "name": "Webs",
+    "webs (knife uncommon)": {
+      "name": "Webs (Knife Uncommon)",
       "value": "3",
       "numericValue": 3,
       "range": "[N/A]",
@@ -15236,6 +16919,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "webs (knife common)": {
+      "name": "Webs (Knife Common)",
+      "value": "x2 T1 Uncommons",
+      "numericValue": 0.02,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "3",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2022 (Tier 10)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "witch's brew": {
       "name": "Witch's Brew",
@@ -15440,6 +17140,40 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "uncommons"
+    },
+    "wrapped (gun) (common)": {
+      "name": "Wrapped (Gun) (Common)",
+      "value": "30",
+      "numericValue": 30,
+      "range": "[N/A]",
+      "demand": "2",
+      "rarity": "4",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2018 (Tier 5)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
+    },
+    "wrapped (knife) (common)": {
+      "name": "Wrapped (Knife) (Common)",
+      "value": "x3 T1 Commons",
+      "numericValue": 0.006,
+      "range": "N/A",
+      "demand": "2",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Christmas 2018 (Unboxed)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "commons"
     },
     "wreaths": {
       "name": "Wreaths",
@@ -15730,8 +17464,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "bunny": {
-      "name": "Bunny",
+    "bunny (knife common)": {
+      "name": "Bunny (Knife Common)",
       "value": "x4 T1 Legendaries",
       "numericValue": 0.8,
       "range": "N/A",
@@ -15746,6 +17480,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "bunny (pet)": {
+      "name": "Bunny (Pet)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "Untradable",
+      "change": "N/A",
+      "origin": "Season 1 Pet Egg",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Common",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "candied (gun) (common)": {
       "name": "Candied (Gun) (Common)",
@@ -15781,8 +17532,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "candle": {
-      "name": "Candle",
+    "candle (knife common)": {
+      "name": "Candle (Knife Common)",
       "value": "x3 T1 Commons",
       "numericValue": 0.006,
       "range": "N/A",
@@ -15797,6 +17548,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "candle (untradable)": {
+      "name": "Candle (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "4",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Halloween 2024 (100 Kills as Vampire)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "candles": {
       "name": "Candles",
@@ -16036,8 +17804,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "carrots": {
-      "name": "Carrots",
+    "carrots (knife common)": {
+      "name": "Carrots (Knife Common)",
       "value": "x3 T1 Commons",
       "numericValue": 0.006,
       "range": "N/A",
@@ -16052,6 +17820,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "carrots (untradable)": {
+      "name": "Carrots (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "carved (gun) (common)": {
       "name": "Carved (Gun) (Common)",
@@ -16087,8 +17872,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "cat": {
-      "name": "Cat",
+    "cat (knife common)": {
+      "name": "Cat (Knife Common)",
       "value": "x1 T1 Uncommon",
       "numericValue": 0.01,
       "range": "N/A",
@@ -16103,6 +17888,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "cat (pet)": {
+      "name": "Cat (Pet)",
+      "value": "x1 T1 Common",
+      "numericValue": 0.002,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "1",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Season 1 Pet Egg",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Common",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "cats": {
       "name": "Cats",
@@ -16410,8 +18212,25 @@
       "expRequirement": "N/A",
       "category": "untradables"
     },
-    "coconut": {
-      "name": "Coconut",
+    "coal (untradable)": {
+      "name": "Coal (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "8",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Christmas 2017 (60 Tokens)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
+    },
+    "coconut (knife common)": {
+      "name": "Coconut (Knife Common)",
       "value": "x2 T1 Commons",
       "numericValue": 0.004,
       "range": "N/A",
@@ -16426,6 +18245,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "coconut (untradable)": {
+      "name": "Coconut (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "Summer 2024 (Tier 3)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "cold": {
       "name": "Cold",
@@ -16835,8 +18671,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "eyeball": {
-      "name": "Eyeball",
+    "eyeball (knife common)": {
+      "name": "Eyeball (Knife Common)",
       "value": "x2 T1 Commons",
       "numericValue": 0.004,
       "range": "N/A",
@@ -16851,6 +18687,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "eyeball (pet)": {
+      "name": "Eyeball (Pet)",
+      "value": "3",
+      "numericValue": 3,
+      "range": "2 - 3",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Underpaid For",
+      "change": "N/A",
+      "origin": "Classic In-Game Shop (900 Coins)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "Rare",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "fall": {
       "name": "Fall",
@@ -16954,8 +18807,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "ghosts (2023)": {
-      "name": "Ghosts (2023)",
+    "ghosts (2023) (knife common)": {
+      "name": "Ghosts (2023) (Knife Common)",
       "value": "x1 T1 Uncommon",
       "numericValue": 0.01,
       "range": "N/A",
@@ -16970,6 +18823,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "ghosts (2023) (untradable)": {
+      "name": "Ghosts (2023) (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "ghosts (2024)": {
       "name": "Ghosts (2024)",
@@ -16988,8 +18858,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "ghosty": {
-      "name": "Ghosty",
+    "ghosty (knife common)": {
+      "name": "Ghosty (Knife Common)",
       "value": "3",
       "numericValue": 3,
       "range": "[N/A]",
@@ -17004,6 +18874,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "ghosty (pet)": {
+      "name": "Ghosty (Pet)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "2",
+      "stability": "Untradable",
+      "change": "N/A",
+      "origin": "Halloween 2019 (Item Pack)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Godly",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "ghoulish": {
       "name": "Ghoulish",
@@ -17260,8 +19147,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "hearts": {
-      "name": "Hearts",
+    "hearts (knife common)": {
+      "name": "Hearts (Knife Common)",
       "value": "x4 T1 Legendaries",
       "numericValue": 0.8,
       "range": "N/A",
@@ -17276,6 +19163,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "hearts (untradable)": {
+      "name": "Hearts (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "hearts (2026)": {
       "name": "Hearts (2026)",
@@ -17906,8 +19810,8 @@
       "expRequirement": "N/A",
       "category": "commons"
     },
-    "pumpkin (2019)": {
-      "name": "Pumpkin (2019)",
+    "pumpkin (2019) (knife common)": {
+      "name": "Pumpkin (2019) (Knife Common)",
       "value": "12",
       "numericValue": 12,
       "range": "[N/A]",
@@ -17922,6 +19826,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "pumpkin (2019) (pet)": {
+      "name": "Pumpkin (2019) (Pet)",
+      "value": "x3 T1 Uncommons",
+      "numericValue": 0.03,
+      "range": "N/A",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Stable",
+      "change": "N/A",
+      "origin": "Halloween 2019 (Tier 1)",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "Common",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "pumpkin (2023)": {
       "name": "Pumpkin (2023)",
@@ -17990,6 +19911,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "reindeer (pet)": {
+      "name": "Reindeer (Pet)",
+      "value": "3",
+      "numericValue": 3,
+      "range": "2 - 3",
+      "demand": "1",
+      "rarity": "2",
+      "stability": "Underpaid For",
+      "change": "N/A",
+      "origin": "Christmas 2016 (20 Blue Tokens)",
+      "aliases": "N/A",
+      "flippability": "Rarely Flippable",
+      "chanceOfRising": "N/A",
+      "class": "Common",
+      "expRequirement": "N/A",
+      "category": "pets"
     },
     "reptile": {
       "name": "Reptile",
@@ -18177,6 +20115,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "santa (untradable)": {
+      "name": "Santa (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "santa (2018)": {
       "name": "Santa (2018)",
@@ -18416,8 +20371,8 @@
       "expRequirement": "N/A",
       "category": "untradables"
     },
-    "snowfall": {
-      "name": "Snowfall",
+    "snowfall (knife common)": {
+      "name": "Snowfall (Knife Common)",
       "value": "x2 T1 Commons",
       "numericValue": 0.004,
       "range": "N/A",
@@ -18432,6 +20387,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "snowfall (untradable)": {
+      "name": "Snowfall (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "5",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "sparkle1": {
       "name": "Sparkle1",
@@ -19112,6 +21084,23 @@
       "class": "N/A",
       "expRequirement": "N/A",
       "category": "commons"
+    },
+    "stickers (untradable)": {
+      "name": "Stickers (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "1",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "stockings (2024)": {
       "name": "Stockings (2024)",
@@ -19827,8 +21816,8 @@
       "expRequirement": "N/A",
       "category": "pets"
     },
-    "chilly": {
-      "name": "Chilly",
+    "chilly (pet)": {
+      "name": "Chilly (Pet)",
       "value": "3",
       "numericValue": 3,
       "range": "2 - 3",
@@ -19843,6 +21832,23 @@
       "class": "Uncommon",
       "expRequirement": "N/A",
       "category": "pets"
+    },
+    "chilly (untradable)": {
+      "name": "Chilly (Untradable)",
+      "value": "N/A",
+      "numericValue": null,
+      "range": "N/A",
+      "demand": "N/A",
+      "rarity": "3",
+      "stability": "N/A",
+      "change": "N/A",
+      "origin": "N/A",
+      "aliases": "N/A",
+      "flippability": "N/A",
+      "chanceOfRising": "N/A",
+      "class": "N/A",
+      "expRequirement": "N/A",
+      "category": "untradables"
     },
     "deathspeaker": {
       "name": "Deathspeaker",

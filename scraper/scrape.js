@@ -545,9 +545,12 @@ async function main() {
         if (key.length > 60) continue;
         if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length < 2) continue;
-        if (!allItems[key] || (allItems[key].value === "N/A" && entry.value !== "N/A")) {
+        // exact key: "rainbow (gun)" != "rainbow gun"
+        if (!allItems[key]) {
           allItems[key] = entry;
           total++;
+        } else if (allItems[key].value === "N/A" && entry.value !== "N/A") {
+          allItems[key] = entry;
         }
       }
     } else {

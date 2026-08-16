@@ -187,13 +187,11 @@ async function extractFromPage(page, categorySlug, categoryName) {
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
           if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
-          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
+          if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change|ability|description|death effect|price|class|exp)/i.test(name)) return;
           if (/^(ability|description|death effect|price)\s*[-–]/i.test(name)) return;
           if (/^contains\s*-/i.test(name)) return;
           if (name.length > 60) return;
-
-          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
           if (/evolutions?$/i.test(name)) return;
@@ -352,7 +350,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
           if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
-          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
+          if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
           if (/evolutions?$/i.test(name)) return;
@@ -459,6 +457,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           const hasMeta = /Demand\s*[-–:]|Value\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(window);
           if (!hasMeta) continue;
           if (/^(value|demand|rarity|stability|range|origin|change|aliases|special tier|default tier|tier \d)/i.test(line)) continue;
+          if (/^x\s*\d+/i.test(line)) continue;
           if (line.length < 2 || line.length > 60) continue;
           if (/^[\d,]+(?:\.\d+)?$/.test(line)) continue;
           if (/^[\[\]()\d\s,.-]+$/.test(line)) continue;
@@ -623,14 +622,90 @@ async function main() {
     process.exit(0);
   }
 
+  const getBaseName = (name) => {
+    let base = name.replace(/\s*\[[^\]]+\]/g, "");
+    base = base.replace(/\s*\((?:gun|knife|radio|effect|pet|variant\s*\d+|v\.?\s*\d+)\)/i, "");
+    base = base.replace(/\s*(?:gun|knife|radio|effect|pet|set)$/i, "");
+    return base.trim().toLowerCase();
+  };
+
+  const groups = {};
+  for (const entry of Object.values(allItems)) {
+    const base = getBaseName(entry.name);
+    if (!groups[base]) groups[base] = [];
+    groups[base].push(entry);
+  }
+
+  const processedItems = {};
+  const categoryMap = {
+    sets: "Set",
+    uniques: "Unique",
+    evos: "Evo",
+    ancients: "Ancient",
+    vintages: "Vintage",
+    chromas: "Chroma",
+    godlies: "Godly",
+    legendaries: "Legendary",
+    rares: "Rare",
+    uncommons: "Uncommon",
+    commons: "Common",
+    pets: "Pet",
+    misc: "Misc",
+    untradables: "Untradable"
+  };
+
+  for (const [base, group] of Object.entries(groups)) {
+    if (group.length > 1) {
+      for (const entry of group) {
+        let typeSuffix = "";
+        const lowerName = entry.name.toLowerCase();
+        if (lowerName.includes("gun")) typeSuffix = "Gun";
+        else if (lowerName.includes("knife")) typeSuffix = "Knife";
+        else if (lowerName.includes("pet") || entry.category === "pets") typeSuffix = "Pet";
+        else if (lowerName.includes("radio")) typeSuffix = "Radio";
+        else if (lowerName.includes("effect")) typeSuffix = "Effect";
+        else if (lowerName.includes("set") || entry.category === "sets") typeSuffix = "Set";
+        else {
+          if (["godlies", "vintages", "ancients", "chromas", "legendaries", "rares", "uncommons", "commons"].includes(entry.category)) {
+            typeSuffix = "Knife";
+          }
+        }
+
+        const raritySuffix = categoryMap[entry.category] || entry.category;
+
+        let newName = entry.name;
+        newName = newName.replace(/\s*\((?:godly|godlies|rare|rares|uncommon|uncommons|common|commons|legendary|legendaries|vintage|vintages|ancient|ancients|evo|evos|unique|uniques|pet|pets|misc|untradable|untradables)\)/i, "");
+
+        const hasType = newName.toLowerCase().includes(typeSuffix.toLowerCase());
+        const suffixParts = [];
+        if (typeSuffix && !hasType) {
+          suffixParts.push(typeSuffix);
+        }
+        if (raritySuffix && !suffixParts.includes(raritySuffix)) {
+          suffixParts.push(raritySuffix);
+        }
+
+        newName = `${newName} (${suffixParts.join(" ")})`;
+
+        entry.name = newName;
+        const newKey = newName.toLowerCase().trim();
+        processedItems[newKey] = entry;
+      }
+    } else {
+      const entry = group[0];
+      const key = entry.name.toLowerCase().trim();
+      processedItems[key] = entry;
+    }
+  }
+
   const output = {
     lastUpdated: lastUpdated || formatDate(),
     scrapedAt: formatDate(),
-    itemCount: Object.keys(allItems).length,
+    itemCount: Object.keys(processedItems).length,
     categoriesScraped: [...seenSlugs].filter((s) => !failed.includes(s)),
     failedCategories: failed,
     madeBy: "Namedadude",
-    items: allItems,
+    items: processedItems,
   };
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), "utf8");

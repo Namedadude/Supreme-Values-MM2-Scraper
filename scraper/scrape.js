@@ -188,6 +188,12 @@ async function extractFromPage(page, categorySlug, categoryName) {
           if (name.length < 2 || name.length > 80) return;
           if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
           if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
+          if (/^(value|range|stability|demand|rarity|origin|aliases|change|ability|description|death effect|price|class|exp)/i.test(name)) return;
+          if (/^(ability|description|death effect|price)\s*[-–]/i.test(name)) return;
+          if (/^contains\s*-/i.test(name)) return;
+          if (name.length > 60) return;
+
+          if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
           if (/evolutions?$/i.test(name)) return;
@@ -534,6 +540,9 @@ async function main() {
         const entry = normalizeEntry(name, info || {}, cat.name);
         const key = entry.name.toLowerCase().trim();
         if (/^[\d,]+(?:\.\d+)?$/.test(key)) continue;
+        if (/^(ability|description|death effect|price|contains)\s*[-–]/i.test(key)) continue;
+        if (/^(value|range|stability|demand|rarity)$/i.test(key)) continue;
+        if (key.length > 60) continue;
         if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length < 2) continue;
         if (!allItems[key] || (allItems[key].value === "N/A" && entry.value !== "N/A")) {

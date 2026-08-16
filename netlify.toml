@@ -1,7 +1,0 @@
-[build]
-  command = "cd scraper && npm install && node scrape.js"
-  publish = "public"
-
-[build.environment]
-  NODE_VERSION = "20"
-  PUPPETEER_SKIP_DOWNLOAD = "true"

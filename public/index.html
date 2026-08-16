@@ -2,20 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark" />
   <title>Supreme Values JSON</title>
   <style>
     :root { color-scheme: dark; }
-    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto;
-      padding: 48px 20px; background: #0f0f12; color: #e8e8ed; min-height: 100vh; }
-    a { color: #7eb8ff; } code { background: #1c1c24; padding: 3px 8px; border-radius: 6px; }
-    .muted { color: #888899; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px;
+      background: #0f0f12;
+      color: #e8e8ed;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 8px; color: #fff; }
+    p { margin: 10px 0; color: #b8b8c0; }
+    strong { color: #e8e8ed; }
+    a { color: #7eb8ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: #1c1c24;
+      color: #a8d4ff;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.95em;
+      border: 1px solid #2a2a35;
+    }
+    .card {
+      background: #18181f;
+      border: 1px solid #2a2a35;
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-top: 24px;
+    }
+    .muted { color: #888899; font-size: 0.9rem; }
+    .stat { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0; }
+    .stat span {
+      background: #1c1c24;
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 0.9rem;
+      color: #c8c8d0;
+    }
   </style>
 </head>
 <body>
   <h1>Supreme Values MM2</h1>
-  <p class="muted">GitHub Actions auto-scrape</p>
-  <p>JSON: <a href="values.json"><code>values.json</code></a></p>
-  <p class="muted">Made by <strong>Namedadude</strong></p>
+  <p class="muted">Auto-updated item values mirror</p>
+  <div class="card">
+    <div class="stat">
+      <span><strong>Items:</strong> 1714</span>
+      <span><strong>Site update:</strong> August 15th, 2026 at 6:00 PM</span>
+    </div>
+    <p><strong>Scraped at:</strong> August 16th, 2026 at 11:43 AM UTC</p>
+    <p>JSON endpoint: <a href="/values.json"><code>/values.json</code></a></p>
+    <p class="muted">Made by <strong>Namedadude</strong></p>
+  </div>
 </body>
 </html>

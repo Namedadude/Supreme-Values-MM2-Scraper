@@ -216,8 +216,27 @@ async function extractFromPage(page, categorySlug, categoryName) {
           }
         };
 
+        const cleanWindowText = (text) => {
+          const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+          if (lines.length <= 1) return text;
+          const cleaned = [lines[0]];
+          for (let j = 1; j < lines.length; j++) {
+            const currentLine = lines[j];
+            const isFieldOrHeader = /^(value|demand|rarity|stability|range|origin|change|aliases|class|exp|special tier|default tier|[\w\s]+tier|tier \d|inv\.\s*controls)/i.test(currentLine) ||
+              /^[\[\]()\d\s,.-]+$/.test(currentLine) ||
+              currentLine.length < 2 ||
+              currentLine.length > 60 ||
+              /^[\d,]+(?:\.\d+)?$/.test(currentLine);
+            if (!isFieldOrHeader) {
+              break;
+            }
+            cleaned.push(currentLine);
+          }
+          return cleaned.join("\n");
+        };
+
         const parseTextFields = (text) => {
-          const t = text || "";
+          const t = cleanWindowText(text || "");
           const valueMatch = t.match(
             /Value\s*[-–:]?\s*\**\s*(Priceless|[0-9,]+(?:\.\d+)?|N\/A|x[\d\w\s\.]+)/i
           );
@@ -345,8 +364,27 @@ async function extractFromPage(page, categorySlug, categoryName) {
           }
         };
 
-        const fieldsFrom = (t) => {
-          t = t || "";
+        const cleanWindowText = (text) => {
+          const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+          if (lines.length <= 1) return text;
+          const cleaned = [lines[0]];
+          for (let j = 1; j < lines.length; j++) {
+            const currentLine = lines[j];
+            const isFieldOrHeader = /^(value|demand|rarity|stability|range|origin|change|aliases|class|exp|special tier|default tier|[\w\s]+tier|tier \d|inv\.\s*controls)/i.test(currentLine) ||
+              /^[\[\]()\d\s,.-]+$/.test(currentLine) ||
+              currentLine.length < 2 ||
+              currentLine.length > 60 ||
+              /^[\d,]+(?:\.\d+)?$/.test(currentLine);
+            if (!isFieldOrHeader) {
+              break;
+            }
+            cleaned.push(currentLine);
+          }
+          return cleaned.join("\n");
+        };
+
+        const fieldsFrom = (text) => {
+          const t = cleanWindowText(text || "");
           const valueMatch = t.match(/Value\s*[-–:]?\s*\**\s*(Priceless|N\/A|[0-9,]+(?:\.\d+)?|x[\d\w\s\.]+)/i);
           const rangeMatch = t.match(/Range\s*[-–:]?\s*(\[?[^\n\]]{0,40}\]?)/i);
           const demandMatch = t.match(/Demand\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
@@ -510,11 +548,30 @@ async function main() {
   chromium.setHeadlessMode = true;
   chromium.setGraphicsMode = false;
 
+  let executable = null;
+  let useChromiumArgs = true;
+
+  if (process.platform === "win32") {
+    useChromiumArgs = false;
+    const edgeWin = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
+    const chromeWin = "C:/Program Files/Google/Chrome/Application/chrome.exe";
+    const chromeWin86 = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe";
+    if (fs.existsSync(edgeWin)) executable = edgeWin;
+    else if (fs.existsSync(chromeWin)) executable = chromeWin;
+    else if (fs.existsSync(chromeWin86)) executable = chromeWin86;
+  } else {
+    try {
+      executable = await chromium.executablePath();
+    } catch (_) {
+      useChromiumArgs = false;
+    }
+  }
+
   const browser = await puppeteer.launch({
-    args: chromium.args,
+    args: useChromiumArgs ? chromium.args : [],
     defaultViewport: { width: 1366, height: 768 },
-    executablePath: await chromium.executablePath(),
-    headless: chromium.headless,
+    executablePath: executable,
+    headless: useChromiumArgs ? chromium.headless : true,
   });
 
   const page = await browser.newPage();

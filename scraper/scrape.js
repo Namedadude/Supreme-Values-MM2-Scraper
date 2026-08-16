@@ -1,13 +1,8 @@
-/**
- * Supreme Values MM2 Scraper — ALL categories
- */
-
 const puppeteer = require("puppeteer-core");
 const chromium = require("@sparticuz/chromium");
 const fs = require("fs");
 const path = require("path");
 
-// Все разделы с сайда (как в меню CATEGORIES)
 const CATEGORIES = [
   { slug: "sets", name: "sets" },
   { slug: "uniques", name: "uniques" },
@@ -22,7 +17,6 @@ const CATEGORIES = [
   { slug: "commons", name: "commons" },
   { slug: "pets", name: "pets" },
   { slug: "misc", name: "misc" },
-  // fallback aliases some sites use
   { slug: "miscellaneous", name: "misc" },
   { slug: "untradables", name: "untradables" },
 ];
@@ -53,9 +47,6 @@ function formatDate(d = new Date()) {
   return `${months[d.getUTCMonth()]} ${day}${suffix}, ${d.getUTCFullYear()} at ${h}:${m} ${ampm} UTC`;
 }
 
-
-// Supreme FAQ: x5 T1 Legendaries ≈ 1 value
-// Sub-1 values are "xN T1 {Class}" relative stacks
 function convertXValue(raw) {
   if (raw === null || raw === undefined) return null;
   const s = String(raw).trim();
@@ -64,18 +55,16 @@ function convertXValue(raw) {
   if (!Number.isNaN(num) && /^-?\d+(\.\d+)?$/.test(String(s).replace(/,/g, ""))) {
     return num;
   }
-  // x4 T1 Uncommons / x2 T1 Legendaries / x1 T1 Rare
   const m = s.match(/^x\s*(\d+(?:\.\d+)?)\s*T1\s+(Legendaries?|Rares?|Uncommons?|Commons?)/i);
   if (m) {
     const n = parseFloat(m[1]);
     const cls = m[2].toLowerCase();
     const unit =
-      /legend/.test(cls) ? 0.2 :      // 5 T1 Leg = 1 value
+      /legend/.test(cls) ? 0.2 :
       /rare/.test(cls) ? 0.05 :
       /uncommon/.test(cls) ? 0.01 :
       /common/.test(cls) ? 0.002 :
       0.01;
-    // keep more precision for small values
     return Math.round(n * unit * 10000) / 10000;
   }
   return null;
@@ -103,7 +92,6 @@ function normalizeEntry(name, info, category) {
   const expRequirement = pick(info, "expRequirement", "exp", "EXP");
 
   let displayName = String(name).trim();
-  // Keep chroma prefix consistent
   if (
     category === "chromas" &&
     !/^chroma\b/i.test(displayName)
@@ -154,7 +142,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
     });
     await sleep(categorySlug === "evos" ? 3000 : 1500);
 
-    // Soft check for challenge / empty
     const title = await page.title().catch(() => "");
     if (/just a moment|attention required|captcha|access denied/i.test(title)) {
       console.log(`  ✗ Blocked/challenge on ${categorySlug}`);
@@ -199,14 +186,12 @@ async function extractFromPage(page, categorySlug, categoryName) {
           if (!name) return;
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
-          // Reject values / numbers mistaken for names (e.g. "25", "250", "3,450")
           if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
           if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
           if (/evolutions?$/i.test(name)) return;
           if (/^(value|demand|stability|range|categories|special tier|tier \d|search|filter|changelog)/i.test(name)) return;
-          // Skip pure UI chrome
           if (/^(inv\.|controls|\+1|-1|~)$/i.test(name)) return;
 
           const prev = items[name];
@@ -220,7 +205,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
             origin: fields.origin ?? "N/A",
             aliases: fields.aliases ?? "N/A",
           };
-          // Prefer entries that have a real value
           if (!prev || (prev.value === "N/A" && next.value !== "N/A")) {
             items[name] = next;
           }
@@ -252,7 +236,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
           };
         };
 
-        // 1) Cards / item blocks
         const cards = document.querySelectorAll(
           "[data-item], .item-card, .value-card, .item, article, [class*='Item'], [class*='card']"
         );
@@ -262,7 +245,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
               ".item-name, .name, h3, h4, [class*='name'], strong, b, a"
             ) || card;
           let name = (nameEl.textContent || "").trim().split("\n")[0].trim();
-          // Sometimes name is in alt/title of image
           if (!name || name.length < 2) {
             const img = card.querySelector("img[alt]");
             if (img && img.alt) name = img.alt.trim();
@@ -270,14 +252,12 @@ async function extractFromPage(page, categorySlug, categoryName) {
           addItem(name, parseTextFields(card.innerText || ""));
         });
 
-        // 2) Table rows (Special Tier / list layout)
         document.querySelectorAll("table tr, tr").forEach((row) => {
           const cells = row.querySelectorAll("td, th");
           if (!cells.length) return;
           const rowText = row.innerText || "";
           if (!/Value\s*[-–:]/i.test(rowText) && !/Priceless/i.test(rowText)) return;
 
-          // Name: first meaningful cell / link / bold / image alt
           let name = "";
           const link = row.querySelector("a");
           const strong = row.querySelector("strong, b");
@@ -286,7 +266,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
           else if (strong && strong.textContent.trim().length > 1) name = strong.textContent.trim();
           else if (img && img.alt) name = img.alt.trim();
           else {
-            // First line that isn't Value/Demand
             for (const line of rowText.split("\n").map((l) => l.trim()).filter(Boolean)) {
               if (!/^(value|demand|rarity|stability|range|origin|change)/i.test(line)) {
                 name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
@@ -294,12 +273,10 @@ async function extractFromPage(page, categorySlug, categoryName) {
               }
             }
           }
-          // Clean "Name Value - ..." style single-cell rows
           name = name.replace(/\s*Value\s*[-–:].*$/i, "").trim();
           addItem(name, parseTextFields(rowText));
         });
 
-        // 3) Generic text blocks
         const bodyText = document.body.innerText || "";
         if (Object.keys(items).length < 5) {
           const blocks = bodyText.split(/\n{2,}/);
@@ -315,7 +292,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
           }
         }
 
-        // Evo stages: (Var. N) / (Variant N) / (V N) — any number
         {
           const body = document.body.innerText || "";
           const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
@@ -343,11 +319,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
       }
     }
 
-
-    
-
-    // Always merge DOM scan — catches Special Tier, Default Tier, Priceless, N/A values
-    // that may be missing from _svPopup
     try {
       const domItems = await page.evaluate(() => {
         const items = {};
@@ -355,12 +326,11 @@ async function extractFromPage(page, categorySlug, categoryName) {
           if (!name) return;
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
-          // Reject values / numbers mistaken for names (e.g. "25", "250", "3,450")
           if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
           if (/^(x\d+|n\/a|priceless)$/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
-          if (/evolutions?$/i.test(name)) return; // section headers like "Synthwave Evolutions"
+          if (/evolutions?$/i.test(name)) return;
           if (/^(value|demand|stability|range|categories|special tier|default tier|tier \d|search|filter|changelog|effects|radios|emotes|powers|controls|inv\.)$/i.test(name)) return;
           if (/^(\+1|-1|~)$/i.test(name)) return;
           const prev = items[name];
@@ -395,12 +365,10 @@ async function extractFromPage(page, categorySlug, categoryName) {
           };
         };
 
-        // Cards / generic blocks
         document.querySelectorAll(
           "[data-item], .item-card, .value-card, article, [class*='Item'], [class*='card'], [class*='item']"
         ).forEach((el) => {
           const t = el.innerText || "";
-          // Must look like an item block
           if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Origin\s*[-–:]|Priceless|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
           let name = "";
           const named = el.querySelector("a, h3, h4, strong, b, [class*='name']");
@@ -420,7 +388,6 @@ async function extractFromPage(page, categorySlug, categoryName) {
           add(name, fieldsFrom(t));
         });
 
-        // Table rows
         document.querySelectorAll("tr").forEach((row) => {
           const t = row.innerText || "";
           if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
@@ -440,30 +407,24 @@ async function extractFromPage(page, categorySlug, categoryName) {
           add(name, fieldsFrom(t));
         });
 
-        // Full-page text scan: lines before Demand/Value/Origin
         const body = document.body.innerText || "";
         const lines = body.split("\n").map((l) => l.trim()).filter(Boolean);
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i];
-          // Window of next few lines
           const window = lines.slice(i, i + 8).join("\n");
           const hasMeta = /Demand\s*[-–:]|Value\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(window);
           if (!hasMeta) continue;
-          // Candidate name: current line if not a meta line
           if (/^(value|demand|rarity|stability|range|origin|change|aliases|special tier|default tier|tier \d)/i.test(line)) continue;
           if (line.length < 2 || line.length > 60) continue;
-          if (/^[\d,]+(?:\.\d+)?$/.test(line)) continue; // not a name
+          if (/^[\d,]+(?:\.\d+)?$/.test(line)) continue;
           if (/^[\[\]()\d\s,.-]+$/.test(line)) continue;
-          // Next line should be meta-ish
           const next = lines[i + 1] || "";
           if (!/^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(next) && !/Priceless/i.test(window)) {
-            // allow if window has Demand nearby
             if (!/Demand\s*[-–:]/i.test(window)) continue;
           }
           add(line.replace(/\s*Value\s*[-–:].*$/i, "").trim(), fieldsFrom(window));
         }
 
-        // Evo stages: (Var. N) / (Variant N) / (V N) — any number
         {
           const body = document.body.innerText || "";
           const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
@@ -472,7 +433,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           while ((m = re.exec(body)) !== null) {
             const base = m[1].trim();
             if (/evolutions?$/i.test(base)) continue;
-            const label = m[2].replace(/\s+/g, " ").trim(); // "Variant 4" or "Var. 4"
+            const label = m[2].replace(/\s+/g, " ").trim();
             const fullName = `${base} (${label})`;
             const key = fullName.toLowerCase();
             if (seen.has(key)) continue;
@@ -512,12 +473,10 @@ async function getLastUpdated(page) {
     await page.goto(BASE_URL, { waitUntil: "domcontentloaded", timeout: 45000 });
     await sleep(3000);
     const text = await page.evaluate(() => document.body.innerText || "");
-    // Capture date only — stop before "// Join our Discord..." etc.
     const match = text.match(
       /Values?\s+Last\s+Updated\s*[-–:]\s*([^\n/]+?)(?:\s*\/\/|\s*$)/i
     );
     if (match) return match[1].trim();
-    // Fallback: take line and strip everything after //
     const fallback = text.match(/Values?\s+Last\s+Updated\s*[-–:]\s*([^\n]+)/i);
     if (fallback) {
       return fallback[1].split("//")[0].trim();
@@ -574,11 +533,9 @@ async function main() {
       for (const [name, info] of Object.entries(data)) {
         const entry = normalizeEntry(name, info || {}, cat.name);
         const key = entry.name.toLowerCase().trim();
-        // Skip garbage names (pure numbers, meta labels)
         if (/^[\d,]+(?:\.\d+)?$/.test(key)) continue;
         if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length < 2) continue;
-        // Don't overwrite a better-filled entry
         if (!allItems[key] || (allItems[key].value === "N/A" && entry.value !== "N/A")) {
           allItems[key] = entry;
           total++;
@@ -611,7 +568,6 @@ async function main() {
   console.log(`\n✓ Saved ${output.itemCount} items → ${OUTPUT_FILE}`);
   if (lastUpdated) console.log(`  Site last updated: ${lastUpdated}`);
   if (failed.length) console.log(`  Failed: ${failed.join(", ")}`);
-
 
   const indexHtml = `<!DOCTYPE html>
 <html lang="en">

@@ -53,6 +53,34 @@ function formatDate(d = new Date()) {
   return `${months[d.getUTCMonth()]} ${day}${suffix}, ${d.getUTCFullYear()} at ${h}:${m} ${ampm} UTC`;
 }
 
+
+// Supreme FAQ: x5 T1 Legendaries ≈ 1 value
+// Sub-1 values are "xN T1 {Class}" relative stacks
+function convertXValue(raw) {
+  if (raw === null || raw === undefined) return null;
+  const s = String(raw).trim();
+  if (!s || /^n\/?a$/i.test(s) || /^priceless$/i.test(s)) return null;
+  const num = Number(String(s).replace(/,/g, ""));
+  if (!Number.isNaN(num) && /^-?\d+(\.\d+)?$/.test(String(s).replace(/,/g, ""))) {
+    return num;
+  }
+  // x4 T1 Uncommons / x2 T1 Legendaries / x1 T1 Rare
+  const m = s.match(/^x\s*(\d+(?:\.\d+)?)\s*T1\s+(Legendaries?|Rares?|Uncommons?|Commons?)/i);
+  if (m) {
+    const n = parseFloat(m[1]);
+    const cls = m[2].toLowerCase();
+    const unit =
+      /legend/.test(cls) ? 0.2 :      // 5 T1 Leg = 1 value
+      /rare/.test(cls) ? 0.05 :
+      /uncommon/.test(cls) ? 0.01 :
+      /common/.test(cls) ? 0.002 :
+      0.01;
+    // keep more precision for small values
+    return Math.round(n * unit * 10000) / 10000;
+  }
+  return null;
+}
+
 function pick(obj, ...keys) {
   for (const k of keys) {
     if (obj[k] !== undefined && obj[k] !== null && obj[k] !== "") return obj[k];
@@ -86,6 +114,10 @@ function normalizeEntry(name, info, category) {
   return {
     name: displayName,
     value: value === "N/A" ? "N/A" : String(value).replace(/,/g, ""),
+    numericValue: (function () {
+      const n = convertXValue(value);
+      return n === null ? null : n;
+    })(),
     range: range === "N/A" ? "N/A" : String(range),
     demand: demand === "N/A" ? "N/A" : String(demand),
     rarity: rarity === "N/A" ? "N/A" : String(rarity),

@@ -486,7 +486,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           }
         }
 
-return Object.keys(items).length ? items : null;
+        return Object.keys(items).length ? items : null;
       });
 
       if (domItems) {
@@ -601,7 +601,6 @@ async function main() {
         if (key.length > 60) continue;
         if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length < 2) continue;
-        // exact key: "rainbow (gun)" != "rainbow gun"
         const uniqKey = `${key}_${entry.category}`;
         if (!allItems[uniqKey]) {
           allItems[uniqKey] = entry;

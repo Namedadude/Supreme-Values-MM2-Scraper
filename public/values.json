@@ -1,7 +1,7 @@
 {
   "lastUpdated": "August 15th, 2026 at 6:00 PM",
-  "scrapedAt": "August 16th, 2026 at 6:29 PM UTC",
-  "itemCount": 1521,
+  "scrapedAt": "August 17th, 2026 at 1:12 AM UTC",
+  "itemCount": 1520,
   "categoriesScraped": [
     "sets",
     "uniques",
@@ -16,10 +16,11 @@
     "commons",
     "pets",
     "misc",
-    "miscellaneous",
     "untradables"
   ],
-  "failedCategories": [],
+  "failedCategories": [
+    "miscellaneous"
+  ],
   "madeBy": "Namedadude",
   "items": {
     "alien set": {
@@ -1809,8 +1810,8 @@
     },
     "gingerbread set [xmas2020] (set)": {
       "name": "Gingerbread Set [XMAS2020] (Set)",
-      "value": "10",
-      "numericValue": 10,
+      "value": "13",
+      "numericValue": 13,
       "range": "[N/A]",
       "demand": "2",
       "rarity": "4",
@@ -1826,13 +1827,13 @@
     },
     "gingerbread set (set)": {
       "name": "Gingerbread Set (Set)",
-      "value": "10",
-      "numericValue": 10,
+      "value": "13",
+      "numericValue": 13,
       "range": "N/A",
       "demand": "2",
       "rarity": "4",
       "stability": "Stable\nDemand",
-      "change": "(+0)",
+      "change": "(+3) +30.0%",
       "origin": "N/A",
       "aliases": "N/A",
       "flippability": "N/A",
@@ -23246,23 +23247,6 @@
     },
     "halloween": {
       "name": "Halloween",
-      "value": "N/A",
-      "numericValue": null,
-      "range": "N/A",
-      "demand": "N/A",
-      "rarity": "N/A",
-      "stability": "N/A",
-      "change": "N/A",
-      "origin": "N/A",
-      "aliases": "N/A",
-      "flippability": "N/A",
-      "chanceOfRising": "N/A",
-      "class": "N/A",
-      "expRequirement": "N/A",
-      "category": "misc"
-    },
-    "socials:": {
-      "name": "SOCIALS:",
       "value": "N/A",
       "numericValue": null,
       "range": "N/A",

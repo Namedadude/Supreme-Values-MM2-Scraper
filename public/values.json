@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "August 23rd, 2026 at 8:29 PM",
-  "scrapedAt": "August 26th, 2026 at 5:17 PM UTC",
+  "lastUpdated": "August 23rd, 2026 at 11:29 PM",
+  "scrapedAt": "August 26th, 2026 at 5:35 PM UTC",
   "itemCount": 1520,
   "categoriesScraped": [
     "sets",
@@ -890,8 +890,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "chroma slasher set (set)": {
-      "name": "Chroma Slasher Set (Set)",
+    "chroma slasher set (knife set)": {
+      "name": "Chroma Slasher Set (Knife Set)",
       "value": "72",
       "numericValue": 72,
       "range": "[N/A]",
@@ -1689,8 +1689,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "ghost set (set)": {
-      "name": "Ghost Set (Set)",
+    "ghost set (gun set)": {
+      "name": "Ghost Set (Gun Set)",
       "value": "7",
       "numericValue": 7,
       "range": "[N/A]",
@@ -1706,8 +1706,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "ghost (knife vintage)": {
-      "name": "Ghost (Knife Vintage)",
+    "ghost (gun vintage)": {
+      "name": "Ghost (Gun Vintage)",
       "value": "8",
       "numericValue": 8,
       "range": "[N/A]",
@@ -1740,8 +1740,8 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
-    "ghost (knife) (legendary)": {
-      "name": "Ghost (Knife) (Legendary)",
+    "ghost (knife) (gun legendary)": {
+      "name": "Ghost (Knife) (Gun Legendary)",
       "value": "5",
       "numericValue": 5,
       "range": "[N/A]",
@@ -1757,8 +1757,8 @@
       "expRequirement": "N/A",
       "category": "legendaries"
     },
-    "ghost (untradable)": {
-      "name": "Ghost (Untradable)",
+    "ghost (gun untradable)": {
+      "name": "Ghost (Gun Untradable)",
       "value": "N/A",
       "numericValue": null,
       "range": "N/A",
@@ -2573,8 +2573,8 @@
       "expRequirement": "N/A",
       "category": "ancients"
     },
-    "luger set (set)": {
-      "name": "Luger Set (Set)",
+    "luger set (gun set)": {
+      "name": "Luger Set (Gun Set)",
       "value": "120",
       "numericValue": 120,
       "range": "117 - 120",
@@ -2590,8 +2590,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "luger (knife godly)": {
-      "name": "Luger (Knife Godly)",
+    "luger (gun godly)": {
+      "name": "Luger (Gun Godly)",
       "value": "30",
       "numericValue": 30,
       "range": "27 - 30",
@@ -3338,8 +3338,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "slasher set (set)": {
-      "name": "Slasher Set (Set)",
+    "slasher set (knife set)": {
+      "name": "Slasher Set (Knife Set)",
       "value": "37",
       "numericValue": 37,
       "range": "[N/A]",
@@ -3525,8 +3525,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "soul set (set)": {
-      "name": "Soul Set (Set)",
+    "soul set (gun set)": {
+      "name": "Soul Set (Gun Set)",
       "value": "1220",
       "numericValue": 1220,
       "range": "[N/A]",
@@ -3542,8 +3542,8 @@
       "expRequirement": "N/A",
       "category": "sets"
     },
-    "soul (knife godly)": {
-      "name": "Soul (Knife Godly)",
+    "soul (gun godly)": {
+      "name": "Soul (Gun Godly)",
       "value": "615",
       "numericValue": 615,
       "range": "[N/A]",
@@ -7928,8 +7928,8 @@
       "expRequirement": "N/A",
       "category": "untradables"
     },
-    "laser (knife vintage)": {
-      "name": "Laser (Knife Vintage)",
+    "laser (gun vintage)": {
+      "name": "Laser (Gun Vintage)",
       "value": "8",
       "numericValue": 8,
       "range": "[N/A]",
@@ -7945,8 +7945,8 @@
       "expRequirement": "N/A",
       "category": "vintages"
     },
-    "laser (knife godly)": {
-      "name": "Laser (Knife Godly)",
+    "laser (gun godly)": {
+      "name": "Laser (Gun Godly)",
       "value": "22",
       "numericValue": 22,
       "range": "[N/A]",

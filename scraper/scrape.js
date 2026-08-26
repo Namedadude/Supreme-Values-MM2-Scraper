@@ -651,8 +651,22 @@ async function main() {
       for (const entry of group) {
         let typeSuffix = "";
         const lowerName = entry.name.toLowerCase();
-        if (lowerName.includes("gun")) typeSuffix = "Gun";
-        else if (lowerName.includes("knife")) typeSuffix = "Knife";
+        const isGun = (name) => {
+          const n = name.toLowerCase();
+          if (n.includes("gun") || n.includes("luger") || n.includes("blaster") || n.includes("revolver") || n.includes("pistol") || n.includes("laser") || n.includes("launcher") || n.includes("beam") || n.includes("scope") || n.includes("pew") || n.includes("cannon") || n.includes("shotgun")) {
+            return true;
+          }
+          const knownGuns = ["sugar", "soul", "gingermint", "shadow", "phaser", "cowboy", "ghost"];
+          for (const g of knownGuns) {
+            if (n === g || n.startsWith(g + " ") || n.endsWith(" " + g) || n.includes(" " + g + " ")) {
+              return true;
+            }
+          }
+          return false;
+        };
+
+        if (isGun(entry.name)) typeSuffix = "Gun";
+        else if (lowerName.includes("knife") || lowerName.includes("scythe") || lowerName.includes("blade") || lowerName.includes("bringer") || lowerName.includes("slasher") || lowerName.includes("edge") || lowerName.includes("cutter") || lowerName.includes("saw") || lowerName.includes("axe") || lowerName.includes("cleaver") || lowerName.includes("dagger") || lowerName.includes("sickle")) typeSuffix = "Knife";
         else if (lowerName.includes("pet") || entry.category === "pets") typeSuffix = "Pet";
         else if (lowerName.includes("radio")) typeSuffix = "Radio";
         else if (lowerName.includes("effect")) typeSuffix = "Effect";

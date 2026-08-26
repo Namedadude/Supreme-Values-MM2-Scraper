@@ -57,15 +57,7 @@ function convertXValue(raw) {
   }
   const m = s.match(/^x\s*(\d+(?:\.\d+)?)\s*T1\s+(Legendaries?|Rares?|Uncommons?|Commons?)/i);
   if (m) {
-    const n = parseFloat(m[1]);
-    const cls = m[2].toLowerCase();
-    const unit =
-      /legend/.test(cls) ? 0.2 :
-      /rare/.test(cls) ? 0.05 :
-      /uncommon/.test(cls) ? 0.01 :
-      /common/.test(cls) ? 0.002 :
-      0.01;
-    return Math.round(n * unit * 10000) / 10000;
+    return null;
   }
   return null;
 }

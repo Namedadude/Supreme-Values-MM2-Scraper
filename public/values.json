@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "August 23rd, 2026 at 8:29 PM",
-  "scrapedAt": "August 26th, 2026 at 12:51 PM UTC",
+  "lastUpdated": "August 23rd, 2026 at 11:29 PM",
+  "scrapedAt": "August 26th, 2026 at 5:13 PM UTC",
   "itemCount": 1520,
   "categoriesScraped": [
     "sets",
@@ -111,7 +111,7 @@
     "bat (pet)": {
       "name": "Bat (Pet)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -179,7 +179,7 @@
     "bats (gun) [hallows2024] (common)": {
       "name": "Bats (Gun) [HALLOWS2024] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -213,7 +213,7 @@
     "bats (knife) [hallows2024] (common)": {
       "name": "Bats (Knife) [HALLOWS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -1063,7 +1063,7 @@
     "cookie (gun) (uncommon)": {
       "name": "Cookie (Gun) (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -1454,7 +1454,7 @@
     "frozen (gun) (legendary)": {
       "name": "Frozen (Gun) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -1471,7 +1471,7 @@
     "frozen (knife) (legendary)": {
       "name": "Frozen (Knife) (Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -1522,7 +1522,7 @@
     "frozen (gun) (common)": {
       "name": "Frozen (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -1539,7 +1539,7 @@
     "frozen (knife) (common)": {
       "name": "Frozen (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -1862,7 +1862,7 @@
     "gingerbread (gun) (rare)": {
       "name": "Gingerbread (Gun) (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -1930,7 +1930,7 @@
     "gingerbread (gun) [xmas2021] (uncommon)": {
       "name": "Gingerbread (Gun) [XMAS2021] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -1947,7 +1947,7 @@
     "gingerbread (gun) [xmas2025] (uncommon)": {
       "name": "Gingerbread (Gun) [XMAS2025] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -1998,7 +1998,7 @@
     "gingerbread (knife) [xmas2025] (uncommon)": {
       "name": "Gingerbread (Knife) [XMAS2025] (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -2202,7 +2202,7 @@
     "haunted (knife common)": {
       "name": "Haunted (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -2270,7 +2270,7 @@
     "ice (knife common)": {
       "name": "Ice (Knife Common)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -2491,7 +2491,7 @@
     "lights (gun) (common)": {
       "name": "Lights (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -2508,7 +2508,7 @@
     "lights (knife) (common)": {
       "name": "Lights (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -2627,7 +2627,7 @@
     "marble (knife uncommon)": {
       "name": "Marble (Knife Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -2661,7 +2661,7 @@
     "mummy (knife rare)": {
       "name": "Mummy (Knife Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -2695,7 +2695,7 @@
     "mummy (gun) [hallows2020] (uncommon)": {
       "name": "Mummy (Gun) [HALLOWS2020] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -2729,7 +2729,7 @@
     "mummy (knife) [hallows2020] (uncommon)": {
       "name": "Mummy (Knife) [HALLOWS2020] (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -3018,7 +3018,7 @@
     "pumpkin (knife) (uncommon)": {
       "name": "Pumpkin (Knife) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -3154,7 +3154,7 @@
     "rainbow (gun) (rare)": {
       "name": "Rainbow (Gun) (Rare)",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -3171,7 +3171,7 @@
     "rainbow (knife) (rare)": {
       "name": "Rainbow (Knife) (Rare)",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -3579,7 +3579,7 @@
     "sparkle (knife legendary)": {
       "name": "Sparkle (Knife Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -3732,7 +3732,7 @@
     "sunset (rare)": {
       "name": "Sunset (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -4208,7 +4208,7 @@
     "xeno (gun) (rare)": {
       "name": "Xeno (Gun) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -4225,7 +4225,7 @@
     "xeno (knife) (rare)": {
       "name": "Xeno (Knife) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -7421,7 +7421,7 @@
     "godly (pet)": {
       "name": "Godly (Pet)",
       "value": "x3 T1 Legendaries\nStability",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -7540,7 +7540,7 @@
     "class - godly (pet)": {
       "name": "Class - Godly (Pet)",
       "value": "x3 T1 Legendaries\nStability",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -9019,7 +9019,7 @@
     "blossom (knife uncommon)": {
       "name": "Blossom (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -9036,7 +9036,7 @@
     "blossom (knife common)": {
       "name": "Blossom (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -10005,7 +10005,7 @@
     "ornament (knife common)": {
       "name": "Ornament (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -10056,7 +10056,7 @@
     "peppermint (gun) (common)": {
       "name": "Peppermint (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -10073,7 +10073,7 @@
     "peppermint (knife) (common)": {
       "name": "Peppermint (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -10413,7 +10413,7 @@
     "snowflake (knife rare)": {
       "name": "Snowflake (Knife Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -10430,7 +10430,7 @@
     "snowflake (gun) [xmas2018] (uncommon)": {
       "name": "Snowflake (Gun) [XMAS2018] (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -10447,7 +10447,7 @@
     "snowflake (gun) [xmas2022] (uncommon)": {
       "name": "Snowflake (Gun) [XMAS2022] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -10515,7 +10515,7 @@
     "snowflake (gun) (uncommon)": {
       "name": "Snowflake (Gun) (Uncommon)",
       "value": "x1 T1 Rare\nStability",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -10770,7 +10770,7 @@
     "waves (knife rare)": {
       "name": "Waves (Knife Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -10855,7 +10855,7 @@
     "aquarium (gun) (legendary)": {
       "name": "Aquarium (Gun) (Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -10872,7 +10872,7 @@
     "aquarium (knife) (legendary)": {
       "name": "Aquarium (Knife) (Legendary)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -10906,7 +10906,7 @@
     "arctic (knife) (legendary)": {
       "name": "Arctic (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11076,7 +11076,7 @@
     "bubbles": {
       "name": "Bubbles",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11110,7 +11110,7 @@
     "chromatic (gun) (legendary)": {
       "name": "Chromatic (Gun) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11161,7 +11161,7 @@
     "cupid": {
       "name": "Cupid",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11178,7 +11178,7 @@
     "cursed (gun) (legendary)": {
       "name": "Cursed (Gun) (Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11195,7 +11195,7 @@
     "cursed (knife) (legendary)": {
       "name": "Cursed (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11229,7 +11229,7 @@
     "elite (knife legendary)": {
       "name": "Elite (Knife Legendary)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11263,7 +11263,7 @@
     "emerald": {
       "name": "Emerald",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11297,7 +11297,7 @@
     "energized (knife) (legendary)": {
       "name": "Energized (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11314,7 +11314,7 @@
     "fade (knife legendary)": {
       "name": "Fade (Knife Legendary)",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11348,7 +11348,7 @@
     "frostfade (gun) (legendary)": {
       "name": "Frostfade (Gun) (Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11382,7 +11382,7 @@
     "fusion": {
       "name": "Fusion",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11416,7 +11416,7 @@
     "ginger (knife) (legendary)": {
       "name": "Ginger (Knife) (Legendary)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11433,7 +11433,7 @@
     "ginger (gun) (rare)": {
       "name": "Ginger (Gun) (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -11450,7 +11450,7 @@
     "ginger (knife) (rare)": {
       "name": "Ginger (Knife) (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -11484,7 +11484,7 @@
     "green fire": {
       "name": "Green Fire",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -11535,7 +11535,7 @@
     "midnight": {
       "name": "Midnight",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11586,7 +11586,7 @@
     "nightstar": {
       "name": "Nightstar",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11603,7 +11603,7 @@
     "overseer (gun) (legendary)": {
       "name": "Overseer (Gun) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11620,7 +11620,7 @@
     "overseer (knife) (legendary)": {
       "name": "Overseer (Knife) (Legendary)",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -11654,7 +11654,7 @@
     "palms (gun) (legendary)": {
       "name": "Palms (Gun) (Legendary)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11671,7 +11671,7 @@
     "palms (knife) (legendary)": {
       "name": "Palms (Knife) (Legendary)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11688,7 +11688,7 @@
     "plasmite": {
       "name": "Plasmite",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11705,7 +11705,7 @@
     "predator (gun) (legendary)": {
       "name": "Predator (Gun) (Legendary)",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -11722,7 +11722,7 @@
     "predator (knife) (legendary)": {
       "name": "Predator (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11773,7 +11773,7 @@
     "ripper (gun) (legendary)": {
       "name": "Ripper (Gun) (Legendary)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11790,7 +11790,7 @@
     "ripper (knife) (legendary)": {
       "name": "Ripper (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -11807,7 +11807,7 @@
     "rune": {
       "name": "Rune",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -11824,7 +11824,7 @@
     "rupture": {
       "name": "Rupture",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -11875,7 +11875,7 @@
     "shiny": {
       "name": "Shiny",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11926,7 +11926,7 @@
     "splash (gun) (legendary)": {
       "name": "Splash (Gun) (Legendary)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11943,7 +11943,7 @@
     "splash (knife) (legendary)": {
       "name": "Splash (Knife) (Legendary)",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -11960,7 +11960,7 @@
     "tree (gun) (legendary)": {
       "name": "Tree (Gun) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -11977,7 +11977,7 @@
     "tree (knife) (legendary)": {
       "name": "Tree (Knife) (Legendary)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -11994,7 +11994,7 @@
     "tree (gun) (rare)": {
       "name": "Tree (Gun) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12011,7 +12011,7 @@
     "tree (knife) (rare)": {
       "name": "Tree (Knife) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -12045,7 +12045,7 @@
     "universe": {
       "name": "Universe",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -12164,7 +12164,7 @@
     "viper": {
       "name": "Viper",
       "value": "x4 T1 Rares",
-      "numericValue": 0.2,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -12181,7 +12181,7 @@
     "web": {
       "name": "Web",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -12215,7 +12215,7 @@
     "abstract": {
       "name": "Abstract",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12232,7 +12232,7 @@
     "ace": {
       "name": "Ace",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12249,7 +12249,7 @@
     "bacon": {
       "name": "Bacon",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12266,7 +12266,7 @@
     "bio (knife rare)": {
       "name": "Bio (Knife Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12283,7 +12283,7 @@
     "biogun (uncommon)": {
       "name": "Biogun (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12300,7 +12300,7 @@
     "black": {
       "name": "Black",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -12317,7 +12317,7 @@
     "bones (knife) (rare)": {
       "name": "Bones (Knife) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12351,7 +12351,7 @@
     "bones (knife) (uncommon)": {
       "name": "Bones (Knife) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12368,7 +12368,7 @@
     "bones (knife common)": {
       "name": "Bones (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -12402,7 +12402,7 @@
     "cane (gun) [xmas2015] (rare)": {
       "name": "Cane (Gun) [XMAS2015] (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -12419,7 +12419,7 @@
     "cane (gun) [xmas2018] (rare)": {
       "name": "Cane (Gun) [XMAS2018] (Rare)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12436,7 +12436,7 @@
     "cane (knife) [xmas2015] (rare)": {
       "name": "Cane (Knife) [XMAS2015] (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -12487,7 +12487,7 @@
     "cane (gun) (rare)": {
       "name": "Cane (Gun) (Rare)",
       "value": "x4 T1 Legendaries\nStability",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -12504,7 +12504,7 @@
     "cane (gun) (common)": {
       "name": "Cane (Gun) (Common)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -12521,7 +12521,7 @@
     "cane (knife) (common)": {
       "name": "Cane (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12538,7 +12538,7 @@
     "curse": {
       "name": "Curse",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12572,7 +12572,7 @@
     "deep sea": {
       "name": "Deep Sea",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12606,7 +12606,7 @@
     "floral (gun) (rare)": {
       "name": "Floral (Gun) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12640,7 +12640,7 @@
     "floral (knife uncommon)": {
       "name": "Floral (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12674,7 +12674,7 @@
     "frostflame (gun) (rare)": {
       "name": "Frostflame (Gun) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12708,7 +12708,7 @@
     "galactic": {
       "name": "Galactic",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12725,7 +12725,7 @@
     "galaxy": {
       "name": "Galaxy",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12759,7 +12759,7 @@
     "ghastly (knife) (rare)": {
       "name": "Ghastly (Knife) (Rare)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -12793,7 +12793,7 @@
     "ghosts (gun) (rare)": {
       "name": "Ghosts (Gun) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12810,7 +12810,7 @@
     "ghosts (knife) (uncommon)": {
       "name": "Ghosts (Knife) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12844,7 +12844,7 @@
     "gingercookie (gun) (rare)": {
       "name": "Gingercookie (Gun) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12861,7 +12861,7 @@
     "gingercookie (knife) (rare)": {
       "name": "Gingercookie (Knife) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12895,7 +12895,7 @@
     "hacker": {
       "name": "Hacker",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12946,7 +12946,7 @@
     "heartbreak": {
       "name": "Heartbreak",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -12963,7 +12963,7 @@
     "hologram (gun) (rare)": {
       "name": "Hologram (Gun) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12980,7 +12980,7 @@
     "hologram (knife) (rare)": {
       "name": "Hologram (Knife) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -12997,7 +12997,7 @@
     "ice camo": {
       "name": "Ice Camo",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13031,7 +13031,7 @@
     "icicles (knife) (rare)": {
       "name": "Icicles (Knife) (Rare)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -13048,7 +13048,7 @@
     "imbued": {
       "name": "Imbued",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13065,7 +13065,7 @@
     "irevolver": {
       "name": "iRevolver",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13099,7 +13099,7 @@
     "korblox": {
       "name": "Korblox",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13116,7 +13116,7 @@
     "kraken": {
       "name": "Kraken",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -13133,7 +13133,7 @@
     "krypto": {
       "name": "Krypto",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13150,7 +13150,7 @@
     "logcutter": {
       "name": "Logcutter",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13201,7 +13201,7 @@
     "magma (knife) (rare)": {
       "name": "Magma (Knife) (Rare)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13218,7 +13218,7 @@
     "molten (gun) (rare)": {
       "name": "Molten (Gun) (Rare)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13235,7 +13235,7 @@
     "molten (knife) (rare)": {
       "name": "Molten (Knife) (Rare)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13269,7 +13269,7 @@
     "monster (knife uncommon)": {
       "name": "Monster (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13286,7 +13286,7 @@
     "musical (knife rare)": {
       "name": "Musical (Knife Rare)",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13320,7 +13320,7 @@
     "neon [summer2025] (knife rare)": {
       "name": "Neon [SUMMER2025] (Knife Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13371,7 +13371,7 @@
     "neon (knife common)": {
       "name": "Neon (Knife Common)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -13405,7 +13405,7 @@
     "nightfire": {
       "name": "Nightfire",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13422,7 +13422,7 @@
     "nova": {
       "name": "Nova",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13439,7 +13439,7 @@
     "nuke": {
       "name": "Nuke",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -13490,7 +13490,7 @@
     "painted (gun) (uncommon)": {
       "name": "Painted (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13507,7 +13507,7 @@
     "pier": {
       "name": "Pier",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -13524,7 +13524,7 @@
     "pop art (gun) (rare)": {
       "name": "Pop Art (Gun) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13541,7 +13541,7 @@
     "pop art (knife) (rare)": {
       "name": "Pop Art (Knife) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13558,7 +13558,7 @@
     "portal (knife) (rare)": {
       "name": "Portal (Knife) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13575,7 +13575,7 @@
     "portal (gun) (uncommon)": {
       "name": "Portal (Gun) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13592,7 +13592,7 @@
     "purple": {
       "name": "Purple",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13609,7 +13609,7 @@
     "ritual": {
       "name": "Ritual",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -13626,7 +13626,7 @@
     "robot": {
       "name": "Robot",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13643,7 +13643,7 @@
     "sharky": {
       "name": "Sharky",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13660,7 +13660,7 @@
     "sleigh": {
       "name": "Sleigh",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13711,7 +13711,7 @@
     "snowflakes (knife) (common)": {
       "name": "Snowflakes (Knife) (Common)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -13745,7 +13745,7 @@
     "snowglobe (knife rare)": {
       "name": "Snowglobe (Knife Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -13779,7 +13779,7 @@
     "snowy (knife rare)": {
       "name": "Snowy (Knife Rare)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "4",
@@ -13796,7 +13796,7 @@
     "snowy (knife uncommon)": {
       "name": "Snowy (Knife Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -13830,7 +13830,7 @@
     "space": {
       "name": "Space",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13847,7 +13847,7 @@
     "spearmint (gun) (rare)": {
       "name": "Spearmint (Gun) (Rare)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -13864,7 +13864,7 @@
     "spearmint (knife) (rare)": {
       "name": "Spearmint (Knife) (Rare)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13881,7 +13881,7 @@
     "spectrum": {
       "name": "Spectrum",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13915,7 +13915,7 @@
     "spring": {
       "name": "Spring",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13932,7 +13932,7 @@
     "squire": {
       "name": "Squire",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -13966,7 +13966,7 @@
     "starry (knife) (rare)": {
       "name": "Starry (Knife) (Rare)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -13983,7 +13983,7 @@
     "starry (knife uncommon)": {
       "name": "Starry (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14051,7 +14051,7 @@
     "sunny": {
       "name": "Sunny",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14085,7 +14085,7 @@
     "tree (2023)": {
       "name": "Tree (2023)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -14102,7 +14102,7 @@
     "tropical": {
       "name": "Tropical",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14119,7 +14119,7 @@
     "vortex": {
       "name": "Vortex",
       "value": "x4 T1 Uncommons",
-      "numericValue": 0.04,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14153,7 +14153,7 @@
     "watcher (knife) (rare)": {
       "name": "Watcher (Knife) (Rare)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14170,7 +14170,7 @@
     "watcher (gun) (common)": {
       "name": "Watcher (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14187,7 +14187,7 @@
     "watcher (knife) (common)": {
       "name": "Watcher (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14255,7 +14255,7 @@
     "yummy": {
       "name": "Yummy",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14272,7 +14272,7 @@
     "abduction (knife uncommon)": {
       "name": "Abduction (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14306,7 +14306,7 @@
     "adurite (gun) (uncommon)": {
       "name": "Adurite (Gun) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14323,7 +14323,7 @@
     "adurite (knife) (uncommon)": {
       "name": "Adurite (Knife) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14340,7 +14340,7 @@
     "blue": {
       "name": "Blue",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14357,7 +14357,7 @@
     "bluesteel (gun) (uncommon)": {
       "name": "Bluesteel (Gun) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14374,7 +14374,7 @@
     "bluesteel (knife) (uncommon)": {
       "name": "Bluesteel (Knife) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14425,7 +14425,7 @@
     "brains (knife common)": {
       "name": "Brains (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14442,7 +14442,7 @@
     "brains (2022)": {
       "name": "Brains (2022)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14476,7 +14476,7 @@
     "brush": {
       "name": "Brush",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14493,7 +14493,7 @@
     "camo (gun) (uncommon)": {
       "name": "Camo (Gun) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14510,7 +14510,7 @@
     "camo (knife) (uncommon)": {
       "name": "Camo (Knife) (Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14544,7 +14544,7 @@
     "canes (gun) (uncommon)": {
       "name": "Canes (Gun) (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14561,7 +14561,7 @@
     "canes (knife) (uncommon)": {
       "name": "Canes (Knife) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14578,7 +14578,7 @@
     "carrot (knife uncommon)": {
       "name": "Carrot (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14595,7 +14595,7 @@
     "carrot (gun) (uncommon)": {
       "name": "Carrot (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14612,7 +14612,7 @@
     "carrot (knife) (uncommon)": {
       "name": "Carrot (Knife) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14629,7 +14629,7 @@
     "carrot (knife common)": {
       "name": "Carrot (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -14646,7 +14646,7 @@
     "caution": {
       "name": "Caution",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14663,7 +14663,7 @@
     "checkers": {
       "name": "Checkers",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14680,7 +14680,7 @@
     "cheddar": {
       "name": "Cheddar",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14697,7 +14697,7 @@
     "cheesy": {
       "name": "Cheesy",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14714,7 +14714,7 @@
     "circuit": {
       "name": "Circuit",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -14731,7 +14731,7 @@
     "clown (gun) (uncommon)": {
       "name": "Clown (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14748,7 +14748,7 @@
     "clown (gun) (common)": {
       "name": "Clown (Gun) (Common)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -14765,7 +14765,7 @@
     "clown (knife) (common)": {
       "name": "Clown (Knife) (Common)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -14782,7 +14782,7 @@
     "decorated": {
       "name": "Decorated",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14799,7 +14799,7 @@
     "doge (knife uncommon)": {
       "name": "Doge (Knife Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -14833,7 +14833,7 @@
     "donut": {
       "name": "Donut",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14850,7 +14850,7 @@
     "eclipse": {
       "name": "Eclipse",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14867,7 +14867,7 @@
     "eyes": {
       "name": "Eyes",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14884,7 +14884,7 @@
     "fall camo": {
       "name": "Fall Camo",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14901,7 +14901,7 @@
     "fireplace": {
       "name": "Fireplace",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14918,7 +14918,7 @@
     "floatie": {
       "name": "Floatie",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14935,7 +14935,7 @@
     "forest": {
       "name": "Forest",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -14952,7 +14952,7 @@
     "frosty": {
       "name": "Frosty",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -14969,7 +14969,7 @@
     "future": {
       "name": "Future",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -14986,7 +14986,7 @@
     "ghostly (knife uncommon)": {
       "name": "Ghostly (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15020,7 +15020,7 @@
     "gifted": {
       "name": "Gifted",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15037,7 +15037,7 @@
     "gingerheart": {
       "name": "Gingerheart",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15054,7 +15054,7 @@
     "glowy (knife uncommon)": {
       "name": "Glowy (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15105,7 +15105,7 @@
     "gothic (knife) (uncommon)": {
       "name": "Gothic (Knife) (Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -15122,7 +15122,7 @@
     "graffiti": {
       "name": "Graffiti",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15156,7 +15156,7 @@
     "hazard (knife) (uncommon)": {
       "name": "Hazard (Knife) (Uncommon)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15173,7 +15173,7 @@
     "hazmat": {
       "name": "Hazmat",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15190,7 +15190,7 @@
     "high tech": {
       "name": "High Tech",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15207,7 +15207,7 @@
     "hive": {
       "name": "Hive",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15241,7 +15241,7 @@
     "holly (knife) (uncommon)": {
       "name": "Holly (Knife) (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15258,7 +15258,7 @@
     "jellyfish (knife uncommon)": {
       "name": "Jellyfish (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15292,7 +15292,7 @@
     "jigsaw": {
       "name": "Jigsaw",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15326,7 +15326,7 @@
     "lava (gun) (uncommon)": {
       "name": "Lava (Gun) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15343,7 +15343,7 @@
     "lava (knife) (uncommon)": {
       "name": "Lava (Knife) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15360,7 +15360,7 @@
     "leaves (knife uncommon)": {
       "name": "Leaves (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15377,7 +15377,7 @@
     "leaves [hallows2023] (knife common)": {
       "name": "Leaves [HALLOWS2023] (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15394,7 +15394,7 @@
     "leaves [summer2025] (knife common)": {
       "name": "Leaves [SUMMER2025] (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15411,7 +15411,7 @@
     "leaves (knife common)": {
       "name": "Leaves (Knife Common)",
       "value": "x2 T1 Commons\nStability",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15462,7 +15462,7 @@
     "love (gun) (uncommon)": {
       "name": "Love (Gun) (Uncommon)",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15479,7 +15479,7 @@
     "love (knife) (common)": {
       "name": "Love (Knife) (Common)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15496,7 +15496,7 @@
     "lucky": {
       "name": "Lucky",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15513,7 +15513,7 @@
     "marina": {
       "name": "Marina",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15530,7 +15530,7 @@
     "meadow": {
       "name": "Meadow",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15547,7 +15547,7 @@
     "melon (knife uncommon)": {
       "name": "Melon (Knife Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15564,7 +15564,7 @@
     "melon [summer2023] (knife uncommon)": {
       "name": "Melon [SUMMER2023] (Knife Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15598,7 +15598,7 @@
     "missing": {
       "name": "Missing",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15615,7 +15615,7 @@
     "mistletoe (gun) (uncommon)": {
       "name": "Mistletoe (Gun) (Uncommon)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -15632,7 +15632,7 @@
     "mistletoe (knife) (uncommon)": {
       "name": "Mistletoe (Knife) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15683,7 +15683,7 @@
     "moons (2024)": {
       "name": "Moons (2024)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15717,7 +15717,7 @@
     "neopolitan": {
       "name": "Neopolitan",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15734,7 +15734,7 @@
     "night": {
       "name": "Night",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15751,7 +15751,7 @@
     "nutcracker": {
       "name": "Nutcracker",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -15768,7 +15768,7 @@
     "ornaments (knife uncommon)": {
       "name": "Ornaments (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15785,7 +15785,7 @@
     "ornaments (gun) (common)": {
       "name": "Ornaments (Gun) (Common)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -15802,7 +15802,7 @@
     "ornaments (knife) (common)": {
       "name": "Ornaments (Knife) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -15819,7 +15819,7 @@
     "paper": {
       "name": "Paper",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15836,7 +15836,7 @@
     "paws": {
       "name": "Paws",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15853,7 +15853,7 @@
     "pink": {
       "name": "Pink",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15870,7 +15870,7 @@
     "pirate": {
       "name": "Pirate",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15887,7 +15887,7 @@
     "polar bear": {
       "name": "Polar Bear",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15904,7 +15904,7 @@
     "pool": {
       "name": "Pool",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15938,7 +15938,7 @@
     "popsicle (knife uncommon)": {
       "name": "Popsicle (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -15955,7 +15955,7 @@
     "popsicle (gun) (uncommon)": {
       "name": "Popsicle (Gun) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -15989,7 +15989,7 @@
     "pumpkin (2025)": {
       "name": "Pumpkin (2025)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16006,7 +16006,7 @@
     "pumpkin patch": {
       "name": "Pumpkin Patch",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16040,7 +16040,7 @@
     "red": {
       "name": "Red",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16057,7 +16057,7 @@
     "retro (knife uncommon)": {
       "name": "Retro (Knife Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16091,7 +16091,7 @@
     "rose": {
       "name": "Rose",
       "value": "x2 T1 Rares",
-      "numericValue": 0.1,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16108,7 +16108,7 @@
     "sketch": {
       "name": "Sketch",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -16125,7 +16125,7 @@
     "snowman (2023)": {
       "name": "Snowman (2023)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16142,7 +16142,7 @@
     "snowman (2024)": {
       "name": "Snowman (2024)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16159,7 +16159,7 @@
     "snowman (gun) [xmas2015] (uncommon)": {
       "name": "Snowman (Gun) [XMAS2015] (Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -16193,7 +16193,7 @@
     "snowman (knife) [xmas2015] (uncommon)": {
       "name": "Snowman (Knife) [XMAS2015] (Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -16210,7 +16210,7 @@
     "snowman (knife) [xmas2021] (uncommon)": {
       "name": "Snowman (Knife) [XMAS2021] (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16244,7 +16244,7 @@
     "snowman (knife) (uncommon)": {
       "name": "Snowman (Knife) (Uncommon)",
       "value": "x4 T1 Legendaries\nStability",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -16278,7 +16278,7 @@
     "snowman (gun) [xmas2022] (common)": {
       "name": "Snowman (Gun) [XMAS2022] (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -16295,7 +16295,7 @@
     "snowman (knife) [xmas2018] (common)": {
       "name": "Snowman (Knife) [XMAS2018] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16312,7 +16312,7 @@
     "snowman (knife) [xmas2022] (common)": {
       "name": "Snowman (Knife) [XMAS2022] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16346,7 +16346,7 @@
     "snowman (knife) (common)": {
       "name": "Snowman (Knife) (Common)",
       "value": "x3 T1 Commons\nStability",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16397,7 +16397,7 @@
     "soda (knife uncommon)": {
       "name": "Soda (Knife Uncommon)",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16414,7 +16414,7 @@
     "soda (gun) (uncommon)": {
       "name": "Soda (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16431,7 +16431,7 @@
     "soda (knife) (uncommon)": {
       "name": "Soda (Knife) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16448,7 +16448,7 @@
     "stalker": {
       "name": "Stalker",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16465,7 +16465,7 @@
     "stars (gun) (uncommon)": {
       "name": "Stars (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "1",
@@ -16533,7 +16533,7 @@
     "steel (knife) (uncommon)": {
       "name": "Steel (Knife) (Uncommon)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16550,7 +16550,7 @@
     "stockings (gun) (uncommon)": {
       "name": "Stockings (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16567,7 +16567,7 @@
     "stockings (knife) (uncommon)": {
       "name": "Stockings (Knife) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -16584,7 +16584,7 @@
     "stockings (knife common)": {
       "name": "Stockings (Knife Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16601,7 +16601,7 @@
     "sweater (knife uncommon)": {
       "name": "Sweater (Knife Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -16618,7 +16618,7 @@
     "sweater (gun) [xmas2018] (uncommon)": {
       "name": "Sweater (Gun) [XMAS2018] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16635,7 +16635,7 @@
     "sweater (gun) [xmas2025] (uncommon)": {
       "name": "Sweater (Gun) [XMAS2025] (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16669,7 +16669,7 @@
     "sweater (knife) [xmas2025] (uncommon)": {
       "name": "Sweater (Knife) [XMAS2025] (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16703,7 +16703,7 @@
     "sweater (gun) (uncommon)": {
       "name": "Sweater (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons\nStability",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16720,7 +16720,7 @@
     "tiger": {
       "name": "Tiger",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16737,7 +16737,7 @@
     "treats (gun) (uncommon)": {
       "name": "Treats (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -16754,7 +16754,7 @@
     "treats (knife) (uncommon)": {
       "name": "Treats (Knife) (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16788,7 +16788,7 @@
     "tree (2017)": {
       "name": "Tree (2017)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -16822,7 +16822,7 @@
     "turtle": {
       "name": "Turtle",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16839,7 +16839,7 @@
     "turtles": {
       "name": "Turtles",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16890,7 +16890,7 @@
     "wanwood": {
       "name": "Wanwood",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16924,7 +16924,7 @@
     "webs (knife common)": {
       "name": "Webs (Knife Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -16941,7 +16941,7 @@
     "witch's brew": {
       "name": "Witch's Brew",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -16958,7 +16958,7 @@
     "witchbrew": {
       "name": "Witchbrew",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -16992,7 +16992,7 @@
     "wooden": {
       "name": "Wooden",
       "value": "x4 T1 Commons",
-      "numericValue": 0.008,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17009,7 +17009,7 @@
     "wraiths (gun) (uncommon)": {
       "name": "Wraiths (Gun) (Uncommon)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17043,7 +17043,7 @@
     "wrapped (gun) [xmas2015] (uncommon)": {
       "name": "Wrapped (Gun) [XMAS2015] (Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17060,7 +17060,7 @@
     "wrapped (gun) [xmas2024] (uncommon)": {
       "name": "Wrapped (Gun) [XMAS2024] (Uncommon)",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17077,7 +17077,7 @@
     "wrapped (knife) [xmas2015] (uncommon)": {
       "name": "Wrapped (Knife) [XMAS2015] (Uncommon)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17094,7 +17094,7 @@
     "wrapped (knife) [xmas2024] (uncommon)": {
       "name": "Wrapped (Knife) [XMAS2024] (Uncommon)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17111,7 +17111,7 @@
     "wrapped (gun) (uncommon)": {
       "name": "Wrapped (Gun) (Uncommon)",
       "value": "x4 T1 Legendaries\nStability",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17128,7 +17128,7 @@
     "wrapped (knife) (uncommon)": {
       "name": "Wrapped (Knife) (Uncommon)",
       "value": "x4 T1 Legendaries\nStability",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17162,7 +17162,7 @@
     "wrapped (knife) (common)": {
       "name": "Wrapped (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17179,7 +17179,7 @@
     "wreaths": {
       "name": "Wreaths",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17213,7 +17213,7 @@
     "8bit": {
       "name": "8Bit",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17247,7 +17247,7 @@
     "aliens": {
       "name": "Aliens",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -17281,7 +17281,7 @@
     "apocalypse (knife) (common)": {
       "name": "Apocalypse (Knife) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -17298,7 +17298,7 @@
     "aqua": {
       "name": "Aqua",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17332,7 +17332,7 @@
     "balloons": {
       "name": "Balloons",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17366,7 +17366,7 @@
     "bells": {
       "name": "Bells",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17383,7 +17383,7 @@
     "big kill": {
       "name": "Big Kill",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17400,7 +17400,7 @@
     "bit": {
       "name": "Bit",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17417,7 +17417,7 @@
     "bleached": {
       "name": "Bleached",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17434,7 +17434,7 @@
     "borders": {
       "name": "Borders",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17451,7 +17451,7 @@
     "brown": {
       "name": "Brown",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17468,7 +17468,7 @@
     "bunny (knife common)": {
       "name": "Bunny (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17502,7 +17502,7 @@
     "candied (gun) (common)": {
       "name": "Candied (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17519,7 +17519,7 @@
     "candied (knife) (common)": {
       "name": "Candied (Knife) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -17536,7 +17536,7 @@
     "candle (knife common)": {
       "name": "Candle (Knife Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17570,7 +17570,7 @@
     "candles": {
       "name": "Candles",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17604,7 +17604,7 @@
     "candy corn (gun) [hallows2020] (common)": {
       "name": "Candy Corn (Gun) [HALLOWS2020] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17621,7 +17621,7 @@
     "candy corn (gun) [hallows2022] (common)": {
       "name": "Candy Corn (Gun) [HALLOWS2022] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17638,7 +17638,7 @@
     "candy corn (gun) [hallows2024] (common)": {
       "name": "Candy Corn (Gun) [HALLOWS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17655,7 +17655,7 @@
     "candy corn (gun) [hallows2025] (common)": {
       "name": "Candy Corn (Gun) [HALLOWS2025] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17672,7 +17672,7 @@
     "candy corn (knife) [hallows2020] (common)": {
       "name": "Candy Corn (Knife) [HALLOWS2020] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17689,7 +17689,7 @@
     "candy corn (knife) [hallows2022] (common)": {
       "name": "Candy Corn (Knife) [HALLOWS2022] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -17706,7 +17706,7 @@
     "candy corn (knife) [hallows2024] (common)": {
       "name": "Candy Corn (Knife) [HALLOWS2024] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17723,7 +17723,7 @@
     "candy corn (knife) [hallows2025] (common)": {
       "name": "Candy Corn (Knife) [HALLOWS2025] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17740,7 +17740,7 @@
     "candy corn (gun) (common)": {
       "name": "Candy Corn (Gun) (Common)",
       "value": "x3 T1 Commons\nStability",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17757,7 +17757,7 @@
     "candy corn (knife) (common)": {
       "name": "Candy Corn (Knife) (Common)",
       "value": "x3 T1 Commons\nStability",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17791,7 +17791,7 @@
     "cardboard": {
       "name": "Cardboard",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17808,7 +17808,7 @@
     "carrots (knife common)": {
       "name": "Carrots (Knife Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17842,7 +17842,7 @@
     "carved (gun) (common)": {
       "name": "Carved (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17859,7 +17859,7 @@
     "carved (knife) (common)": {
       "name": "Carved (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17876,7 +17876,7 @@
     "cat (knife common)": {
       "name": "Cat (Knife Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -17893,7 +17893,7 @@
     "cat (pet)": {
       "name": "Cat (Pet)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17910,7 +17910,7 @@
     "cats": {
       "name": "Cats",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17927,7 +17927,7 @@
     "cherries": {
       "name": "Cherries",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17944,7 +17944,7 @@
     "cherry": {
       "name": "Cherry",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17961,7 +17961,7 @@
     "chick": {
       "name": "Chick",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -17978,7 +17978,7 @@
     "choco": {
       "name": "Choco",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -17995,7 +17995,7 @@
     "clan": {
       "name": "Clan",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18012,7 +18012,7 @@
     "clownfish (gun) (common)": {
       "name": "Clownfish (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18029,7 +18029,7 @@
     "clownfish (knife) (common)": {
       "name": "Clownfish (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18046,7 +18046,7 @@
     "coal (knife common)": {
       "name": "Coal (Knife Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18063,7 +18063,7 @@
     "coal (gun) [xmas2018] (common)": {
       "name": "Coal (Gun) [XMAS2018] (Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18080,7 +18080,7 @@
     "coal (gun) [xmas2021] (common)": {
       "name": "Coal (Gun) [XMAS2021] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18097,7 +18097,7 @@
     "coal (gun) [xmas2022] (common)": {
       "name": "Coal (Gun) [XMAS2022] (Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18131,7 +18131,7 @@
     "coal (knife) [xmas2021] (common)": {
       "name": "Coal (Knife) [XMAS2021] (Common)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18148,7 +18148,7 @@
     "coal (knife) [xmas2022] (common)": {
       "name": "Coal (Knife) [XMAS2022] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18182,7 +18182,7 @@
     "coal (gun) (common)": {
       "name": "Coal (Gun) (Common)",
       "value": "x1 T1 Uncommon\nStability",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18233,7 +18233,7 @@
     "coconut (knife common)": {
       "name": "Coconut (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18267,7 +18267,7 @@
     "cold": {
       "name": "Cold",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18284,7 +18284,7 @@
     "combat": {
       "name": "Combat",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18318,7 +18318,7 @@
     "copper": {
       "name": "Copper",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18352,7 +18352,7 @@
     "cracks (gun) (common)": {
       "name": "Cracks (Gun) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18369,7 +18369,7 @@
     "cracks (knife) (common)": {
       "name": "Cracks (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18386,7 +18386,7 @@
     "darkness (gun) (common)": {
       "name": "Darkness (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18403,7 +18403,7 @@
     "darkness (knife) (common)": {
       "name": "Darkness (Knife) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18437,7 +18437,7 @@
     "dolphins": {
       "name": "Dolphins",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18454,7 +18454,7 @@
     "duckies": {
       "name": "Duckies",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18471,7 +18471,7 @@
     "eco": {
       "name": "Eco",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18505,7 +18505,7 @@
     "egg": {
       "name": "Egg",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -18522,7 +18522,7 @@
     "elf (2017)": {
       "name": "Elf (2017)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18556,7 +18556,7 @@
     "elf (2023)": {
       "name": "Elf (2023)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18573,7 +18573,7 @@
     "elf (gun) (common)": {
       "name": "Elf (Gun) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -18624,7 +18624,7 @@
     "engraved": {
       "name": "Engraved",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18641,7 +18641,7 @@
     "etched": {
       "name": "Etched",
       "value": "x1 T1 Rare",
-      "numericValue": 0.05,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18675,7 +18675,7 @@
     "eyeball (knife common)": {
       "name": "Eyeball (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -18709,7 +18709,7 @@
     "fall": {
       "name": "Fall",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18726,7 +18726,7 @@
     "fallout": {
       "name": "Fallout",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18743,7 +18743,7 @@
     "fragile (gun) (common)": {
       "name": "Fragile (Gun) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18760,7 +18760,7 @@
     "fragile (knife) (common)": {
       "name": "Fragile (Knife) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18777,7 +18777,7 @@
     "frosted (gun) (common)": {
       "name": "Frosted (Gun) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18811,7 +18811,7 @@
     "ghosts (2023) (knife common)": {
       "name": "Ghosts (2023) (Knife Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18845,7 +18845,7 @@
     "ghosts (2024)": {
       "name": "Ghosts (2024)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18913,7 +18913,7 @@
     "gift bag (gun) (common)": {
       "name": "Gift Bag (Gun) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -18930,7 +18930,7 @@
     "gift bag (knife) (common)": {
       "name": "Gift Bag (Knife) (Common)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -18947,7 +18947,7 @@
     "gifts (2024)": {
       "name": "Gifts (2024)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -18964,7 +18964,7 @@
     "gifts (gun) (common)": {
       "name": "Gifts (Gun) (Common)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19015,7 +19015,7 @@
     "giftwrap": {
       "name": "Giftwrap",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19066,7 +19066,7 @@
     "goo": {
       "name": "Goo",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19083,7 +19083,7 @@
     "green": {
       "name": "Green",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19117,7 +19117,7 @@
     "hardened": {
       "name": "Hardened",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19134,7 +19134,7 @@
     "haunted (2025)": {
       "name": "Haunted (2025)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19151,7 +19151,7 @@
     "hearts (knife common)": {
       "name": "Hearts (Knife Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19185,7 +19185,7 @@
     "hearts (2026)": {
       "name": "Hearts (2026)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19202,7 +19202,7 @@
     "hl2": {
       "name": "HL2",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19219,7 +19219,7 @@
     "hot chocolate": {
       "name": "Hot Chocolate",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19236,7 +19236,7 @@
     "hunter": {
       "name": "Hunter",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19253,7 +19253,7 @@
     "igloo (gun) (common)": {
       "name": "Igloo (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19270,7 +19270,7 @@
     "igloo (knife) (common)": {
       "name": "Igloo (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19304,7 +19304,7 @@
     "infected (knife common)": {
       "name": "Infected (Knife Common)",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19338,7 +19338,7 @@
     "infected (knife) (common)": {
       "name": "Infected (Knife) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19355,7 +19355,7 @@
     "infiltrator": {
       "name": "Infiltrator",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19372,7 +19372,7 @@
     "iron": {
       "name": "Iron",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19389,7 +19389,7 @@
     "juice": {
       "name": "Juice",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19406,7 +19406,7 @@
     "leaf": {
       "name": "Leaf",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19423,7 +19423,7 @@
     "linked": {
       "name": "Linked",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19440,7 +19440,7 @@
     "log": {
       "name": "Log",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19457,7 +19457,7 @@
     "love (2023)": {
       "name": "Love (2023)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19474,7 +19474,7 @@
     "lovely": {
       "name": "Lovely",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19491,7 +19491,7 @@
     "moon": {
       "name": "Moon",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19525,7 +19525,7 @@
     "news": {
       "name": "News",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19542,7 +19542,7 @@
     "oily": {
       "name": "Oily",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19576,7 +19576,7 @@
     "orange": {
       "name": "Orange",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19593,7 +19593,7 @@
     "ornament1": {
       "name": "Ornament1",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19610,7 +19610,7 @@
     "ornament2 (gun) (common)": {
       "name": "Ornament2 (Gun) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19627,7 +19627,7 @@
     "ornament2 (knife) (common)": {
       "name": "Ornament2 (Knife) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19644,7 +19644,7 @@
     "passion": {
       "name": "Passion",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19661,7 +19661,7 @@
     "patrick": {
       "name": "Patrick",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19678,7 +19678,7 @@
     "pea": {
       "name": "Pea",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19695,7 +19695,7 @@
     "penguin": {
       "name": "Penguin",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19712,7 +19712,7 @@
     "pine (gun) (common)": {
       "name": "Pine (Gun) (Common)",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19746,7 +19746,7 @@
     "plaid": {
       "name": "Plaid",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19763,7 +19763,7 @@
     "present": {
       "name": "Present",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19780,7 +19780,7 @@
     "present (2023)": {
       "name": "Present (2023)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19831,7 +19831,7 @@
     "pumpkin (2019) (pet)": {
       "name": "Pumpkin (2019) (Pet)",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -19848,7 +19848,7 @@
     "pumpkin (2023)": {
       "name": "Pumpkin (2023)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -19865,7 +19865,7 @@
     "rb knife": {
       "name": "RB Knife",
       "value": "x3 T1 Rares",
-      "numericValue": 0.15,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19882,7 +19882,7 @@
     "reindeer (knife common)": {
       "name": "Reindeer (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19899,7 +19899,7 @@
     "reindeer [xmas2025] (knife common)": {
       "name": "Reindeer [XMAS2025] (Knife Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -19933,7 +19933,7 @@
     "reptile": {
       "name": "Reptile",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -19950,7 +19950,7 @@
     "ribbon": {
       "name": "Ribbon",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -19967,7 +19967,7 @@
     "ribbons": {
       "name": "Ribbons",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -20001,7 +20001,7 @@
     "roses": {
       "name": "Roses",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -20018,7 +20018,7 @@
     "sand": {
       "name": "Sand",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20035,7 +20035,7 @@
     "sandy (knife common)": {
       "name": "Sandy (Knife Common)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20052,7 +20052,7 @@
     "sandy (gun) (common)": {
       "name": "Sandy (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20069,7 +20069,7 @@
     "santa (knife common)": {
       "name": "Santa (Knife Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -20086,7 +20086,7 @@
     "santa (gun) (common)": {
       "name": "Santa (Gun) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -20103,7 +20103,7 @@
     "santa (knife) (common)": {
       "name": "Santa (Knife) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -20137,7 +20137,7 @@
     "santa (2018)": {
       "name": "Santa (2018)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -20154,7 +20154,7 @@
     "santa (2023)": {
       "name": "Santa (2023)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -20171,7 +20171,7 @@
     "scarf": {
       "name": "Scarf",
       "value": "x3 T1 Uncommons",
-      "numericValue": 0.03,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -20188,7 +20188,7 @@
     "shaded": {
       "name": "Shaded",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20256,7 +20256,7 @@
     "skyline": {
       "name": "Skyline",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20290,7 +20290,7 @@
     "slate": {
       "name": "Slate",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20324,7 +20324,7 @@
     "snowball (gun) (common)": {
       "name": "Snowball (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20341,7 +20341,7 @@
     "snowball (knife) (common)": {
       "name": "Snowball (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20375,7 +20375,7 @@
     "snowfall (knife common)": {
       "name": "Snowfall (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20579,7 +20579,7 @@
     "spider (2023)": {
       "name": "Spider (2023)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20596,7 +20596,7 @@
     "splat": {
       "name": "Splat",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20613,7 +20613,7 @@
     "splatter": {
       "name": "Splatter",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20630,7 +20630,7 @@
     "stainless": {
       "name": "Stainless",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20647,7 +20647,7 @@
     "star": {
       "name": "Star",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20664,7 +20664,7 @@
     "starfish (gun) (common)": {
       "name": "Starfish (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20681,7 +20681,7 @@
     "starfish (knife) (common)": {
       "name": "Starfish (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20698,7 +20698,7 @@
     "static": {
       "name": "Static",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20715,7 +20715,7 @@
     "stickers (gun) [hallows2021] (common)": {
       "name": "Stickers (Gun) [HALLOWS2021] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20732,7 +20732,7 @@
     "stickers (gun) [hallows2024] (common)": {
       "name": "Stickers (Gun) [HALLOWS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20749,7 +20749,7 @@
     "stickers (gun) [summer2023] (common)": {
       "name": "Stickers (Gun) [SUMMER2023] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20766,7 +20766,7 @@
     "stickers (gun) [summer2025] (common)": {
       "name": "Stickers (Gun) [SUMMER2025] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20783,7 +20783,7 @@
     "stickers (gun) [xmas2021] (common)": {
       "name": "Stickers (Gun) [XMAS2021] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20800,7 +20800,7 @@
     "stickers (gun) [xmas2022] (common)": {
       "name": "Stickers (Gun) [XMAS2022] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20817,7 +20817,7 @@
     "stickers (gun) [xmas2024] (common)": {
       "name": "Stickers (Gun) [XMAS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20834,7 +20834,7 @@
     "stickers (gun) [xmas2025] (common)": {
       "name": "Stickers (Gun) [XMAS2025] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20851,7 +20851,7 @@
     "stickers (knife) [hallows2021] (common)": {
       "name": "Stickers (Knife) [HALLOWS2021] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20868,7 +20868,7 @@
     "stickers (knife) [hallows2024] (common)": {
       "name": "Stickers (Knife) [HALLOWS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20885,7 +20885,7 @@
     "stickers (knife) [summer2023] (common)": {
       "name": "Stickers (Knife) [SUMMER2023] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20902,7 +20902,7 @@
     "stickers (knife) [summer2025] (common)": {
       "name": "Stickers (Knife) [SUMMER2025] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20919,7 +20919,7 @@
     "stickers (knife) [xmas2021] (common)": {
       "name": "Stickers (Knife) [XMAS2021] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20936,7 +20936,7 @@
     "stickers (knife) [xmas2022] (common)": {
       "name": "Stickers (Knife) [XMAS2022] (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -20953,7 +20953,7 @@
     "stickers (knife) [xmas2024] (common)": {
       "name": "Stickers (Knife) [XMAS2024] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20970,7 +20970,7 @@
     "stickers (knife) [xmas2025] (common)": {
       "name": "Stickers (Knife) [XMAS2025] (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -20987,7 +20987,7 @@
     "stickers [hallows2022] (knife common)": {
       "name": "Stickers [HALLOWS2022] (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21004,7 +21004,7 @@
     "stickers [hallows2025] (knife common)": {
       "name": "Stickers [HALLOWS2025] (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21021,7 +21021,7 @@
     "stickers [thanksgiving2025] (knife common)": {
       "name": "Stickers [THANKSGIVING2025] (Knife Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21038,7 +21038,7 @@
     "stickers (gun) (common)": {
       "name": "Stickers (Gun) (Common)",
       "value": "x3 T1 Commons\nStability",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -21055,7 +21055,7 @@
     "stickers (knife) (common)": {
       "name": "Stickers (Knife) (Common)",
       "value": "x3 T1 Commons\nStability",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -21072,7 +21072,7 @@
     "stickers (knife common)": {
       "name": "Stickers (Knife Common)",
       "value": "x2 T1 Commons\nStability",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21106,7 +21106,7 @@
     "stockings (2024)": {
       "name": "Stockings (2024)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21123,7 +21123,7 @@
     "strawberries (gun) (common)": {
       "name": "Strawberries (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21140,7 +21140,7 @@
     "strawberries (knife) (common)": {
       "name": "Strawberries (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21174,7 +21174,7 @@
     "striped (gun) (common)": {
       "name": "Striped (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21191,7 +21191,7 @@
     "striped (knife) (common)": {
       "name": "Striped (Knife) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21225,7 +21225,7 @@
     "sweetheart": {
       "name": "Sweetheart",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -21259,7 +21259,7 @@
     "tnl": {
       "name": "TNL",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -21276,7 +21276,7 @@
     "tourist": {
       "name": "Tourist",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21293,7 +21293,7 @@
     "toy (gun) (common)": {
       "name": "Toy (Gun) (Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -21310,7 +21310,7 @@
     "toy (knife) (common)": {
       "name": "Toy (Knife) (Common)",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -21327,7 +21327,7 @@
     "trees": {
       "name": "Trees",
       "value": "x2 T1 Uncommons",
-      "numericValue": 0.02,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -21344,7 +21344,7 @@
     "tulip": {
       "name": "Tulip",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -21361,7 +21361,7 @@
     "ufos (gun) (common)": {
       "name": "UFOs (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21378,7 +21378,7 @@
     "ufos (knife) (common)": {
       "name": "UFOs (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21412,7 +21412,7 @@
     "valentine": {
       "name": "Valentine",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -21429,7 +21429,7 @@
     "vines (gun) (common)": {
       "name": "Vines (Gun) (Common)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21446,7 +21446,7 @@
     "vines (knife) (common)": {
       "name": "Vines (Knife) (Common)",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -21463,7 +21463,7 @@
     "wavy (gun) (common)": {
       "name": "Wavy (Gun) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21480,7 +21480,7 @@
     "wavy (knife) (common)": {
       "name": "Wavy (Knife) (Common)",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -21514,7 +21514,7 @@
     "webbed (knife) (common)": {
       "name": "Webbed (Knife) (Common)",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -21531,7 +21531,7 @@
     "whiteout": {
       "name": "Whiteout",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21548,7 +21548,7 @@
     "witch": {
       "name": "Witch",
       "value": "x4 T1 Legendaries",
-      "numericValue": 0.8,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -21565,7 +21565,7 @@
     "wood": {
       "name": "Wood",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21582,7 +21582,7 @@
     "xbox": {
       "name": "Xbox",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21599,7 +21599,7 @@
     "yellow": {
       "name": "Yellow",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21701,7 +21701,7 @@
     "bear": {
       "name": "Bear",
       "value": "x3 T1 Commons",
-      "numericValue": 0.006,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21803,7 +21803,7 @@
     "carrot bunny": {
       "name": "Carrot Bunny",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "2",
@@ -21854,7 +21854,7 @@
     "deathspeaker": {
       "name": "Deathspeaker",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21871,7 +21871,7 @@
     "dog": {
       "name": "Dog",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21905,7 +21905,7 @@
     "electro": {
       "name": "Electro",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21939,7 +21939,7 @@
     "elitey": {
       "name": "Elitey",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21973,7 +21973,7 @@
     "fire bat": {
       "name": "Fire Bat",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -21990,7 +21990,7 @@
     "fire bear": {
       "name": "Fire Bear",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22007,7 +22007,7 @@
     "fire bunny": {
       "name": "Fire Bunny",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22024,7 +22024,7 @@
     "fire cat": {
       "name": "Fire Cat",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22041,7 +22041,7 @@
     "fire dog": {
       "name": "Fire Dog",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22058,7 +22058,7 @@
     "fire fox": {
       "name": "Fire Fox",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22075,7 +22075,7 @@
     "fire pig": {
       "name": "Fire Pig",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22092,7 +22092,7 @@
     "fox": {
       "name": "Fox",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22109,7 +22109,7 @@
     "frostbird": {
       "name": "Frostbird",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22211,7 +22211,7 @@
     "ice phoenix": {
       "name": "Ice Phoenix",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22228,7 +22228,7 @@
     "icey": {
       "name": "Icey",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22381,7 +22381,7 @@
     "phoenix": {
       "name": "Phoenix",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22398,7 +22398,7 @@
     "pig": {
       "name": "Pig",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22449,7 +22449,7 @@
     "pumpkin (2018)": {
       "name": "Pumpkin (2018)",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "2",
       "rarity": "3",
@@ -22466,7 +22466,7 @@
     "pumpkin (2020)": {
       "name": "Pumpkin (2020)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22483,7 +22483,7 @@
     "pumpkin (2021)": {
       "name": "Pumpkin (2021)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22636,7 +22636,7 @@
     "sammy": {
       "name": "Sammy",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22670,7 +22670,7 @@
     "santa dog": {
       "name": "Santa Dog",
       "value": "x1 T1 Uncommon",
-      "numericValue": 0.01,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -22738,7 +22738,7 @@
     "skelly": {
       "name": "Skelly",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22789,7 +22789,7 @@
     "steambird": {
       "name": "Steambird",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -22840,7 +22840,7 @@
     "traveller": {
       "name": "Traveller",
       "value": "x3 T1 Legendaries",
-      "numericValue": 0.6,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -23027,7 +23027,7 @@
     "candies (2016)": {
       "name": "Candies (2016)",
       "value": "x2 T1 Commons",
-      "numericValue": 0.004,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "2",
@@ -23044,7 +23044,7 @@
     "candies (2017)": {
       "name": "Candies (2017)",
       "value": "x1 T1 Common",
-      "numericValue": 0.002,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "1",
@@ -23061,7 +23061,7 @@
     "gifts 2015": {
       "name": "Gifts 2015",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",
@@ -23180,7 +23180,7 @@
     "snowflake key": {
       "name": "Snowflake Key",
       "value": "x2 T1 Legendaries",
-      "numericValue": 0.4,
+      "numericValue": null,
       "range": "N/A",
       "demand": "1",
       "rarity": "3",

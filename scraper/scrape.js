@@ -178,7 +178,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           if (!name) return;
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
-          if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
+          if (/^[\d,]+(?:\.\d+)?$/.test(name) && name.trim() !== "2015") return;
           if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change|ability|description|death effect|price|class|exp)/i.test(name)) return;
           if (/^(ability|description|death effect|price)\s*[-–]/i.test(name)) return;
@@ -341,7 +341,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
           if (!name) return;
           name = String(name).replace(/\s+/g, " ").trim();
           if (name.length < 2 || name.length > 80) return;
-          if (/^[\d,]+(?:\.\d+)?$/.test(name)) return;
+          if (/^[\d,]+(?:\.\d+)?$/.test(name) && name.trim() !== "2015") return;
           if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
           if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
 
@@ -587,7 +587,7 @@ async function main() {
       for (const [name, info] of Object.entries(data)) {
         const entry = normalizeEntry(name, info || {}, cat.name);
         const key = entry.name.toLowerCase().trim();
-        if (/^[\d,]+(?:\.\d+)?$/.test(key)) continue;
+        if (/^[\d,]+(?:\.\d+)?$/.test(key) && key !== "2015") continue;
         if (/^(ability|description|death effect|price|contains)\s*[-–]/i.test(key)) continue;
         if (/^(value|range|stability|demand|rarity)$/i.test(key)) continue;
         if (key.length > 60) continue;
@@ -616,7 +616,7 @@ async function main() {
 
   const getBaseName = (name) => {
     let base = name.replace(/\s*\[[^\]]+\]/g, "");
-    base = base.replace(/\s*\((?:gun|knife|radio|effect|pet|variant\s*\d+|v\.?\s*\d+)\)/i, "");
+    base = base.replace(/\s*\([^)]+\)/g, "");
     base = base.replace(/\s*(?:gun|knife|radio|effect|pet|set)$/i, "");
     return base.trim().toLowerCase();
   };
@@ -653,10 +653,13 @@ async function main() {
         const lowerName = entry.name.toLowerCase();
         const isGun = (name) => {
           const n = name.toLowerCase();
+          if (n.includes("knife") || n.includes("scythe") || n.includes("blade") || n.includes("slasher") || n.includes("edge") || n.includes("cutter") || n.includes("saw") || n.includes("axe") || n.includes("cleaver") || n.includes("dagger") || n.includes("sickle")) {
+            return false;
+          }
           if (n.includes("gun") || n.includes("luger") || n.includes("blaster") || n.includes("revolver") || n.includes("pistol") || n.includes("laser") || n.includes("launcher") || n.includes("beam") || n.includes("scope") || n.includes("pew") || n.includes("cannon") || n.includes("shotgun")) {
             return true;
           }
-          const knownGuns = ["sugar", "soul", "gingermint", "shadow", "phaser", "cowboy", "ghost"];
+          const knownGuns = ["sugar", "soul", "gingermint", "shadow", "phaser", "cowboy", "ghost", "bloom", "minty", "makeshift", "borealis", "icedriller", "nightsky"];
           for (const g of knownGuns) {
             if (n === g || n.startsWith(g + " ") || n.endsWith(" " + g) || n.includes(" " + g + " ")) {
               return true;

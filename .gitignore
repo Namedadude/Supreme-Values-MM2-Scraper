@@ -1,3 +1,8 @@
 node_modules/
 scraper/node_modules/
 .DS_Store
+scraper beta/scrape_beta.js
+scraper beta/check_*.js
+scraper beta/package*.json
+scraper beta/node_modules/
+scraper beta/*.lua

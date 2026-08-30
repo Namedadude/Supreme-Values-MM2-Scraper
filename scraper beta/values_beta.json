@@ -2416,7 +2416,7 @@
       "demand": "1"
     },
     "aquarium (gun)": {
-      "name": "Aquarium (Gun)",
+      "name": "Aquarium",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2428,7 +2428,7 @@
       "demand": "2"
     },
     "aquarium (knife)": {
-      "name": "Aquarium (Knife)",
+      "name": "Aquarium",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2440,7 +2440,7 @@
       "demand": "1"
     },
     "arctic (gun)": {
-      "name": "Arctic (Gun)",
+      "name": "Arctic",
       "value": "10",
       "numericValue": 10,
       "type": "gun",
@@ -2452,7 +2452,7 @@
       "demand": "2"
     },
     "arctic (knife)": {
-      "name": "Arctic (Knife)",
+      "name": "Arctic",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2464,7 +2464,7 @@
       "demand": "2"
     },
     "aurora (gun) (legendary)": {
-      "name": "Aurora (Gun)",
+      "name": "Aurora",
       "value": "45",
       "numericValue": 45,
       "type": "gun",
@@ -2476,7 +2476,7 @@
       "demand": "2"
     },
     "aurora (knife) (legendary)": {
-      "name": "Aurora (Knife)",
+      "name": "Aurora",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -2560,7 +2560,7 @@
       "demand": "2"
     },
     "cavern (gun)": {
-      "name": "Cavern (Gun)",
+      "name": "Cavern",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -2572,7 +2572,7 @@
       "demand": "1"
     },
     "cavern (knife)": {
-      "name": "Cavern (Knife)",
+      "name": "Cavern",
       "value": "7",
       "numericValue": 7,
       "type": "knife",
@@ -2584,7 +2584,7 @@
       "demand": "2"
     },
     "chromatic (gun)": {
-      "name": "Chromatic (Gun)",
+      "name": "Chromatic",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2596,7 +2596,7 @@
       "demand": "2"
     },
     "chromatic (knife)": {
-      "name": "Chromatic (Knife)",
+      "name": "Chromatic",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -2632,7 +2632,7 @@
       "demand": "2"
     },
     "cursed (gun)": {
-      "name": "Cursed (Gun)",
+      "name": "Cursed",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2644,7 +2644,7 @@
       "demand": "2"
     },
     "cursed (knife)": {
-      "name": "Cursed (Knife)",
+      "name": "Cursed",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2680,7 +2680,7 @@
       "demand": "2"
     },
     "energized (gun)": {
-      "name": "Energized (Gun)",
+      "name": "Energized",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -2692,7 +2692,7 @@
       "demand": "2"
     },
     "energized (knife)": {
-      "name": "Energized (Knife)",
+      "name": "Energized",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2716,7 +2716,7 @@
       "demand": "1"
     },
     "frostfade (gun)": {
-      "name": "Frostfade (Gun)",
+      "name": "Frostfade",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2728,7 +2728,7 @@
       "demand": "2"
     },
     "frostfade (knife)": {
-      "name": "Frostfade (Knife)",
+      "name": "Frostfade",
       "value": "2",
       "numericValue": 2,
       "type": "knife",
@@ -2740,7 +2740,7 @@
       "demand": "2"
     },
     "frozen (gun) (legendary)": {
-      "name": "Frozen (Gun)",
+      "name": "Frozen",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2752,7 +2752,7 @@
       "demand": "2"
     },
     "frozen (knife) (legendary)": {
-      "name": "Frozen (Knife)",
+      "name": "Frozen",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2776,7 +2776,7 @@
       "demand": "1"
     },
     "ghost (gun) (legendary)": {
-      "name": "Ghost (Gun)",
+      "name": "Ghost",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -2788,7 +2788,7 @@
       "demand": "1"
     },
     "ghost (knife)": {
-      "name": "Ghost (Knife)",
+      "name": "Ghost",
       "value": "5",
       "numericValue": 5,
       "type": "knife",
@@ -2800,7 +2800,7 @@
       "demand": "1"
     },
     "ginger (gun) (legendary)": {
-      "name": "Ginger (Gun)",
+      "name": "Ginger",
       "value": "5",
       "numericValue": 5,
       "type": "gun",
@@ -2812,7 +2812,7 @@
       "demand": "1"
     },
     "ginger (knife) (legendary)": {
-      "name": "Ginger (Knife)",
+      "name": "Ginger",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -2884,7 +2884,7 @@
       "demand": "2"
     },
     "latte (gun)": {
-      "name": "Latte (Gun)",
+      "name": "Latte",
       "value": "140",
       "numericValue": 140,
       "type": "gun",
@@ -2896,7 +2896,7 @@
       "demand": "3"
     },
     "latte (knife)": {
-      "name": "Latte (Knife)",
+      "name": "Latte",
       "value": "140",
       "numericValue": 140,
       "type": "knife",
@@ -2944,7 +2944,7 @@
       "demand": "2"
     },
     "overseer (gun)": {
-      "name": "Overseer (Gun)",
+      "name": "Overseer",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2956,7 +2956,7 @@
       "demand": "2"
     },
     "overseer (knife)": {
-      "name": "Overseer (Knife)",
+      "name": "Overseer",
       "value": "x4 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -2968,7 +2968,7 @@
       "demand": "2"
     },
     "palms (gun)": {
-      "name": "Palms (Gun)",
+      "name": "Palms",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -2980,7 +2980,7 @@
       "demand": "2"
     },
     "palms (knife)": {
-      "name": "Palms (Knife)",
+      "name": "Palms",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3004,7 +3004,7 @@
       "demand": "1"
     },
     "predator (gun)": {
-      "name": "Predator (Gun)",
+      "name": "Predator",
       "value": "x4 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3016,7 +3016,7 @@
       "demand": "2"
     },
     "predator (knife)": {
-      "name": "Predator (Knife)",
+      "name": "Predator",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3052,7 +3052,7 @@
       "demand": "1"
     },
     "ripper (gun)": {
-      "name": "Ripper (Gun)",
+      "name": "Ripper",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3064,7 +3064,7 @@
       "demand": "2"
     },
     "ripper (knife)": {
-      "name": "Ripper (Knife)",
+      "name": "Ripper",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3160,7 +3160,7 @@
       "demand": "2"
     },
     "spectral (gun)": {
-      "name": "Spectral (Gun)",
+      "name": "Spectral",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -3172,7 +3172,7 @@
       "demand": "2"
     },
     "spectral (knife)": {
-      "name": "Spectral (Knife)",
+      "name": "Spectral",
       "value": "50",
       "numericValue": 50,
       "type": "knife",
@@ -3184,7 +3184,7 @@
       "demand": "2"
     },
     "splash (gun)": {
-      "name": "Splash (Gun)",
+      "name": "Splash",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3196,7 +3196,7 @@
       "demand": "1"
     },
     "splash (knife)": {
-      "name": "Splash (Knife)",
+      "name": "Splash",
       "value": "x4 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -3208,7 +3208,7 @@
       "demand": "1"
     },
     "traveler (gun)": {
-      "name": "Traveler (Gun)",
+      "name": "Traveler",
       "value": "50",
       "numericValue": 50,
       "type": "gun",
@@ -3220,7 +3220,7 @@
       "demand": "2"
     },
     "traveler (knife)": {
-      "name": "Traveler (Knife)",
+      "name": "Traveler",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -3232,7 +3232,7 @@
       "demand": "2"
     },
     "tree (gun) (legendary)": {
-      "name": "Tree (Gun)",
+      "name": "Tree",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3244,7 +3244,7 @@
       "demand": "1"
     },
     "tree (knife) (legendary)": {
-      "name": "Tree (Knife)",
+      "name": "Tree",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3268,7 +3268,7 @@
       "demand": "2"
     },
     "vampire (gun) (legendary)": {
-      "name": "Vampire (Gun)",
+      "name": "Vampire",
       "value": "45",
       "numericValue": 45,
       "type": "gun",
@@ -3280,7 +3280,7 @@
       "demand": "2"
     },
     "vampire (knife) (legendary)": {
-      "name": "Vampire (Knife)",
+      "name": "Vampire",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -3352,7 +3352,7 @@
       "demand": "1"
     },
     "aurora (gun) (rare)": {
-      "name": "Aurora (Gun)",
+      "name": "Aurora",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -3364,7 +3364,7 @@
       "demand": "1"
     },
     "aurora (knife) (rare)": {
-      "name": "Aurora (Knife)",
+      "name": "Aurora",
       "value": "7",
       "numericValue": 7,
       "type": "knife",
@@ -3424,7 +3424,7 @@
       "demand": "2"
     },
     "bones (knife) (rare)": {
-      "name": "Bones (Knife)",
+      "name": "Bones",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -3448,7 +3448,7 @@
       "demand": "2"
     },
     "candleflame (gun)": {
-      "name": "Candleflame (Gun)",
+      "name": "Candleflame",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "gun",
@@ -3460,7 +3460,7 @@
       "demand": "2"
     },
     "candy swirl (gun)": {
-      "name": "Candy Swirl (Gun)",
+      "name": "Candy Swirl",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -3472,7 +3472,7 @@
       "demand": "2"
     },
     "candy swirl (knife)": {
-      "name": "Candy Swirl (Knife)",
+      "name": "Candy Swirl",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -3484,7 +3484,7 @@
       "demand": "1"
     },
     "cane (gun) (rare) (2015)": {
-      "name": "Cane (Gun) [XMAS2015]",
+      "name": "Cane",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3496,7 +3496,7 @@
       "demand": "1"
     },
     "cane (gun) (rare) (2018)": {
-      "name": "Cane (Gun) [XMAS2018]",
+      "name": "Cane",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3508,7 +3508,7 @@
       "demand": "2"
     },
     "cane (knife) (rare) (2015)": {
-      "name": "Cane (Knife) [XMAS2015]",
+      "name": "Cane",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3520,7 +3520,7 @@
       "demand": "1"
     },
     "cane (knife) (rare) (2018)": {
-      "name": "Cane (Knife) [XMAS2018]",
+      "name": "Cane",
       "value": "525",
       "numericValue": 525,
       "type": "knife",
@@ -3604,7 +3604,7 @@
       "demand": "3"
     },
     "floral (gun)": {
-      "name": "Floral (Gun)",
+      "name": "Floral",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3616,7 +3616,7 @@
       "demand": "1"
     },
     "floral (knife) (rare)": {
-      "name": "Floral (Knife)",
+      "name": "Floral",
       "value": "10",
       "numericValue": 10,
       "type": "knife",
@@ -3628,7 +3628,7 @@
       "demand": "2"
     },
     "frostflame (gun)": {
-      "name": "Frostflame (Gun)",
+      "name": "Frostflame",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3640,7 +3640,7 @@
       "demand": "2"
     },
     "frostflame (knife)": {
-      "name": "Frostflame (Knife)",
+      "name": "Frostflame",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -3676,7 +3676,7 @@
       "demand": "1"
     },
     "ghastly (gun)": {
-      "name": "Ghastly (Gun)",
+      "name": "Ghastly",
       "value": "7",
       "numericValue": 7,
       "type": "gun",
@@ -3688,7 +3688,7 @@
       "demand": "2"
     },
     "ghastly (knife)": {
-      "name": "Ghastly (Knife)",
+      "name": "Ghastly",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3712,7 +3712,7 @@
       "demand": "2"
     },
     "ghosts (gun)": {
-      "name": "Ghosts (Gun)",
+      "name": "Ghosts",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3724,7 +3724,7 @@
       "demand": "2"
     },
     "ginger (gun) (rare)": {
-      "name": "Ginger (Gun)",
+      "name": "Ginger",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3736,7 +3736,7 @@
       "demand": "1"
     },
     "ginger (knife) (rare)": {
-      "name": "Ginger (Knife)",
+      "name": "Ginger",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -3760,7 +3760,7 @@
       "demand": "1"
     },
     "gingerbread (gun) (rare)": {
-      "name": "Gingerbread (Gun)",
+      "name": "Gingerbread",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -3772,7 +3772,7 @@
       "demand": "2"
     },
     "gingerbread (knife) (rare) (2022)": {
-      "name": "Gingerbread (Knife)",
+      "name": "Gingerbread",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -3784,7 +3784,7 @@
       "demand": "2"
     },
     "gingercookie (gun)": {
-      "name": "Gingercookie (Gun)",
+      "name": "Gingercookie",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3796,7 +3796,7 @@
       "demand": "1"
     },
     "gingercookie (knife)": {
-      "name": "Gingercookie (Knife)",
+      "name": "Gingercookie",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -3856,7 +3856,7 @@
       "demand": "1"
     },
     "hologram (gun)": {
-      "name": "Hologram (Gun)",
+      "name": "Hologram",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -3868,7 +3868,7 @@
       "demand": "2"
     },
     "hologram (knife)": {
-      "name": "Hologram (Knife)",
+      "name": "Hologram",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -3892,7 +3892,7 @@
       "demand": "2"
     },
     "icicles (gun)": {
-      "name": "Icicles (Gun)",
+      "name": "Icicles",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -3904,7 +3904,7 @@
       "demand": "2"
     },
     "icicles (knife)": {
-      "name": "Icicles (Knife)",
+      "name": "Icicles",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -4012,7 +4012,7 @@
       "demand": "1"
     },
     "magma (gun)": {
-      "name": "Magma (Gun)",
+      "name": "Magma",
       "value": "13",
       "numericValue": 13,
       "type": "gun",
@@ -4024,7 +4024,7 @@
       "demand": "2"
     },
     "magma (knife) (rare) (2021)": {
-      "name": "Magma (Knife)",
+      "name": "Magma",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -4036,7 +4036,7 @@
       "demand": "2"
     },
     "makeshift (knife)": {
-      "name": "Makeshift (Knife)",
+      "name": "Makeshift",
       "value": "35",
       "numericValue": 35,
       "type": "knife",
@@ -4048,7 +4048,7 @@
       "demand": "2"
     },
     "molten (gun)": {
-      "name": "Molten (Gun)",
+      "name": "Molten",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -4060,7 +4060,7 @@
       "demand": "2"
     },
     "molten (knife)": {
-      "name": "Molten (Knife)",
+      "name": "Molten",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -4108,7 +4108,7 @@
       "demand": "1"
     },
     "neon (knife) (rare) (2025)": {
-      "name": "Neon [SUMMER2025]",
+      "name": "Neon",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4120,7 +4120,7 @@
       "demand": "1"
     },
     "neon (knife) (rare) (2023)": {
-      "name": "Neon [XMAS2023]",
+      "name": "Neon",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -4192,7 +4192,7 @@
       "demand": "1"
     },
     "painted (knife)": {
-      "name": "Painted (Knife)",
+      "name": "Painted",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -4216,7 +4216,7 @@
       "demand": "1"
     },
     "pop art (gun)": {
-      "name": "Pop Art (Gun)",
+      "name": "Pop Art",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -4228,7 +4228,7 @@
       "demand": "1"
     },
     "pop art (knife)": {
-      "name": "Pop Art (Knife)",
+      "name": "Pop Art",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4240,7 +4240,7 @@
       "demand": "2"
     },
     "portal (knife)": {
-      "name": "Portal (Knife)",
+      "name": "Portal",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4264,7 +4264,7 @@
       "demand": "1"
     },
     "rainbow (gun)": {
-      "name": "Rainbow (Gun)",
+      "name": "Rainbow",
       "value": "x4 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -4276,7 +4276,7 @@
       "demand": "1"
     },
     "rainbow (knife) (rare)": {
-      "name": "Rainbow (Knife)",
+      "name": "Rainbow",
       "value": "x4 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -4324,7 +4324,7 @@
       "demand": "1"
     },
     "silent night (gun)": {
-      "name": "Silent Night (Gun)",
+      "name": "Silent Night",
       "value": "12",
       "numericValue": 12,
       "type": "gun",
@@ -4336,7 +4336,7 @@
       "demand": "2"
     },
     "silent night (knife)": {
-      "name": "Silent Night (Knife)",
+      "name": "Silent Night",
       "value": "50",
       "numericValue": 50,
       "type": "knife",
@@ -4360,7 +4360,7 @@
       "demand": "1"
     },
     "snakebite (gun)": {
-      "name": "Snakebite (Gun)",
+      "name": "Snakebite",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -4372,7 +4372,7 @@
       "demand": "1"
     },
     "snakebite (knife)": {
-      "name": "Snakebite (Knife)",
+      "name": "Snakebite",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -4444,7 +4444,7 @@
       "demand": "1"
     },
     "spearmint (gun)": {
-      "name": "Spearmint (Gun)",
+      "name": "Spearmint",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -4456,7 +4456,7 @@
       "demand": "2"
     },
     "spearmint (knife)": {
-      "name": "Spearmint (Knife)",
+      "name": "Spearmint",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4516,7 +4516,7 @@
       "demand": "1"
     },
     "starry (gun)": {
-      "name": "Starry (Gun)",
+      "name": "Starry",
       "value": "22",
       "numericValue": 22,
       "type": "gun",
@@ -4528,7 +4528,7 @@
       "demand": "2"
     },
     "starry (knife) (rare)": {
-      "name": "Starry (Knife)",
+      "name": "Starry",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -4600,7 +4600,7 @@
       "demand": "2"
     },
     "toxic (gun)": {
-      "name": "Toxic (Gun)",
+      "name": "Toxic",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -4612,7 +4612,7 @@
       "demand": "1"
     },
     "toxic (knife)": {
-      "name": "Toxic (Knife)",
+      "name": "Toxic",
       "value": "5",
       "numericValue": 5,
       "type": "knife",
@@ -4624,7 +4624,7 @@
       "demand": "2"
     },
     "tree (knife) (rare) (2023)": {
-      "name": "Tree (2023)",
+      "name": "Tree",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4636,7 +4636,7 @@
       "demand": "2"
     },
     "tree (gun) (rare)": {
-      "name": "Tree (Gun)",
+      "name": "Tree",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -4648,7 +4648,7 @@
       "demand": "2"
     },
     "tree (knife) (rare) (2022)": {
-      "name": "Tree (Knife)",
+      "name": "Tree",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4672,7 +4672,7 @@
       "demand": "1"
     },
     "vampire (gun) (rare)": {
-      "name": "Vampire (Gun)",
+      "name": "Vampire",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -4684,7 +4684,7 @@
       "demand": "2"
     },
     "vampire (knife) (rare)": {
-      "name": "Vampire (Knife)",
+      "name": "Vampire",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -4708,7 +4708,7 @@
       "demand": "1"
     },
     "watcher (gun) (rare)": {
-      "name": "Watcher (Gun)",
+      "name": "Watcher",
       "value": "20",
       "numericValue": 20,
       "type": "gun",
@@ -4720,7 +4720,7 @@
       "demand": "2"
     },
     "watcher (knife) (rare)": {
-      "name": "Watcher (Knife)",
+      "name": "Watcher",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -4744,7 +4744,7 @@
       "demand": "1"
     },
     "wraith (gun)": {
-      "name": "Wraith (Gun)",
+      "name": "Wraith",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "gun",
@@ -4756,7 +4756,7 @@
       "demand": "2"
     },
     "wraith (knife)": {
-      "name": "Wraith (Knife)",
+      "name": "Wraith",
       "value": "5",
       "numericValue": 5,
       "type": "knife",
@@ -4768,7 +4768,7 @@
       "demand": "2"
     },
     "xeno (gun)": {
-      "name": "Xeno (Gun)",
+      "name": "Xeno",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -4780,7 +4780,7 @@
       "demand": "2"
     },
     "xeno (knife)": {
-      "name": "Xeno (Knife)",
+      "name": "Xeno",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -4828,7 +4828,7 @@
       "demand": "1"
     },
     "adurite (gun)": {
-      "name": "Adurite (Gun)",
+      "name": "Adurite",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -4840,7 +4840,7 @@
       "demand": "1"
     },
     "adurite (knife)": {
-      "name": "Adurite (Knife)",
+      "name": "Adurite",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -4888,7 +4888,7 @@
       "demand": "1"
     },
     "bluesteel (gun)": {
-      "name": "Bluesteel (Gun)",
+      "name": "Bluesteel",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -4900,7 +4900,7 @@
       "demand": "1"
     },
     "bluesteel (knife)": {
-      "name": "Bluesteel (Knife)",
+      "name": "Bluesteel",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -4924,7 +4924,7 @@
       "demand": "3"
     },
     "bones (knife) (uncommon) (2024)": {
-      "name": "Bones (Knife)",
+      "name": "Bones",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -4948,7 +4948,7 @@
       "demand": "3"
     },
     "brains (knife) (uncommon) (2022)": {
-      "name": "Brains (2022)",
+      "name": "Brains",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -4984,7 +4984,7 @@
       "demand": "1"
     },
     "camo (gun)": {
-      "name": "Camo (Gun)",
+      "name": "Camo",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -4996,7 +4996,7 @@
       "demand": "1"
     },
     "camo (knife)": {
-      "name": "Camo (Knife)",
+      "name": "Camo",
       "value": "x4 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -5008,7 +5008,7 @@
       "demand": "1"
     },
     "canes (gun)": {
-      "name": "Canes (Gun)",
+      "name": "Canes",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "gun",
@@ -5020,7 +5020,7 @@
       "demand": "2"
     },
     "canes (knife)": {
-      "name": "Canes (Knife)",
+      "name": "Canes",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5044,7 +5044,7 @@
       "demand": "2"
     },
     "carrot (gun)": {
-      "name": "Carrot (Gun)",
+      "name": "Carrot",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5056,7 +5056,7 @@
       "demand": "2"
     },
     "carrot (knife) (uncommon) (2024)": {
-      "name": "Carrot (Knife)",
+      "name": "Carrot",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5128,7 +5128,7 @@
       "demand": "1"
     },
     "clown (gun) (uncommon)": {
-      "name": "Clown (Gun)",
+      "name": "Clown",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5140,7 +5140,7 @@
       "demand": "2"
     },
     "cookie (gun)": {
-      "name": "Cookie (Gun)",
+      "name": "Cookie",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "gun",
@@ -5152,7 +5152,7 @@
       "demand": "2"
     },
     "cookie (knife)": {
-      "name": "Cookie (Knife)",
+      "name": "Cookie",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -5296,7 +5296,7 @@
       "demand": "1"
     },
     "frozen (gun) (uncommon)": {
-      "name": "Frozen (Gun)",
+      "name": "Frozen",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -5308,7 +5308,7 @@
       "demand": "1"
     },
     "frozen (knife) (uncommon)": {
-      "name": "Frozen (Knife)",
+      "name": "Frozen",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -5344,7 +5344,7 @@
       "demand": "2"
     },
     "ghosts (knife) (uncommon)": {
-      "name": "Ghosts (Knife)",
+      "name": "Ghosts",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5368,7 +5368,7 @@
       "demand": "1"
     },
     "gingerbread (gun) (uncommon) (2019)": {
-      "name": "Gingerbread (Gun) [XMAS2019]",
+      "name": "Gingerbread",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -5380,7 +5380,7 @@
       "demand": "2"
     },
     "gingerbread (gun) (uncommon) (2020)": {
-      "name": "Gingerbread (Gun) [XMAS2020]",
+      "name": "Gingerbread",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -5392,7 +5392,7 @@
       "demand": "2"
     },
     "gingerbread (gun) (uncommon) (2021)": {
-      "name": "Gingerbread (Gun) [XMAS2021]",
+      "name": "Gingerbread",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5404,7 +5404,7 @@
       "demand": "2"
     },
     "gingerbread (gun) (uncommon) (2025)": {
-      "name": "Gingerbread (Gun) [XMAS2025]",
+      "name": "Gingerbread",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5416,7 +5416,7 @@
       "demand": "1"
     },
     "gingerbread (knife) (uncommon) (2019)": {
-      "name": "Gingerbread (Knife) [XMAS2019]",
+      "name": "Gingerbread",
       "value": "85",
       "numericValue": 85,
       "type": "knife",
@@ -5428,7 +5428,7 @@
       "demand": "3"
     },
     "gingerbread (knife) (uncommon) (2020)": {
-      "name": "Gingerbread (Knife) [XMAS2020]",
+      "name": "Gingerbread",
       "value": "10",
       "numericValue": 10,
       "type": "knife",
@@ -5440,7 +5440,7 @@
       "demand": "2"
     },
     "gingerbread (knife) (uncommon) (2025)": {
-      "name": "Gingerbread (Knife) [XMAS2025]",
+      "name": "Gingerbread",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5476,7 +5476,7 @@
       "demand": "1"
     },
     "gothic (gun)": {
-      "name": "Gothic (Gun)",
+      "name": "Gothic",
       "value": "7",
       "numericValue": 7,
       "type": "gun",
@@ -5488,7 +5488,7 @@
       "demand": "2"
     },
     "gothic (knife)": {
-      "name": "Gothic (Knife)",
+      "name": "Gothic",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -5512,7 +5512,7 @@
       "demand": "1"
     },
     "hazard (gun)": {
-      "name": "Hazard (Gun)",
+      "name": "Hazard",
       "value": "5",
       "numericValue": 5,
       "type": "gun",
@@ -5524,7 +5524,7 @@
       "demand": "2"
     },
     "hazard (knife)": {
-      "name": "Hazard (Knife)",
+      "name": "Hazard",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "knife",
@@ -5572,7 +5572,7 @@
       "demand": "1"
     },
     "holly (gun)": {
-      "name": "Holly (Gun)",
+      "name": "Holly",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -5584,7 +5584,7 @@
       "demand": "1"
     },
     "holly (knife)": {
-      "name": "Holly (Knife)",
+      "name": "Holly",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "knife",
@@ -5632,7 +5632,7 @@
       "demand": "2"
     },
     "lava (gun)": {
-      "name": "Lava (Gun)",
+      "name": "Lava",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5644,7 +5644,7 @@
       "demand": "1"
     },
     "lava (knife)": {
-      "name": "Lava (Knife)",
+      "name": "Lava",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5668,7 +5668,7 @@
       "demand": "1"
     },
     "lights (gun) (uncommon)": {
-      "name": "Lights (Gun)",
+      "name": "Lights",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -5680,7 +5680,7 @@
       "demand": "1"
     },
     "lights (knife) (uncommon)": {
-      "name": "Lights (Knife)",
+      "name": "Lights",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -5692,7 +5692,7 @@
       "demand": "1"
     },
     "love (gun)": {
-      "name": "Love (Gun)",
+      "name": "Love",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -5764,7 +5764,7 @@
       "demand": "1"
     },
     "melon (knife) (uncommon) (2023)": {
-      "name": "Melon [SUMMER2023]",
+      "name": "Melon",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "knife",
@@ -5800,7 +5800,7 @@
       "demand": "1"
     },
     "mistletoe (gun)": {
-      "name": "Mistletoe (Gun)",
+      "name": "Mistletoe",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -5812,7 +5812,7 @@
       "demand": "2"
     },
     "mistletoe (knife)": {
-      "name": "Mistletoe (Knife)",
+      "name": "Mistletoe",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5860,7 +5860,7 @@
       "demand": "1"
     },
     "moons (knife) (uncommon) (2024)": {
-      "name": "Moons (2024)",
+      "name": "Moons",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -5872,7 +5872,7 @@
       "demand": "2"
     },
     "mummy (knife) (uncommon) (2017)": {
-      "name": "Mummy (2017)",
+      "name": "Mummy",
       "value": "20",
       "numericValue": 20,
       "type": "knife",
@@ -5884,7 +5884,7 @@
       "demand": "2"
     },
     "mummy (gun) (uncommon) (2018)": {
-      "name": "Mummy (Gun) [HALLOWS2018]",
+      "name": "Mummy",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -5896,7 +5896,7 @@
       "demand": "1"
     },
     "mummy (gun) (uncommon) (2020)": {
-      "name": "Mummy (Gun) [HALLOWS2020]",
+      "name": "Mummy",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -5908,7 +5908,7 @@
       "demand": "2"
     },
     "mummy (knife) (uncommon) (2018)": {
-      "name": "Mummy (Knife) [HALLOWS2018]",
+      "name": "Mummy",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -5920,7 +5920,7 @@
       "demand": "1"
     },
     "mummy (knife) (uncommon) (2020)": {
-      "name": "Mummy (Knife) [HALLOWS2020]",
+      "name": "Mummy",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "knife",
@@ -5980,7 +5980,7 @@
       "demand": "1"
     },
     "painted (gun)": {
-      "name": "Painted (Gun)",
+      "name": "Painted",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6088,7 +6088,7 @@
       "demand": "1"
     },
     "popsicle (gun)": {
-      "name": "Popsicle (Gun)",
+      "name": "Popsicle",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6100,7 +6100,7 @@
       "demand": "1"
     },
     "portal (gun)": {
-      "name": "Portal (Gun)",
+      "name": "Portal",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6112,7 +6112,7 @@
       "demand": "2"
     },
     "potion (knife) (uncommon) (2017)": {
-      "name": "Potion (2017)",
+      "name": "Potion",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -6124,7 +6124,7 @@
       "demand": "1"
     },
     "potion (gun)": {
-      "name": "Potion (Gun)",
+      "name": "Potion",
       "value": "2",
       "numericValue": 2,
       "type": "gun",
@@ -6136,7 +6136,7 @@
       "demand": "1"
     },
     "potion (knife) (uncommon) (2018)": {
-      "name": "Potion (Knife)",
+      "name": "Potion",
       "value": "2",
       "numericValue": 2,
       "type": "knife",
@@ -6148,7 +6148,7 @@
       "demand": "1"
     },
     "pumpkin (knife) (uncommon) (2025)": {
-      "name": "Pumpkin (2025)",
+      "name": "Pumpkin",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6160,7 +6160,7 @@
       "demand": "1"
     },
     "pumpkin (knife) (uncommon) (2020)": {
-      "name": "Pumpkin (Knife)",
+      "name": "Pumpkin",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6256,7 +6256,7 @@
       "demand": "2"
     },
     "snowflake (gun) (uncommon) (2018)": {
-      "name": "Snowflake (Gun) [XMAS2018]",
+      "name": "Snowflake",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "gun",
@@ -6268,7 +6268,7 @@
       "demand": "2"
     },
     "snowflake (gun) (uncommon) (2022)": {
-      "name": "Snowflake (Gun) [XMAS2022]",
+      "name": "Snowflake",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6280,7 +6280,7 @@
       "demand": "2"
     },
     "snowflake (knife) (uncommon) (2018)": {
-      "name": "Snowflake (Knife) [XMAS2018]",
+      "name": "Snowflake",
       "value": "55",
       "numericValue": 55,
       "type": "knife",
@@ -6292,7 +6292,7 @@
       "demand": "3"
     },
     "snowflake (knife) (uncommon) (2022)": {
-      "name": "Snowflake (Knife) [XMAS2022]",
+      "name": "Snowflake",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -6304,7 +6304,7 @@
       "demand": "2"
     },
     "snowman (knife) (uncommon) (2023)": {
-      "name": "Snowman (2023)",
+      "name": "Snowman",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6316,7 +6316,7 @@
       "demand": "1"
     },
     "snowman (knife) (uncommon) (2024)": {
-      "name": "Snowman (2024)",
+      "name": "Snowman",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6328,7 +6328,7 @@
       "demand": "1"
     },
     "snowman (gun) (uncommon) (2015)": {
-      "name": "Snowman (Gun) [XMAS2015]",
+      "name": "Snowman",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -6340,7 +6340,7 @@
       "demand": "1"
     },
     "snowman (gun) (uncommon) (2021)": {
-      "name": "Snowman (Gun) [XMAS2021]",
+      "name": "Snowman",
       "value": "5",
       "numericValue": 5,
       "type": "gun",
@@ -6352,7 +6352,7 @@
       "demand": "2"
     },
     "snowman (knife) (uncommon) (2015)": {
-      "name": "Snowman (Knife) [XMAS2015]",
+      "name": "Snowman",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -6364,7 +6364,7 @@
       "demand": "1"
     },
     "snowman (knife) (uncommon) (2021)": {
-      "name": "Snowman (Knife) [XMAS2021]",
+      "name": "Snowman",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "knife",
@@ -6400,7 +6400,7 @@
       "demand": "1"
     },
     "soda (gun)": {
-      "name": "Soda (Gun)",
+      "name": "Soda",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6412,7 +6412,7 @@
       "demand": "1"
     },
     "soda (knife) (uncommon) (2025)": {
-      "name": "Soda (Knife)",
+      "name": "Soda",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6448,7 +6448,7 @@
       "demand": "1"
     },
     "stars (gun)": {
-      "name": "Stars (Gun)",
+      "name": "Stars",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6460,7 +6460,7 @@
       "demand": "2"
     },
     "stars (knife)": {
-      "name": "Stars (Knife)",
+      "name": "Stars",
       "value": "2",
       "numericValue": 2,
       "type": "knife",
@@ -6472,7 +6472,7 @@
       "demand": "2"
     },
     "steel (gun)": {
-      "name": "Steel (Gun)",
+      "name": "Steel",
       "value": "8",
       "numericValue": 8,
       "type": "gun",
@@ -6484,7 +6484,7 @@
       "demand": "2"
     },
     "steel (knife)": {
-      "name": "Steel (Knife)",
+      "name": "Steel",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -6496,7 +6496,7 @@
       "demand": "2"
     },
     "stockings (gun)": {
-      "name": "Stockings (Gun)",
+      "name": "Stockings",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6508,7 +6508,7 @@
       "demand": "1"
     },
     "stockings (knife) (uncommon)": {
-      "name": "Stockings (Knife)",
+      "name": "Stockings",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6532,7 +6532,7 @@
       "demand": "1"
     },
     "sweater (gun) (uncommon) (2018)": {
-      "name": "Sweater (Gun) [XMAS2018]",
+      "name": "Sweater",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6544,7 +6544,7 @@
       "demand": "2"
     },
     "sweater (gun) (uncommon) (2025)": {
-      "name": "Sweater (Gun) [XMAS2025]",
+      "name": "Sweater",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6556,7 +6556,7 @@
       "demand": "1"
     },
     "sweater (knife) (uncommon) (2018)": {
-      "name": "Sweater (Knife) [XMAS2018]",
+      "name": "Sweater",
       "value": "60",
       "numericValue": 60,
       "type": "knife",
@@ -6568,7 +6568,7 @@
       "demand": "3"
     },
     "sweater (knife) (uncommon) (2025)": {
-      "name": "Sweater (Knife) [XMAS2025]",
+      "name": "Sweater",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6592,7 +6592,7 @@
       "demand": "1"
     },
     "treats (gun)": {
-      "name": "Treats (Gun)",
+      "name": "Treats",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6604,7 +6604,7 @@
       "demand": "1"
     },
     "treats (knife)": {
-      "name": "Treats (Knife)",
+      "name": "Treats",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6616,7 +6616,7 @@
       "demand": "1"
     },
     "tree (knife) (uncommon) (2017)": {
-      "name": "Tree (2017)",
+      "name": "Tree",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6628,7 +6628,7 @@
       "demand": "1"
     },
     "tree (knife) (uncommon) (2021)": {
-      "name": "Tree (2021)",
+      "name": "Tree",
       "value": "2",
       "numericValue": 2,
       "type": "knife",
@@ -6760,7 +6760,7 @@
       "demand": "1"
     },
     "wraiths (gun)": {
-      "name": "Wraiths (Gun)",
+      "name": "Wraiths",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -6772,7 +6772,7 @@
       "demand": "2"
     },
     "wraiths (knife)": {
-      "name": "Wraiths (Knife)",
+      "name": "Wraiths",
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "knife",
@@ -6784,7 +6784,7 @@
       "demand": "2"
     },
     "wrap (gun)": {
-      "name": "Wrap (Gun)",
+      "name": "Wrap",
       "value": "12",
       "numericValue": 12,
       "type": "gun",
@@ -6796,7 +6796,7 @@
       "demand": "2"
     },
     "wrap (knife)": {
-      "name": "Wrap (Knife)",
+      "name": "Wrap",
       "value": "12",
       "numericValue": 12,
       "type": "knife",
@@ -6808,7 +6808,7 @@
       "demand": "2"
     },
     "wrapped (gun) (uncommon) (2015)": {
-      "name": "Wrapped (Gun) [XMAS2015]",
+      "name": "Wrapped",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -6820,7 +6820,7 @@
       "demand": "1"
     },
     "wrapped (gun) (uncommon) (2024)": {
-      "name": "Wrapped (Gun) [XMAS2024]",
+      "name": "Wrapped",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "gun",
@@ -6832,7 +6832,7 @@
       "demand": "2"
     },
     "wrapped (knife) (uncommon) (2015)": {
-      "name": "Wrapped (Knife) [XMAS2015]",
+      "name": "Wrapped",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -6844,7 +6844,7 @@
       "demand": "1"
     },
     "wrapped (knife) (uncommon) (2024)": {
-      "name": "Wrapped (Knife) [XMAS2024]",
+      "name": "Wrapped",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -6880,7 +6880,7 @@
       "demand": "2"
     },
     "zombie (knife) (uncommon) (2023)": {
-      "name": "Zombie (2023)",
+      "name": "Zombie",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -6892,7 +6892,7 @@
       "demand": "2"
     },
     "zombie (gun)": {
-      "name": "Zombie (Gun)",
+      "name": "Zombie",
       "value": "5",
       "numericValue": 5,
       "type": "gun",
@@ -6904,7 +6904,7 @@
       "demand": "1"
     },
     "zombie (knife) (uncommon) (2018)": {
-      "name": "Zombie (Knife)",
+      "name": "Zombie",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -6916,7 +6916,7 @@
       "demand": "1"
     },
     "zombified (gun)": {
-      "name": "Zombified (Gun)",
+      "name": "Zombified",
       "value": "15",
       "numericValue": 15,
       "type": "gun",
@@ -6928,7 +6928,7 @@
       "demand": "2"
     },
     "zombified (knife) (uncommon)": {
-      "name": "Zombified (Knife)",
+      "name": "Zombified",
       "value": "120",
       "numericValue": 120,
       "type": "knife",
@@ -6976,7 +6976,7 @@
       "demand": "2"
     },
     "apocalypse (gun)": {
-      "name": "Apocalypse (Gun)",
+      "name": "Apocalypse",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -6988,7 +6988,7 @@
       "demand": "2"
     },
     "apocalypse (knife)": {
-      "name": "Apocalypse (Knife)",
+      "name": "Apocalypse",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -7036,7 +7036,7 @@
       "demand": "1"
     },
     "bats (knife) (common) (2020)": {
-      "name": "Bats (2020)",
+      "name": "Bats",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -7048,7 +7048,7 @@
       "demand": "2"
     },
     "bats (gun) (common) (2018)": {
-      "name": "Bats (Gun) [HALLOWS2018]",
+      "name": "Bats",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -7060,7 +7060,7 @@
       "demand": "1"
     },
     "bats (gun) (common) (2024)": {
-      "name": "Bats (Gun) [HALLOWS2024]",
+      "name": "Bats",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7072,7 +7072,7 @@
       "demand": "1"
     },
     "bats (knife) (common) (2018)": {
-      "name": "Bats (Knife) [HALLOWS2018]",
+      "name": "Bats",
       "value": "240",
       "numericValue": 240,
       "type": "knife",
@@ -7084,7 +7084,7 @@
       "demand": "3"
     },
     "bats (knife) (common) (2024)": {
-      "name": "Bats (Knife) [HALLOWS2024]",
+      "name": "Bats",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7216,7 +7216,7 @@
       "demand": "1"
     },
     "candied (gun)": {
-      "name": "Candied (Gun)",
+      "name": "Candied",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7228,7 +7228,7 @@
       "demand": "2"
     },
     "candied (knife)": {
-      "name": "Candied (Knife)",
+      "name": "Candied",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -7264,7 +7264,7 @@
       "demand": "1"
     },
     "candy corn (knife) (common) (2019)": {
-      "name": "Candy Corn (2019)",
+      "name": "Candy Corn",
       "value": "12",
       "numericValue": 12,
       "type": "knife",
@@ -7276,7 +7276,7 @@
       "demand": "2"
     },
     "candy corn (gun) (common) (2020)": {
-      "name": "Candy Corn (Gun) [HALLOWS2020]",
+      "name": "Candy Corn",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7288,7 +7288,7 @@
       "demand": "2"
     },
     "candy corn (gun) (common) (2022)": {
-      "name": "Candy Corn (Gun) [HALLOWS2022]",
+      "name": "Candy Corn",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7300,7 +7300,7 @@
       "demand": "2"
     },
     "candy corn (gun) (common) (2024)": {
-      "name": "Candy Corn (Gun) [HALLOWS2024]",
+      "name": "Candy Corn",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7312,7 +7312,7 @@
       "demand": "1"
     },
     "candy corn (gun) (common) (2025)": {
-      "name": "Candy Corn (Gun) [HALLOWS2025]",
+      "name": "Candy Corn",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7324,7 +7324,7 @@
       "demand": "1"
     },
     "candy corn (knife) (common) (2020)": {
-      "name": "Candy Corn (Knife) [HALLOWS2020]",
+      "name": "Candy Corn",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7336,7 +7336,7 @@
       "demand": "2"
     },
     "candy corn (knife) (common) (2022)": {
-      "name": "Candy Corn (Knife) [HALLOWS2022]",
+      "name": "Candy Corn",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7348,7 +7348,7 @@
       "demand": "1"
     },
     "candy corn (knife) (common) (2024)": {
-      "name": "Candy Corn (Knife) [HALLOWS2024]",
+      "name": "Candy Corn",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7360,7 +7360,7 @@
       "demand": "1"
     },
     "candy corn (knife) (common) (2025)": {
-      "name": "Candy Corn (Knife) [HALLOWS2025]",
+      "name": "Candy Corn",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7372,7 +7372,7 @@
       "demand": "1"
     },
     "candycorn": {
-      "name": "CandyCorn (2017)",
+      "name": "CandyCorn",
       "value": "25",
       "numericValue": 25,
       "type": "knife",
@@ -7384,7 +7384,7 @@
       "demand": "2"
     },
     "cane (gun) (common)": {
-      "name": "Cane (Gun)",
+      "name": "Cane",
       "value": "x2 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -7396,7 +7396,7 @@
       "demand": "2"
     },
     "cane (knife) (common)": {
-      "name": "Cane (Knife)",
+      "name": "Cane",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7444,7 +7444,7 @@
       "demand": "1"
     },
     "carved (gun)": {
-      "name": "Carved (Gun)",
+      "name": "Carved",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7456,7 +7456,7 @@
       "demand": "2"
     },
     "carved (knife)": {
-      "name": "Carved (Knife)",
+      "name": "Carved",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7552,7 +7552,7 @@
       "demand": "1"
     },
     "clown (gun) (common)": {
-      "name": "Clown (Gun)",
+      "name": "Clown",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "gun",
@@ -7564,7 +7564,7 @@
       "demand": "2"
     },
     "clown (knife)": {
-      "name": "Clown (Knife)",
+      "name": "Clown",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "knife",
@@ -7576,7 +7576,7 @@
       "demand": "2"
     },
     "clownfish (gun)": {
-      "name": "Clownfish (Gun)",
+      "name": "Clownfish",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7588,7 +7588,7 @@
       "demand": "1"
     },
     "clownfish (knife)": {
-      "name": "Clownfish (Knife)",
+      "name": "Clownfish",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7612,7 +7612,7 @@
       "demand": "2"
     },
     "coal (gun) (common) (2018)": {
-      "name": "Coal (Gun) [XMAS2018]",
+      "name": "Coal",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "gun",
@@ -7624,7 +7624,7 @@
       "demand": "2"
     },
     "coal (gun) (common) (2021)": {
-      "name": "Coal (Gun) [XMAS2021]",
+      "name": "Coal",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7636,7 +7636,7 @@
       "demand": "2"
     },
     "coal (gun) (common) (2022)": {
-      "name": "Coal (Gun) [XMAS2022]",
+      "name": "Coal",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "gun",
@@ -7648,7 +7648,7 @@
       "demand": "2"
     },
     "coal (knife) (common) (2018)": {
-      "name": "Coal (Knife) [XMAS2018]",
+      "name": "Coal",
       "value": "15",
       "numericValue": 15,
       "type": "knife",
@@ -7660,7 +7660,7 @@
       "demand": "2"
     },
     "coal (knife) (common) (2021)": {
-      "name": "Coal (Knife) [XMAS2021]",
+      "name": "Coal",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -7672,7 +7672,7 @@
       "demand": "2"
     },
     "coal (knife) (common) (2022)": {
-      "name": "Coal (Knife) [XMAS2022]",
+      "name": "Coal",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7756,7 +7756,7 @@
       "demand": "2"
     },
     "cracks (gun)": {
-      "name": "Cracks (Gun)",
+      "name": "Cracks",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -7768,7 +7768,7 @@
       "demand": "2"
     },
     "cracks (knife)": {
-      "name": "Cracks (Knife)",
+      "name": "Cracks",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7780,7 +7780,7 @@
       "demand": "2"
     },
     "darkness (gun)": {
-      "name": "Darkness (Gun)",
+      "name": "Darkness",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -7792,7 +7792,7 @@
       "demand": "2"
     },
     "darkness (knife)": {
-      "name": "Darkness (Knife)",
+      "name": "Darkness",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -7876,7 +7876,7 @@
       "demand": "1"
     },
     "elf (knife) (common) (2017)": {
-      "name": "Elf (2017)",
+      "name": "Elf",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7888,7 +7888,7 @@
       "demand": "2"
     },
     "elf (knife) (common) (2018)": {
-      "name": "Elf (2018)",
+      "name": "Elf",
       "value": "20",
       "numericValue": 20,
       "type": "knife",
@@ -7900,7 +7900,7 @@
       "demand": "2"
     },
     "elf (knife) (common) (2023)": {
-      "name": "Elf (2023)",
+      "name": "Elf",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -7912,7 +7912,7 @@
       "demand": "1"
     },
     "elf (gun)": {
-      "name": "Elf (Gun)",
+      "name": "Elf",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -7924,7 +7924,7 @@
       "demand": "1"
     },
     "elf (knife) (common) (2015)": {
-      "name": "Elf (Knife)",
+      "name": "Elf",
       "value": "15",
       "numericValue": 15,
       "type": "knife",
@@ -8008,7 +8008,7 @@
       "demand": "1"
     },
     "fragile (gun)": {
-      "name": "Fragile (Gun)",
+      "name": "Fragile",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -8020,7 +8020,7 @@
       "demand": "2"
     },
     "fragile (knife)": {
-      "name": "Fragile (Knife)",
+      "name": "Fragile",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -8032,7 +8032,7 @@
       "demand": "2"
     },
     "frosted (gun)": {
-      "name": "Frosted (Gun)",
+      "name": "Frosted",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -8044,7 +8044,7 @@
       "demand": "2"
     },
     "frosted (knife)": {
-      "name": "Frosted (Knife)",
+      "name": "Frosted",
       "value": "30",
       "numericValue": 30,
       "type": "knife",
@@ -8056,7 +8056,7 @@
       "demand": "2"
     },
     "frozen (gun) (common)": {
-      "name": "Frozen (Gun)",
+      "name": "Frozen",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -8068,7 +8068,7 @@
       "demand": "1"
     },
     "frozen (knife) (common)": {
-      "name": "Frozen (Knife)",
+      "name": "Frozen",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8080,7 +8080,7 @@
       "demand": "2"
     },
     "ghosts (knife) (common) (2023)": {
-      "name": "Ghosts (2023)",
+      "name": "Ghosts",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "knife",
@@ -8092,7 +8092,7 @@
       "demand": "2"
     },
     "ghosts (knife) (common) (2024)": {
-      "name": "Ghosts (2024)",
+      "name": "Ghosts",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8128,7 +8128,7 @@
       "demand": "3"
     },
     "gift bag (gun)": {
-      "name": "Gift Bag (Gun)",
+      "name": "Gift Bag",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -8140,7 +8140,7 @@
       "demand": "2"
     },
     "gift bag (knife)": {
-      "name": "Gift Bag (Knife)",
+      "name": "Gift Bag",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -8152,7 +8152,7 @@
       "demand": "2"
     },
     "gifts (knife) (common) (2024)": {
-      "name": "Gifts (2024)",
+      "name": "Gifts",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8164,7 +8164,7 @@
       "demand": "1"
     },
     "gifts (gun)": {
-      "name": "Gifts (Gun)",
+      "name": "Gifts",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -8176,7 +8176,7 @@
       "demand": "2"
     },
     "gifts (knife) (common) (2019)": {
-      "name": "Gifts (Knife)",
+      "name": "Gifts",
       "value": "95",
       "numericValue": 95,
       "type": "knife",
@@ -8236,7 +8236,7 @@
       "demand": "1"
     },
     "grave (gun)": {
-      "name": "Grave (Gun)",
+      "name": "Grave",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -8248,7 +8248,7 @@
       "demand": "1"
     },
     "grave (knife)": {
-      "name": "Grave (Knife)",
+      "name": "Grave",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -8308,7 +8308,7 @@
       "demand": "2"
     },
     "haunted (knife) (common) (2025)": {
-      "name": "Haunted (2025)",
+      "name": "Haunted",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8320,7 +8320,7 @@
       "demand": "1"
     },
     "haunted (gun)": {
-      "name": "Haunted (Gun)",
+      "name": "Haunted",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -8332,7 +8332,7 @@
       "demand": "1"
     },
     "haunted (knife) (common) (2018)": {
-      "name": "Haunted (Knife)",
+      "name": "Haunted",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -8356,7 +8356,7 @@
       "demand": "1"
     },
     "hearts (knife) (common) (2026)": {
-      "name": "Hearts (2026)",
+      "name": "Hearts",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8416,7 +8416,7 @@
       "demand": "1"
     },
     "igloo (gun)": {
-      "name": "Igloo (Gun)",
+      "name": "Igloo",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -8428,7 +8428,7 @@
       "demand": "1"
     },
     "igloo (knife)": {
-      "name": "Igloo (Knife)",
+      "name": "Igloo",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8464,7 +8464,7 @@
       "demand": "1"
     },
     "infected (gun)": {
-      "name": "Infected (Gun)",
+      "name": "Infected",
       "value": "3",
       "numericValue": 3,
       "type": "gun",
@@ -8476,7 +8476,7 @@
       "demand": "2"
     },
     "infected (knife) (common) (2022)": {
-      "name": "Infected (Knife)",
+      "name": "Infected",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -8536,7 +8536,7 @@
       "demand": "1"
     },
     "leaves (knife) (common) (2023)": {
-      "name": "Leaves [HALLOWS2023]",
+      "name": "Leaves",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8548,7 +8548,7 @@
       "demand": "1"
     },
     "leaves (knife) (common) (2025)": {
-      "name": "Leaves [SUMMER2025]",
+      "name": "Leaves",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8560,7 +8560,7 @@
       "demand": "1"
     },
     "lights (gun) (common)": {
-      "name": "Lights (Gun)",
+      "name": "Lights",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -8572,7 +8572,7 @@
       "demand": "1"
     },
     "lights (knife) (common)": {
-      "name": "Lights (Knife)",
+      "name": "Lights",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8608,7 +8608,7 @@
       "demand": "1"
     },
     "love (knife) (common) (2023)": {
-      "name": "Love (2023)",
+      "name": "Love",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -8620,7 +8620,7 @@
       "demand": "2"
     },
     "love (knife) (common)": {
-      "name": "Love (Knife)",
+      "name": "Love",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "knife",
@@ -8752,7 +8752,7 @@
       "demand": "1"
     },
     "ornament2 (gun)": {
-      "name": "Ornament2 (Gun)",
+      "name": "Ornament2",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -8764,7 +8764,7 @@
       "demand": "1"
     },
     "ornament2 (knife)": {
-      "name": "Ornament2 (Knife)",
+      "name": "Ornament2",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -8776,7 +8776,7 @@
       "demand": "1"
     },
     "ornaments (gun)": {
-      "name": "Ornaments (Gun)",
+      "name": "Ornaments",
       "value": "x1 T1 Rare",
       "numericValue": null,
       "type": "gun",
@@ -8788,7 +8788,7 @@
       "demand": "2"
     },
     "ornaments (knife) (common)": {
-      "name": "Ornaments (Knife)",
+      "name": "Ornaments",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -8848,7 +8848,7 @@
       "demand": "1"
     },
     "peppermint (gun)": {
-      "name": "Peppermint (Gun)",
+      "name": "Peppermint",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -8860,7 +8860,7 @@
       "demand": "1"
     },
     "peppermint (knife) (common)": {
-      "name": "Peppermint (Knife)",
+      "name": "Peppermint",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8884,7 +8884,7 @@
       "demand": "2"
     },
     "pine (gun)": {
-      "name": "Pine (Gun)",
+      "name": "Pine",
       "value": "x3 T1 Rares",
       "numericValue": null,
       "type": "gun",
@@ -8896,7 +8896,7 @@
       "demand": "2"
     },
     "pine (knife)": {
-      "name": "Pine (Knife)",
+      "name": "Pine",
       "value": "85",
       "numericValue": 85,
       "type": "knife",
@@ -8932,7 +8932,7 @@
       "demand": "2"
     },
     "present (knife) (common) (2023)": {
-      "name": "Present (2023)",
+      "name": "Present",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -8956,7 +8956,7 @@
       "demand": "2"
     },
     "pumpkin (knife) (common) (2019)": {
-      "name": "Pumpkin (2019)",
+      "name": "Pumpkin",
       "value": "12",
       "numericValue": 12,
       "type": "knife",
@@ -8968,7 +8968,7 @@
       "demand": "2"
     },
     "pumpkin (knife) (common) (2023)": {
-      "name": "Pumpkin (2023)",
+      "name": "Pumpkin",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "knife",
@@ -9004,7 +9004,7 @@
       "demand": "1"
     },
     "reindeer (knife) (common) (2025)": {
-      "name": "Reindeer [XMAS2025]",
+      "name": "Reindeer",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "knife",
@@ -9100,7 +9100,7 @@
       "demand": "1"
     },
     "sandy (gun)": {
-      "name": "Sandy (Gun)",
+      "name": "Sandy",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9124,7 +9124,7 @@
       "demand": "2"
     },
     "santa (knife) (common) (2018)": {
-      "name": "Santa (2018)",
+      "name": "Santa",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9136,7 +9136,7 @@
       "demand": "2"
     },
     "santa (knife) (common) (2023)": {
-      "name": "Santa (2023)",
+      "name": "Santa",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "knife",
@@ -9148,7 +9148,7 @@
       "demand": "2"
     },
     "santa (gun)": {
-      "name": "Santa (Gun)",
+      "name": "Santa",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "gun",
@@ -9160,7 +9160,7 @@
       "demand": "1"
     },
     "santa (knife) (common) (2015)": {
-      "name": "Santa (Knife)",
+      "name": "Santa",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -9268,7 +9268,7 @@
       "demand": "1"
     },
     "slime (gun)": {
-      "name": "Slime (Gun)",
+      "name": "Slime",
       "value": "1",
       "numericValue": 1,
       "type": "gun",
@@ -9280,7 +9280,7 @@
       "demand": "1"
     },
     "slime (knife)": {
-      "name": "Slime (Knife)",
+      "name": "Slime",
       "value": "1",
       "numericValue": 1,
       "type": "knife",
@@ -9304,7 +9304,7 @@
       "demand": "2"
     },
     "snowball (gun)": {
-      "name": "Snowball (Gun)",
+      "name": "Snowball",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9316,7 +9316,7 @@
       "demand": "1"
     },
     "snowball (knife)": {
-      "name": "Snowball (Knife)",
+      "name": "Snowball",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9340,7 +9340,7 @@
       "demand": "1"
     },
     "snowflakes (gun)": {
-      "name": "Snowflakes (Gun)",
+      "name": "Snowflakes",
       "value": "30",
       "numericValue": 30,
       "type": "gun",
@@ -9352,7 +9352,7 @@
       "demand": "2"
     },
     "snowflakes (knife) (common)": {
-      "name": "Snowflakes (Knife)",
+      "name": "Snowflakes",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -9364,7 +9364,7 @@
       "demand": "2"
     },
     "snowman (gun) (common) (2018)": {
-      "name": "Snowman (Gun) [XMAS2018]",
+      "name": "Snowman",
       "value": "25",
       "numericValue": 25,
       "type": "gun",
@@ -9376,7 +9376,7 @@
       "demand": "2"
     },
     "snowman (gun) (common) (2022)": {
-      "name": "Snowman (Gun) [XMAS2022]",
+      "name": "Snowman",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "gun",
@@ -9388,7 +9388,7 @@
       "demand": "2"
     },
     "snowman (knife) (common) (2018)": {
-      "name": "Snowman (Knife) [XMAS2018]",
+      "name": "Snowman",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9400,7 +9400,7 @@
       "demand": "2"
     },
     "snowman (knife) (common) (2022)": {
-      "name": "Snowman (Knife) [XMAS2022]",
+      "name": "Snowman",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9532,7 +9532,7 @@
       "demand": "2"
     },
     "spider (knife) (common)": {
-      "name": "Spider (2023)",
+      "name": "Spider",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9592,7 +9592,7 @@
       "demand": "1"
     },
     "starfish (gun)": {
-      "name": "Starfish (Gun)",
+      "name": "Starfish",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9604,7 +9604,7 @@
       "demand": "1"
     },
     "starfish (knife)": {
-      "name": "Starfish (Knife)",
+      "name": "Starfish",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9640,7 +9640,7 @@
       "demand": "1"
     },
     "stickers (gun) (common) (2021)": {
-      "name": "Stickers (Gun) [XMAS2021]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9652,7 +9652,7 @@
       "demand": "1"
     },
     "stickers (gun) (common) (2024)": {
-      "name": "Stickers (Gun) [XMAS2024]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9664,7 +9664,7 @@
       "demand": "1"
     },
     "stickers (gun) (common) (2023)": {
-      "name": "Stickers (Gun) [SUMMER2023]",
+      "name": "Stickers",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9676,7 +9676,7 @@
       "demand": "1"
     },
     "stickers (gun) (common) (2025)": {
-      "name": "Stickers (Gun) [XMAS2025]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9688,7 +9688,7 @@
       "demand": "1"
     },
     "stickers (gun) (common) (2022)": {
-      "name": "Stickers (Gun) [XMAS2022]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9700,7 +9700,7 @@
       "demand": "1"
     },
     "stickers (knife) (common) (2021)": {
-      "name": "Stickers (Knife) [XMAS2021]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9712,7 +9712,7 @@
       "demand": "1"
     },
     "stickers (knife) (common) (2024)": {
-      "name": "Stickers (Knife) [XMAS2024]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9724,7 +9724,7 @@
       "demand": "1"
     },
     "stickers (knife) (common) (2023)": {
-      "name": "Stickers (Knife) [SUMMER2023]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9736,7 +9736,7 @@
       "demand": "1"
     },
     "stickers (knife) (common) (2025)": {
-      "name": "Stickers [THANKSGIVING2025]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9748,7 +9748,7 @@
       "demand": "1"
     },
     "stickers (knife) (common) (2022)": {
-      "name": "Stickers [HALLOWS2022]",
+      "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9772,7 +9772,7 @@
       "demand": "2"
     },
     "stockings (knife) (common) (2024)": {
-      "name": "Stockings (2024)",
+      "name": "Stockings",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9784,7 +9784,7 @@
       "demand": "1"
     },
     "strawberries (gun)": {
-      "name": "Strawberries (Gun)",
+      "name": "Strawberries",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9796,7 +9796,7 @@
       "demand": "1"
     },
     "strawberries (knife)": {
-      "name": "Strawberries (Knife)",
+      "name": "Strawberries",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9808,7 +9808,7 @@
       "demand": "1"
     },
     "striped (gun)": {
-      "name": "Striped (Gun)",
+      "name": "Striped",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9820,7 +9820,7 @@
       "demand": "1"
     },
     "striped (knife)": {
-      "name": "Striped (Knife)",
+      "name": "Striped",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9892,7 +9892,7 @@
       "demand": "1"
     },
     "toy (gun)": {
-      "name": "Toy (Gun)",
+      "name": "Toy",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "gun",
@@ -9904,7 +9904,7 @@
       "demand": "2"
     },
     "toy (knife)": {
-      "name": "Toy (Knife)",
+      "name": "Toy",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "knife",
@@ -9940,7 +9940,7 @@
       "demand": "1"
     },
     "ufos (gun)": {
-      "name": "UFOs (Gun)",
+      "name": "UFOs",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9952,7 +9952,7 @@
       "demand": "1"
     },
     "ufos (knife)": {
-      "name": "UFOs (Knife)",
+      "name": "UFOs",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -9976,7 +9976,7 @@
       "demand": "1"
     },
     "vines (gun)": {
-      "name": "Vines (Gun)",
+      "name": "Vines",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -9988,7 +9988,7 @@
       "demand": "1"
     },
     "vines (knife)": {
-      "name": "Vines (Knife)",
+      "name": "Vines",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "knife",
@@ -10000,7 +10000,7 @@
       "demand": "2"
     },
     "watcher (gun) (common)": {
-      "name": "Watcher (Gun)",
+      "name": "Watcher",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -10012,7 +10012,7 @@
       "demand": "2"
     },
     "watcher (knife) (common)": {
-      "name": "Watcher (Knife)",
+      "name": "Watcher",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -10024,7 +10024,7 @@
       "demand": "2"
     },
     "wavy (gun)": {
-      "name": "Wavy (Gun)",
+      "name": "Wavy",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "gun",
@@ -10036,7 +10036,7 @@
       "demand": "1"
     },
     "wavy (knife)": {
-      "name": "Wavy (Knife)",
+      "name": "Wavy",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -10048,7 +10048,7 @@
       "demand": "1"
     },
     "webbed (gun)": {
-      "name": "Webbed (Gun)",
+      "name": "Webbed",
       "value": "25",
       "numericValue": 25,
       "type": "gun",
@@ -10060,7 +10060,7 @@
       "demand": "2"
     },
     "webbed (knife)": {
-      "name": "Webbed (Knife)",
+      "name": "Webbed",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
       "type": "knife",
@@ -10120,7 +10120,7 @@
       "demand": "1"
     },
     "wrapped (gun) (common)": {
-      "name": "Wrapped (Gun)",
+      "name": "Wrapped",
       "value": "30",
       "numericValue": 30,
       "type": "gun",
@@ -10132,7 +10132,7 @@
       "demand": "2"
     },
     "wrapped (knife) (common)": {
-      "name": "Wrapped (Knife)",
+      "name": "Wrapped",
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "knife",
@@ -10240,7 +10240,7 @@
       "demand": "3"
     },
     "blue pumpkin (pet) (4)": {
-      "name": "Blue Pumpkin [HALLOWS2018]",
+      "name": "Blue Pumpkin",
       "value": "220",
       "numericValue": 220,
       "type": "pet",
@@ -10252,7 +10252,7 @@
       "demand": "3"
     },
     "blue pumpkin (pet) (2)": {
-      "name": "Blue Pumpkin [HALLOWS2019]",
+      "name": "Blue Pumpkin",
       "value": "1",
       "numericValue": 1,
       "type": "pet",
@@ -10264,7 +10264,7 @@
       "demand": "1"
     },
     "blue pumpkin (pet) (3)": {
-      "name": "Blue Pumpkin [HALLOWS2020]",
+      "name": "Blue Pumpkin",
       "value": "7",
       "numericValue": 7,
       "type": "pet",
@@ -10372,7 +10372,7 @@
       "demand": "2"
     },
     "elf (pet) (5)": {
-      "name": "Elf (2019)",
+      "name": "Elf",
       "value": "625",
       "numericValue": 625,
       "type": "pet",
@@ -10528,7 +10528,7 @@
       "demand": "1"
     },
     "green pumpkin (pet) (4) (2018)": {
-      "name": "Green Pumpkin [HALLOWS2018]",
+      "name": "Green Pumpkin",
       "value": "60",
       "numericValue": 60,
       "type": "pet",
@@ -10540,7 +10540,7 @@
       "demand": "3"
     },
     "green pumpkin (pet) (2)": {
-      "name": "Green Pumpkin [HALLOWS2019]",
+      "name": "Green Pumpkin",
       "value": "3",
       "numericValue": 3,
       "type": "pet",
@@ -10552,7 +10552,7 @@
       "demand": "1"
     },
     "green pumpkin (pet) (4) (2020)": {
-      "name": "Green Pumpkin [HALLOWS2020]",
+      "name": "Green Pumpkin",
       "value": "12",
       "numericValue": 12,
       "type": "pet",
@@ -10564,7 +10564,7 @@
       "demand": "2"
     },
     "green pumpkin (pet) (4) (2021)": {
-      "name": "Green Pumpkin [HALLOWS2021]",
+      "name": "Green Pumpkin",
       "value": "10",
       "numericValue": 10,
       "type": "pet",
@@ -10732,7 +10732,7 @@
       "demand": "3"
     },
     "pumpkin (pet) (5)": {
-      "name": "Pumpkin (2017)",
+      "name": "Pumpkin",
       "value": "55",
       "numericValue": 55,
       "type": "pet",
@@ -10744,7 +10744,7 @@
       "demand": "3"
     },
     "pumpkin (pet) (3)": {
-      "name": "Pumpkin (2018)",
+      "name": "Pumpkin",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
@@ -10756,7 +10756,7 @@
       "demand": "2"
     },
     "pumpkin (pet) (2)": {
-      "name": "Pumpkin (2019)",
+      "name": "Pumpkin",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "pet",
@@ -10768,7 +10768,7 @@
       "demand": "1"
     },
     "pumpkin (pet) (1) (2020)": {
-      "name": "Pumpkin (2020)",
+      "name": "Pumpkin",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "pet",
@@ -10780,7 +10780,7 @@
       "demand": "1"
     },
     "pumpkin (pet) (1) (2021)": {
-      "name": "Pumpkin (2021)",
+      "name": "Pumpkin",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "pet",
@@ -10792,7 +10792,7 @@
       "demand": "1"
     },
     "purple pumpkin": {
-      "name": "Purple Pumpkin [HALLOWS2018]",
+      "name": "Purple Pumpkin",
       "value": "3",
       "numericValue": 3,
       "type": "pet",
@@ -10804,7 +10804,7 @@
       "demand": "1"
     },
     "red pumpkin (pet) (4) (2018)": {
-      "name": "Red Pumpkin [HALLOWS2018]",
+      "name": "Red Pumpkin",
       "value": "120",
       "numericValue": 120,
       "type": "pet",
@@ -10816,7 +10816,7 @@
       "demand": "3"
     },
     "red pumpkin (pet) (2)": {
-      "name": "Red Pumpkin [HALLOWS2019]",
+      "name": "Red Pumpkin",
       "value": "3",
       "numericValue": 3,
       "type": "pet",
@@ -10828,7 +10828,7 @@
       "demand": "1"
     },
     "red pumpkin (pet) (4) (2020)": {
-      "name": "Red Pumpkin [HALLOWS2020]",
+      "name": "Red Pumpkin",
       "value": "20",
       "numericValue": 20,
       "type": "pet",
@@ -10840,7 +10840,7 @@
       "demand": "2"
     },
     "red pumpkin (pet) (4) (2021)": {
-      "name": "Red Pumpkin [HALLOWS2021]",
+      "name": "Red Pumpkin",
       "value": "17",
       "numericValue": 17,
       "type": "pet",
@@ -11080,7 +11080,7 @@
       "demand": "1"
     },
     "candies (misc) (2)": {
-      "name": "Candies (2016)",
+      "name": "Candies",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "misc",
@@ -11092,7 +11092,7 @@
       "demand": "1"
     },
     "candies (misc) (1)": {
-      "name": "Candies (2017)",
+      "name": "Candies",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "misc",

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "September 2nd, 2026 at 10:19 PM",
-  "scrapedAt": "September 3rd, 2026 at 6:44 PM UTC",
+  "lastUpdated": "September 4th, 2026 at 6:45 PM",
+  "scrapedAt": "September 7th, 2026 at 12:20 AM UTC",
   "itemCount": 936,
   "items": {
     "2015": {
@@ -29,7 +29,7 @@
       "demand": "3",
       "tier": null
     },
-    "batwing (ancient)": {
+    "batwing (2018)": {
       "name": "Batwing",
       "value": "42",
       "numericValue": 42,
@@ -70,8 +70,8 @@
     },
     "gingerscope": {
       "name": "Gingerscope",
-      "value": "17250",
-      "numericValue": 17250,
+      "value": "17000",
+      "numericValue": 17000,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -356,21 +356,21 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1450",
-      "numericValue": 1450,
+      "value": "1500",
+      "numericValue": 1500,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2026,
       "category": "chromas",
-      "stability": "Fluctuating",
+      "stability": "Doing Well",
       "demand": "5",
       "tier": null
     },
     "chroma blizzard": {
       "name": "Chroma Blizzard",
-      "value": "4500",
-      "numericValue": 4500,
+      "value": "4400",
+      "numericValue": 4400,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -486,14 +486,14 @@
     },
     "chroma evergun": {
       "name": "Chroma Evergun",
-      "value": "73000",
-      "numericValue": 73000,
+      "value": "72000",
+      "numericValue": 72000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2023,
       "category": "chromas",
-      "stability": "Stable",
+      "stability": "Underpaid For",
       "demand": "8",
       "tier": null
     },
@@ -655,8 +655,8 @@
     },
     "chroma icecream": {
       "name": "Chroma Icecream",
-      "value": "1950",
-      "numericValue": 1950,
+      "value": "2150",
+      "numericValue": 2150,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -733,14 +733,14 @@
     },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1500",
-      "numericValue": 1500,
+      "value": "1550",
+      "numericValue": 1550,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2026,
       "category": "chromas",
-      "stability": "Fluctuating",
+      "stability": "Doing Well",
       "demand": "5",
       "tier": null
     },
@@ -837,8 +837,8 @@
     },
     "chroma sunrise": {
       "name": "Chroma Sunrise",
-      "value": "12000",
-      "numericValue": 12000,
+      "value": "11750",
+      "numericValue": 11750,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -863,8 +863,8 @@
     },
     "chroma sweet": {
       "name": "Chroma Sweet",
-      "value": "1800",
-      "numericValue": 1800,
+      "value": "1750",
+      "numericValue": 1750,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -876,8 +876,8 @@
     },
     "chroma swirly gun": {
       "name": "Chroma Swirly Gun",
-      "value": "38",
-      "numericValue": 38,
+      "value": "35",
+      "numericValue": 35,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -902,21 +902,21 @@
     },
     "chroma traveler's gun": {
       "name": "Chroma Traveler's Gun",
-      "value": "210000",
-      "numericValue": 210000,
+      "value": "200000",
+      "numericValue": 200000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2023,
       "category": "chromas",
-      "stability": "Stable",
+      "stability": "Underpaid For",
       "demand": "9",
       "tier": null
     },
     "chroma treat": {
       "name": "Chroma Treat",
-      "value": "1900",
-      "numericValue": 1900,
+      "value": "1850",
+      "numericValue": 1850,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -941,8 +941,8 @@
     },
     "chroma watergun": {
       "name": "Chroma Watergun",
-      "value": "3200",
-      "numericValue": 3200,
+      "value": "3000",
+      "numericValue": 3000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -954,8 +954,8 @@
     },
     "alienbeam": {
       "name": "Alienbeam",
-      "value": "2350",
-      "numericValue": 2350,
+      "value": "2250",
+      "numericValue": 2250,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -991,7 +991,7 @@
       "demand": "2",
       "tier": null
     },
-    "bat (godly)": {
+    "bat (2022)": {
       "name": "Bat",
       "value": "120",
       "numericValue": 120,
@@ -1045,8 +1045,8 @@
     },
     "bauble": {
       "name": "Bauble",
-      "value": "725",
-      "numericValue": 725,
+      "value": "700",
+      "numericValue": 700,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1134,7 +1134,7 @@
       "demand": "5",
       "tier": null
     },
-    "blossom (godly)": {
+    "blossom (2023)": {
       "name": "Blossom",
       "value": "1370",
       "numericValue": 1370,
@@ -1186,7 +1186,7 @@
       "demand": "2",
       "tier": null
     },
-    "candleflame (godly)": {
+    "candleflame (2021)": {
       "name": "Candleflame",
       "value": "33",
       "numericValue": 33,
@@ -1240,8 +1240,8 @@
     },
     "constellation": {
       "name": "Constellation",
-      "value": "2950",
-      "numericValue": 2950,
+      "value": "3050",
+      "numericValue": 3050,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1443,7 +1443,7 @@
       "year": 2023,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "6",
+      "demand": "5",
       "tier": null
     },
     "evergun": {
@@ -1773,14 +1773,14 @@
     },
     "icecream": {
       "name": "Icecream",
-      "value": "170",
-      "numericValue": 170,
+      "value": "175",
+      "numericValue": 175,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
       "year": 2026,
       "category": "godlies",
-      "stability": "Doing Well",
+      "stability": "Stable",
       "demand": "3",
       "tier": null
     },
@@ -1825,8 +1825,8 @@
     },
     "lightbringer": {
       "name": "Lightbringer",
-      "value": "33",
-      "numericValue": 33,
+      "value": "32",
+      "numericValue": 32,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1845,7 +1845,7 @@
       "isChroma": false,
       "year": null,
       "category": "godlies",
-      "stability": "Underpaid For",
+      "stability": "Stable",
       "demand": "1",
       "tier": null
     },
@@ -1966,10 +1966,10 @@
       "demand": "1",
       "tier": null
     },
-    "ornament (godly)": {
+    "ornament (2025)": {
       "name": "Ornament",
-      "value": "100",
-      "numericValue": 100,
+      "value": "110",
+      "numericValue": 110,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2005,7 +2005,7 @@
       "demand": "1",
       "tier": null
     },
-    "peppermint (godly)": {
+    "peppermint (2020)": {
       "name": "Peppermint",
       "value": "4",
       "numericValue": 4,
@@ -2018,7 +2018,7 @@
       "demand": "1",
       "tier": null
     },
-    "phantom (godly)": {
+    "phantom (2022)": {
       "name": "Phantom",
       "value": "35",
       "numericValue": 35,
@@ -2109,7 +2109,7 @@
       "demand": "1",
       "tier": null
     },
-    "rainbow (knife) (godly)": {
+    "rainbow (knife) (2023)": {
       "name": "Rainbow",
       "value": "410",
       "numericValue": 410,
@@ -2137,8 +2137,8 @@
     },
     "raygun": {
       "name": "Raygun",
-      "value": "1950",
-      "numericValue": 1950,
+      "value": "1850",
+      "numericValue": 1850,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2150,8 +2150,8 @@
     },
     "red luger": {
       "name": "Red Luger",
-      "value": "37",
-      "numericValue": 37,
+      "value": "35",
+      "numericValue": 35,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2254,8 +2254,8 @@
     },
     "snow dagger": {
       "name": "Snow Dagger",
-      "value": "195",
-      "numericValue": 195,
+      "value": "185",
+      "numericValue": 185,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -2267,8 +2267,8 @@
     },
     "snowcannon": {
       "name": "Snowcannon",
-      "value": "725",
-      "numericValue": 725,
+      "value": "700",
+      "numericValue": 700,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2278,7 +2278,7 @@
       "demand": "5",
       "tier": null
     },
-    "snowflake (godly)": {
+    "snowflake (2017)": {
       "name": "Snowflake",
       "value": "5",
       "numericValue": 5,
@@ -2306,8 +2306,8 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "630",
-      "numericValue": 630,
+      "value": "640",
+      "numericValue": 640,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2330,7 +2330,7 @@
       "demand": "1",
       "tier": null
     },
-    "spider (godly)": {
+    "spider (2015)": {
       "name": "Spider",
       "value": "10",
       "numericValue": 10,
@@ -2345,8 +2345,8 @@
     },
     "spirit": {
       "name": "Spirit",
-      "value": "620",
-      "numericValue": 620,
+      "value": "630",
+      "numericValue": 630,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2371,8 +2371,8 @@
     },
     "sunrise": {
       "name": "Sunrise",
-      "value": "1300",
-      "numericValue": 1300,
+      "value": "1250",
+      "numericValue": 1250,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2384,14 +2384,14 @@
     },
     "sunset (knife)": {
       "name": "Sunset",
-      "value": "775",
-      "numericValue": 775,
+      "value": "750",
+      "numericValue": 750,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
       "year": 2025,
       "category": "godlies",
-      "stability": "Stable",
+      "stability": "Receding",
       "demand": "5",
       "tier": null
     },
@@ -2475,8 +2475,8 @@
     },
     "turkey": {
       "name": "Turkey",
-      "value": "2250",
-      "numericValue": 2250,
+      "value": "2200",
+      "numericValue": 2200,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2501,15 +2501,15 @@
     },
     "vampire's gun": {
       "name": "Vampire's Gun",
-      "value": "2200",
-      "numericValue": 2200,
+      "value": "2250",
+      "numericValue": 2250,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": 2024,
       "category": "godlies",
-      "stability": "Overpaid For",
-      "demand": "6",
+      "stability": "Stable",
+      "demand": "5",
       "tier": null
     },
     "virtual": {
@@ -2527,8 +2527,8 @@
     },
     "watergun": {
       "name": "Watergun",
-      "value": "195",
-      "numericValue": 195,
+      "value": "185",
+      "numericValue": 185,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2538,7 +2538,7 @@
       "demand": "3",
       "tier": null
     },
-    "waves (godly)": {
+    "waves (2023)": {
       "name": "Waves",
       "value": "280",
       "numericValue": 280,
@@ -2668,7 +2668,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "aurora (gun) (legendary)": {
+    "aurora (gun) (2021)": {
       "name": "Aurora",
       "value": "45",
       "numericValue": 45,
@@ -2681,7 +2681,7 @@
       "demand": "2",
       "tier": null
     },
-    "aurora (knife) (legendary)": {
+    "aurora (knife) (2021)": {
       "name": "Aurora",
       "value": "3",
       "numericValue": 3,
@@ -2967,7 +2967,7 @@
       "demand": "2",
       "tier": null
     },
-    "frozen (gun) (legendary)": {
+    "frozen (gun) (2025)": {
       "name": "Frozen",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -2980,7 +2980,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "frozen (knife) (legendary)": {
+    "frozen (knife) (2025)": {
       "name": "Frozen",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
@@ -3032,7 +3032,7 @@
       "demand": "1",
       "tier": null
     },
-    "ginger (gun) (legendary)": {
+    "ginger (gun) (2018)": {
       "name": "Ginger",
       "value": "5",
       "numericValue": 5,
@@ -3045,7 +3045,7 @@
       "demand": "1",
       "tier": null
     },
-    "ginger (knife) (legendary)": {
+    "ginger (knife) (2018)": {
       "name": "Ginger",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
@@ -3396,7 +3396,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "skulls (legendary)": {
+    "skulls (2019)": {
       "name": "Skulls",
       "value": "4",
       "numericValue": 4,
@@ -3500,7 +3500,7 @@
       "demand": "2",
       "tier": null
     },
-    "tree (gun) (legendary)": {
+    "tree (gun) (2015)": {
       "name": "Tree",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -3513,7 +3513,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "tree (knife) (legendary)": {
+    "tree (knife) (2015)": {
       "name": "Tree",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -3539,7 +3539,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "vampire (gun) (legendary)": {
+    "vampire (gun) (2022)": {
       "name": "Vampire",
       "value": "45",
       "numericValue": 45,
@@ -3552,7 +3552,7 @@
       "demand": "2",
       "tier": null
     },
-    "vampire (knife) (legendary)": {
+    "vampire (knife) (2022)": {
       "name": "Vampire",
       "value": "3",
       "numericValue": 3,
@@ -3630,7 +3630,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "aurora (gun) (rare)": {
+    "aurora (gun) (2019)": {
       "name": "Aurora",
       "value": "1",
       "numericValue": 1,
@@ -3643,7 +3643,7 @@
       "demand": "1",
       "tier": null
     },
-    "aurora (knife) (rare)": {
+    "aurora (knife) (2019)": {
       "name": "Aurora",
       "value": "7",
       "numericValue": 7,
@@ -3669,7 +3669,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "bats (rare)": {
+    "bats (2016)": {
       "name": "Bats",
       "value": "2",
       "numericValue": 2,
@@ -3708,7 +3708,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "bones (knife) (rare)": {
+    "bones (knife) (2020)": {
       "name": "Bones",
       "value": "x3 T1 Rares",
       "numericValue": null,
@@ -3892,8 +3892,8 @@
     },
     "dungeon": {
       "name": "Dungeon",
-      "value": "160",
-      "numericValue": 160,
+      "value": "150",
+      "numericValue": 150,
       "type": "unknown",
       "rarity": "rare",
       "isChroma": false,
@@ -4033,7 +4033,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "ginger (gun) (rare)": {
+    "ginger (gun) (2015)": {
       "name": "Ginger",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -4046,7 +4046,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "ginger (knife) (rare)": {
+    "ginger (knife) (2015)": {
       "name": "Ginger",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -4059,7 +4059,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "gingerbread (rare)": {
+    "gingerbread (2017)": {
       "name": "Gingerbread",
       "value": "1",
       "numericValue": 1,
@@ -4072,7 +4072,7 @@
       "demand": "1",
       "tier": null
     },
-    "gingerbread (gun) (rare)": {
+    "gingerbread (gun) (2022)": {
       "name": "Gingerbread",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -4085,7 +4085,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "gingerbread (knife) (rare)": {
+    "gingerbread (knife) (2022)": {
       "name": "Gingerbread",
       "value": "x1 T1 Legendary",
       "numericValue": null,
@@ -4332,7 +4332,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "magma (rare)": {
+    "magma (2017)": {
       "name": "Magma",
       "value": "3",
       "numericValue": 3,
@@ -4410,7 +4410,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "monster (rare)": {
+    "monster (2019)": {
       "name": "Monster",
       "value": "1",
       "numericValue": 1,
@@ -4423,7 +4423,7 @@
       "demand": "1",
       "tier": null
     },
-    "mummy (rare)": {
+    "mummy (2015)": {
       "name": "Mummy",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -4748,7 +4748,7 @@
       "demand": "2",
       "tier": null
     },
-    "snowflake (rare)": {
+    "snowflake (2023)": {
       "name": "Snowflake",
       "value": "x2 T1 Rares",
       "numericValue": null,
@@ -4761,7 +4761,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "snowflakes (rare)": {
+    "snowflakes (2020)": {
       "name": "Snowflakes",
       "value": "12",
       "numericValue": 12,
@@ -4787,7 +4787,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "snowy (rare)": {
+    "snowy (2017)": {
       "name": "Snowy",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
@@ -4956,7 +4956,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "sunset (rare)": {
+    "sunset (2026)": {
       "name": "Sunset",
       "value": "x3 T1 Rares",
       "numericValue": null,
@@ -5008,7 +5008,7 @@
       "demand": "2",
       "tier": null
     },
-    "tree (rare)": {
+    "tree (2023)": {
       "name": "Tree",
       "value": "x3 T1 Rares",
       "numericValue": null,
@@ -5021,7 +5021,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "tree (gun) (rare)": {
+    "tree (gun) (2022)": {
       "name": "Tree",
       "value": "x2 T1 Rares",
       "numericValue": null,
@@ -5034,7 +5034,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "tree (knife) (rare)": {
+    "tree (knife) (2022)": {
       "name": "Tree",
       "value": "x3 T1 Rares",
       "numericValue": null,
@@ -5060,7 +5060,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "vampire (gun) (rare)": {
+    "vampire (gun) (2018)": {
       "name": "Vampire",
       "value": "3",
       "numericValue": 3,
@@ -5073,7 +5073,7 @@
       "demand": "2",
       "tier": null
     },
-    "vampire (knife) (rare)": {
+    "vampire (knife) (2018)": {
       "name": "Vampire",
       "value": "1",
       "numericValue": 1,
@@ -5099,7 +5099,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "watcher (gun) (rare)": {
+    "watcher (gun) (2021)": {
       "name": "Watcher",
       "value": "20",
       "numericValue": 20,
@@ -5112,7 +5112,7 @@
       "demand": "2",
       "tier": null
     },
-    "watcher (knife) (rare)": {
+    "watcher (knife) (2021)": {
       "name": "Watcher",
       "value": "x3 T1 Legendaries",
       "numericValue": null,
@@ -5125,7 +5125,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "waves (rare)": {
+    "waves (2024)": {
       "name": "Waves",
       "value": "x2 T1 Rares",
       "numericValue": null,
@@ -5203,7 +5203,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "zombified (knife) (rare)": {
+    "zombified (knife) (2022)": {
       "name": "Zombified",
       "value": "30",
       "numericValue": 30,
@@ -5268,7 +5268,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "blossom (uncommon)": {
+    "blossom (2026)": {
       "name": "Blossom",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -5333,7 +5333,7 @@
       "demand": "3",
       "tier": null
     },
-    "bones (knife) (uncommon)": {
+    "bones (knife) (2024)": {
       "name": "Bones",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -5450,7 +5450,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "carrot (uncommon)": {
+    "carrot (2023)": {
       "name": "Carrot",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -5554,7 +5554,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "clown (gun) (uncommon)": {
+    "clown (gun) (2024)": {
       "name": "Clown",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -5697,7 +5697,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "floral (uncommon)": {
+    "floral (2026)": {
       "name": "Floral",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -5736,7 +5736,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "frozen (gun) (uncommon)": {
+    "frozen (gun) (2019)": {
       "name": "Frozen",
       "value": "3",
       "numericValue": 3,
@@ -5749,7 +5749,7 @@
       "demand": "1",
       "tier": null
     },
-    "frozen (knife) (uncommon)": {
+    "frozen (knife) (2019)": {
       "name": "Frozen",
       "value": "1",
       "numericValue": 1,
@@ -6126,7 +6126,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "leaves (uncommon)": {
+    "leaves (2024)": {
       "name": "Leaves",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -6139,7 +6139,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "lights (gun) (uncommon)": {
+    "lights (gun) (2019)": {
       "name": "Lights",
       "value": "2",
       "numericValue": 2,
@@ -6152,7 +6152,7 @@
       "demand": "1",
       "tier": null
     },
-    "lights (knife) (uncommon)": {
+    "lights (knife) (2019)": {
       "name": "Lights",
       "value": "1",
       "numericValue": 1,
@@ -6308,7 +6308,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "monster (uncommon)": {
+    "monster (2024)": {
       "name": "Monster",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -6360,7 +6360,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "mummy (uncommon)": {
+    "mummy (2017)": {
       "name": "Mummy",
       "value": "20",
       "numericValue": 20,
@@ -6464,7 +6464,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "ornaments (uncommon)": {
+    "ornaments (2025)": {
       "name": "Ornaments",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -6581,7 +6581,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "popsicle (uncommon)": {
+    "popsicle (2023)": {
       "name": "Popsicle",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -6620,7 +6620,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "potion (uncommon)": {
+    "potion (2017)": {
       "name": "Potion",
       "value": "3",
       "numericValue": 3,
@@ -6659,7 +6659,7 @@
       "demand": "1",
       "tier": null
     },
-    "pumpkin (uncommon)": {
+    "pumpkin (2025)": {
       "name": "Pumpkin",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -6763,7 +6763,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "skulls (uncommon)": {
+    "skulls (2021)": {
       "name": "Skulls",
       "value": "15",
       "numericValue": 15,
@@ -6906,7 +6906,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "snowy (uncommon)": {
+    "snowy (2015)": {
       "name": "Snowy",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -6971,7 +6971,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "starry (uncommon)": {
+    "starry (2026)": {
       "name": "Starry",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -7062,7 +7062,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "sweater (uncommon)": {
+    "sweater (2017)": {
       "name": "Sweater",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -7166,7 +7166,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "tree (uncommon)": {
+    "tree (2017)": {
       "name": "Tree",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -7179,7 +7179,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "tree (knife) (uncommon)": {
+    "tree (knife) (2021)": {
       "name": "Tree",
       "value": "2",
       "numericValue": 2,
@@ -7218,7 +7218,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "vampire (uncommon)": {
+    "vampire (2016)": {
       "name": "Vampire",
       "value": "1",
       "numericValue": 1,
@@ -7257,7 +7257,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "webs (uncommon)": {
+    "webs (2017)": {
       "name": "Webs",
       "value": "3",
       "numericValue": 3,
@@ -7504,7 +7504,7 @@
       "demand": "2",
       "tier": null
     },
-    "zombified (knife) (uncommon)": {
+    "zombified (knife) (2019)": {
       "name": "Zombified",
       "value": "120",
       "numericValue": 120,
@@ -7738,7 +7738,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "blossom (common)": {
+    "blossom (2016)": {
       "name": "Blossom",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -7751,7 +7751,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "bones (common)": {
+    "bones (2016)": {
       "name": "Bones",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -7777,7 +7777,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "brains (common)": {
+    "brains (2016)": {
       "name": "Brains",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -7868,7 +7868,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "candy corn (common)": {
+    "candy corn (2019)": {
       "name": "Candy Corn",
       "value": "12",
       "numericValue": 12,
@@ -7998,7 +7998,7 @@
       "demand": "2",
       "tier": null
     },
-    "cane (gun) (common)": {
+    "cane (gun) (2021)": {
       "name": "Cane",
       "value": "x2 T1 Rares",
       "numericValue": null,
@@ -8011,7 +8011,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "cane (knife) (common)": {
+    "cane (knife) (2021)": {
       "name": "Cane",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -8037,7 +8037,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "carrot (common)": {
+    "carrot (2016)": {
       "name": "Carrot",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -8089,7 +8089,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "cat (common)": {
+    "cat (2021)": {
       "name": "Cat",
       "value": "x1 T1 Uncommon",
       "numericValue": null,
@@ -8232,7 +8232,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "coal (common)": {
+    "coal (2017)": {
       "name": "Coal",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -8635,7 +8635,7 @@
       "demand": "2",
       "tier": null
     },
-    "eyeball (common)": {
+    "eyeball (2022)": {
       "name": "Eyeball",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -8726,7 +8726,7 @@
       "demand": "2",
       "tier": null
     },
-    "frozen (gun) (common)": {
+    "frozen (gun) (2023)": {
       "name": "Frozen",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -8739,7 +8739,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "frozen (knife) (common)": {
+    "frozen (knife) (2023)": {
       "name": "Frozen",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -8830,7 +8830,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "gifts (common)": {
+    "gifts (2024)": {
       "name": "Gifts",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -9272,7 +9272,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "lights (gun) (common)": {
+    "lights (gun) (2025)": {
       "name": "Lights",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -9285,7 +9285,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "lights (knife) (common)": {
+    "lights (knife) (2025)": {
       "name": "Lights",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -9324,7 +9324,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "love (common)": {
+    "love (2023)": {
       "name": "Love",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
@@ -9454,7 +9454,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "ornament (common)": {
+    "ornament (2015)": {
       "name": "Ornament",
       "value": "x4 T1 Legendaries",
       "numericValue": null,
@@ -9610,7 +9610,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "phantom (common)": {
+    "phantom (2017)": {
       "name": "Phantom",
       "value": "10",
       "numericValue": 10,
@@ -9662,7 +9662,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "present (common)": {
+    "present (2017)": {
       "name": "Present",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -9701,7 +9701,7 @@
       "demand": "2",
       "tier": null
     },
-    "pumpkin (2019)": {
+    "pumpkin (common) (2019)": {
       "name": "Pumpkin",
       "value": "12",
       "numericValue": 12,
@@ -10325,7 +10325,7 @@
       "demand": "2",
       "tier": null
     },
-    "spider (common)": {
+    "spider (2023)": {
       "name": "Spider",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -10416,7 +10416,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "starry (common)": {
+    "starry (2020)": {
       "name": "Starry",
       "value": "5",
       "numericValue": 5,
@@ -10572,7 +10572,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "stickers (2022)": {
+    "stickers (common) (2022)": {
       "name": "Stickers",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -10858,7 +10858,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "watcher (gun) (common)": {
+    "watcher (gun) (2020)": {
       "name": "Watcher",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -10871,7 +10871,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "watcher (knife) (common)": {
+    "watcher (knife) (2020)": {
       "name": "Watcher",
       "value": "x2 T1 Commons",
       "numericValue": null,
@@ -10936,7 +10936,7 @@
       "demand": "2",
       "tier": "T1"
     },
-    "webs (common)": {
+    "webs (2022)": {
       "name": "Webs",
       "value": "x2 T1 Uncommons",
       "numericValue": null,
@@ -10988,7 +10988,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "wrapped (gun) (common)": {
+    "wrapped (gun) (2018)": {
       "name": "Wrapped",
       "value": "30",
       "numericValue": 30,
@@ -11001,7 +11001,7 @@
       "demand": "2",
       "tier": null
     },
-    "wrapped (knife) (common)": {
+    "wrapped (knife) (2018)": {
       "name": "Wrapped",
       "value": "x3 T1 Commons",
       "numericValue": null,
@@ -11040,7 +11040,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "zombie (knife) (common)": {
+    "zombie (knife) (2017)": {
       "name": "Zombie",
       "value": "10",
       "numericValue": 10,
@@ -11058,7 +11058,7 @@
       "value": "7",
       "numericValue": 7,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2016,
       "category": "pets",
@@ -11071,7 +11071,7 @@
       "value": "1",
       "numericValue": 1,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11084,7 +11084,7 @@
       "value": "x2 T1 Uncommons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11097,7 +11097,7 @@
       "value": "x3 T1 Commons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11110,7 +11110,7 @@
       "value": "75",
       "numericValue": 75,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11118,12 +11118,12 @@
       "demand": "3",
       "tier": null
     },
-    "blue pumpkin (pet) (4)": {
+    "blue pumpkin (pet) (2018)": {
       "name": "Blue Pumpkin",
       "value": "220",
       "numericValue": 220,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11131,12 +11131,12 @@
       "demand": "3",
       "tier": null
     },
-    "blue pumpkin (pet) (2)": {
+    "blue pumpkin (pet) (2019)": {
       "name": "Blue Pumpkin",
       "value": "1",
       "numericValue": 1,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11144,12 +11144,12 @@
       "demand": "1",
       "tier": null
     },
-    "blue pumpkin (pet) (3)": {
+    "blue pumpkin (pet) (2020)": {
       "name": "Blue Pumpkin",
       "value": "7",
       "numericValue": 7,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11162,7 +11162,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2023,
       "category": "pets",
@@ -11175,7 +11175,7 @@
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11188,7 +11188,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11201,7 +11201,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11214,7 +11214,7 @@
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11227,7 +11227,7 @@
       "value": "150",
       "numericValue": 150,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11240,7 +11240,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11248,12 +11248,12 @@
       "demand": "1",
       "tier": "T1"
     },
-    "elf (pet) (4)": {
+    "elf (pet) (2016)": {
       "name": "Elf",
       "value": "25",
       "numericValue": 25,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2016,
       "category": "pets",
@@ -11261,12 +11261,12 @@
       "demand": "2",
       "tier": null
     },
-    "elf (pet) (5)": {
+    "elf (pet) (2019)": {
       "name": "Elf",
       "value": "625",
       "numericValue": 625,
       "type": "pet",
-      "rarity": "5",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11279,7 +11279,7 @@
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11292,7 +11292,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11305,7 +11305,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11318,7 +11318,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11331,7 +11331,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11344,7 +11344,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11357,7 +11357,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11370,7 +11370,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11383,7 +11383,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11396,7 +11396,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11409,7 +11409,7 @@
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11422,7 +11422,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11435,7 +11435,7 @@
       "value": "60",
       "numericValue": 60,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11443,12 +11443,12 @@
       "demand": "3",
       "tier": null
     },
-    "green pumpkin (pet) (2)": {
+    "green pumpkin (pet) (2019)": {
       "name": "Green Pumpkin",
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11461,7 +11461,7 @@
       "value": "12",
       "numericValue": 12,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11474,7 +11474,7 @@
       "value": "10",
       "numericValue": 10,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11487,7 +11487,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2017,
       "category": "pets",
@@ -11500,7 +11500,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11513,7 +11513,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11526,7 +11526,7 @@
       "value": "1",
       "numericValue": 1,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2025,
       "category": "pets",
@@ -11539,7 +11539,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11552,7 +11552,7 @@
       "value": "55",
       "numericValue": 55,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11565,7 +11565,7 @@
       "value": "20",
       "numericValue": 20,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11578,7 +11578,7 @@
       "value": "5",
       "numericValue": 5,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11591,7 +11591,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11604,7 +11604,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11617,7 +11617,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11630,7 +11630,7 @@
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11643,7 +11643,7 @@
       "value": "55",
       "numericValue": 55,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11651,12 +11651,12 @@
       "demand": "3",
       "tier": null
     },
-    "pumpkin (pet) (5)": {
+    "pumpkin (pet) (2017)": {
       "name": "Pumpkin",
       "value": "55",
       "numericValue": 55,
       "type": "pet",
-      "rarity": "5",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2017,
       "category": "pets",
@@ -11664,12 +11664,12 @@
       "demand": "3",
       "tier": null
     },
-    "pumpkin (pet) (3)": {
+    "pumpkin (pet) (2018)": {
       "name": "Pumpkin",
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11677,12 +11677,12 @@
       "demand": "2",
       "tier": "T1"
     },
-    "pumpkin (pet) (2)": {
+    "pumpkin (pet) (2019)": {
       "name": "Pumpkin",
       "value": "x3 T1 Uncommons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11695,7 +11695,7 @@
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11708,7 +11708,7 @@
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11721,7 +11721,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11734,7 +11734,7 @@
       "value": "120",
       "numericValue": 120,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2018,
       "category": "pets",
@@ -11742,12 +11742,12 @@
       "demand": "3",
       "tier": null
     },
-    "red pumpkin (pet) (2)": {
+    "red pumpkin (pet) (2019)": {
       "name": "Red Pumpkin",
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11760,7 +11760,7 @@
       "value": "20",
       "numericValue": 20,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11773,7 +11773,7 @@
       "value": "17",
       "numericValue": 17,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11786,7 +11786,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2016,
       "category": "pets",
@@ -11799,7 +11799,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11812,7 +11812,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11825,7 +11825,7 @@
       "value": "x1 T1 Uncommon",
       "numericValue": null,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2017,
       "category": "pets",
@@ -11838,7 +11838,7 @@
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2020,
       "category": "pets",
@@ -11851,7 +11851,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11864,7 +11864,7 @@
       "value": "5",
       "numericValue": 5,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11877,7 +11877,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11890,7 +11890,7 @@
       "value": "15",
       "numericValue": 15,
       "type": "pet",
-      "rarity": "4",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11903,7 +11903,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2021,
       "category": "pets",
@@ -11916,7 +11916,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11929,7 +11929,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11942,7 +11942,7 @@
       "value": "x1 T1 Legendary",
       "numericValue": null,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2023,
       "category": "pets",
@@ -11955,7 +11955,7 @@
       "value": "x3 T1 Legendaries",
       "numericValue": null,
       "type": "pet",
-      "rarity": "1",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2017,
       "category": "pets",
@@ -11968,7 +11968,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "3",
+      "rarity": "pet",
       "isChroma": false,
       "year": null,
       "category": "pets",
@@ -11981,7 +11981,7 @@
       "value": "3",
       "numericValue": 3,
       "type": "pet",
-      "rarity": "2",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -11994,7 +11994,7 @@
       "value": "750",
       "numericValue": 750,
       "type": "pet",
-      "rarity": "5",
+      "rarity": "pet",
       "isChroma": false,
       "year": 2019,
       "category": "pets",
@@ -12007,7 +12007,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2017,
       "category": "misc",
@@ -12020,7 +12020,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2018,
       "category": "misc",
@@ -12028,12 +12028,12 @@
       "demand": "1",
       "tier": null
     },
-    "candies (misc) (2)": {
+    "candies (misc) (2016)": {
       "name": "Candies",
       "value": "x2 T1 Commons",
       "numericValue": null,
       "type": "misc",
-      "rarity": "2",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2016,
       "category": "misc",
@@ -12041,12 +12041,12 @@
       "demand": "1",
       "tier": "T1"
     },
-    "candies (misc) (1)": {
+    "candies (misc) (2017)": {
       "name": "Candies",
       "value": "x1 T1 Common",
       "numericValue": null,
       "type": "misc",
-      "rarity": "1",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2017,
       "category": "misc",
@@ -12059,7 +12059,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2015,
       "category": "misc",
@@ -12072,7 +12072,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2016,
       "category": "misc",
@@ -12085,7 +12085,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2016,
       "category": "misc",
@@ -12098,7 +12098,7 @@
       "value": "1",
       "numericValue": 1,
       "type": "misc",
-      "rarity": "2",
+      "rarity": "misc",
       "isChroma": false,
       "year": null,
       "category": "misc",
@@ -12111,7 +12111,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2016,
       "category": "misc",
@@ -12124,7 +12124,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2016,
       "category": "misc",
@@ -12137,7 +12137,7 @@
       "value": "5",
       "numericValue": 5,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2018,
       "category": "misc",
@@ -12150,7 +12150,7 @@
       "value": "x2 T1 Legendaries",
       "numericValue": null,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2018,
       "category": "misc",
@@ -12163,7 +12163,7 @@
       "value": "2",
       "numericValue": 2,
       "type": "misc",
-      "rarity": "3",
+      "rarity": "misc",
       "isChroma": false,
       "year": 2017,
       "category": "misc",

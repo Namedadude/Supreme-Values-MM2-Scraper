@@ -25,7 +25,7 @@ npm install
 # Run the scraper
 node scraper/scrape.js
 ```
-The scraper output will be saved to `public/values.json` and `public/index.html`.
+The scraper output will be saved to `scraper/values.json`.
 
 ### 2. In-Game Script
 To load the value displayer in a Roblox execution environment, run the following script:

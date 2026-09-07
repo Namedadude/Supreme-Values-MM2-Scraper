@@ -46,9 +46,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "scraper/values.json"
-          if [ -f "public/values.json" ]; then
-            git add "public/values.json"
-          fi
           if git diff --staged --quiet; then
             echo "No changes in values.json"
           else

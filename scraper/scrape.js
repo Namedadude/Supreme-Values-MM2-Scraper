@@ -20,8 +20,6 @@ const CATEGORIES = [
 const BASE_URL = "https://supremevalues.com/mm2/";
 const OUTPUT_DIR = __dirname;
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "values.json");
-const PUBLIC_DIR = path.join(__dirname, "..", "public");
-const PUBLIC_FILE = path.join(PUBLIC_DIR, "values.json");
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -518,81 +516,6 @@ async function main() {
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), "utf8");
   console.log(`\n✓ Saved ${output.itemCount} resolved tradable keys → ${OUTPUT_FILE}`);
-
-  if (fs.existsSync(PUBLIC_DIR)) {
-    try {
-      fs.writeFileSync(PUBLIC_FILE, JSON.stringify(output, null, 2), "utf8");
-      console.log(`✓ Mirrored copy to → ${PUBLIC_FILE}`);
-
-      const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
-  <title>Supreme Values JSON</title>
-  <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 20px;
-      background: #0f0f12;
-      color: #e8e8ed;
-      line-height: 1.5;
-      min-height: 100vh;
-    }
-    h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 8px; color: #fff; }
-    p { margin: 10px 0; color: #b8b8c0; }
-    strong { color: #e8e8ed; }
-    a { color: #7eb8ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code {
-      background: #1c1c24;
-      color: #a8d4ff;
-      padding: 3px 8px;
-      border-radius: 6px;
-      font-size: 0.95em;
-      border: 1px solid #2a2a35;
-    }
-    .card {
-      background: #18181f;
-      border: 1px solid #2a2a35;
-      border-radius: 12px;
-      padding: 20px 22px;
-      margin-top: 24px;
-    }
-    .muted { color: #888899; font-size: 0.9rem; }
-    .stat { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0; }
-    .stat span {
-      background: #1c1c24;
-      border: 1px solid #2a2a35;
-      border-radius: 8px;
-      padding: 6px 12px;
-      font-size: 0.9rem;
-      color: #c8c8d0;
-    }
-  </style>
-</head>
-<body>
-  <h1>Supreme Values MM2</h1>
-  <p class="muted">Auto-updated item values mirror</p>
-  <div class="card">
-    <div class="stat">
-      <span><strong>Items:</strong> ${output.itemCount}</span>
-      <span><strong>Site update:</strong> ${output.lastUpdated}</span>
-    </div>
-    <p><strong>Scraped at:</strong> ${output.scrapedAt}</p>
-    <p>JSON endpoint: <a href="/values.json"><code>/values.json</code></a></p>
-    <p class="muted">Made by <strong>Namedadude</strong></p>
-  </div>
-</body>
-</html>`;
-      fs.writeFileSync(path.join(PUBLIC_DIR, "index.html"), html, "utf8");
-    } catch (_) {}
-  }
 }
 
 main().catch(console.error);

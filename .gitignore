@@ -1,3 +1,4 @@
 node_modules/
 scraper/node_modules/
 .DS_Store
+*.lua

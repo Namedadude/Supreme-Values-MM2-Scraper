@@ -19,7 +19,8 @@ if not LocalPlayer then
 end
 
 -- Use standard direct branch URL without refs/heads/ to prevent any 404/redirect errors in Roblox HttpGet
-local RAW_JSON_URL = "https://raw.githubusercontent.com/Namedadude/Supreme-Values-MM2-Scraper/main/scraper%20beta/values_beta.json?nocache=" .. tostring(math.random(1, 1000000))
+local RAW_JSON_URL = "https://raw.githubusercontent.com/Namedadude/Supreme-Values-MM2-Scraper/main/scraper/values.json?nocache=" .. tostring(math.random(1, 1000000))
+local FALLBACK_JSON_URL = "https://raw.githubusercontent.com/Namedadude/Supreme-Values-MM2-Scraper/main/public/values.json?nocache=" .. tostring(math.random(1, 1000000))
 
 local Database = {}
 local valueSource = "none"
@@ -49,7 +50,7 @@ local function httpGet(url)
 end
 
 local function loadLiveValues()
-	local body = httpGet(RAW_JSON_URL)
+	local body = httpGet(RAW_JSON_URL) or httpGet(FALLBACK_JSON_URL)
 	if not body then valueSource = "failed" return false end
 	local ok, data = pcall(function() return HttpService:JSONDecode(body) end)
 	if not ok or type(data) ~= "table" then valueSource = "failed" return false end
@@ -65,7 +66,7 @@ local function loadLiveValues()
 			if valStr:lower():match("^x") or valStr:lower():match("t1") then
 				num = 0
 			end
-			Database[tostring(key):lower()] = {
+			local itemObj = {
 				name = info.name,
 				value = valStr,
 				val = num or 0,
@@ -76,6 +77,12 @@ local function loadLiveValues()
 				year = info.year,
 				tier = info.tier
 			}
+			local kLower = tostring(key):lower()
+			Database[kLower] = itemObj
+			local noApos = kLower:gsub("['’`]", "")
+			if not Database[noApos] then
+				Database[noApos] = itemObj
+			end
 			count = count + 1
 		end
 	end
@@ -88,30 +95,49 @@ end
 local loaded = loadLiveValues()
 print("[TradeValues] values: " .. tostring(valueSource))
 
+local syncNameIndex = {}
+local syncIdIndex = {}
+
 local function buildSyncAssetIndex()
 	if not Sync then return end
 	syncAssetIndex = {}
+	syncNameIndex = {}
+	syncIdIndex = {}
 	local count = 0
 	for bagName, bag in pairs(Sync) do
 		if type(bag) == "table" then
-			for _, data in pairs(bag) do
+			for key, data in pairs(bag) do
 				if type(data) == "table" then
 					data.BagName = bagName
 					local img = data.Image
 					if img then
-						local id = img:match("id=(%d+)") or img:match("assetId=(%d+)") or img:match("(%d+)$")
+						local id = tostring(img):match("(%d+)")
 						if id then
 							local numId = tonumber(id)
-							syncAssetIndex[numId] = data
-							count = count + 1
+							if numId then
+								syncAssetIndex[numId] = data
+								count = count + 1
+							end
 						end
 					end
 					if data.ItemID then
 						local numId = tonumber(data.ItemID)
-						if numId then
-							syncAssetIndex[numId] = data
-							count = count + 1
-						end
+						if numId then syncAssetIndex[numId] = data count = count + 1 end
+						syncIdIndex[tostring(data.ItemID):lower()] = data
+					end
+					if data.id then
+						local numId = tonumber(data.id)
+						if numId then syncAssetIndex[numId] = data end
+						syncIdIndex[tostring(data.id):lower()] = data
+					end
+					if type(key) == "string" then
+						syncIdIndex[key:lower()] = data
+					elseif type(key) == "number" then
+						syncAssetIndex[key] = data
+					end
+					local name = data.ItemName or data.Name or data.DisplayName
+					if name and type(name) == "string" then
+						syncNameIndex[name:lower()] = data
 					end
 				end
 			end
@@ -135,24 +161,55 @@ task.spawn(function()
 	end
 end)
 
+local function getVariants(clean, base)
+	local list = { clean }
+	if clean ~= base then table.insert(list, base) end
+
+	local noAposClean = clean:gsub("['’`]", "")
+	local noAposBase = base:gsub("['’`]", "")
+	local function has(tbl, val)
+		for _, v in ipairs(tbl) do if v == val then return true end end
+		return false
+	end
+	if not has(list, noAposClean) then table.insert(list, noAposClean) end
+	if not has(list, noAposBase) then table.insert(list, noAposBase) end
+
+	local plurals = {}
+	for _, item in ipairs(list) do
+		if item:sub(-3) == "ies" then
+			table.insert(plurals, item:sub(1, -4) .. "y")
+		elseif item:sub(-1) == "y" and item:sub(-2) ~= "ey" and item:sub(-2) ~= "ay" and item:sub(-2) ~= "oy" then
+			table.insert(plurals, item:sub(1, -2) .. "ies")
+		elseif item:sub(-1) == "s" and item:sub(-2) ~= "ss" and item:sub(-2) ~= "us" and item:sub(-2) ~= "is" then
+			table.insert(plurals, item:sub(1, -2))
+		elseif item:sub(-1) ~= "s" then
+			table.insert(plurals, item .. "s")
+		end
+	end
+	for _, p in ipairs(plurals) do
+		if not has(list, p) then table.insert(list, p) end
+	end
+	return list
+end
+
 local function findItemId(slot)
 	if not slot then return nil end
-	local id = slot:GetAttribute("ItemID") or slot:GetAttribute("ID") or slot:GetAttribute("ItemId")
-	if id then return id end
+	local id = slot:GetAttribute("ItemID") or slot:GetAttribute("ID") or slot:GetAttribute("ItemId") or slot:GetAttribute("Weapon") or slot:GetAttribute("Item")
+	if id then return tostring(id) end
 	for _, name in ipairs({ "ItemID", "ID", "ItemId", "WeaponID" }) do
 		local v = slot:FindFirstChild(name, true)
-		if v and v:IsA("ValueBase") then return v.Value end
+		if v and v:IsA("ValueBase") then return tostring(v.Value) end
 	end
 	return nil
 end
 
 local function findItemIdByIcon(slot)
 	if not slot then return nil end
-	local icon = slot:FindFirstChild("Icon", true)
+	local icon = slot:FindFirstChild("Icon", true) or slot:FindFirstChild("ImageLabel", true)
 	if not icon or not icon:IsA("ImageLabel") then return nil end
 	local img = icon.Image
 	if not img or img == "" then return nil end
-	local id = img:match("id=(%d+)") or img:match("assetId=(%d+)") or img:match("id%s*=%s*(%d+)") or img:match("(%d+)$")
+	local id = tostring(img):match("(%d+)")
 	if id then return tonumber(id) end
 	return nil
 end
@@ -171,54 +228,23 @@ local function getItemDetails(slot, displayName)
 	end
 
 	local itemId = findItemId(slot)
-	if not itemId and slot then
-		itemId = slot.Name
-	end
+	local rawName = tostring(displayName or ""):gsub("%s*%b()", ""):gsub("%s*%b[]", ""):gsub("^%s+", ""):gsub("%s+$", "")
 
 	local data = nil
-	if itemId and Sync then
-		local function searchBag(bag, bName)
-			if not bag then return nil end
-			for _, itemData in pairs(bag) do
-				if type(itemData) == "table" then
-					local cId = itemData.ItemID or itemData.id or itemData.Name
-					if cId and tostring(cId):lower() == tostring(itemId):lower() then
-						itemData.BagName = bName
-						return itemData
-					end
-				end
-			end
-			return nil
-		end
-		
-		data = searchBag(Sync.Weapons, "Weapons") or searchBag(Sync.Item, "Item") or searchBag(Sync.Knives, "Knives") or searchBag(Sync.Guns, "Guns")
-			or searchBag(Sync.Pets, "Pets") or searchBag(Sync.Radios, "Radios") or searchBag(Sync.Effects, "Effects") or searchBag(Sync.Perks, "Perks")
-			or searchBag(Sync.Emotes, "Emotes") or searchBag(Sync.Materials, "Materials")
-			
-		if not data then
-			for bName, bag in pairs(Sync) do
-				if type(bag) == "table" then
-					local d = searchBag(bag, bName)
-					if d then
-						data = d
-						break
-					end
-				end
-			end
-		end
-	end
-	
-	if not data and assetId and Sync then
+	if rawName ~= "" and syncNameIndex[rawName:lower()] then
+		data = syncNameIndex[rawName:lower()]
+	elseif itemId and syncIdIndex[tostring(itemId):lower()] then
+		data = syncIdIndex[tostring(itemId):lower()]
+	elseif assetId and syncAssetIndex[assetId] then
 		data = syncAssetIndex[assetId]
-		if not data and displayName then
-			for offset = -15, 15 do
-				local candidate = syncAssetIndex[assetId + offset]
-				if candidate then
-					local cName = candidate.ItemName or candidate.Name or candidate.DisplayName
-					if cName and (cName:lower() == displayName:lower() or (itemId and tostring(candidate.ItemID or candidate.id or ""):lower() == tostring(itemId):lower())) then
-						data = candidate
-						break
-					end
+	elseif assetId and Sync then
+		for offset = -15, 15 do
+			local candidate = syncAssetIndex[assetId + offset]
+			if candidate then
+				local cName = candidate.ItemName or candidate.Name or candidate.DisplayName
+				if cName and (cName:lower() == rawName:lower() or (itemId and tostring(candidate.ItemID or candidate.id or ""):lower() == tostring(itemId):lower())) then
+					data = candidate
+					break
 				end
 			end
 		end
@@ -270,53 +296,18 @@ local function getItemDetails(slot, displayName)
 		end
 	end
 
-	if not englishName then englishName = displayName end
-
-	-- Check parent folder path if itemType is still nil or needs verification
-	if slot then
-		local current = slot
-		while current and current ~= game do
-			local name = current.Name:lower()
-			if name:find("knife") or name:find("knives") then
-				if not itemType or itemType == "weapon" or itemType == "weapon skin" then itemType = "knife" end
-				break
-			elseif name:find("gun") or name:find("guns") then
-				if not itemType or itemType == "weapon" or itemType == "weapon skin" then itemType = "gun" end
-				break
-			elseif name:find("pet") then
-				if not itemType then itemType = "pet" end
-				break
-			elseif name:find("effect") or name:find("emote") or name:find("power") or name:find("ability") or name:find("perk") or name:find("skill") or name:find("radio") then
-				itemType = "untradable"
-				break
-			end
-			current = current.Parent
-		end
+	if not englishName or englishName == "" then
+		englishName = rawName ~= "" and rawName or (displayName or "")
 	end
 
 	if not itemType and englishName then
 		local lowerName = englishName:lower()
-		if lowerName:find("knife") then itemType = "knife"
-		elseif lowerName:find("gun") then itemType = "gun"
-		elseif lowerName:find("pet") then itemType = "pet"
-		elseif lowerName:find("radio") then itemType = "radio"
-		elseif lowerName:find("effect") then itemType = "effect"
-		end
-	end
-
-	if itemType then
-		itemType = tostring(itemType):lower()
-		if itemType:find("effect") or itemType:find("emote") or itemType:find("perk") or itemType:find("power") or itemType:find("ability") or itemType:find("skill") or itemType:find("radio") then
-			itemType = "untradable"
-		elseif itemType == "weapon skin" or itemType == "weapon" or itemType == "gun" or itemType == "knife" then
-			local idLower = itemId and tostring(itemId):lower() or ""
-			local dispLower = displayName and tostring(displayName):lower() or ""
-			local pathLower = slot and slot:GetFullName():lower() or ""
-			if idLower:find("gun") or idLower:find("_g_") or idLower:find("_g%d*") or dispLower:find("gun") or pathLower:find("gun") or pathLower:find("guns") then
-				itemType = "gun"
-			elseif idLower:find("knife") or idLower:find("scythe") or idLower:find("_k_") or idLower:find("_k%d*") or dispLower:find("knife") or dispLower:find("scythe") or pathLower:find("knife") or pathLower:find("knives") then
-				itemType = "knife"
-			end
+		if lowerName:find("knife") or lowerName:find("blade") or lowerName:find("scythe") or lowerName:find("dagger") or lowerName:find("sword") or lowerName:find("axe") or lowerName:find("saw") then
+			itemType = "knife"
+		elseif lowerName:find("gun") or lowerName:find("luger") or lowerName:find("revolver") or lowerName:find("blaster") or lowerName:find("pistol") or lowerName:find("cannon") or lowerName:find("crossbow") or lowerName:find("harvester") then
+			itemType = "gun"
+		elseif lowerName:find("pet") then
+			itemType = "pet"
 		end
 	end
 
@@ -327,8 +318,8 @@ local function getItemDetails(slot, displayName)
 			if not p then return false end
 			for _, c in pairs(p:GetChildren()) do
 				local cName = c.Name:lower()
-				if cName:find("chroma") or cName:find("хрома") then return true end
-				if c:IsA("TextLabel") and (c.Text:lower():find("chroma") or c.Text:lower():find("хрома")) then return true end
+				if cName:find("chroma") then return true end
+				if c:IsA("TextLabel") and c.Text:lower():find("chroma") then return true end
 			end
 			return false
 		end
@@ -338,7 +329,7 @@ local function getItemDetails(slot, displayName)
 	end
 
 	local dispLower = displayName and tostring(displayName):lower() or ""
-	if dispLower:find("chroma") or dispLower:find("хрома") then
+	if dispLower:find("chroma") then
 		isChroma = true
 	end
 
@@ -367,7 +358,7 @@ local function getItemDetails(slot, displayName)
 			itemType = itemType,
 			isChroma = isChroma,
 			year = year,
-			fromSync = (Sync ~= nil)
+			fromSync = (data ~= nil)
 		}
 	end
 
@@ -379,7 +370,9 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 	local cacheKey = tostring(displayName) .. "_" .. tostring(assetId or "nil")
 	if valueCache[cacheKey] then
 		local cached = valueCache[cacheKey]
-		if cached.fromSync or not Sync then
+		if cached.disp and cached.disp ~= "N/A" then
+			return cached.disp, cached.val, cached.stability, cached.tier
+		elseif cached.fromSync or not Sync then
 			return cached.disp, cached.val, cached.stability, cached.tier
 		end
 	end
@@ -390,7 +383,6 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 	end
 
 	if not englishName or englishName == "" then
-		valueCache[cacheKey] = { disp = "N/A", val = 0, stability = "N/A", tier = nil, fromSync = (Sync ~= nil) }
 		return "N/A", 0, "N/A", nil
 	end
 
@@ -399,27 +391,20 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 		return nil, 0, nil, nil
 	end
 
-	if isChroma then rarity = "chroma" end
-
 	local clean = englishName:lower():gsub("^%s+", ""):gsub("%s+$", ""):gsub("%s*%b()", ""):gsub("%s*%b[]", ""):gsub("%s+$", "")
-	local base = clean:gsub("%s+knife$", ""):gsub("%s+gun$", ""):gsub("%s+pet$", "")
-	if base == "neapolitan" or base:find("неополитан") or base:find("неаполитан") then base = "neopolitan" end
-	if base == "float" or base == "floatie" or base:find("плава") or base:find("плавсред") or base:find("круг") then base = "floatie" end
-	if base == "checker" or base:find("шашк") then base = "checkers" end
-	if base == "doge" or base:find("доге") then base = "dogey" end
+	local base = clean:gsub("%s+knife$", ""):gsub("%s+gun$", ""):gsub("%s+pet$", ""):gsub("^%s+", ""):gsub("%s+$", "")
+	
+	if base == "<3" or base == "heart pet" or base == "heart" then base = "<3" end
+	if base == "neapolitan" then base = "neopolitan" end
 
-	local names = { clean }
-	if clean ~= base then table.insert(names, base) end
+	local names = getVariants(clean, base)
 
 	local types = {}
-	if itemType and itemType ~= "unknown" then
+	if itemType and itemType ~= "unknown" and itemType ~= "weapon" then
 		table.insert(types, itemType)
-	end
-	if itemType == "weapon" or not itemType or itemType == "unknown" then
+	else
 		table.insert(types, "knife")
 		table.insert(types, "gun")
-	elseif itemType == "toy" or itemType == "collectible" then
-		table.insert(types, "misc")
 	end
 
 	local candidates = {}
@@ -427,32 +412,32 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 		-- 1. Type + Rarity + Year
 		if year and rarity then
 			for _, t in ipairs(types) do
-				if t ~= "unknown" then table.insert(candidates, n .. " (" .. t .. ") (" .. rarity .. ") (" .. tostring(year) .. ")") end
+				table.insert(candidates, n .. " (" .. t .. ") (" .. rarity .. ") (" .. tostring(year) .. ")")
 			end
 		end
 		-- 2. Type + Rarity
 		if rarity then
 			for _, t in ipairs(types) do
-				if t ~= "unknown" then table.insert(candidates, n .. " (" .. t .. ") (" .. rarity .. ")") end
+				table.insert(candidates, n .. " (" .. t .. ") (" .. rarity .. ")")
 			end
 		end
-		-- 3. Type + Year
-		if year then
-			for _, t in ipairs(types) do
-				if t ~= "unknown" then table.insert(candidates, n .. " (" .. t .. ") (" .. tostring(year) .. ")") end
-			end
-		end
-		-- 4. Type only
-		for _, t in ipairs(types) do
-			if t ~= "unknown" then table.insert(candidates, n .. " (" .. t .. ")") end
-		end
-		-- 5. Non-type Rarity + Year
+		-- 3. Non-type Rarity + Year
 		if year and rarity then
 			table.insert(candidates, n .. " (" .. rarity .. ") (" .. tostring(year) .. ")")
 		end
-		-- 6. Non-type Rarity
+		-- 4. Non-type Rarity
 		if rarity then
 			table.insert(candidates, n .. " (" .. rarity .. ")")
+		end
+		-- 5. Type + Year
+		if year then
+			for _, t in ipairs(types) do
+				table.insert(candidates, n .. " (" .. t .. ") (" .. tostring(year) .. ")")
+			end
+		end
+		-- 6. Type only
+		for _, t in ipairs(types) do
+			table.insert(candidates, n .. " (" .. t .. ")")
 		end
 		-- 7. Non-type Year
 		if year then
@@ -470,58 +455,75 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 		end
 	end
 
-	-- Fallback 1: Year match (e.g. Candies 2016 vs 2017)
+	-- Fallback 1: Year match
 	if not match and year then
 		local targetYear = tonumber(year)
 		if targetYear then
 			for dbKey, dbInfo in pairs(Database) do
 				if dbInfo.year == targetYear then
 					local dbBase = dbKey:gsub("%s*%b()", ""):gsub("%s+$", "")
-					if (dbBase == base or dbBase == clean) and (dbInfo.type == itemType or dbInfo.type == "unknown" or not itemType or itemType == "weapon") then
-						match = dbInfo
-						break
+					local dbNoApos = dbBase:gsub("['’`]", "")
+					for _, n in ipairs(names) do
+						if dbBase == n or dbNoApos == n then
+							if dbInfo.type == itemType or dbInfo.type == "unknown" or not itemType or itemType == "weapon" then
+								match = dbInfo
+								break
+							end
+						end
 					end
+					if match then break end
 				end
 			end
 		end
 	end
 
-	-- Fallback 2: Database scan by base name + rarity match (e.g. Batwing Ancient vs Godly)
+	-- Fallback 2: Database scan by base name + rarity match
 	if not match and rarity then
 		for dbKey, dbInfo in pairs(Database) do
 			local dbBase = dbKey:gsub("%s*%b()", ""):gsub("%s+$", "")
-			if (dbBase == base or dbBase == clean) and (dbInfo.type == itemType or dbInfo.type == "unknown" or not itemType or itemType == "weapon") then
-				if dbInfo.rarity and tostring(dbInfo.rarity):lower() == rarity then
-					match = dbInfo
-					break
+			local dbNoApos = dbBase:gsub("['’`]", "")
+			for _, n in ipairs(names) do
+				if dbBase == n or dbNoApos == n then
+					if dbInfo.rarity and tostring(dbInfo.rarity):lower() == rarity then
+						if dbInfo.type == itemType or dbInfo.type == "unknown" or not itemType or itemType == "weapon" then
+							match = dbInfo
+							break
+						end
+					end
 				end
 			end
+			if match then break end
 		end
 	end
 
-	-- Fallback 3: Wildcard fallback for items without year (like Carrot)
+	-- Fallback 3: Single base match
 	if not match then
-		for _, c in ipairs(candidates) do
-			local prefix = c .. " ("
-			local matches = {}
-			for dbKey, dbInfo in pairs(Database) do
-				if dbKey:sub(1, #prefix) == prefix then
-					table.insert(matches, dbInfo)
-				end
-			end
-			if #matches > 0 then
-				local firstVal = matches[1].value
-				local allSame = true
-				for i = 2, #matches do
-					if matches[i].value ~= firstVal then
-						allSame = false
+		local matching = {}
+		for dbKey, dbInfo in pairs(Database) do
+			local dbBase = dbKey:gsub("%s*%b()", ""):gsub("%s+$", "")
+			local dbNoApos = dbBase:gsub("['’`]", "")
+			for _, n in ipairs(names) do
+				if dbBase == n or dbNoApos == n then
+					if dbInfo.type == itemType or dbInfo.type == "unknown" or not itemType or itemType == "weapon" then
+						table.insert(matching, dbInfo)
 						break
 					end
 				end
-				if allSame then
-					match = matches[1]
+			end
+		end
+		if #matching == 1 then
+			match = matching[1]
+		elseif #matching > 1 then
+			local firstVal = matching[1].value
+			local allSame = true
+			for i = 2, #matching do
+				if matching[i].value ~= firstVal then
+					allSame = false
 					break
 				end
+			end
+			if allSame then
+				match = matching[1]
 			end
 		end
 	end
@@ -531,9 +533,6 @@ local function lookupDisplayAndNumericValue(displayName, slot)
 		return match.value, match.val or 0, match.stability, match.tier
 	end
 
-	if Sync ~= nil then
-		valueCache[cacheKey] = { disp = "N/A", val = 0, stability = "N/A", tier = nil, fromSync = true }
-	end
 	return "N/A", 0, "N/A", nil
 end
 

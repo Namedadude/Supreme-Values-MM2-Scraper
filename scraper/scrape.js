@@ -4,9 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const CATEGORIES = [
-  { slug: "sets", name: "sets" },
   { slug: "uniques", name: "uniques" },
-  { slug: "evos", name: "evos" },
   { slug: "ancients", name: "ancients" },
   { slug: "vintages", name: "vintages" },
   { slug: "chromas", name: "chromas" },
@@ -16,14 +14,14 @@ const CATEGORIES = [
   { slug: "uncommons", name: "uncommons" },
   { slug: "commons", name: "commons" },
   { slug: "pets", name: "pets" },
-  { slug: "misc", name: "misc" },
-  { slug: "miscellaneous", name: "misc" },
-  { slug: "untradables", name: "untradables" },
+  { slug: "misc", name: "misc" }
 ];
 
 const BASE_URL = "https://supremevalues.com/mm2/";
-const OUTPUT_DIR = path.join(__dirname, "..", "public");
+const OUTPUT_DIR = __dirname;
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "values.json");
+const PUBLIC_DIR = path.join(__dirname, "..", "public");
+const PUBLIC_FILE = path.join(PUBLIC_DIR, "values.json");
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -32,7 +30,7 @@ function sleep(ms) {
 function formatDate(d = new Date()) {
   const months = [
     "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December",
+    "July", "August", "September", "October", "November", "December"
   ];
   const day = d.getUTCDate();
   const suffix =
@@ -55,11 +53,7 @@ function convertXValue(raw) {
   if (!Number.isNaN(num) && /^-?\d+(\.\d+)?$/.test(String(s).replace(/,/g, ""))) {
     return num;
   }
-  const m = s.match(/^x\s*(\d+(?:\.\d+)?)\s*T1\s+(Legendaries?|Rares?|Uncommons?|Commons?)/i);
-  if (m) {
-    return null;
-  }
-  return null;
+  return null; // For "x4 T1 Legendaries" or other non-numeric values
 }
 
 function pick(obj, ...keys) {
@@ -69,47 +63,132 @@ function pick(obj, ...keys) {
   return "N/A";
 }
 
+function determineType(displayName, category, info) {
+  const n = displayName.toLowerCase();
+  if (category === "pets" || n.includes("pet")) return "pet";
+  if (category === "misc" || category === "sets") return "misc";
+
+  const allText = (displayName + " " + (info?.wikiLink || "") + " " + (info?.imageKey || "")).toLowerCase();
+  
+  const isGun = allText.includes("gun") || 
+                allText.includes("luger") || 
+                allText.includes("revolver") || 
+                allText.includes("blaster") || 
+                allText.includes("pistol") || 
+                allText.includes("cannon") || 
+                allText.includes("shotgun") || 
+                allText.includes("launcher") || 
+                allText.includes("crossbow") || 
+                allText.includes("harvester") ||
+                allText.includes("laser") ||
+                allText.includes("beam") ||
+                allText.includes("scope") ||
+                allText.includes("pew");
+
+  if (isGun) {
+    return "gun";
+  }
+
+  const isKnife = allText.includes("knife") || 
+                  allText.includes("blade") || 
+                  allText.includes("scythe") || 
+                  allText.includes("dagger") || 
+                  allText.includes("sword") || 
+                  allText.includes("axe") || 
+                  allText.includes("cleaver") || 
+                  allText.includes("sickle") || 
+                  allText.includes("cutter") || 
+                  allText.includes("saw") || 
+                  allText.includes("slasher") ||
+                  allText.includes("fang") ||
+                  allText.includes("edge");
+
+  if (isKnife) {
+    return "knife";
+  }
+
+  return "unknown";
+}
+
+function cleanDisplayName(rawName) {
+  return String(rawName)
+    .replace(/\s*\((Knife|Gun|Pet|Misc|\d{4})\)/gi, "")
+    .replace(/\s*\[[^\]]+\]/gi, "")
+    .trim();
+}
+
 function normalizeEntry(name, info, category) {
   const value = pick(info, "value", "Value", "val");
-  const range = pick(info, "range", "Range", "rangedValue", "ranged_value", "valueRange");
+  const range = pick(info, "range", "Range", "rangedValue", "valueRange");
   const demand = pick(info, "demand", "Demand");
-  const rarity = pick(info, "rarity", "Rarity");
   const stability = pick(info, "stability", "Stability");
-  const change = pick(info, "change", "changeInValue", "Change", "lastChange", "valueChange");
+  const change = pick(info, "change", "Change");
   const origin = pick(info, "origin", "Origin");
-  const aliases = pick(info, "aliases", "Aliases", "alias");
-  const flippability = pick(info, "flippability", "Flippability");
-  const chanceOfRising = pick(info, "chanceOfRising", "chance_of_rising", "risingChance");
-  const itemClass = pick(info, "class", "Class");
-  const expRequirement = pick(info, "expRequirement", "exp", "EXP");
+  const aliases = pick(info, "aliases", "Aliases");
 
   let displayName = String(name).trim();
-  if (
-    category === "chromas" &&
-    !/^chroma\b/i.test(displayName)
-  ) {
+  if (category === "chromas" && !/^chroma\b/i.test(displayName)) {
     displayName = "Chroma " + displayName;
   }
 
+  // Determine type (returns "gun", "knife", "pet", "misc", or "unknown")
+  const type = determineType(displayName, category, info);
+
+  // Determine rarity
+  const categoryMap = {
+    sets: "Set", uniques: "Unique", evos: "Evo", ancients: "Ancient",
+    vintages: "Vintage", chromas: "Chroma", godlies: "Godly",
+    legendaries: "Legendary", rares: "Rare", uncommons: "Uncommon",
+    commons: "Common", pets: "Pet", misc: "Misc"
+  };
+  let rarityStr = categoryMap[category] || category;
+  if (category === "pets" || category === "misc") {
+    const parsedRarity = pick(info, "rarity", "Rarity");
+    if (parsedRarity && parsedRarity !== "N/A" && parsedRarity !== "") {
+      rarityStr = parsedRarity;
+    }
+  }
+
+  // Extract year
+  let year = null;
+  const yearMatch = origin.match(/20\d\d/) || displayName.match(/20\d\d/);
+  if (yearMatch) {
+    year = parseInt(yearMatch[0], 10);
+  } else {
+    const shortYearMatch = origin.match(/'(\d\d)/);
+    if (shortYearMatch) {
+      year = 2000 + parseInt(shortYearMatch[1], 10);
+    }
+  }
+
+  // Extract tier
+  let tier = null;
+  if (info && info.tier) {
+    tier = info.tier;
+  } else if (typeof value === "string") {
+    const vm = value.match(/\b(T\d+)\b/i) || value.match(/Tier\s*(\d+)/i);
+    if (vm) tier = vm[1].toUpperCase().startsWith("T") ? vm[1].toUpperCase() : "T" + vm[1];
+  }
+
+  const cleanedName = cleanDisplayName(displayName);
+
   return {
-    name: displayName,
+    name: cleanedName,
+    rawName: displayName,
     value: value === "N/A" ? "N/A" : String(value).replace(/,/g, ""),
-    numericValue: (function () {
-      const n = convertXValue(value);
-      return n === null ? null : n;
-    })(),
+    numericValue: convertXValue(value),
     range: range === "N/A" ? "N/A" : String(range),
     demand: demand === "N/A" ? "N/A" : String(demand),
-    rarity: rarity === "N/A" ? "N/A" : String(rarity),
+    rarity: rarityStr.toLowerCase(),
     stability: stability === "N/A" ? "N/A" : String(stability),
     change: change === "N/A" ? "N/A" : String(change),
     origin: origin === "N/A" ? "N/A" : String(origin),
     aliases: aliases === "N/A" ? "N/A" : String(aliases),
-    flippability: flippability === "N/A" ? "N/A" : String(flippability),
-    chanceOfRising: chanceOfRising === "N/A" ? "N/A" : String(chanceOfRising),
-    class: itemClass === "N/A" ? "N/A" : String(itemClass),
-    expRequirement: expRequirement === "N/A" ? "N/A" : String(expRequirement),
-    category,
+    isChroma: category === "chromas" || displayName.toLowerCase().includes("chroma"),
+    year: year,
+    category: category,
+    type: type,
+    tier: tier
   };
 }
 
@@ -118,10 +197,7 @@ async function extractFromPage(page, categorySlug, categoryName) {
   console.log(`Fetching: ${url}`);
 
   try {
-    const resp = await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: 60000,
-    });
+    const resp = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
     await sleep(3500);
     await page.evaluate(async () => {
       const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -132,110 +208,62 @@ async function extractFromPage(page, categorySlug, categoryName) {
       }
       window.scrollTo(0, 0);
     });
-    await sleep(categorySlug === "evos" ? 3000 : 1500);
+    await sleep(1500);
 
     const title = await page.title().catch(() => "");
     if (/just a moment|attention required|captcha|access denied/i.test(title)) {
-      console.log(`  ✗ Blocked/challenge on ${categorySlug}`);
+      console.log(`  ✗ Blocked on ${categorySlug}`);
       return null;
     }
 
-    const html = await page.content();
     let data = null;
-
+    const html = await page.content();
     const match = html.match(/var\s+_svPopup\s*=\s*(\{[\s\S]*?\});?\s*<\/script>/i);
     if (match) {
       try {
         let jsonStr = match[1].trim();
         if (jsonStr.endsWith(";")) jsonStr = jsonStr.slice(0, -1);
         data = JSON.parse(jsonStr);
-        console.log(`  ✓ _svPopup for ${categorySlug} (${Object.keys(data).length} items)`);
       } catch (e) {
-        console.log(`  ✗ JSON parse fail ${categorySlug}: ${e.message}`);
+        console.log(`  ✗ JSON parse fail: ${e.message}`);
       }
     }
 
     if (!data) {
-      try {
-        data = await page.evaluate(() => {
-          if (typeof _svPopup !== "undefined" && _svPopup && typeof _svPopup === "object") {
-            return _svPopup;
-          }
-          return null;
-        });
-        if (data) {
-          console.log(`  ✓ page context for ${categorySlug} (${Object.keys(data).length} items)`);
+      data = await page.evaluate(() => {
+        if (typeof _svPopup !== "undefined" && _svPopup && typeof _svPopup === "object") {
+          return _svPopup;
         }
-      } catch (_) {}
+        return null;
+      });
     }
 
+    // DOM Fallback
     if (!data) {
-      console.log(`  ⚠ No _svPopup, trying DOM for ${categorySlug}...`);
+      console.log(`  ⚠ DOM fallback for ${categorySlug}...`);
       data = await page.evaluate(() => {
         const items = {};
-
-        const addItem = (name, fields) => {
-          if (!name) return;
-          name = String(name).replace(/\s+/g, " ").trim();
-          if (name.length < 2 || name.length > 80) return;
-          if (/^[\d,]+(?:\.\d+)?$/.test(name) && name.trim() !== "2015") return;
-          if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
-          if (/^(value|range|stability|demand|rarity|origin|aliases|change|ability|description|death effect|price|class|exp)/i.test(name)) return;
-          if (/^(ability|description|death effect|price)\s*[-–]/i.test(name)) return;
-          if (/^contains\s*-/i.test(name)) return;
-          if (name.length > 60) return;
-          if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
-
-          if (/evolutions?$/i.test(name)) return;
-          if (/^(value|demand|stability|range|categories|special tier|tier \d|search|filter|changelog)/i.test(name)) return;
-          if (/^(inv\.|controls|\+1|-1|~)$/i.test(name)) return;
-
-          const prev = items[name];
-          const next = {
-            value: fields.value ?? "N/A",
-            range: fields.range ?? "N/A",
-            demand: fields.demand ?? "N/A",
-            rarity: fields.rarity ?? "N/A",
-            stability: fields.stability ?? "N/A",
-            change: fields.change ?? "N/A",
-            origin: fields.origin ?? "N/A",
-            aliases: fields.aliases ?? "N/A",
-          };
-          if (!prev || (prev.value === "N/A" && next.value !== "N/A")) {
-            items[name] = next;
-          }
-        };
-
-        const cleanWindowText = (text) => {
+        const cleanText = (text) => {
           const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
           if (lines.length <= 1) return text;
           const cleaned = [lines[0]];
           for (let j = 1; j < lines.length; j++) {
             const currentLine = lines[j];
-            const isFieldOrHeader = /^(value|demand|rarity|stability|range|origin|change|aliases|class|exp|special tier|default tier|[\w\s]+tier|tier \d|inv\.\s*controls)/i.test(currentLine) ||
-              /^[\[\]()\d\s,.-]+$/.test(currentLine) ||
-              currentLine.length < 2 ||
-              currentLine.length > 60 ||
-              /^[\d,]+(?:\.\d+)?$/.test(currentLine);
-            if (!isFieldOrHeader) {
-              break;
-            }
+            const isField = /^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(currentLine) ||
+              /^[\[\]()\d\s,.-]+$/.test(currentLine) || currentLine.length < 2;
+            if (!isField) break;
             cleaned.push(currentLine);
           }
           return cleaned.join("\n");
         };
 
-        const parseTextFields = (text) => {
-          const t = cleanWindowText(text || "");
-          const valueMatch = t.match(
-            /Value\s*[-–:]?\s*\**\s*(Priceless|[0-9,]+(?:\.\d+)?|N\/A|x[\d\w\s\.]+)/i
-          );
+        const parseText = (text) => {
+          const t = cleanText(text || "");
+          const valueMatch = t.match(/Value\s*[-–:]?\s*\**\s*(Priceless|[0-9,]+(?:\.\d+)?|N\/A|x[\d\w\s\.]+)/i);
           const rangeMatch = t.match(/Range\s*[-–:]?\s*(\[?[^\n\]]{0,40}\]?)/i);
           const demandMatch = t.match(/Demand\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
           const rarityMatch = t.match(/Rarity\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
-          const stabilityMatch = t.match(
-            /Stability\s*[-–:]?\s*\**\s*([A-Za-z][A-Za-z\s]{0,30})/i
-          );
+          const stabilityMatch = t.match(/Stability\s*[-–:]?\s*\**\s*([A-Za-z][A-Za-z\s]{0,30})/i);
           const changeMatch = t.match(/Change\s+in\s+Value\s*[-–:]?\s*([^\n]{0,50})/i);
           const originMatch = t.match(/Origin\s*[-–:]?\s*([^\n]{0,80})/i);
           const aliasesMatch = t.match(/Aliases?\s*[-–:]?\s*([^\n]{0,60})/i);
@@ -247,253 +275,23 @@ async function extractFromPage(page, categorySlug, categoryName) {
             stability: stabilityMatch ? stabilityMatch[1].trim() : "N/A",
             change: changeMatch ? changeMatch[1].trim() : "N/A",
             origin: originMatch ? originMatch[1].trim() : "N/A",
-            aliases: aliasesMatch ? aliasesMatch[1].trim() : "N/A",
+            aliases: aliasesMatch ? aliasesMatch[1].trim() : "N/A"
           };
         };
 
-        const cards = document.querySelectorAll(
-          "[data-item], .item-card, .value-card, .item, article, [class*='Item'], [class*='card']"
-        );
-        cards.forEach((card) => {
-          const nameEl =
-            card.querySelector(
-              ".item-name, .name, h3, h4, [class*='name'], strong, b, a"
-            ) || card;
+        document.querySelectorAll("[data-item], .item-card, .value-card, .item").forEach(card => {
+          const nameEl = card.querySelector(".item-name, .name, h3, h4, strong, b") || card;
           let name = (nameEl.textContent || "").trim().split("\n")[0].trim();
           if (!name || name.length < 2) {
             const img = card.querySelector("img[alt]");
             if (img && img.alt) name = img.alt.trim();
           }
-          addItem(name, parseTextFields(card.innerText || ""));
+          if (name && name.length >= 2) {
+            items[name] = parseText(card.innerText || "");
+          }
         });
-
-        document.querySelectorAll("table tr, tr").forEach((row) => {
-          const cells = row.querySelectorAll("td, th");
-          if (!cells.length) return;
-          const rowText = row.innerText || "";
-          if (!/Value\s*[-–:]/i.test(rowText) && !/Priceless/i.test(rowText)) return;
-
-          let name = "";
-          const link = row.querySelector("a");
-          const strong = row.querySelector("strong, b");
-          const img = row.querySelector("img[alt]");
-          if (link && link.textContent.trim().length > 1) name = link.textContent.trim();
-          else if (strong && strong.textContent.trim().length > 1) name = strong.textContent.trim();
-          else if (img && img.alt) name = img.alt.trim();
-          else {
-            for (const line of rowText.split("\n").map((l) => l.trim()).filter(Boolean)) {
-              if (!/^(value|demand|rarity|stability|range|origin|change)/i.test(line)) {
-                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
-                break;
-              }
-            }
-          }
-          name = name.replace(/\s*Value\s*[-–:].*$/i, "").trim();
-          addItem(name, parseTextFields(rowText));
-        });
-
-        const bodyText = document.body.innerText || "";
-        if (Object.keys(items).length < 5) {
-          const blocks = bodyText.split(/\n{2,}/);
-          for (const block of blocks) {
-            if (!/Value\s*[-–:]/i.test(block) && !/Priceless/i.test(block)) continue;
-            const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
-            if (lines.length < 1) continue;
-            let name = lines[0].replace(/\s*Value\s*[-–:].*$/i, "").trim();
-            if (/Value|Demand|Stability|Range|CATEGORIES|Special Tier|Tier /i.test(name) && lines.length > 1) {
-              name = lines[0];
-            }
-            addItem(name, parseTextFields(block));
-          }
-        }
-
-        {
-          const body = document.body.innerText || "";
-          const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
-          let m;
-          const seen = new Set();
-          while ((m = re.exec(body)) !== null) {
-            const base = m[1].trim();
-            if (/evolutions?$/i.test(base)) continue;
-            const label = m[2].replace(/\s+/g, " ").trim();
-            const fullName = base + " (" + label + ")";
-            const key = fullName.toLowerCase();
-            if (seen.has(key)) continue;
-            seen.add(key);
-            const window = body.slice(m.index, m.index + 400);
-            addItem(fullName, parseTextFields(window));
-          }
-        }
-
         return Object.keys(items).length > 0 ? items : null;
       });
-      if (data) {
-        console.log(`  ✓ DOM for ${categorySlug} (${Object.keys(data).length} items)`);
-      } else {
-        console.log(`  ✗ Failed ${categorySlug}`);
-      }
-    }
-
-    try {
-      const domItems = await page.evaluate(() => {
-        const items = {};
-        const add = (name, fields) => {
-          if (!name) return;
-          name = String(name).replace(/\s+/g, " ").trim();
-          if (name.length < 2 || name.length > 80) return;
-          if (/^[\d,]+(?:\.\d+)?$/.test(name) && name.trim() !== "2015") return;
-          if (/^(x\s*\d+|n\/a|priceless)/i.test(name)) return;
-          if (/^(value|range|stability|demand|rarity|origin|aliases|change)/i.test(name)) return;
-
-          if (/evolutions?$/i.test(name)) return;
-          if (/^(value|demand|stability|range|categories|special tier|default tier|tier \d|search|filter|changelog|effects|radios|emotes|powers|controls|inv\.)$/i.test(name)) return;
-          if (/^(\+1|-1|~)$/i.test(name)) return;
-          const prev = items[name];
-          if (!prev || (String(prev.value) === "N/A" && fields.value && fields.value !== "N/A")) {
-            items[name] = fields;
-          }
-        };
-
-        const cleanWindowText = (text) => {
-          const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
-          if (lines.length <= 1) return text;
-          const cleaned = [lines[0]];
-          for (let j = 1; j < lines.length; j++) {
-            const currentLine = lines[j];
-            const isFieldOrHeader = /^(value|demand|rarity|stability|range|origin|change|aliases|class|exp|special tier|default tier|[\w\s]+tier|tier \d|inv\.\s*controls)/i.test(currentLine) ||
-              /^[\[\]()\d\s,.-]+$/.test(currentLine) ||
-              currentLine.length < 2 ||
-              currentLine.length > 60 ||
-              /^[\d,]+(?:\.\d+)?$/.test(currentLine);
-            if (!isFieldOrHeader) {
-              break;
-            }
-            cleaned.push(currentLine);
-          }
-          return cleaned.join("\n");
-        };
-
-        const fieldsFrom = (text) => {
-          const t = cleanWindowText(text || "");
-          const valueMatch = t.match(/Value\s*[-–:]?\s*\**\s*(Priceless|N\/A|[0-9,]+(?:\.\d+)?|x[\d\w\s\.]+)/i);
-          const rangeMatch = t.match(/Range\s*[-–:]?\s*(\[?[^\n\]]{0,40}\]?)/i);
-          const demandMatch = t.match(/Demand\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
-          const rarityMatch = t.match(/Rarity\s*[-–:]?\s*\**\s*(\d+(?:\.\d+)?)/i);
-          const stabilityMatch = t.match(/Stability\s*[-–:]?\s*\**\s*([A-Za-z][A-Za-z\s]{0,30})/i);
-          const changeMatch = t.match(/Change\s+in\s+Value\s*[-–:]?\s*([^\n]{0,50})/i);
-          const originMatch = t.match(/Origin\s*[-–:]?\s*([^\n]{0,100})/i);
-          const aliasesMatch = t.match(/Aliases?\s*[-–:]?\s*([^\n]{0,60})/i);
-          const classMatch = t.match(/Class\s*[-–:]?\s*([A-Za-z][A-Za-z\s]{0,20})/i);
-          const expMatch = t.match(/EXP\s*Requirement\s*[-–:]?\s*([0-9,.KMkm]+|None)/i);
-          return {
-            value: valueMatch ? valueMatch[1].replace(/,/g, "").replace(/\*/g, "").trim() : "N/A",
-            range: rangeMatch ? rangeMatch[1].trim() : "N/A",
-            demand: demandMatch ? demandMatch[1] : "N/A",
-            rarity: rarityMatch ? rarityMatch[1] : "N/A",
-            stability: stabilityMatch ? stabilityMatch[1].trim() : "N/A",
-            change: changeMatch ? changeMatch[1].trim() : "N/A",
-            origin: originMatch ? originMatch[1].trim() : "N/A",
-            aliases: aliasesMatch ? aliasesMatch[1].trim() : "N/A",
-            class: classMatch ? classMatch[1].trim() : "N/A",
-            expRequirement: expMatch ? expMatch[1].trim() : "N/A",
-          };
-        };
-
-        document.querySelectorAll(
-          "[data-item], .item-card, .value-card, article, [class*='Item'], [class*='card'], [class*='item']"
-        ).forEach((el) => {
-          const t = el.innerText || "";
-          if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Origin\s*[-–:]|Priceless|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
-          let name = "";
-          const named = el.querySelector("a, h3, h4, strong, b, [class*='name']");
-          if (named) name = (named.textContent || "").trim().split("\n")[0].trim();
-          if (!name) {
-            const img = el.querySelector("img[alt]");
-            if (img) name = (img.alt || "").trim();
-          }
-          if (!name) {
-            for (const line of t.split("\n").map((l) => l.trim()).filter(Boolean)) {
-              if (!/^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(line)) {
-                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
-                break;
-              }
-            }
-          }
-          add(name, fieldsFrom(t));
-        });
-
-        document.querySelectorAll("tr").forEach((row) => {
-          const t = row.innerText || "";
-          if (!/Demand\s*[-–:]|Value\s*[-–:]|Rarity\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(t)) return;
-          let name = "";
-          const a = row.querySelector("a, strong, b");
-          const img = row.querySelector("img[alt]");
-          if (a) name = a.textContent.trim();
-          else if (img) name = img.alt.trim();
-          else {
-            for (const line of t.split("\n").map((l) => l.trim()).filter(Boolean)) {
-              if (!/^(value|demand|rarity|stability|range|origin|change)/i.test(line)) {
-                name = line.replace(/\s*Value\s*[-–:].*$/i, "").trim();
-                break;
-              }
-            }
-          }
-          add(name, fieldsFrom(t));
-        });
-
-        const body = document.body.innerText || "";
-        const lines = body.split("\n").map((l) => l.trim()).filter(Boolean);
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i];
-          const window = lines.slice(i, i + 8).join("\n");
-          const hasMeta = /Demand\s*[-–:]|Value\s*[-–:]|Priceless|Origin\s*[-–:]|Class\s*[-–:]|EXP\s*Requirement/i.test(window);
-          if (!hasMeta) continue;
-          if (/^(value|demand|rarity|stability|range|origin|change|aliases|special tier|default tier|tier \d)/i.test(line)) continue;
-          if (/^x\s*\d+/i.test(line)) continue;
-          if (line.length < 2 || line.length > 60) continue;
-          if (/^[\d,]+(?:\.\d+)?$/.test(line)) continue;
-          if (/^[\[\]()\d\s,.-]+$/.test(line)) continue;
-          const next = lines[i + 1] || "";
-          if (!/^(value|demand|rarity|stability|range|origin|change|aliases)/i.test(next) && !/Priceless/i.test(window)) {
-            if (!/Demand\s*[-–:]/i.test(window)) continue;
-          }
-          add(line.replace(/\s*Value\s*[-–:].*$/i, "").trim(), fieldsFrom(window));
-        }
-
-        {
-          const body = document.body.innerText || "";
-          const re = /([A-Za-z0-9][A-Za-z0-9'\- ]{0,40}?)\s*\(\s*((?:Var(?:iant)?|V)\.?\s*\d+)\s*\)/gi;
-          let m;
-          const seen = new Set();
-          while ((m = re.exec(body)) !== null) {
-            const base = m[1].trim();
-            if (/evolutions?$/i.test(base)) continue;
-            const label = m[2].replace(/\s+/g, " ").trim();
-            const fullName = `${base} (${label})`;
-            const key = fullName.toLowerCase();
-            if (seen.has(key)) continue;
-            seen.add(key);
-            const window = body.slice(m.index, m.index + 400);
-            add(fullName, fieldsFrom(window));
-          }
-        }
-
-        return Object.keys(items).length ? items : null;
-      });
-
-      if (domItems) {
-        data = data || {};
-        let added = 0;
-        for (const [name, info] of Object.entries(domItems)) {
-          if (!data[name]) {
-            data[name] = info;
-            added++;
-          }
-        }
-        if (added) console.log(`  + DOM merge added ${added} items for ${categorySlug}`);
-      }
-    } catch (e) {
-      console.log(`  DOM merge skip: ${e.message}`);
     }
 
     return data;
@@ -508,221 +306,225 @@ async function getLastUpdated(page) {
     await page.goto(BASE_URL, { waitUntil: "domcontentloaded", timeout: 45000 });
     await sleep(3000);
     const text = await page.evaluate(() => document.body.innerText || "");
-    const match = text.match(
-      /Values?\s+Last\s+Updated\s*[-–:]\s*([^\n/]+?)(?:\s*\/\/|\s*$)/i
-    );
-    if (match) return match[1].trim();
-    const fallback = text.match(/Values?\s+Last\s+Updated\s*[-–:]\s*([^\n]+)/i);
-    if (fallback) {
-      return fallback[1].split("//")[0].trim();
-    }
-    return null;
+    const match = text.match(/Values?\s+Last\s+Updated\s*[-–:]\s*([^\n/]+?)(?:\s*\/\/|\s*$)/i);
+    return match ? match[1].trim() : null;
   } catch {
     return null;
   }
 }
 
 async function main() {
-  console.log("Supreme Values scraper — ALL categories\n");
-
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
-
-  let previous = null;
-  if (fs.existsSync(OUTPUT_FILE)) {
-    try {
-      previous = JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
-    } catch (_) {}
-  }
+  console.log("Supreme Values Scraper — Autonomous Runner\n");
 
   chromium.setHeadlessMode = true;
   chromium.setGraphicsMode = false;
 
   let executable = null;
-  let useChromiumArgs = true;
+  let launchArgs = [];
 
   if (process.platform === "win32") {
-    useChromiumArgs = false;
     const edgeWin = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";
     const chromeWin = "C:/Program Files/Google/Chrome/Application/chrome.exe";
     const chromeWin86 = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe";
     if (fs.existsSync(edgeWin)) executable = edgeWin;
     else if (fs.existsSync(chromeWin)) executable = chromeWin;
     else if (fs.existsSync(chromeWin86)) executable = chromeWin86;
+    launchArgs = ["--window-size=1366,768"];
   } else {
+    // Linux / GitHub Actions runner / Docker
     try {
       executable = await chromium.executablePath();
-    } catch (_) {
-      useChromiumArgs = false;
+      launchArgs = chromium.args || [];
+    } catch (err) {
+      console.warn("Could not get @sparticuz/chromium executable path:", err.message);
+    }
+
+    if (!executable) {
+      const candidates = [
+        "/usr/bin/google-chrome",
+        "/usr/bin/google-chrome-stable",
+        "/usr/bin/chromium",
+        "/usr/bin/chromium-browser"
+      ];
+      for (const p of candidates) {
+        if (fs.existsSync(p)) {
+          executable = p;
+          break;
+        }
+      }
+      launchArgs = [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-accelerated-2d-canvas",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-zygote",
+        "--single-process",
+        "--window-size=1366,768"
+      ];
     }
   }
 
+  console.log(`Browser executable: ${executable || "system default"}`);
+
   const browser = await puppeteer.launch({
-    args: useChromiumArgs ? chromium.args : [],
+    args: launchArgs,
     defaultViewport: { width: 1366, height: 768 },
     executablePath: executable,
-    headless: useChromiumArgs ? chromium.headless : true,
+    headless: true
   });
 
   const page = await browser.newPage();
   await page.setUserAgent(
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
   );
-  await page.evaluateOnNewDocument(() => {
-    Object.defineProperty(navigator, "webdriver", { get: () => false });
+  await page.setExtraHTTPHeaders({
+    "Accept-Language": "en-US,en;q=0.9"
   });
 
-  const allItems = {};
-  let total = 0;
-  const failed = [];
-  const seenSlugs = new Set();
+  const lastUpdated = await getLastUpdated(page);
+  const rawItems = [];
 
   for (const cat of CATEGORIES) {
-    if (seenSlugs.has(cat.slug)) continue;
-    seenSlugs.add(cat.slug);
+    let data = null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        data = await extractFromPage(page, cat.slug, cat.name);
+        if (data && typeof data === "object" && Object.keys(data).length > 0) {
+          break;
+        }
+        console.warn(`  ⚠ [${attempt}/3] Empty data for ${cat.slug}, retrying in 3s...`);
+      } catch (err) {
+        console.warn(`  ⚠ [${attempt}/3] Failed ${cat.slug}: ${err.message}, retrying in 3s...`);
+      }
+      if (attempt < 3) await sleep(3000);
+    }
 
-    const data = await extractFromPage(page, cat.slug, cat.name);
     if (data && typeof data === "object") {
+      let count = 0;
       for (const [name, info] of Object.entries(data)) {
         const entry = normalizeEntry(name, info || {}, cat.name);
-        const key = entry.name.toLowerCase().trim();
-        if (/^[\d,]+(?:\.\d+)?$/.test(key) && key !== "2015") continue;
-        if (/^(ability|description|death effect|price|contains)\s*[-–]/i.test(key)) continue;
-        if (/^(value|range|stability|demand|rarity)$/i.test(key)) continue;
-        if (key.length > 60) continue;
-        if (/^(x\d+|n\/a|priceless|value|range|stability|demand|rarity)$/i.test(key)) continue;
-        if (key.length < 2) continue;
-        const uniqKey = `${key}_${entry.category}`;
-        if (!allItems[uniqKey]) {
-          allItems[uniqKey] = entry;
-          total++;
-        } else if (allItems[uniqKey].value === "N/A" && entry.value !== "N/A") {
-          allItems[uniqKey] = entry;
+        
+        // STRICTLY SKIP UNTRADABLES AND N/A ITEMS
+        const valLower = String(entry.value).toLowerCase();
+        if (
+          valLower === "n/a" || 
+          valLower === "untradable" || 
+          valLower === "untradeable" || 
+          valLower === "none" || 
+          valLower.includes("untradable") || 
+          valLower.includes("untradeable") || 
+          entry.category === "untradables" || 
+          entry.origin.toLowerCase().includes("untradable") ||
+          entry.origin.toLowerCase().includes("untradeable")
+        ) {
+          continue;
         }
+        
+        rawItems.push(entry);
+        count++;
       }
+      console.log(`  ✓ Added ${count} tradable items from ${cat.slug}`);
     } else {
-      failed.push(cat.slug);
+      console.error(`  ✗ Failed to scrape category ${cat.slug} after 3 attempts`);
     }
   }
 
-  const lastUpdated = await getLastUpdated(page);
   await browser.close();
 
-  if (total < 10 && previous && previous.items && Object.keys(previous.items).length > 0) {
-    console.warn("Scrape returned too few items — keeping previous JSON");
-    process.exit(0);
+  // Safety check: protect values.json against corrupt / blocked scrapes
+  if (rawItems.length < 500) {
+    console.error(`\n❌ Safeguard triggered: Only ${rawItems.length} items scraped (expected 800+).`);
+    console.error("Supreme Values might be down or Cloudflare blocked the request.");
+    console.error("Aborting save to protect existing values.json.");
+    process.exit(1);
   }
 
-  const getBaseName = (name) => {
-    let base = name.replace(/\s*\[[^\]]+\]/g, "");
-    base = base.replace(/\s*\([^)]+\)/g, "");
-    base = base.replace(/\s*(?:gun|knife|radio|effect|pet|set)$/i, "");
-    return base.trim().toLowerCase();
-  };
+  // UNIQUE KEYS SELECTION SYSTEM
+  // We want to register each item under EXACTLY ONE unique key (the simplest unambiguous key).
+  const keyToItemsMap = {};
+  
+  for (const item of rawItems) {
+    const cleanName = item.name.toLowerCase();
+    const type = item.type;
+    const rarity = item.rarity;
+    const year = item.year;
 
-  const groups = {};
-  for (const entry of Object.values(allItems)) {
-    const base = getBaseName(entry.name);
-    if (!groups[base]) groups[base] = [];
-    groups[base].push(entry);
-  }
-
-  const processedItems = {};
-  const categoryMap = {
-    sets: "Set",
-    uniques: "Unique",
-    evos: "Evo",
-    ancients: "Ancient",
-    vintages: "Vintage",
-    chromas: "Chroma",
-    godlies: "Godly",
-    legendaries: "Legendary",
-    rares: "Rare",
-    uncommons: "Uncommon",
-    commons: "Common",
-    pets: "Pet",
-    misc: "Misc",
-    untradables: "Untradable"
-  };
-
-  for (const [base, group] of Object.entries(groups)) {
-    if (group.length > 1) {
-      for (const entry of group) {
-        let typeSuffix = "";
-        const lowerName = entry.name.toLowerCase();
-        const isGun = (name) => {
-          const n = name.toLowerCase();
-          if (n.includes("knife") || n.includes("scythe") || n.includes("blade") || n.includes("slasher") || n.includes("edge") || n.includes("cutter") || n.includes("saw") || n.includes("axe") || n.includes("cleaver") || n.includes("dagger") || n.includes("sickle")) {
-            return false;
-          }
-          if (n.includes("gun") || n.includes("luger") || n.includes("blaster") || n.includes("revolver") || n.includes("pistol") || n.includes("laser") || n.includes("launcher") || n.includes("beam") || n.includes("scope") || n.includes("pew") || n.includes("cannon") || n.includes("shotgun")) {
-            return true;
-          }
-          const knownGuns = ["sugar", "soul", "gingermint", "shadow", "phaser", "cowboy", "ghost", "bloom", "minty", "makeshift", "borealis", "icedriller", "nightsky"];
-          for (const g of knownGuns) {
-            if (n === g || n.startsWith(g + " ") || n.endsWith(" " + g) || n.includes(" " + g + " ")) {
-              return true;
-            }
-          }
-          return false;
-        };
-
-        if (isGun(entry.name)) typeSuffix = "Gun";
-        else if (lowerName.includes("knife") || lowerName.includes("scythe") || lowerName.includes("blade") || lowerName.includes("bringer") || lowerName.includes("slasher") || lowerName.includes("edge") || lowerName.includes("cutter") || lowerName.includes("saw") || lowerName.includes("axe") || lowerName.includes("cleaver") || lowerName.includes("dagger") || lowerName.includes("sickle")) typeSuffix = "Knife";
-        else if (lowerName.includes("pet") || entry.category === "pets") typeSuffix = "Pet";
-        else if (lowerName.includes("radio")) typeSuffix = "Radio";
-        else if (lowerName.includes("effect")) typeSuffix = "Effect";
-        else if (lowerName.includes("set") || entry.category === "sets") typeSuffix = "Set";
-        else {
-          if (["godlies", "vintages", "ancients", "chromas", "legendaries", "rares", "uncommons", "commons"].includes(entry.category)) {
-            typeSuffix = "Knife";
-          }
-        }
-
-        const raritySuffix = categoryMap[entry.category] || entry.category;
-
-        let newName = entry.name;
-        newName = newName.replace(/\s*\((?:godly|godlies|rare|rares|uncommon|uncommons|common|commons|legendary|legendaries|vintage|vintages|ancient|ancients|evo|evos|unique|uniques|pet|pets|misc|untradable|untradables)\)/i, "");
-
-        const hasType = newName.toLowerCase().includes(typeSuffix.toLowerCase());
-        const suffixParts = [];
-        if (typeSuffix && !hasType) {
-          suffixParts.push(typeSuffix);
-        }
-        if (raritySuffix && !suffixParts.includes(raritySuffix)) {
-          suffixParts.push(raritySuffix);
-        }
-
-        newName = `${newName} (${suffixParts.join(" ")})`;
-
-        entry.name = newName;
-        const newKey = newName.toLowerCase().trim();
-        processedItems[newKey] = entry;
+    // Candidates from simplest to most specific
+    const keys = [];
+    keys.push(cleanName);
+    if (type !== "unknown") {
+      keys.push(`${cleanName} (${type})`);
+      keys.push(`${cleanName} (${type}) (${rarity})`);
+      if (year) {
+        keys.push(`${cleanName} (${type}) (${year})`);
+        keys.push(`${cleanName} (${type}) (${rarity}) (${year})`);
       }
     } else {
-      const entry = group[0];
-      const key = entry.name.toLowerCase().trim();
-      processedItems[key] = entry;
+      // If type is unknown, NEVER append (unknown)
+      keys.push(`${cleanName} (${rarity})`);
+      if (year) {
+        keys.push(`${cleanName} (${year})`);
+        keys.push(`${cleanName} (${rarity}) (${year})`);
+      }
     }
+    
+    item.candidates = keys;
+
+    for (const key of keys) {
+      if (!keyToItemsMap[key]) {
+        keyToItemsMap[key] = [];
+      }
+      keyToItemsMap[key].push(item);
+    }
+  }
+
+  const finalItems = {};
+  for (const item of rawItems) {
+    let chosenKey = null;
+    for (const key of item.candidates) {
+      if (keyToItemsMap[key] && keyToItemsMap[key].length === 1) {
+        chosenKey = key;
+        break;
+      }
+    }
+    // Fallback if there is a conflict at all levels (e.g. duplicate identical entries)
+    if (!chosenKey) {
+      chosenKey = item.candidates[item.candidates.length - 1];
+    }
+    
+    finalItems[chosenKey] = {
+      name: item.name,
+      value: item.value,
+      numericValue: item.numericValue,
+      type: item.type,
+      rarity: item.rarity,
+      isChroma: item.isChroma,
+      year: item.year,
+      category: item.category,
+      stability: item.stability,
+      demand: item.demand,
+      tier: item.tier
+    };
   }
 
   const output = {
     lastUpdated: lastUpdated || formatDate(),
     scrapedAt: formatDate(),
-    itemCount: Object.keys(processedItems).length,
-    categoriesScraped: [...seenSlugs].filter((s) => !failed.includes(s)),
-    failedCategories: failed,
-    madeBy: "Namedadude",
-    items: processedItems,
+    itemCount: Object.keys(finalItems).length,
+    items: finalItems
   };
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), "utf8");
-  console.log(`\n✓ Saved ${output.itemCount} items → ${OUTPUT_FILE}`);
-  if (lastUpdated) console.log(`  Site last updated: ${lastUpdated}`);
-  if (failed.length) console.log(`  Failed: ${failed.join(", ")}`);
+  console.log(`\n✓ Saved ${output.itemCount} resolved tradable keys → ${OUTPUT_FILE}`);
 
-  const indexHtml = `<!DOCTYPE html>
+  if (fs.existsSync(PUBLIC_DIR)) {
+    try {
+      fs.writeFileSync(PUBLIC_FILE, JSON.stringify(output, null, 2), "utf8");
+      console.log(`✓ Mirrored copy to → ${PUBLIC_FILE}`);
+
+      const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -780,7 +582,7 @@ async function main() {
   <div class="card">
     <div class="stat">
       <span><strong>Items:</strong> ${output.itemCount}</span>
-      <span><strong>Site update:</strong> ${lastUpdated || "—"}</span>
+      <span><strong>Site update:</strong> ${output.lastUpdated}</span>
     </div>
     <p><strong>Scraped at:</strong> ${output.scrapedAt}</p>
     <p>JSON endpoint: <a href="/values.json"><code>/values.json</code></a></p>
@@ -788,14 +590,9 @@ async function main() {
   </div>
 </body>
 </html>`;
-  fs.writeFileSync(path.join(OUTPUT_DIR, "index.html"), indexHtml, "utf8");
+      fs.writeFileSync(path.join(PUBLIC_DIR, "index.html"), html, "utf8");
+    } catch (_) {}
+  }
 }
 
-main().catch((err) => {
-  console.error(err);
-  if (fs.existsSync(OUTPUT_FILE)) {
-    console.warn("Scrape error but previous values.json exists — build continues");
-    process.exit(0);
-  }
-  process.exit(1);
-});
+main().catch(console.error);

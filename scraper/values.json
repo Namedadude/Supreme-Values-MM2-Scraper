@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "September 15th, 2026 at 5:00 PM",
-  "scrapedAt": "September 16th, 2026 at 10:41 PM UTC",
+  "lastUpdated": "September 16th, 2026 at 10:39 PM",
+  "scrapedAt": "September 17th, 2026 at 3:36 AM UTC",
   "itemCount": 936,
   "items": {
     "2015": {
@@ -44,14 +44,14 @@
     },
     "celestial": {
       "name": "Celestial",
-      "value": "2600",
-      "numericValue": 2600,
+      "value": "2550",
+      "numericValue": 2550,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
       "year": 2024,
       "category": "ancients",
-      "stability": "Stable",
+      "stability": "Receding",
       "demand": "5",
       "tier": null
     },

@@ -1,7 +1,7 @@
 {
   "lastUpdated": "September 16th, 2026 at 10:39 PM",
-  "scrapedAt": "September 17th, 2026 at 10:42 PM UTC",
-  "itemCount": 936,
+  "scrapedAt": "September 18th, 2026 at 3:21 AM UTC",
+  "itemCount": 943,
   "items": {
     "2015": {
       "name": "2015",
@@ -224,7 +224,7 @@
       "demand": "1",
       "tier": null
     },
-    "cowboy": {
+    "cowboy (vintage)": {
       "name": "Cowboy",
       "value": "4",
       "numericValue": 4,
@@ -250,7 +250,7 @@
       "demand": "1",
       "tier": null
     },
-    "golden": {
+    "golden (vintage)": {
       "name": "Golden",
       "value": "4",
       "numericValue": 4,
@@ -276,7 +276,7 @@
       "demand": "1",
       "tier": null
     },
-    "phaser": {
+    "phaser (vintage)": {
       "name": "Phaser",
       "value": "5",
       "numericValue": 5,
@@ -289,7 +289,7 @@
       "demand": "1",
       "tier": null
     },
-    "prince": {
+    "prince (vintage)": {
       "name": "Prince",
       "value": "6",
       "numericValue": 6,
@@ -302,7 +302,7 @@
       "demand": "1",
       "tier": null
     },
-    "shadow": {
+    "shadow (vintage)": {
       "name": "Shadow",
       "value": "6",
       "numericValue": 6,
@@ -3006,7 +3006,7 @@
       "demand": "1",
       "tier": "T1"
     },
-    "ghost (gun)": {
+    "ghost (gun) (legendary)": {
       "name": "Ghost",
       "value": "2",
       "numericValue": 2,
@@ -3057,6 +3057,19 @@
       "stability": "Stable",
       "demand": "2",
       "tier": "T1"
+    },
+    "golden (knife)": {
+      "name": "Golden",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "knife",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": 2026,
+      "category": "legendaries",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
+      "tier": null
     },
     "green elite": {
       "name": "Green Elite",
@@ -3381,6 +3394,19 @@
       "category": "legendaries",
       "stability": "Stable",
       "demand": "1",
+      "tier": null
+    },
+    "shadow (gun)": {
+      "name": "Shadow",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "gun",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": 2026,
+      "category": "legendaries",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
       "tier": null
     },
     "shiny": {
@@ -3823,6 +3849,19 @@
       "category": "rares",
       "stability": "Stable",
       "demand": "4",
+      "tier": null
+    },
+    "cowboy (knife)": {
+      "name": "Cowboy",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "knife",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": 2026,
+      "category": "rares",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
       "tier": null
     },
     "curse": {
@@ -4319,6 +4358,19 @@
       "demand": "1",
       "tier": "T1"
     },
+    "laser (gun) (rare)": {
+      "name": "Laser",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "gun",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": 2026,
+      "category": "rares",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
+      "tier": null
+    },
     "logcutter": {
       "name": "Logcutter",
       "value": "x2 T1 Legendaries",
@@ -4553,6 +4605,19 @@
       "demand": "2",
       "tier": "T1"
     },
+    "phaser (knife)": {
+      "name": "Phaser",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "knife",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": 2026,
+      "category": "rares",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
+      "tier": null
+    },
     "pier": {
       "name": "Pier",
       "value": "x3 T1 Rares",
@@ -4604,6 +4669,19 @@
       "stability": "Stable",
       "demand": "2",
       "tier": "T1"
+    },
+    "prince (gun)": {
+      "name": "Prince",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "gun",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": 2026,
+      "category": "rares",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
+      "tier": null
     },
     "purple": {
       "name": "Purple",
@@ -5774,6 +5852,19 @@
       "stability": "Stable",
       "demand": "1",
       "tier": "T1"
+    },
+    "ghost (gun) (uncommon)": {
+      "name": "Ghost",
+      "value": "Coming Soon!",
+      "numericValue": null,
+      "type": "gun",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": 2026,
+      "category": "uncommons",
+      "stability": "Coming Soon!",
+      "demand": "Coming Soon!",
+      "tier": null
     },
     "ghostly": {
       "name": "Ghostly",

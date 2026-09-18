@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "September 16th, 2026 at 10:39 PM",
-  "scrapedAt": "September 18th, 2026 at 6:55 PM UTC",
+  "lastUpdated": "September 18th, 2026 at 10:15 PM",
+  "scrapedAt": "September 18th, 2026 at 10:20 PM UTC",
   "itemCount": 943,
   "items": {
     "2015": {
@@ -44,8 +44,8 @@
     },
     "celestial": {
       "name": "Celestial",
-      "value": "2550",
-      "numericValue": 2550,
+      "value": "2450",
+      "numericValue": 2450,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -356,8 +356,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1450",
-      "numericValue": 1450,
+      "value": "1400",
+      "numericValue": 1400,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -369,15 +369,15 @@
     },
     "chroma blizzard": {
       "name": "Chroma Blizzard",
-      "value": "5250",
-      "numericValue": 5250,
+      "value": "5500",
+      "numericValue": 5500,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2025,
       "category": "chromas",
-      "stability": "Doing Well",
-      "demand": "6",
+      "stability": "Stable",
+      "demand": "5",
       "tier": null
     },
     "chroma boneblade": {
@@ -473,8 +473,8 @@
     },
     "chroma evergreen": {
       "name": "Chroma Evergreen",
-      "value": "43000",
-      "numericValue": 43000,
+      "value": "42000",
+      "numericValue": 42000,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -486,8 +486,8 @@
     },
     "chroma evergun": {
       "name": "Chroma Evergun",
-      "value": "60000",
-      "numericValue": 60000,
+      "value": "58000",
+      "numericValue": 58000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -655,8 +655,8 @@
     },
     "chroma icecream": {
       "name": "Chroma Icecream",
-      "value": "2000",
-      "numericValue": 2000,
+      "value": "1900",
+      "numericValue": 1900,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -733,8 +733,8 @@
     },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1500",
-      "numericValue": 1500,
+      "value": "1450",
+      "numericValue": 1450,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -850,15 +850,15 @@
     },
     "chroma sunset": {
       "name": "Chroma Sunset",
-      "value": "6750",
-      "numericValue": 6750,
+      "value": "7000",
+      "numericValue": 7000,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": 2025,
       "category": "chromas",
       "stability": "Stable",
-      "demand": "5",
+      "demand": "6",
       "tier": null
     },
     "chroma sweet": {
@@ -902,8 +902,8 @@
     },
     "chroma traveler's gun": {
       "name": "Chroma Traveler's Gun",
-      "value": "165000",
-      "numericValue": 165000,
+      "value": "160000",
+      "numericValue": 160000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -954,15 +954,15 @@
     },
     "alienbeam": {
       "name": "Alienbeam",
-      "value": "1800",
-      "numericValue": 1800,
+      "value": "2000",
+      "numericValue": 2000,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": 2025,
       "category": "godlies",
-      "stability": "Stable",
-      "demand": "5",
+      "stability": "Doing Well",
+      "demand": "6",
       "tier": null
     },
     "amerilaser": {
@@ -1118,7 +1118,7 @@
       "year": 2025,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "5",
+      "demand": "4",
       "tier": null
     },
     "bloom": {
@@ -1240,8 +1240,8 @@
     },
     "constellation": {
       "name": "Constellation",
-      "value": "2900",
-      "numericValue": 2900,
+      "value": "2800",
+      "numericValue": 2800,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1435,8 +1435,8 @@
     },
     "evergreen": {
       "name": "Evergreen",
-      "value": "2550",
-      "numericValue": 2550,
+      "value": "2500",
+      "numericValue": 2500,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1773,15 +1773,15 @@
     },
     "icecream": {
       "name": "Icecream",
-      "value": "145",
-      "numericValue": 145,
+      "value": "150",
+      "numericValue": 150,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
       "year": 2026,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "2",
+      "demand": "3",
       "tier": null
     },
     "iceflake": {
@@ -2137,8 +2137,8 @@
     },
     "raygun": {
       "name": "Raygun",
-      "value": "1950",
-      "numericValue": 1950,
+      "value": "1975",
+      "numericValue": 1975,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2301,7 +2301,7 @@
       "year": 2025,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "5",
+      "demand": "4",
       "tier": null
     },
     "soul": {
@@ -2449,8 +2449,8 @@
     },
     "traveler's gun": {
       "name": "Traveler's Gun",
-      "value": "5300",
-      "numericValue": 5300,
+      "value": "5200",
+      "numericValue": 5200,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2501,14 +2501,14 @@
     },
     "vampire's gun": {
       "name": "Vampire's Gun",
-      "value": "1775",
-      "numericValue": 1775,
+      "value": "1750",
+      "numericValue": 1750,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": 2024,
       "category": "godlies",
-      "stability": "Receding",
+      "stability": "Stable",
       "demand": "5",
       "tier": null
     },
@@ -3068,7 +3068,7 @@
       "year": 2026,
       "category": "legendaries",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "green elite": {
@@ -3406,7 +3406,7 @@
       "year": 2026,
       "category": "legendaries",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "shiny": {
@@ -3861,7 +3861,7 @@
       "year": 2026,
       "category": "rares",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "curse": {
@@ -4368,7 +4368,7 @@
       "year": 2026,
       "category": "rares",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "logcutter": {
@@ -4615,7 +4615,7 @@
       "year": 2026,
       "category": "rares",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "pier": {
@@ -4680,7 +4680,7 @@
       "year": 2026,
       "category": "rares",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "purple": {
@@ -5863,7 +5863,7 @@
       "year": 2026,
       "category": "uncommons",
       "stability": "Coming Soon!",
-      "demand": "Coming Soon!",
+      "demand": "3",
       "tier": null
     },
     "ghostly": {

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "September 21st, 2026 at 8:55 PM",
-  "scrapedAt": "September 23rd, 2026 at 4:11 PM UTC",
+  "lastUpdated": "September 23rd, 2026 at 7:10 PM",
+  "scrapedAt": "September 23rd, 2026 at 10:43 PM UTC",
   "itemCount": 943,
   "items": {
     "2015": {
@@ -44,8 +44,8 @@
     },
     "celestial": {
       "name": "Celestial",
-      "value": "2350",
-      "numericValue": 2350,
+      "value": "2300",
+      "numericValue": 2300,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -70,8 +70,8 @@
     },
     "gingerscope": {
       "name": "Gingerscope",
-      "value": "16000",
-      "numericValue": 16000,
+      "value": "16250",
+      "numericValue": 16250,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -356,8 +356,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1300",
-      "numericValue": 1300,
+      "value": "1250",
+      "numericValue": 1250,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -655,8 +655,8 @@
     },
     "chroma icecream": {
       "name": "Chroma Icecream",
-      "value": "1800",
-      "numericValue": 1800,
+      "value": "1750",
+      "numericValue": 1750,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -733,8 +733,8 @@
     },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1350",
-      "numericValue": 1350,
+      "value": "1300",
+      "numericValue": 1300,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -850,8 +850,8 @@
     },
     "chroma sunset": {
       "name": "Chroma Sunset",
-      "value": "7250",
-      "numericValue": 7250,
+      "value": "7500",
+      "numericValue": 7500,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -902,8 +902,8 @@
     },
     "chroma traveler's gun": {
       "name": "Chroma Traveler's Gun",
-      "value": "155000",
-      "numericValue": 155000,
+      "value": "150000",
+      "numericValue": 150000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -954,15 +954,15 @@
     },
     "alienbeam": {
       "name": "Alienbeam",
-      "value": "2050",
-      "numericValue": 2050,
+      "value": "2100",
+      "numericValue": 2100,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": 2025,
       "category": "godlies",
-      "stability": "Doing Well",
-      "demand": "6",
+      "stability": "Stable",
+      "demand": "5",
       "tier": null
     },
     "amerilaser": {
@@ -1058,8 +1058,8 @@
     },
     "beachy": {
       "name": "Beachy",
-      "value": "100",
-      "numericValue": 100,
+      "value": "95",
+      "numericValue": 95,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1240,8 +1240,8 @@
     },
     "constellation": {
       "name": "Constellation",
-      "value": "2750",
-      "numericValue": 2750,
+      "value": "2700",
+      "numericValue": 2700,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1442,7 +1442,7 @@
       "isChroma": false,
       "year": 2023,
       "category": "godlies",
-      "stability": "Receding",
+      "stability": "Stable",
       "demand": "5",
       "tier": null
     },
@@ -1968,15 +1968,15 @@
     },
     "ornament (godly)": {
       "name": "Ornament",
-      "value": "85",
-      "numericValue": 85,
+      "value": "80",
+      "numericValue": 80,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
       "year": 2025,
       "category": "godlies",
       "stability": "Underpaid For",
-      "demand": "2",
+      "demand": "1",
       "tier": null
     },
     "pearl": {
@@ -2137,8 +2137,8 @@
     },
     "raygun": {
       "name": "Raygun",
-      "value": "1975",
-      "numericValue": 1975,
+      "value": "1950",
+      "numericValue": 1950,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -2189,8 +2189,8 @@
     },
     "sands": {
       "name": "Sands",
-      "value": "100",
-      "numericValue": 100,
+      "value": "95",
+      "numericValue": 95,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2475,8 +2475,8 @@
     },
     "turkey": {
       "name": "Turkey",
-      "value": "2000",
-      "numericValue": 2000,
+      "value": "2050",
+      "numericValue": 2050,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -2501,15 +2501,15 @@
     },
     "vampire's gun": {
       "name": "Vampire's Gun",
-      "value": "1775",
-      "numericValue": 1775,
+      "value": "1825",
+      "numericValue": 1825,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": 2024,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "5",
+      "demand": "6",
       "tier": null
     },
     "virtual": {
@@ -2527,8 +2527,8 @@
     },
     "watergun": {
       "name": "Watergun",
-      "value": "170",
-      "numericValue": 170,
+      "value": "165",
+      "numericValue": 165,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,

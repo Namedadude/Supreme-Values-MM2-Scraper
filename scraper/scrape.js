@@ -1,4 +1,6 @@
-const puppeteer = require("puppeteer-core");
+const puppeteerExtra = require("puppeteer-extra");
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+puppeteerExtra.use(StealthPlugin());
 const chromium = require("@sparticuz/chromium");
 const fs = require("fs");
 const path = require("path");
@@ -366,7 +368,7 @@ async function main() {
 
   console.log(`Browser executable: ${executable || "system default"}`);
 
-  const browser = await puppeteer.launch({
+  const browser = await puppeteerExtra.launch({
     args: launchArgs,
     defaultViewport: { width: 1366, height: 768 },
     executablePath: executable,

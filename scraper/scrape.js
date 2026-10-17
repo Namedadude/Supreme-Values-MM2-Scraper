@@ -217,28 +217,55 @@ async function extractFromPage(page, categorySlug, categoryName) {
     }
 
     let data = null;
-    const html = await page.content();
-    const match = html.match(/var\s+_svPopup\s*=\s*(\{[\s\S]*?\});?\s*<\/script>/i);
-    if (match) {
-      try {
-        let jsonStr = match[1].trim();
-        if (jsonStr.endsWith(";")) jsonStr = jsonStr.slice(0, -1);
-        data = JSON.parse(jsonStr);
-      } catch (e) {
-        console.log(`  ✗ JSON parse fail: ${e.message}`);
+
+    // Primary: extract from .itemcolumn data-* attributes (new site structure since Oct 2026)
+    data = await page.evaluate(() => {
+      const items = {};
+      document.querySelectorAll(".itemcolumn").forEach(col => {
+        const btn = col.querySelector("button[data-name]");
+        if (!btn) return;
+        const name = btn.getAttribute("data-name");
+        if (!name || name.length < 2) return;
+        items[name] = {
+          value:     col.dataset.value      || "N/A",
+          demand:    col.dataset.demand     || "N/A",
+          rarity:    col.dataset.rarity     || "N/A",
+          stability: col.dataset.stability  || "N/A",
+          change:    col.dataset.changepct  || "N/A",
+          range:     "N/A",
+          origin:    col.dataset.event      || "N/A",
+          aliases:   "N/A"
+        };
+      });
+      return Object.keys(items).length > 0 ? items : null;
+    });
+
+    // Fallback: try _svPopup window variable (old site structure)
+    if (!data) {
+      const html = await page.content();
+      const match = html.match(/var\s+_svPopup\s*=\s*(\{[\s\S]*?\});?\s*<\/script>/i);
+      if (match) {
+        try {
+          let jsonStr = match[1].trim();
+          if (jsonStr.endsWith(";")) jsonStr = jsonStr.slice(0, -1);
+          data = JSON.parse(jsonStr);
+          if (data && Object.keys(data).length === 0) data = null;
+        } catch (e) {
+          console.log(`  ✗ JSON parse fail: ${e.message}`);
+        }
       }
     }
 
     if (!data) {
       data = await page.evaluate(() => {
-        if (typeof _svPopup !== "undefined" && _svPopup && typeof _svPopup === "object") {
+        if (typeof _svPopup !== "undefined" && _svPopup && typeof _svPopup === "object" && Object.keys(_svPopup).length > 0) {
           return _svPopup;
         }
         return null;
       });
     }
 
-    // DOM Fallback
+    // Last resort DOM Fallback
     if (!data) {
       console.log(`  ⚠ DOM fallback for ${categorySlug}...`);
       data = await page.evaluate(() => {

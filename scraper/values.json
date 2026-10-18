@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 17th, 2026 at 11:52 PM",
-  "scrapedAt": "October 18th, 2026 at 10:16 AM UTC",
+  "lastUpdated": "October 18th, 2026 at 5:22 PM",
+  "scrapedAt": "October 18th, 2026 at 9:52 PM UTC",
   "itemCount": 942,
   "items": {
     "2015": {
@@ -1014,7 +1014,7 @@
       "year": null,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "6",
+      "demand": "5",
       "tier": null
     },
     "raygun": {

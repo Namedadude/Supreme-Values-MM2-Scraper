@@ -1,7 +1,7 @@
 {
   "lastUpdated": "October 18th, 2026 at 5:22 PM",
-  "scrapedAt": "October 19th, 2026 at 1:54 AM UTC",
-  "itemCount": 942,
+  "scrapedAt": "October 19th, 2026 at 5:57 AM UTC",
+  "itemCount": 974,
   "items": {
     "2015": {
       "name": "2015",
@@ -105,6 +105,32 @@
       "category": "ancients",
       "stability": "Stable",
       "demand": "3",
+      "tier": null
+    },
+    "emberbow": {
+      "name": "Emberbow",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "ancient",
+      "isChroma": false,
+      "year": null,
+      "category": "ancients",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "emberscythe": {
+      "name": "Emberscythe",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "ancient",
+      "isChroma": false,
+      "year": null,
+      "category": "ancients",
+      "stability": "N/A",
+      "demand": "0",
       "tier": null
     },
     "icebreaker": {
@@ -417,6 +443,71 @@
       "category": "chromas",
       "stability": "Stable",
       "demand": "6",
+      "tier": null
+    },
+    "chroma emberbow": {
+      "name": "Chroma Emberbow",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "chroma emberscythe": {
+      "name": "Chroma Emberscythe",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "chroma embersickle": {
+      "name": "Chroma Embersickle",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "chroma immortal": {
+      "name": "Chroma Immortal",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "chroma mortal": {
+      "name": "Chroma Mortal",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "N/A",
+      "demand": "0",
       "tier": null
     },
     "chroma raygun": {
@@ -1262,6 +1353,45 @@
       "category": "godlies",
       "stability": "Stable",
       "demand": "5",
+      "tier": null
+    },
+    "embersickle": {
+      "name": "Embersickle",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "immortal": {
+      "name": "Immortal",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "mortal": {
+      "name": "Mortal",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "N/A",
+      "demand": "0",
       "tier": null
     },
     "batwing (godly)": {
@@ -3097,6 +3227,32 @@
       "demand": "1",
       "tier": null
     },
+    "embergun": {
+      "name": "Embergun",
+      "value": "0",
+      "numericValue": 0,
+      "type": "gun",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "emberknife": {
+      "name": "Emberknife",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
     "arctic (knife)": {
       "name": "Arctic",
       "value": "0.6",
@@ -4135,6 +4291,58 @@
       "category": "rares",
       "stability": "Stable",
       "demand": "1",
+      "tier": null
+    },
+    "catseye (gun)": {
+      "name": "Catseye",
+      "value": "0",
+      "numericValue": 0,
+      "type": "gun",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "catseye (knife)": {
+      "name": "Catseye",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "raven": {
+      "name": "Raven",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "serpent": {
+      "name": "Serpent",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "N/A",
+      "demand": "0",
       "tier": null
     },
     "gingerbread (gun) (rare)": {
@@ -5554,6 +5762,84 @@
       "demand": "1",
       "tier": null
     },
+    "brew": {
+      "name": "Brew",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "drool (gun)": {
+      "name": "Drool",
+      "value": "0",
+      "numericValue": 0,
+      "type": "gun",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "drool (knife)": {
+      "name": "Drool",
+      "value": "0",
+      "numericValue": 0,
+      "type": "knife",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "glow": {
+      "name": "Glow",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "haunted house": {
+      "name": "Haunted House",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "skelly (uncommon)": {
+      "name": "Skelly",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
     "gingerbread (gun) (2020)": {
       "name": "Gingerbread",
       "value": "3",
@@ -5866,7 +6152,7 @@
       "demand": "1",
       "tier": null
     },
-    "wolf": {
+    "wolf (uncommon)": {
       "name": "Wolf",
       "value": "1",
       "numericValue": 1,
@@ -7764,7 +8050,7 @@
       "demand": "2",
       "tier": null
     },
-    "candycorn": {
+    "candycorn (2017)": {
       "name": "CandyCorn",
       "value": "25",
       "numericValue": 25,
@@ -7894,7 +8180,7 @@
       "demand": "2",
       "tier": null
     },
-    "candy corn (common)": {
+    "candy corn (2019)": {
       "name": "Candy Corn",
       "value": "12",
       "numericValue": 12,
@@ -8167,7 +8453,7 @@
       "demand": "2",
       "tier": null
     },
-    "bats (common)": {
+    "bats (2020)": {
       "name": "Bats",
       "value": "3",
       "numericValue": 3,
@@ -8386,6 +8672,136 @@
       "category": "commons",
       "stability": "Stable",
       "demand": "1",
+      "tier": null
+    },
+    "bats (2026)": {
+      "name": "Bats",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2026,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "bombs": {
+      "name": "Bombs",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "bramble": {
+      "name": "Bramble",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "bullets": {
+      "name": "Bullets",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "candy corn (2026)": {
+      "name": "Candy Corn",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2026,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "candycorn (2026)": {
+      "name": "CandyCorn",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2026,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "hexed": {
+      "name": "Hexed",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "scarytree": {
+      "name": "Scarytree",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "skulls (common)": {
+      "name": "Skulls",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2026,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
+      "tier": null
+    },
+    "wolf (common)": {
+      "name": "Wolf",
+      "value": "0",
+      "numericValue": 0,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "N/A",
+      "demand": "0",
       "tier": null
     },
     "apocalypse (knife)": {
@@ -11768,7 +12184,7 @@
       "demand": "1",
       "tier": null
     },
-    "skelly": {
+    "skelly (pet)": {
       "name": "Skelly",
       "value": "0.45",
       "numericValue": 0.45,

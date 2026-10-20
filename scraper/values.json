@@ -1,6 +1,6 @@
 {
   "lastUpdated": "October 20th, 2026 at 12:47 AM",
-  "scrapedAt": "October 19th, 2026 at 10:05 PM UTC",
+  "scrapedAt": "October 20th, 2026 at 2:06 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -1368,32 +1368,6 @@
       "demand": "5",
       "tier": null
     },
-    "immortal": {
-      "name": "Immortal",
-      "value": "275",
-      "numericValue": 275,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Doing Well",
-      "demand": "5",
-      "tier": null
-    },
-    "mortal": {
-      "name": "Mortal",
-      "value": "275",
-      "numericValue": 275,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Doing Well",
-      "demand": "5",
-      "tier": null
-    },
     "batwing (godly)": {
       "name": "Batwing",
       "value": "1000000",
@@ -1431,6 +1405,32 @@
       "category": "godlies",
       "stability": "Stable",
       "demand": "4",
+      "tier": null
+    },
+    "immortal": {
+      "name": "Immortal",
+      "value": "275",
+      "numericValue": 275,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Doing Well",
+      "demand": "5",
+      "tier": null
+    },
+    "mortal": {
+      "name": "Mortal",
+      "value": "275",
+      "numericValue": 275,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Doing Well",
+      "demand": "5",
       "tier": null
     },
     "blizzard": {

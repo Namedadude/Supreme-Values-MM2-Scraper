@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 20th, 2026 at 8:48 PM",
-  "scrapedAt": "October 20th, 2026 at 6:14 PM UTC",
+  "lastUpdated": "October 20th, 2026 at 9:30 PM",
+  "scrapedAt": "October 20th, 2026 at 10:16 PM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -681,8 +681,8 @@
     },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1250",
-      "numericValue": 1250,
+      "value": "1275",
+      "numericValue": 1275,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -694,8 +694,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1200",
-      "numericValue": 1200,
+      "value": "1225",
+      "numericValue": 1225,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,

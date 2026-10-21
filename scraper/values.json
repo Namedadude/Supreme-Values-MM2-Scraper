@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 20th, 2026 at 9:30 PM",
-  "scrapedAt": "October 20th, 2026 at 10:16 PM UTC",
+  "lastUpdated": "October 21st, 2026 at 3:34 AM",
+  "scrapedAt": "October 21st, 2026 at 2:18 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -18,8 +18,8 @@
     },
     "corrupt": {
       "name": "Corrupt",
-      "value": "290",
-      "numericValue": 290,
+      "value": "280",
+      "numericValue": 280,
       "type": "unknown",
       "rarity": "unique",
       "isChroma": false,
@@ -44,8 +44,8 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "7300",
-      "numericValue": 7300,
+      "value": "7400",
+      "numericValue": 7400,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -57,22 +57,9 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "2500",
-      "numericValue": 2500,
+      "value": "2000",
+      "numericValue": 2000,
       "type": "knife",
-      "rarity": "ancient",
-      "isChroma": false,
-      "year": null,
-      "category": "ancients",
-      "stability": "Doing Well",
-      "demand": "6",
-      "tier": null
-    },
-    "emberbow": {
-      "name": "Emberbow",
-      "value": "1950",
-      "numericValue": 1950,
-      "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
@@ -92,6 +79,19 @@
       "category": "ancients",
       "stability": "Stable",
       "demand": "5",
+      "tier": null
+    },
+    "emberbow": {
+      "name": "Emberbow",
+      "value": "1800",
+      "numericValue": 1800,
+      "type": "unknown",
+      "rarity": "ancient",
+      "isChroma": false,
+      "year": null,
+      "category": "ancients",
+      "stability": "Doing Well",
+      "demand": "6",
       "tier": null
     },
     "vampire's axe": {
@@ -536,19 +536,6 @@
       "demand": "5",
       "tier": null
     },
-    "chroma embersickle": {
-      "name": "Chroma Embersickle",
-      "value": "5000",
-      "numericValue": 5000,
-      "type": "knife",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Overpaid For",
-      "demand": "6",
-      "tier": null
-    },
     "chroma snowstorm": {
       "name": "Chroma Snowstorm",
       "value": "4250",
@@ -560,6 +547,19 @@
       "category": "chromas",
       "stability": "Stable",
       "demand": "5",
+      "tier": null
+    },
+    "chroma embersickle": {
+      "name": "Chroma Embersickle",
+      "value": "4000",
+      "numericValue": 4000,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Doing Well",
+      "demand": "6",
       "tier": null
     },
     "chroma heart wand": {
@@ -1277,19 +1277,6 @@
       "demand": "5",
       "tier": null
     },
-    "embersickle": {
-      "name": "Embersickle",
-      "value": "500",
-      "numericValue": 500,
-      "type": "knife",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "5",
-      "tier": null
-    },
     "xenoknife": {
       "name": "Xenoknife",
       "value": "435",
@@ -1368,6 +1355,19 @@
       "demand": "5",
       "tier": null
     },
+    "embersickle": {
+      "name": "Embersickle",
+      "value": "350",
+      "numericValue": 350,
+      "type": "knife",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "4",
+      "tier": null
+    },
     "batwing (godly)": {
       "name": "Batwing",
       "value": "1000000",
@@ -1433,32 +1433,6 @@
       "demand": "3",
       "tier": null
     },
-    "immortal": {
-      "name": "Immortal",
-      "value": "250",
-      "numericValue": 250,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "4",
-      "tier": null
-    },
-    "mortal": {
-      "name": "Mortal",
-      "value": "250",
-      "numericValue": 250,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "4",
-      "tier": null
-    },
     "ocean": {
       "name": "Ocean",
       "value": "245",
@@ -1509,6 +1483,32 @@
       "category": "godlies",
       "stability": "Stable",
       "demand": "3",
+      "tier": null
+    },
+    "immortal": {
+      "name": "Immortal",
+      "value": "225",
+      "numericValue": 225,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "4",
+      "tier": null
+    },
+    "mortal": {
+      "name": "Mortal",
+      "value": "225",
+      "numericValue": 225,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "4",
       "tier": null
     },
     "snow dagger": {

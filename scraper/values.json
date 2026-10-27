@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 25th, 2026 at 11:21 PM",
-  "scrapedAt": "October 27th, 2026 at 6:55 PM UTC",
+  "lastUpdated": "October 28th, 2026 at 12:20 AM",
+  "scrapedAt": "October 27th, 2026 at 10:56 PM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -31,8 +31,8 @@
     },
     "gingerscope": {
       "name": "Gingerscope",
-      "value": "14500",
-      "numericValue": 14500,
+      "value": "14750",
+      "numericValue": 14750,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -44,15 +44,15 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "7900",
-      "numericValue": 7900,
+      "value": "8000",
+      "numericValue": 8000,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
       "category": "ancients",
-      "stability": "Doing Well",
-      "demand": "6",
+      "stability": "Stable",
+      "demand": "5",
       "tier": null
     },
     "celestial": {
@@ -70,8 +70,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "1700",
-      "numericValue": 1700,
+      "value": "1600",
+      "numericValue": 1600,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -83,8 +83,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "1450",
-      "numericValue": 1450,
+      "value": "1350",
+      "numericValue": 1350,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "vampire's axe": {
       "name": "Vampire's Axe",
-      "value": "1300",
-      "numericValue": 1300,
+      "value": "1325",
+      "numericValue": 1325,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -640,19 +640,6 @@
       "demand": "5",
       "tier": null
     },
-    "chroma embersickle": {
-      "name": "Chroma Embersickle",
-      "value": "1700",
-      "numericValue": 1700,
-      "type": "knife",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Fluctuating",
-      "demand": "5",
-      "tier": null
-    },
     "chroma immortal": {
       "name": "Chroma Immortal",
       "value": "1600",
@@ -679,6 +666,19 @@
       "demand": "5",
       "tier": null
     },
+    "chroma embersickle": {
+      "name": "Chroma Embersickle",
+      "value": "1500",
+      "numericValue": 1500,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Fluctuating",
+      "demand": "5",
+      "tier": null
+    },
     "chroma sands": {
       "name": "Chroma Sands",
       "value": "1375",
@@ -689,7 +689,7 @@
       "year": null,
       "category": "chromas",
       "stability": "Stable",
-      "demand": "6",
+      "demand": "5",
       "tier": null
     },
     "chroma beachy": {
@@ -702,7 +702,7 @@
       "year": null,
       "category": "chromas",
       "stability": "Stable",
-      "demand": "6",
+      "demand": "5",
       "tier": null
     },
     "chroma darkbringer": {
@@ -1149,8 +1149,8 @@
     },
     "darkshot": {
       "name": "Darkshot",
-      "value": "1625",
-      "numericValue": 1625,
+      "value": "1600",
+      "numericValue": 1600,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1162,8 +1162,8 @@
     },
     "darksword": {
       "name": "Darksword",
-      "value": "1600",
-      "numericValue": 1600,
+      "value": "1575",
+      "numericValue": 1575,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1238,19 +1238,6 @@
       "demand": "5",
       "tier": null
     },
-    "soul": {
-      "name": "Soul",
-      "value": "650",
-      "numericValue": 650,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "5",
-      "tier": null
-    },
     "sunset (godly)": {
       "name": "Sunset",
       "value": "650",
@@ -1264,10 +1251,23 @@
       "demand": "5",
       "tier": null
     },
+    "soul": {
+      "name": "Soul",
+      "value": "645",
+      "numericValue": 645,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "5",
+      "tier": null
+    },
     "spirit": {
       "name": "Spirit",
-      "value": "640",
-      "numericValue": 640,
+      "value": "635",
+      "numericValue": 635,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1485,32 +1485,6 @@
       "demand": "3",
       "tier": null
     },
-    "immortal": {
-      "name": "Immortal",
-      "value": "160",
-      "numericValue": 160,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "3",
-      "tier": null
-    },
-    "mortal": {
-      "name": "Mortal",
-      "value": "160",
-      "numericValue": 160,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "3",
-      "tier": null
-    },
     "icecream": {
       "name": "Icecream",
       "value": "155",
@@ -1547,6 +1521,32 @@
       "year": null,
       "category": "godlies",
       "stability": "Stable",
+      "demand": "3",
+      "tier": null
+    },
+    "immortal": {
+      "name": "Immortal",
+      "value": "150",
+      "numericValue": 150,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "3",
+      "tier": null
+    },
+    "mortal": {
+      "name": "Mortal",
+      "value": "150",
+      "numericValue": 150,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
       "demand": "3",
       "tier": null
     },
@@ -1604,21 +1604,21 @@
     },
     "embersickle": {
       "name": "Embersickle",
-      "value": "100",
-      "numericValue": 100,
+      "value": "90",
+      "numericValue": 90,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
       "category": "godlies",
       "stability": "Fluctuating",
-      "demand": "3",
+      "demand": "2",
       "tier": null
     },
     "beachy": {
       "name": "Beachy",
-      "value": "90",
-      "numericValue": 90,
+      "value": "80",
+      "numericValue": 80,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1630,8 +1630,8 @@
     },
     "sands": {
       "name": "Sands",
-      "value": "90",
-      "numericValue": 90,
+      "value": "80",
+      "numericValue": 80,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -8674,19 +8674,6 @@
       "demand": "1",
       "tier": null
     },
-    "hexed": {
-      "name": "Hexed",
-      "value": "0",
-      "numericValue": 0,
-      "type": "unknown",
-      "rarity": "common",
-      "isChroma": false,
-      "year": null,
-      "category": "commons",
-      "stability": "N/A",
-      "demand": "0",
-      "tier": null
-    },
     "apocalypse (knife)": {
       "name": "Apocalypse",
       "value": "0.6",
@@ -9228,6 +9215,19 @@
       "rarity": "common",
       "isChroma": false,
       "year": 2026,
+      "category": "commons",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "hexed": {
+      "name": "Hexed",
+      "value": "0.03",
+      "numericValue": 0.03,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
       "category": "commons",
       "stability": "Stable",
       "demand": "2",

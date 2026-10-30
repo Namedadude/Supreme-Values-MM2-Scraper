@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 29th, 2026 at 9:50 PM",
-  "scrapedAt": "October 29th, 2026 at 10:50 PM UTC",
+  "lastUpdated": "October 30th, 2026 at 2:26 AM",
+  "scrapedAt": "October 30th, 2026 at 2:52 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -83,8 +83,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "1200",
-      "numericValue": 1200,
+      "value": "750",
+      "numericValue": 750,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "1100",
-      "numericValue": 1100,
+      "value": "725",
+      "numericValue": 725,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -445,19 +445,6 @@
       "demand": "6",
       "tier": null
     },
-    "chroma emberscythe": {
-      "name": "Chroma Emberscythe",
-      "value": "14000",
-      "numericValue": 14000,
-      "type": "knife",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Doing Well",
-      "demand": "7",
-      "tier": null
-    },
     "chroma raygun": {
       "name": "Chroma Raygun",
       "value": "12500",
@@ -469,6 +456,19 @@
       "category": "chromas",
       "stability": "Stable",
       "demand": "5",
+      "tier": null
+    },
+    "chroma emberscythe": {
+      "name": "Chroma Emberscythe",
+      "value": "12000",
+      "numericValue": 12000,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Doing Well",
+      "demand": "7",
       "tier": null
     },
     "chroma sunrise": {
@@ -499,8 +499,8 @@
     },
     "chroma emberbow": {
       "name": "Chroma Emberbow",
-      "value": "7500",
-      "numericValue": 7500,
+      "value": "6500",
+      "numericValue": 6500,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -6516,6 +6516,19 @@
       "demand": "2",
       "tier": null
     },
+    "bats (uncommon)": {
+      "name": "Bats",
+      "value": "0.02",
+      "numericValue": 0.02,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": 2026,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
     "brains (2022)": {
       "name": "Brains",
       "value": "0.02",
@@ -8453,7 +8466,7 @@
       "demand": "2",
       "tier": null
     },
-    "bats (2020)": {
+    "bats (common)": {
       "name": "Bats",
       "value": "3",
       "numericValue": 3,
@@ -9228,19 +9241,6 @@
       "rarity": "common",
       "isChroma": false,
       "year": null,
-      "category": "commons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "bats (2026)": {
-      "name": "Bats",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "common",
-      "isChroma": false,
-      "year": 2026,
       "category": "commons",
       "stability": "Stable",
       "demand": "2",

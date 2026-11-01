@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "October 30th, 2026 at 10:44 PM",
-  "scrapedAt": "October 31st, 2026 at 9:40 PM UTC",
+  "lastUpdated": "November 1st, 2026 at 2:06 AM",
+  "scrapedAt": "November 1st, 2026 at 2:17 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -18,21 +18,21 @@
     },
     "corrupt": {
       "name": "Corrupt",
-      "value": "240",
-      "numericValue": 240,
+      "value": "230",
+      "numericValue": 230,
       "type": "unknown",
       "rarity": "unique",
       "isChroma": false,
       "year": null,
       "category": "uniques",
-      "stability": "Underpaid For",
+      "stability": "Stable",
       "demand": "3",
       "tier": null
     },
     "gingerscope": {
       "name": "Gingerscope",
-      "value": "15250",
-      "numericValue": 15250,
+      "value": "15500",
+      "numericValue": 15500,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -44,14 +44,14 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "7800",
-      "numericValue": 7800,
+      "value": "7700",
+      "numericValue": 7700,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
       "category": "ancients",
-      "stability": "Stable",
+      "stability": "Underpaid For",
       "demand": "5",
       "tier": null
     },
@@ -70,8 +70,8 @@
     },
     "vampire's axe": {
       "name": "Vampire's Axe",
-      "value": "1375",
-      "numericValue": 1375,
+      "value": "1400",
+      "numericValue": 1400,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -83,8 +83,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "450",
-      "numericValue": 450,
+      "value": "375",
+      "numericValue": 375,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "425",
-      "numericValue": 425,
+      "value": "375",
+      "numericValue": 375,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -460,15 +460,15 @@
     },
     "chroma emberscythe": {
       "name": "Chroma Emberscythe",
-      "value": "11000",
-      "numericValue": 11000,
+      "value": "10000",
+      "numericValue": 10000,
       "type": "knife",
       "rarity": "chroma",
       "isChroma": true,
       "year": null,
       "category": "chromas",
-      "stability": "Doing Well",
-      "demand": "7",
+      "stability": "Fluctuating",
+      "demand": "6",
       "tier": null
     },
     "chroma sunrise": {
@@ -525,8 +525,8 @@
     },
     "chroma emberbow": {
       "name": "Chroma Emberbow",
-      "value": "5000",
-      "numericValue": 5000,
+      "value": "4500",
+      "numericValue": 4500,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -666,19 +666,6 @@
       "demand": "5",
       "tier": null
     },
-    "chroma sands": {
-      "name": "Chroma Sands",
-      "value": "1325",
-      "numericValue": 1325,
-      "type": "unknown",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Stable",
-      "demand": "5",
-      "tier": null
-    },
     "chroma embersickle": {
       "name": "Chroma Embersickle",
       "value": "1300",
@@ -692,10 +679,23 @@
       "demand": "5",
       "tier": null
     },
-    "chroma beachy": {
-      "name": "Chroma Beachy",
+    "chroma sands": {
+      "name": "Chroma Sands",
       "value": "1275",
       "numericValue": 1275,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Stable",
+      "demand": "5",
+      "tier": null
+    },
+    "chroma beachy": {
+      "name": "Chroma Beachy",
+      "value": "1225",
+      "numericValue": 1225,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -1110,6 +1110,19 @@
     },
     "alienbeam": {
       "name": "Alienbeam",
+      "value": "1875",
+      "numericValue": 1875,
+      "type": "gun",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "6",
+      "tier": null
+    },
+    "raygun": {
+      "name": "Raygun",
       "value": "1850",
       "numericValue": 1850,
       "type": "gun",
@@ -1134,23 +1147,10 @@
       "demand": "5",
       "tier": null
     },
-    "raygun": {
-      "name": "Raygun",
-      "value": "1825",
-      "numericValue": 1825,
-      "type": "gun",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "6",
-      "tier": null
-    },
     "darkshot": {
       "name": "Darkshot",
-      "value": "1550",
-      "numericValue": 1550,
+      "value": "1525",
+      "numericValue": 1525,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1162,8 +1162,8 @@
     },
     "darksword": {
       "name": "Darksword",
-      "value": "1525",
-      "numericValue": 1525,
+      "value": "1500",
+      "numericValue": 1500,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1253,19 +1253,6 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "625",
-      "numericValue": 625,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "5",
-      "tier": null
-    },
-    "spirit": {
-      "name": "Spirit",
       "value": "615",
       "numericValue": 615,
       "type": "unknown",
@@ -1277,10 +1264,23 @@
       "demand": "5",
       "tier": null
     },
+    "spirit": {
+      "name": "Spirit",
+      "value": "605",
+      "numericValue": 605,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "5",
+      "tier": null
+    },
     "xenoknife": {
       "name": "Xenoknife",
-      "value": "435",
-      "numericValue": 435,
+      "value": "430",
+      "numericValue": 430,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1292,8 +1292,8 @@
     },
     "xenoshot": {
       "name": "Xenoshot",
-      "value": "435",
-      "numericValue": 435,
+      "value": "430",
+      "numericValue": 430,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1615,34 +1615,8 @@
       "demand": "2",
       "tier": null
     },
-    "beachy": {
-      "name": "Beachy",
-      "value": "80",
-      "numericValue": 80,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
     "pearlshine": {
       "name": "Pearlshine",
-      "value": "80",
-      "numericValue": 80,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "sands": {
-      "name": "Sands",
       "value": "80",
       "numericValue": 80,
       "type": "unknown",
@@ -1667,8 +1641,34 @@
       "demand": "1",
       "tier": null
     },
+    "beachy": {
+      "name": "Beachy",
+      "value": "75",
+      "numericValue": 75,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "pearl": {
       "name": "Pearl",
+      "value": "75",
+      "numericValue": 75,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "sands": {
+      "name": "Sands",
       "value": "75",
       "numericValue": 75,
       "type": "unknown",

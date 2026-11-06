@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "November 4th, 2026 at 8:27 PM",
-  "scrapedAt": "November 6th, 2026 at 2:34 PM UTC",
+  "lastUpdated": "November 6th, 2026 at 6:56 PM",
+  "scrapedAt": "November 6th, 2026 at 7:16 PM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -44,8 +44,8 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "7300",
-      "numericValue": 7300,
+      "value": "7100",
+      "numericValue": 7100,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -83,8 +83,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "400",
-      "numericValue": 400,
+      "value": "525",
+      "numericValue": 525,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "400",
-      "numericValue": 400,
+      "value": "500",
+      "numericValue": 500,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -434,14 +434,27 @@
     },
     "chroma alienbeam": {
       "name": "Chroma Alienbeam",
-      "value": "23000",
-      "numericValue": 23000,
+      "value": "22000",
+      "numericValue": 22000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
       "year": null,
       "category": "chromas",
-      "stability": "Stable",
+      "stability": "Underpaid For",
+      "demand": "6",
+      "tier": null
+    },
+    "chroma emberscythe": {
+      "name": "Chroma Emberscythe",
+      "value": "16000",
+      "numericValue": 16000,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Fluctuating",
       "demand": "6",
       "tier": null
     },
@@ -456,19 +469,6 @@
       "category": "chromas",
       "stability": "Stable",
       "demand": "5",
-      "tier": null
-    },
-    "chroma emberscythe": {
-      "name": "Chroma Emberscythe",
-      "value": "11000",
-      "numericValue": 11000,
-      "type": "knife",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Fluctuating",
-      "demand": "6",
       "tier": null
     },
     "chroma sunrise": {
@@ -497,6 +497,19 @@
       "demand": "5",
       "tier": null
     },
+    "chroma emberbow": {
+      "name": "Chroma Emberbow",
+      "value": "6000",
+      "numericValue": 6000,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Fluctuating",
+      "demand": "6",
+      "tier": null
+    },
     "chroma blizzard": {
       "name": "Chroma Blizzard",
       "value": "5500",
@@ -521,19 +534,6 @@
       "category": "chromas",
       "stability": "Stable",
       "demand": "5",
-      "tier": null
-    },
-    "chroma emberbow": {
-      "name": "Chroma Emberbow",
-      "value": "5000",
-      "numericValue": 5000,
-      "type": "unknown",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Fluctuating",
-      "demand": "6",
       "tier": null
     },
     "chroma snowstorm": {
@@ -588,10 +588,23 @@
       "demand": "5",
       "tier": null
     },
+    "chroma embersickle": {
+      "name": "Chroma Embersickle",
+      "value": "1950",
+      "numericValue": 1950,
+      "type": "knife",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Fluctuating",
+      "demand": "5",
+      "tier": null
+    },
     "chroma icecream": {
       "name": "Chroma Icecream",
-      "value": "1850",
-      "numericValue": 1850,
+      "value": "1825",
+      "numericValue": 1825,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -666,23 +679,10 @@
       "demand": "5",
       "tier": null
     },
-    "chroma embersickle": {
-      "name": "Chroma Embersickle",
-      "value": "1300",
-      "numericValue": 1300,
-      "type": "knife",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Fluctuating",
-      "demand": "5",
-      "tier": null
-    },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1200",
-      "numericValue": 1200,
+      "value": "1150",
+      "numericValue": 1150,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -694,8 +694,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1150",
-      "numericValue": 1150,
+      "value": "1100",
+      "numericValue": 1100,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -1045,8 +1045,8 @@
     },
     "traveler's gun": {
       "name": "Traveler's Gun",
-      "value": "5200",
-      "numericValue": 5200,
+      "value": "5100",
+      "numericValue": 5100,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -1149,8 +1149,8 @@
     },
     "darkshot": {
       "name": "Darkshot",
-      "value": "1475",
-      "numericValue": 1475,
+      "value": "1450",
+      "numericValue": 1450,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1162,8 +1162,8 @@
     },
     "darksword": {
       "name": "Darksword",
-      "value": "1450",
-      "numericValue": 1450,
+      "value": "1425",
+      "numericValue": 1425,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1253,8 +1253,8 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "595",
-      "numericValue": 595,
+      "value": "580",
+      "numericValue": 580,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1266,8 +1266,8 @@
     },
     "spirit": {
       "name": "Spirit",
-      "value": "585",
-      "numericValue": 585,
+      "value": "570",
+      "numericValue": 570,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1275,32 +1275,6 @@
       "category": "godlies",
       "stability": "Underpaid For",
       "demand": "5",
-      "tier": null
-    },
-    "xenoknife": {
-      "name": "Xenoknife",
-      "value": "410",
-      "numericValue": 410,
-      "type": "knife",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "4",
-      "tier": null
-    },
-    "xenoshot": {
-      "name": "Xenoshot",
-      "value": "410",
-      "numericValue": 410,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "4",
       "tier": null
     },
     "rainbow gun": {
@@ -1331,6 +1305,32 @@
     },
     "rainbow (godly)": {
       "name": "Rainbow",
+      "value": "400",
+      "numericValue": 400,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "4",
+      "tier": null
+    },
+    "xenoknife": {
+      "name": "Xenoknife",
+      "value": "400",
+      "numericValue": 400,
+      "type": "knife",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "4",
+      "tier": null
+    },
+    "xenoshot": {
+      "name": "Xenoshot",
       "value": "400",
       "numericValue": 400,
       "type": "unknown",
@@ -1511,19 +1511,6 @@
       "demand": "3",
       "tier": null
     },
-    "icecream": {
-      "name": "Icecream",
-      "value": "140",
-      "numericValue": 140,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "watergun": {
       "name": "Watergun",
       "value": "140",
@@ -1537,32 +1524,6 @@
       "demand": "2",
       "tier": null
     },
-    "immortal": {
-      "name": "Immortal",
-      "value": "135",
-      "numericValue": 135,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "3",
-      "tier": null
-    },
-    "mortal": {
-      "name": "Mortal",
-      "value": "135",
-      "numericValue": 135,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
-      "demand": "3",
-      "tier": null
-    },
     "borealis": {
       "name": "Borealis",
       "value": "135",
@@ -1574,6 +1535,58 @@
       "category": "godlies",
       "stability": "Stable",
       "demand": "2",
+      "tier": null
+    },
+    "icecream": {
+      "name": "Icecream",
+      "value": "135",
+      "numericValue": 135,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "embersickle": {
+      "name": "Embersickle",
+      "value": "130",
+      "numericValue": 130,
+      "type": "knife",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "3",
+      "tier": null
+    },
+    "immortal": {
+      "name": "Immortal",
+      "value": "130",
+      "numericValue": 130,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "3",
+      "tier": null
+    },
+    "mortal": {
+      "name": "Mortal",
+      "value": "130",
+      "numericValue": 130,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Fluctuating",
+      "demand": "3",
       "tier": null
     },
     "australis": {
@@ -1599,19 +1612,6 @@
       "year": null,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "embersickle": {
-      "name": "Embersickle",
-      "value": "95",
-      "numericValue": 95,
-      "type": "knife",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Fluctuating",
       "demand": "2",
       "tier": null
     },

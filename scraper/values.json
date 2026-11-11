@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "November 6th, 2026 at 6:56 PM",
-  "scrapedAt": "November 9th, 2026 at 3:58 AM UTC",
+  "lastUpdated": "November 9th, 2026 at 9:58 PM",
+  "scrapedAt": "November 11th, 2026 at 6:32 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -44,8 +44,8 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "7100",
-      "numericValue": 7100,
+      "value": "7000",
+      "numericValue": 7000,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -70,8 +70,8 @@
     },
     "vampire's axe": {
       "name": "Vampire's Axe",
-      "value": "1425",
-      "numericValue": 1425,
+      "value": "1400",
+      "numericValue": 1400,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -83,8 +83,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "525",
-      "numericValue": 525,
+      "value": "650",
+      "numericValue": 650,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "500",
-      "numericValue": 500,
+      "value": "625",
+      "numericValue": 625,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -109,8 +109,8 @@
     },
     "harvester": {
       "name": "Harvester",
-      "value": "250",
-      "numericValue": 250,
+      "value": "260",
+      "numericValue": 260,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -122,8 +122,8 @@
     },
     "icepiercer": {
       "name": "Icepiercer",
-      "value": "160",
-      "numericValue": 160,
+      "value": "170",
+      "numericValue": 170,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -434,8 +434,8 @@
     },
     "chroma alienbeam": {
       "name": "Chroma Alienbeam",
-      "value": "22000",
-      "numericValue": 22000,
+      "value": "20000",
+      "numericValue": 20000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -447,8 +447,8 @@
     },
     "chroma emberscythe": {
       "name": "Chroma Emberscythe",
-      "value": "16000",
-      "numericValue": 16000,
+      "value": "15000",
+      "numericValue": 15000,
       "type": "knife",
       "rarity": "chroma",
       "isChroma": true,
@@ -601,8 +601,8 @@
       "demand": "5",
       "tier": null
     },
-    "chroma icecream": {
-      "name": "Chroma Icecream",
+    "chroma ornament": {
+      "name": "Chroma Ornament",
       "value": "1825",
       "numericValue": 1825,
       "type": "unknown",
@@ -614,16 +614,16 @@
       "demand": "5",
       "tier": null
     },
-    "chroma ornament": {
-      "name": "Chroma Ornament",
-      "value": "1825",
-      "numericValue": 1825,
+    "chroma icecream": {
+      "name": "Chroma Icecream",
+      "value": "1800",
+      "numericValue": 1800,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": null,
       "category": "chromas",
-      "stability": "Stable",
+      "stability": "Underpaid For",
       "demand": "5",
       "tier": null
     },
@@ -681,8 +681,8 @@
     },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "1150",
-      "numericValue": 1150,
+      "value": "1100",
+      "numericValue": 1100,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -694,8 +694,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "1100",
-      "numericValue": 1100,
+      "value": "1050",
+      "numericValue": 1050,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -1045,14 +1045,14 @@
     },
     "traveler's gun": {
       "name": "Traveler's Gun",
-      "value": "5100",
-      "numericValue": 5100,
+      "value": "5000",
+      "numericValue": 5000,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
       "category": "godlies",
-      "stability": "Stable",
+      "stability": "Underpaid For",
       "demand": "5",
       "tier": null
     },
@@ -1095,19 +1095,6 @@
       "demand": "5",
       "tier": null
     },
-    "alienbeam": {
-      "name": "Alienbeam",
-      "value": "1900",
-      "numericValue": 1900,
-      "type": "gun",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "5",
-      "tier": null
-    },
     "vampire's gun": {
       "name": "Vampire's Gun",
       "value": "1900",
@@ -1121,8 +1108,8 @@
       "demand": "5",
       "tier": null
     },
-    "raygun": {
-      "name": "Raygun",
+    "alienbeam": {
+      "name": "Alienbeam",
       "value": "1875",
       "numericValue": 1875,
       "type": "gun",
@@ -1147,6 +1134,19 @@
       "demand": "5",
       "tier": null
     },
+    "raygun": {
+      "name": "Raygun",
+      "value": "1850",
+      "numericValue": 1850,
+      "type": "gun",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "5",
+      "tier": null
+    },
     "darkshot": {
       "name": "Darkshot",
       "value": "1450",
@@ -1156,7 +1156,7 @@
       "isChroma": false,
       "year": null,
       "category": "godlies",
-      "stability": "Underpaid For",
+      "stability": "Stable",
       "demand": "5",
       "tier": null
     },
@@ -1169,7 +1169,7 @@
       "isChroma": false,
       "year": null,
       "category": "godlies",
-      "stability": "Underpaid For",
+      "stability": "Stable",
       "demand": "5",
       "tier": null
     },
@@ -1212,11 +1212,11 @@
       "demand": "5",
       "tier": null
     },
-    "bauble": {
-      "name": "Bauble",
-      "value": "675",
-      "numericValue": 675,
-      "type": "unknown",
+    "snowcannon": {
+      "name": "Snowcannon",
+      "value": "700",
+      "numericValue": 700,
+      "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
@@ -1225,11 +1225,11 @@
       "demand": "5",
       "tier": null
     },
-    "snowcannon": {
-      "name": "Snowcannon",
+    "bauble": {
+      "name": "Bauble",
       "value": "675",
       "numericValue": 675,
-      "type": "gun",
+      "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
@@ -1253,8 +1253,8 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "580",
-      "numericValue": 580,
+      "value": "560",
+      "numericValue": 560,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1266,8 +1266,8 @@
     },
     "spirit": {
       "name": "Spirit",
-      "value": "570",
-      "numericValue": 570,
+      "value": "550",
+      "numericValue": 550,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1474,8 +1474,8 @@
     },
     "snow dagger": {
       "name": "Snow Dagger",
-      "value": "175",
-      "numericValue": 175,
+      "value": "170",
+      "numericValue": 170,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1511,49 +1511,10 @@
       "demand": "3",
       "tier": null
     },
-    "watergun": {
-      "name": "Watergun",
-      "value": "140",
-      "numericValue": 140,
-      "type": "gun",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "borealis": {
-      "name": "Borealis",
-      "value": "135",
-      "numericValue": 135,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "icecream": {
-      "name": "Icecream",
-      "value": "135",
-      "numericValue": 135,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "embersickle": {
       "name": "Embersickle",
-      "value": "130",
-      "numericValue": 130,
+      "value": "135",
+      "numericValue": 135,
       "type": "knife",
       "rarity": "godly",
       "isChroma": false,
@@ -1561,6 +1522,19 @@
       "category": "godlies",
       "stability": "Fluctuating",
       "demand": "3",
+      "tier": null
+    },
+    "watergun": {
+      "name": "Watergun",
+      "value": "135",
+      "numericValue": 135,
+      "type": "gun",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "2",
       "tier": null
     },
     "immortal": {
@@ -1589,8 +1563,21 @@
       "demand": "3",
       "tier": null
     },
-    "australis": {
-      "name": "Australis",
+    "borealis": {
+      "name": "Borealis",
+      "value": "130",
+      "numericValue": 130,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "icecream": {
+      "name": "Icecream",
       "value": "130",
       "numericValue": 130,
       "type": "unknown",
@@ -1604,6 +1591,19 @@
     },
     "bat (godly)": {
       "name": "Bat",
+      "value": "130",
+      "numericValue": 130,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "australis": {
+      "name": "Australis",
       "value": "125",
       "numericValue": 125,
       "type": "unknown",
@@ -2839,8 +2839,8 @@
     },
     "jd": {
       "name": "JD",
-      "value": "28",
-      "numericValue": 28,
+      "value": "27",
+      "numericValue": 27,
       "type": "unknown",
       "rarity": "legendary",
       "isChroma": false,
@@ -2928,19 +2928,6 @@
       "demand": "2",
       "tier": null
     },
-    "emberknife": {
-      "name": "Emberknife",
-      "value": "5",
-      "numericValue": 5,
-      "type": "knife",
-      "rarity": "legendary",
-      "isChroma": false,
-      "year": null,
-      "category": "legendaries",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "icedriller": {
       "name": "Icedriller",
       "value": "5",
@@ -2993,34 +2980,21 @@
       "demand": "1",
       "tier": null
     },
-    "red scratch": {
-      "name": "Red Scratch",
-      "value": "4",
-      "numericValue": 4,
-      "type": "unknown",
-      "rarity": "legendary",
-      "isChroma": false,
-      "year": null,
-      "category": "legendaries",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "skulls (legendary)": {
-      "name": "Skulls",
-      "value": "4",
-      "numericValue": 4,
-      "type": "unknown",
-      "rarity": "legendary",
-      "isChroma": false,
-      "year": null,
-      "category": "legendaries",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
     "aurora (knife) (legendary)": {
       "name": "Aurora",
+      "value": "3",
+      "numericValue": 3,
+      "type": "knife",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "emberknife": {
+      "name": "Emberknife",
       "value": "3",
       "numericValue": 3,
       "type": "knife",
@@ -3110,6 +3084,19 @@
       "demand": "1",
       "tier": null
     },
+    "red scratch": {
+      "name": "Red Scratch",
+      "value": "3",
+      "numericValue": 3,
+      "type": "unknown",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "santa's magic": {
       "name": "Santa's Magic",
       "value": "3",
@@ -3125,6 +3112,19 @@
     },
     "santa's spirit": {
       "name": "Santa's Spirit",
+      "value": "3",
+      "numericValue": 3,
+      "type": "unknown",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "skulls (legendary)": {
+      "name": "Skulls",
       "value": "3",
       "numericValue": 3,
       "type": "unknown",
@@ -3271,19 +3271,6 @@
       "value": "0.6",
       "numericValue": 0.6,
       "type": "knife",
-      "rarity": "legendary",
-      "isChroma": false,
-      "year": null,
-      "category": "legendaries",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "embergun": {
-      "name": "Embergun",
-      "value": "0.6",
-      "numericValue": 0.6,
-      "type": "gun",
       "rarity": "legendary",
       "isChroma": false,
       "year": null,
@@ -3463,6 +3450,19 @@
     },
     "cursed (gun)": {
       "name": "Cursed",
+      "value": "0.45",
+      "numericValue": 0.45,
+      "type": "gun",
+      "rarity": "legendary",
+      "isChroma": false,
+      "year": null,
+      "category": "legendaries",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "embergun": {
+      "name": "Embergun",
       "value": "0.45",
       "numericValue": 0.45,
       "type": "gun",
@@ -3775,8 +3775,8 @@
     },
     "cane (knife) (2018)": {
       "name": "Cane",
-      "value": "525",
-      "numericValue": 525,
+      "value": "500",
+      "numericValue": 500,
       "type": "knife",
       "rarity": "rare",
       "isChroma": false,
@@ -3788,8 +3788,8 @@
     },
     "dungeon": {
       "name": "Dungeon",
-      "value": "120",
-      "numericValue": 120,
+      "value": "115",
+      "numericValue": 115,
       "type": "unknown",
       "rarity": "rare",
       "isChroma": false,
@@ -3801,8 +3801,8 @@
     },
     "darkknife": {
       "name": "Darkknife",
-      "value": "70",
-      "numericValue": 70,
+      "value": "65",
+      "numericValue": 65,
       "type": "knife",
       "rarity": "rare",
       "isChroma": false,
@@ -4761,19 +4761,6 @@
       "demand": "2",
       "tier": null
     },
-    "catseye (knife)": {
-      "name": "Catseye",
-      "value": "0.09",
-      "numericValue": 0.09,
-      "type": "knife",
-      "rarity": "rare",
-      "isChroma": false,
-      "year": null,
-      "category": "rares",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "curse": {
       "name": "Curse",
       "value": "0.09",
@@ -4852,19 +4839,6 @@
       "demand": "2",
       "tier": null
     },
-    "raven": {
-      "name": "Raven",
-      "value": "0.09",
-      "numericValue": 0.09,
-      "type": "unknown",
-      "rarity": "rare",
-      "isChroma": false,
-      "year": null,
-      "category": "rares",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "spearmint (gun)": {
       "name": "Spearmint",
       "value": "0.09",
@@ -4889,32 +4863,6 @@
       "category": "rares",
       "stability": "Stable",
       "demand": "2",
-      "tier": null
-    },
-    "pier": {
-      "name": "Pier",
-      "value": "0.09",
-      "numericValue": 0.09,
-      "type": "unknown",
-      "rarity": "rare",
-      "isChroma": false,
-      "year": null,
-      "category": "rares",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "sunset (rare)": {
-      "name": "Sunset",
-      "value": "0.09",
-      "numericValue": 0.09,
-      "type": "unknown",
-      "rarity": "rare",
-      "isChroma": false,
-      "year": null,
-      "category": "rares",
-      "stability": "Stable",
-      "demand": "1",
       "tier": null
     },
     "sunny": {
@@ -4995,8 +4943,34 @@
       "demand": "2",
       "tier": null
     },
+    "catseye (knife)": {
+      "name": "Catseye",
+      "value": "0.06",
+      "numericValue": 0.06,
+      "type": "knife",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "kraken": {
       "name": "Kraken",
+      "value": "0.06",
+      "numericValue": 0.06,
+      "type": "unknown",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "raven": {
+      "name": "Raven",
       "value": "0.06",
       "numericValue": 0.06,
       "type": "unknown",
@@ -5099,6 +5073,19 @@
       "demand": "1",
       "tier": null
     },
+    "pier": {
+      "name": "Pier",
+      "value": "0.06",
+      "numericValue": 0.06,
+      "type": "unknown",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "pop art (gun)": {
       "name": "Pop Art",
       "value": "0.06",
@@ -5166,6 +5153,19 @@
     },
     "spring": {
       "name": "Spring",
+      "value": "0.06",
+      "numericValue": 0.06,
+      "type": "unknown",
+      "rarity": "rare",
+      "isChroma": false,
+      "year": null,
+      "category": "rares",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "sunset (rare)": {
+      "name": "Sunset",
       "value": "0.06",
       "numericValue": 0.06,
       "type": "unknown",
@@ -5504,8 +5504,8 @@
     },
     "brains (uncommon)": {
       "name": "Brains",
-      "value": "135",
-      "numericValue": 135,
+      "value": "130",
+      "numericValue": 130,
       "type": "unknown",
       "rarity": "uncommon",
       "isChroma": false,
@@ -5569,8 +5569,8 @@
     },
     "branches": {
       "name": "Branches",
-      "value": "50",
-      "numericValue": 50,
+      "value": "45",
+      "numericValue": 45,
       "type": "unknown",
       "rarity": "uncommon",
       "isChroma": false,
@@ -5697,11 +5697,11 @@
       "demand": "2",
       "tier": null
     },
-    "gothic (gun)": {
-      "name": "Gothic",
+    "zombie (uncommon)": {
+      "name": "Zombie",
       "value": "7",
       "numericValue": 7,
-      "type": "gun",
+      "type": "unknown",
       "rarity": "uncommon",
       "isChroma": false,
       "year": null,
@@ -5710,11 +5710,11 @@
       "demand": "2",
       "tier": null
     },
-    "zombie (uncommon)": {
-      "name": "Zombie",
-      "value": "7",
-      "numericValue": 7,
-      "type": "unknown",
+    "gothic (gun)": {
+      "name": "Gothic",
+      "value": "5",
+      "numericValue": 5,
+      "type": "gun",
       "rarity": "uncommon",
       "isChroma": false,
       "year": null,
@@ -5777,6 +5777,19 @@
     },
     "lantern": {
       "name": "Lantern",
+      "value": "3",
+      "numericValue": 3,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "moonlight": {
+      "name": "Moonlight",
       "value": "3",
       "numericValue": 3,
       "type": "unknown",
@@ -5855,19 +5868,6 @@
     },
     "meltdown": {
       "name": "Meltdown",
-      "value": "2",
-      "numericValue": 2,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "moonlight": {
-      "name": "Moonlight",
       "value": "2",
       "numericValue": 2,
       "type": "unknown",
@@ -6087,19 +6087,6 @@
       "demand": "1",
       "tier": null
     },
-    "gothic (knife)": {
-      "name": "Gothic",
-      "value": "0.6",
-      "numericValue": 0.6,
-      "type": "knife",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "nutcracker": {
       "name": "Nutcracker",
       "value": "0.6",
@@ -6189,6 +6176,19 @@
       "category": "uncommons",
       "stability": "Stable",
       "demand": "1",
+      "tier": null
+    },
+    "gothic (knife)": {
+      "name": "Gothic",
+      "value": "0.45",
+      "numericValue": 0.45,
+      "type": "knife",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "2",
       "tier": null
     },
     "steel (knife)": {
@@ -6334,19 +6334,6 @@
       "demand": "2",
       "tier": null
     },
-    "drool (gun)": {
-      "name": "Drool",
-      "value": "0.03",
-      "numericValue": 0.03,
-      "type": "gun",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "fireplace": {
       "name": "Fireplace",
       "value": "0.03",
@@ -6362,19 +6349,6 @@
     },
     "forest": {
       "name": "Forest",
-      "value": "0.03",
-      "numericValue": 0.03,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "haunted house": {
-      "name": "Haunted House",
       "value": "0.03",
       "numericValue": 0.03,
       "type": "unknown",
@@ -6420,19 +6394,6 @@
       "rarity": "uncommon",
       "isChroma": false,
       "year": 2020,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "skelly (uncommon)": {
-      "name": "Skelly",
-      "value": "0.03",
-      "numericValue": 0.03,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
       "category": "uncommons",
       "stability": "Stable",
       "demand": "2",
@@ -6511,19 +6472,6 @@
       "rarity": "uncommon",
       "isChroma": false,
       "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "bats (uncommon)": {
-      "name": "Bats",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": 2026,
       "category": "uncommons",
       "stability": "Stable",
       "demand": "2",
@@ -6737,45 +6685,6 @@
       "demand": "2",
       "tier": null
     },
-    "brew": {
-      "name": "Brew",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "drool (knife)": {
-      "name": "Drool",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "knife",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
-    "glow": {
-      "name": "Glow",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "stars (gun)": {
       "name": "Stars",
       "value": "0.02",
@@ -6841,6 +6750,19 @@
       "demand": "1",
       "tier": null
     },
+    "drool (gun)": {
+      "name": "Drool",
+      "value": "0.02",
+      "numericValue": 0.02,
+      "type": "gun",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "eclipse": {
       "name": "Eclipse",
       "value": "0.02",
@@ -6895,6 +6817,19 @@
     },
     "glowy": {
       "name": "Glowy",
+      "value": "0.02",
+      "numericValue": 0.02,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "haunted house": {
+      "name": "Haunted House",
       "value": "0.02",
       "numericValue": 0.02,
       "type": "unknown",
@@ -7010,6 +6945,19 @@
       "demand": "1",
       "tier": null
     },
+    "skelly (uncommon)": {
+      "name": "Skelly",
+      "value": "0.02",
+      "numericValue": 0.02,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "soda (gun)": {
       "name": "Soda",
       "value": "0.02",
@@ -7062,37 +7010,24 @@
       "demand": "1",
       "tier": null
     },
+    "bats (uncommon)": {
+      "name": "Bats",
+      "value": "0.02",
+      "numericValue": 0.02,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": 2026,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "canes (knife)": {
       "name": "Canes",
       "value": "0.02",
       "numericValue": 0.02,
       "type": "knife",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "floral (uncommon)": {
-      "name": "Floral",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "neopolitan": {
-      "name": "Neopolitan",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
       "rarity": "uncommon",
       "isChroma": false,
       "year": null,
@@ -7109,19 +7044,6 @@
       "rarity": "uncommon",
       "isChroma": false,
       "year": 2023,
-      "category": "uncommons",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "turtles": {
-      "name": "Turtles",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "uncommon",
-      "isChroma": false,
-      "year": null,
       "category": "uncommons",
       "stability": "Stable",
       "demand": "1",
@@ -7231,6 +7153,45 @@
       "demand": "1",
       "tier": null
     },
+    "brew": {
+      "name": "Brew",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "drool (knife)": {
+      "name": "Drool",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "knife",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "floral (uncommon)": {
+      "name": "Floral",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "gingerbread (knife) (2025)": {
       "name": "Gingerbread",
       "value": "0.015",
@@ -7239,6 +7200,19 @@
       "rarity": "uncommon",
       "isChroma": false,
       "year": 2025,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "glow": {
+      "name": "Glow",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
       "category": "uncommons",
       "stability": "Stable",
       "demand": "1",
@@ -7272,6 +7246,19 @@
     },
     "leaves (uncommon)": {
       "name": "Leaves",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "neopolitan": {
+      "name": "Neopolitan",
       "value": "0.015",
       "numericValue": 0.015,
       "type": "unknown",
@@ -7415,6 +7402,19 @@
     },
     "turtle": {
       "name": "Turtle",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
+      "rarity": "uncommon",
+      "isChroma": false,
+      "year": null,
+      "category": "uncommons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "turtles": {
+      "name": "Turtles",
       "value": "0.015",
       "numericValue": 0.015,
       "type": "unknown",
@@ -7922,8 +7922,8 @@
     },
     "bats (knife) (2018)": {
       "name": "Bats",
-      "value": "240",
-      "numericValue": 240,
+      "value": "230",
+      "numericValue": 230,
       "type": "knife",
       "rarity": "common",
       "isChroma": false,
@@ -8037,19 +8037,6 @@
       "demand": "2",
       "tier": null
     },
-    "snowman (gun) (2018)": {
-      "name": "Snowman",
-      "value": "25",
-      "numericValue": 25,
-      "type": "gun",
-      "rarity": "common",
-      "isChroma": false,
-      "year": 2018,
-      "category": "commons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "webbed (gun)": {
       "name": "Webbed",
       "value": "25",
@@ -8063,10 +8050,23 @@
       "demand": "2",
       "tier": null
     },
+    "snowman (gun) (2018)": {
+      "name": "Snowman",
+      "value": "22",
+      "numericValue": 22,
+      "type": "gun",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2018,
+      "category": "commons",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
     "candycorn (2017)": {
       "name": "CandyCorn",
-      "value": "25",
-      "numericValue": 25,
+      "value": "22",
+      "numericValue": 22,
       "type": "unknown",
       "rarity": "common",
       "isChroma": false,
@@ -8078,8 +8078,8 @@
     },
     "ecto": {
       "name": "Ecto",
-      "value": "25",
-      "numericValue": 25,
+      "value": "22",
+      "numericValue": 22,
       "type": "unknown",
       "rarity": "common",
       "isChroma": false,
@@ -9246,19 +9246,6 @@
       "demand": "2",
       "tier": null
     },
-    "hexed": {
-      "name": "Hexed",
-      "value": "0.02",
-      "numericValue": 0.02,
-      "type": "unknown",
-      "rarity": "common",
-      "isChroma": false,
-      "year": null,
-      "category": "commons",
-      "stability": "Stable",
-      "demand": "2",
-      "tier": null
-    },
     "love (common)": {
       "name": "Love",
       "value": "0.02",
@@ -9381,6 +9368,19 @@
       "value": "0.015",
       "numericValue": 0.015,
       "type": "gun",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "hexed": {
+      "name": "Hexed",
+      "value": "0.015",
+      "numericValue": 0.015,
+      "type": "unknown",
       "rarity": "common",
       "isChroma": false,
       "year": null,
@@ -9569,32 +9569,6 @@
       "category": "commons",
       "stability": "Stable",
       "demand": "2",
-      "tier": null
-    },
-    "bramble": {
-      "name": "Bramble",
-      "value": "0.01",
-      "numericValue": 0.01,
-      "type": "unknown",
-      "rarity": "common",
-      "isChroma": false,
-      "year": null,
-      "category": "commons",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "candy corn (2026)": {
-      "name": "Candy Corn",
-      "value": "0.01",
-      "numericValue": 0.01,
-      "type": "unknown",
-      "rarity": "common",
-      "isChroma": false,
-      "year": 2026,
-      "category": "commons",
-      "stability": "Stable",
-      "demand": "1",
       "tier": null
     },
     "penguin": {
@@ -9922,6 +9896,19 @@
       "demand": "1",
       "tier": null
     },
+    "bramble": {
+      "name": "Bramble",
+      "value": "0.003",
+      "numericValue": 0.003,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": null,
+      "category": "commons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
     "candles": {
       "name": "Candles",
       "value": "0.003",
@@ -9956,6 +9943,19 @@
       "rarity": "common",
       "isChroma": false,
       "year": 2024,
+      "category": "commons",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "candy corn (2026)": {
+      "name": "Candy Corn",
+      "value": "0.003",
+      "numericValue": 0.003,
+      "type": "unknown",
+      "rarity": "common",
+      "isChroma": false,
+      "year": 2026,
       "category": "commons",
       "stability": "Stable",
       "demand": "1",
@@ -11549,8 +11549,8 @@
     },
     "zombie dog": {
       "name": "Zombie Dog",
-      "value": "750",
-      "numericValue": 750,
+      "value": "725",
+      "numericValue": 725,
       "type": "pet",
       "rarity": "5",
       "isChroma": false,
@@ -11562,8 +11562,8 @@
     },
     "elf (pet) (5)": {
       "name": "Elf",
-      "value": "625",
-      "numericValue": 625,
+      "value": "600",
+      "numericValue": 600,
       "type": "pet",
       "rarity": "5",
       "isChroma": false,
@@ -11588,8 +11588,8 @@
     },
     "dogey": {
       "name": "Dogey",
-      "value": "150",
-      "numericValue": 150,
+      "value": "140",
+      "numericValue": 140,
       "type": "pet",
       "rarity": "4",
       "isChroma": false,
@@ -11609,7 +11609,7 @@
       "year": 2018,
       "category": "pets",
       "stability": "Stable",
-      "demand": "3",
+      "demand": "2",
       "tier": null
     },
     "black cat": {
@@ -11622,7 +11622,7 @@
       "year": null,
       "category": "pets",
       "stability": "Stable",
-      "demand": "3",
+      "demand": "2",
       "tier": null
     },
     "green pumpkin (pet) (2018)": {
@@ -11648,20 +11648,7 @@
       "year": null,
       "category": "pets",
       "stability": "Stable",
-      "demand": "3",
-      "tier": null
-    },
-    "mr. reindeer": {
-      "name": "Mr. Reindeer",
-      "value": "50",
-      "numericValue": 50,
-      "type": "pet",
-      "rarity": "4",
-      "isChroma": false,
-      "year": null,
-      "category": "pets",
-      "stability": "Stable",
-      "demand": "3",
+      "demand": "2",
       "tier": null
     },
     "pumpkin (pet) (5)": {
@@ -11672,6 +11659,19 @@
       "rarity": "5",
       "isChroma": false,
       "year": 2017,
+      "category": "pets",
+      "stability": "Stable",
+      "demand": "2",
+      "tier": null
+    },
+    "mr. reindeer": {
+      "name": "Mr. Reindeer",
+      "value": "45",
+      "numericValue": 45,
+      "type": "pet",
+      "rarity": "4",
+      "isChroma": false,
+      "year": null,
       "category": "pets",
       "stability": "Stable",
       "demand": "2",
@@ -11809,8 +11809,8 @@
     },
     "nobledragon": {
       "name": "Nobledragon",
-      "value": "5",
-      "numericValue": 5,
+      "value": "4",
+      "numericValue": 4,
       "type": "pet",
       "rarity": "2",
       "isChroma": false,

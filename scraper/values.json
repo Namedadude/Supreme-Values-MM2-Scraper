@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "November 15th, 2026 at 7:59 PM",
-  "scrapedAt": "November 17th, 2026 at 10:20 PM UTC",
+  "lastUpdated": "November 18th, 2026 at 2:32 AM",
+  "scrapedAt": "November 18th, 2026 at 4:21 AM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -44,14 +44,14 @@
     },
     "traveler's axe": {
       "name": "Traveler's Axe",
-      "value": "6700",
-      "numericValue": 6700,
+      "value": "6600",
+      "numericValue": 6600,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
       "category": "ancients",
-      "stability": "Underpaid For",
+      "stability": "Stable",
       "demand": "5",
       "tier": null
     },
@@ -70,8 +70,8 @@
     },
     "vampire's axe": {
       "name": "Vampire's Axe",
-      "value": "1300",
-      "numericValue": 1300,
+      "value": "1250",
+      "numericValue": 1250,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -83,8 +83,8 @@
     },
     "emberbow": {
       "name": "Emberbow",
-      "value": "650",
-      "numericValue": 650,
+      "value": "675",
+      "numericValue": 675,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -96,8 +96,8 @@
     },
     "emberscythe": {
       "name": "Emberscythe",
-      "value": "625",
-      "numericValue": 625,
+      "value": "675",
+      "numericValue": 675,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -109,28 +109,28 @@
     },
     "harvester": {
       "name": "Harvester",
-      "value": "275",
-      "numericValue": 275,
+      "value": "280",
+      "numericValue": 280,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
       "category": "ancients",
       "stability": "Stable",
-      "demand": "3",
+      "demand": "4",
       "tier": null
     },
     "icepiercer": {
       "name": "Icepiercer",
-      "value": "185",
-      "numericValue": 185,
+      "value": "190",
+      "numericValue": 190,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
       "year": null,
       "category": "ancients",
       "stability": "Stable",
-      "demand": "3",
+      "demand": "4",
       "tier": null
     },
     "icebreaker": {
@@ -369,8 +369,8 @@
     },
     "chroma evergun": {
       "name": "Chroma Evergun",
-      "value": "47000",
-      "numericValue": 47000,
+      "value": "48000",
+      "numericValue": 48000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -382,8 +382,8 @@
     },
     "chroma evergreen": {
       "name": "Chroma Evergreen",
-      "value": "33000",
-      "numericValue": 33000,
+      "value": "34000",
+      "numericValue": 34000,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -499,8 +499,8 @@
     },
     "chroma emberbow": {
       "name": "Chroma Emberbow",
-      "value": "6000",
-      "numericValue": 6000,
+      "value": "6250",
+      "numericValue": 6250,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -640,19 +640,6 @@
       "demand": "5",
       "tier": null
     },
-    "chroma icecream": {
-      "name": "Chroma Icecream",
-      "value": "1650",
-      "numericValue": 1650,
-      "type": "unknown",
-      "rarity": "chroma",
-      "isChroma": true,
-      "year": null,
-      "category": "chromas",
-      "stability": "Underpaid For",
-      "demand": "5",
-      "tier": null
-    },
     "chroma immortal": {
       "name": "Chroma Immortal",
       "value": "1600",
@@ -679,10 +666,23 @@
       "demand": "5",
       "tier": null
     },
+    "chroma icecream": {
+      "name": "Chroma Icecream",
+      "value": "1600",
+      "numericValue": 1600,
+      "type": "unknown",
+      "rarity": "chroma",
+      "isChroma": true,
+      "year": null,
+      "category": "chromas",
+      "stability": "Underpaid For",
+      "demand": "5",
+      "tier": null
+    },
     "chroma sands": {
       "name": "Chroma Sands",
-      "value": "925",
-      "numericValue": 925,
+      "value": "900",
+      "numericValue": 900,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -694,8 +694,8 @@
     },
     "chroma beachy": {
       "name": "Chroma Beachy",
-      "value": "875",
-      "numericValue": 875,
+      "value": "850",
+      "numericValue": 850,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -1045,8 +1045,8 @@
     },
     "traveler's gun": {
       "name": "Traveler's Gun",
-      "value": "4700",
-      "numericValue": 4700,
+      "value": "4600",
+      "numericValue": 4600,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -1201,8 +1201,8 @@
     },
     "snowcannon": {
       "name": "Snowcannon",
-      "value": "850",
-      "numericValue": 850,
+      "value": "875",
+      "numericValue": 875,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -1253,8 +1253,8 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "520",
-      "numericValue": 520,
+      "value": "510",
+      "numericValue": 510,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1266,8 +1266,8 @@
     },
     "spirit": {
       "name": "Spirit",
-      "value": "510",
-      "numericValue": 510,
+      "value": "500",
+      "numericValue": 500,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1420,19 +1420,6 @@
       "demand": "3",
       "tier": null
     },
-    "ocean": {
-      "name": "Ocean",
-      "value": "245",
-      "numericValue": 245,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "3",
-      "tier": null
-    },
     "flowerwood gun": {
       "name": "Flowerwood Gun",
       "value": "240",
@@ -1446,8 +1433,8 @@
       "demand": "3",
       "tier": null
     },
-    "waves (godly)": {
-      "name": "Waves",
+    "ocean": {
+      "name": "Ocean",
       "value": "240",
       "numericValue": 240,
       "type": "unknown",
@@ -1461,6 +1448,19 @@
     },
     "flowerwood": {
       "name": "Flowerwood",
+      "value": "235",
+      "numericValue": 235,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "3",
+      "tier": null
+    },
+    "waves (godly)": {
+      "name": "Waves",
       "value": "235",
       "numericValue": 235,
       "type": "unknown",
@@ -1513,15 +1513,15 @@
     },
     "bat (godly)": {
       "name": "Bat",
-      "value": "140",
-      "numericValue": 140,
+      "value": "145",
+      "numericValue": 145,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
       "category": "godlies",
       "stability": "Stable",
-      "demand": "2",
+      "demand": "3",
       "tier": null
     },
     "embersickle": {
@@ -1656,21 +1656,8 @@
     },
     "beachy": {
       "name": "Beachy",
-      "value": "70",
-      "numericValue": 70,
-      "type": "unknown",
-      "rarity": "godly",
-      "isChroma": false,
-      "year": null,
-      "category": "godlies",
-      "stability": "Stable",
-      "demand": "1",
-      "tier": null
-    },
-    "sands": {
-      "name": "Sands",
-      "value": "70",
-      "numericValue": 70,
+      "value": "65",
+      "numericValue": 65,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1695,6 +1682,19 @@
     },
     "ornament (godly)": {
       "name": "Ornament",
+      "value": "65",
+      "numericValue": 65,
+      "type": "unknown",
+      "rarity": "godly",
+      "isChroma": false,
+      "year": null,
+      "category": "godlies",
+      "stability": "Stable",
+      "demand": "1",
+      "tier": null
+    },
+    "sands": {
+      "name": "Sands",
       "value": "65",
       "numericValue": 65,
       "type": "unknown",

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "November 18th, 2026 at 2:32 AM",
-  "scrapedAt": "November 19th, 2026 at 5:28 PM UTC",
+  "lastUpdated": "November 19th, 2026 at 8:09 PM",
+  "scrapedAt": "November 20th, 2026 at 6:16 PM UTC",
   "itemCount": 974,
   "items": {
     "2015": {
@@ -70,8 +70,8 @@
     },
     "vampire's axe": {
       "name": "Vampire's Axe",
-      "value": "1250",
-      "numericValue": 1250,
+      "value": "1200",
+      "numericValue": 1200,
       "type": "knife",
       "rarity": "ancient",
       "isChroma": false,
@@ -109,8 +109,8 @@
     },
     "harvester": {
       "name": "Harvester",
-      "value": "280",
-      "numericValue": 280,
+      "value": "290",
+      "numericValue": 290,
       "type": "gun",
       "rarity": "ancient",
       "isChroma": false,
@@ -122,8 +122,8 @@
     },
     "icepiercer": {
       "name": "Icepiercer",
-      "value": "190",
-      "numericValue": 190,
+      "value": "200",
+      "numericValue": 200,
       "type": "unknown",
       "rarity": "ancient",
       "isChroma": false,
@@ -369,8 +369,8 @@
     },
     "chroma evergun": {
       "name": "Chroma Evergun",
-      "value": "48000",
-      "numericValue": 48000,
+      "value": "49000",
+      "numericValue": 49000,
       "type": "gun",
       "rarity": "chroma",
       "isChroma": true,
@@ -382,14 +382,14 @@
     },
     "chroma evergreen": {
       "name": "Chroma Evergreen",
-      "value": "34000",
-      "numericValue": 34000,
+      "value": "35000",
+      "numericValue": 35000,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
       "year": null,
       "category": "chromas",
-      "stability": "Stable",
+      "stability": "Doing Well",
       "demand": "7",
       "tier": null
     },
@@ -460,8 +460,8 @@
     },
     "chroma emberscythe": {
       "name": "Chroma Emberscythe",
-      "value": "12000",
-      "numericValue": 12000,
+      "value": "11000",
+      "numericValue": 11000,
       "type": "knife",
       "rarity": "chroma",
       "isChroma": true,
@@ -668,8 +668,8 @@
     },
     "chroma icecream": {
       "name": "Chroma Icecream",
-      "value": "1600",
-      "numericValue": 1600,
+      "value": "1575",
+      "numericValue": 1575,
       "type": "unknown",
       "rarity": "chroma",
       "isChroma": true,
@@ -1045,8 +1045,8 @@
     },
     "traveler's gun": {
       "name": "Traveler's Gun",
-      "value": "4600",
-      "numericValue": 4600,
+      "value": "4500",
+      "numericValue": 4500,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
@@ -1071,8 +1071,8 @@
     },
     "evergreen": {
       "name": "Evergreen",
-      "value": "2700",
-      "numericValue": 2700,
+      "value": "2725",
+      "numericValue": 2725,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1201,15 +1201,15 @@
     },
     "snowcannon": {
       "name": "Snowcannon",
-      "value": "875",
-      "numericValue": 875,
+      "value": "900",
+      "numericValue": 900,
       "type": "gun",
       "rarity": "godly",
       "isChroma": false,
       "year": null,
       "category": "godlies",
-      "stability": "Doing Well",
-      "demand": "6",
+      "stability": "Stable",
+      "demand": "5",
       "tier": null
     },
     "sunrise": {
@@ -1253,8 +1253,8 @@
     },
     "soul": {
       "name": "Soul",
-      "value": "510",
-      "numericValue": 510,
+      "value": "500",
+      "numericValue": 500,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
@@ -1266,8 +1266,8 @@
     },
     "spirit": {
       "name": "Spirit",
-      "value": "500",
-      "numericValue": 500,
+      "value": "490",
+      "numericValue": 490,
       "type": "unknown",
       "rarity": "godly",
       "isChroma": false,
